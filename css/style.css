@@ -612,3 +612,21 @@ footer {
   margin-top: 40px;
   color: #cbd5e1 !important;
 }
+/* ==========================================
+   Footer High-Contrast Text Fix
+   ========================================== */
+
+footer, footer p, footer li a, footer span, footer div {
+  color: #0f172a !important; /* Ekdum dark readable color */
+}
+
+footer h3, footer .footer-col h3 {
+  color: #020617 !important; /* Headings ke liye extra bold dark shade */
+  font-weight: 800 !important;
+  border-bottom: 2px solid #0f172a !important;
+}
+
+footer a:hover {
+  color: #1e3a8a !important;
+  text-decoration: underline !important;
+}
