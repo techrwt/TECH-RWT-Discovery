@@ -469,3 +469,22 @@ header {
   border-left: 4px solid var(--accent);
   padding-left: 14px;
 }
+/* ==========================================
+   Dhamakedaar Rich Background Fix
+   ========================================== */
+
+[data-theme="light"] {
+  --bg-color: #eef2f7 !important;
+}
+
+[data-theme="dark"] {
+  --bg-color: #02040a !important;
+}
+
+body {
+  background-color: var(--bg-color) !important;
+  background-image: 
+    radial-gradient(circle at 15% 15%, rgba(37, 99, 235, 0.08) 0%, transparent 50%),
+    radial-gradient(circle at 85% 85%, rgba(15, 23, 42, 0.08) 0%, transparent 50%) !important;
+  background-attachment: fixed !important;
+}
