@@ -385,3 +385,87 @@ footer {
     display: flex !important;
   }
 }
+/* ==========================================
+   TECH RWT Discovery - Pro High-End Finish
+   ========================================== */
+
+/* 1. Rich Modern Background with Soft Gradient Glow */
+[data-theme="light"] {
+  --bg-color: #f4f7fc;
+  --card-bg: #ffffff;
+  --border-color: #e2e8f0;
+}
+
+[data-theme="dark"] {
+  --bg-color: #030712;
+  --card-bg: #0f172a;
+  --border-color: #1e293b;
+}
+
+body {
+  background-color: var(--bg-color);
+  background-image: 
+    radial-gradient(circle at 10% 15%, rgba(37, 99, 235, 0.06) 0%, transparent 45%),
+    radial-gradient(circle at 90% 85%, rgba(15, 23, 42, 0.06) 0%, transparent 45%);
+  background-attachment: fixed;
+}
+
+/* 2. Frosted Glassmorphism Header */
+header {
+  background-color: var(--header-bg) !important;
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border-bottom: 1px solid var(--border-color) !important;
+}
+
+/* 3. Professional Apple-Style Rounded Cards & Smooth Hover */
+.article-card {
+  background-color: var(--card-bg);
+  border: 1px solid var(--border-color);
+  border-radius: 18px;
+  overflow: hidden;
+  transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.article-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 20px 35px -10px rgba(0, 0, 0, 0.12);
+  border-color: var(--accent);
+}
+
+.card-img-wrapper img {
+  transition: transform 0.5s ease;
+}
+
+.article-card:hover .card-img-wrapper img {
+  transform: scale(1.05);
+}
+
+/* 4. Modern Pill-Shaped Category Filter Buttons */
+.category-filter {
+  gap: 12px;
+}
+
+.cat-btn {
+  border-radius: 50px !important;
+  padding: 8px 20px !important;
+  font-weight: 600;
+  border: 1px solid var(--border-color);
+  transition: all 0.3s ease;
+}
+
+.cat-btn.active {
+  background-color: var(--accent) !important;
+  color: #ffffff !important;
+  border-color: var(--accent) !important;
+  box-shadow: 0 6px 15px rgba(37, 99, 235, 0.3);
+}
+
+/* 5. Sleek Section Titles */
+.section-title {
+  font-size: 1.4rem;
+  font-weight: 800;
+  letter-spacing: -0.5px;
+  border-left: 4px solid var(--accent);
+  padding-left: 14px;
+}
