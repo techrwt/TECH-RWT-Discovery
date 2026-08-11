@@ -407,3 +407,16 @@ footer {
     grid-template-columns: 1fr;
   }
 }
+@media (max-width: 768px) {
+  .articles-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .article-card {
+    max-width: 100%;
+  }
+
+  .container {
+    padding: 0 15px;
+  }
+}
