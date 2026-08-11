@@ -31,7 +31,7 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   // 2. Mobile Navigation Menu Toggle
-  const hamburger = document.getElementById("hamburger");
+  const hamburger = document.getElementById("hamburgerBtn");
   const navLinks = document.getElementById("navLinks");
 
   if (hamburger && navLinks) {
