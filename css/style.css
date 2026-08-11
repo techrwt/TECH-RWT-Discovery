@@ -537,3 +537,40 @@ body {
 .logo-area img, .logo-area svg {
   filter: drop-shadow(0 2px 4px rgba(0,0,0,0.3));
 }
+/* ==========================================
+   Pro Footer Styling Overhaul
+   ========================================== */
+
+footer {
+  background: linear-gradient(180deg, #090d16 0%, #030712 100%) !important;
+  border-top: 2px solid #1e293b !important;
+  box-shadow: 0 -10px 30px rgba(0, 0, 0, 0.3) !important;
+  padding: 60px 0 25px 0 !important;
+}
+
+.footer-col h3 {
+  color: #f8fafc !important;
+  font-size: 1.15rem !important;
+  font-weight: 700 !important;
+  letter-spacing: -0.3px;
+  border-bottom: 2px solid #2563eb !important;
+  display: inline-block;
+  padding-bottom: 5px;
+  margin-bottom: 20px !important;
+}
+
+.footer-col p, .footer-col ul li a {
+  color: #94a3b8 !important;
+  transition: all 0.3s ease !important;
+}
+
+.footer-col ul li a:hover {
+  color: #38bdf8 !important;
+  padding-left: 5px;
+}
+
+.footer-bottom {
+  border-top: 1px solid rgba(255, 255, 255, 0.08) !important;
+  margin-top: 40px;
+  color: #64748b !important;
+}
