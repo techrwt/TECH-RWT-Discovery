@@ -368,10 +368,9 @@ footer {
     gap: 30px;
   }
 }
-
 @media (max-width: 768px) {
   .nav-links {
-    display: none;
+    display: none; /* Yeh zaroori hai taaki menu shuru mein chup rahe */
     position: absolute;
     top: 75px;
     left: 0;
@@ -381,42 +380,14 @@ footer {
     padding: 20px;
     border-bottom: 1px solid var(--border-color);
     box-shadow: 0 10px 15px rgba(0,0,0,0.05);
+    text-align: center; /* Isse saare links center mein sahi lagenge */
   }
   
   .nav-links.active {
-    display: flex;
+    display: flex; /* Jab hamburger button par click ho tabhi dikhega */
   }
 
   .hamburger {
     display: flex;
-  }
-
-  .hero-banner {
-    padding: 30px 20px;
-  }
-
-  .hero-banner h1 {
-    font-size: 1.7rem;
-  }
-
-  .articles-grid {
-    grid-template-columns: 1fr;
-  }
-
-  .footer-grid {
-    grid-template-columns: 1fr;
-  }
-}
-@media (max-width: 768px) {
-  .articles-grid {
-    grid-template-columns: 1fr;
-  }
-  
-  .article-card {
-    max-width: 100%;
-  }
-
-  .container {
-    padding: 0 15px;
   }
 }
