@@ -574,3 +574,41 @@ footer {
   margin-top: 40px;
   color: #64748b !important;
 }
+/* ==========================================
+   Rich Blue Footer Overhaul (No Black)
+   ========================================== */
+
+footer {
+  background: linear-gradient(135deg, #1e3a8a 0%, #2563eb 100%) !important;
+  color: #ffffff !important;
+  border-top: 3px solid #3b82f6 !important;
+  box-shadow: 0 -10px 30px rgba(37, 99, 235, 0.2) !important;
+  padding: 60px 0 25px 0 !important;
+}
+
+.footer-col h3 {
+  color: #ffffff !important;
+  font-size: 1.15rem !important;
+  font-weight: 700 !important;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.3) !important;
+  display: inline-block;
+  padding-bottom: 5px;
+  margin-bottom: 20px !important;
+}
+
+.footer-col p, .footer-col ul li a {
+  color: #e2e8f0 !important;
+  transition: all 0.3s ease !important;
+}
+
+.footer-col ul li a:hover {
+  color: #ffffff !important;
+  padding-left: 5px;
+  text-decoration: underline;
+}
+
+.footer-bottom {
+  border-top: 1px solid rgba(255, 255, 255, 0.2) !important;
+  margin-top: 40px;
+  color: #cbd5e1 !important;
+}
