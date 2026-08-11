@@ -363,31 +363,25 @@ footer {
 
 /* Responsive Design */
 @media (max-width: 900px) {
-  .footer-grid {
-    grid-template-columns: 1fr 1fr;
-    gap: 30px;
+  .hamburger {
+    display: flex !important;
   }
-}
-@media (max-width: 768px) {
+
   .nav-links {
-    display: none; /* Yeh zaroori hai taaki menu shuru mein chup rahe */
+    display: none !important;
     position: absolute;
-    top: 75px;
+    top: 100%;
     left: 0;
     width: 100%;
-    background-color: var(--header-bg);
+    background-color: var(--card-bg);
     flex-direction: column;
     padding: 20px;
     border-bottom: 1px solid var(--border-color);
-    box-shadow: 0 10px 15px rgba(0,0,0,0.05);
-    text-align: center; /* Isse saare links center mein sahi lagenge */
-  }
-  
-  .nav-links.active {
-    display: flex; /* Jab hamburger button par click ho tabhi dikhega */
+    box-shadow: 0 10px 15px rgba(0,0,0,0.1);
+    z-index: 1000;
   }
 
-  .hamburger {
-    display: flex;
+  .nav-links.active {
+    display: flex !important;
   }
 }
