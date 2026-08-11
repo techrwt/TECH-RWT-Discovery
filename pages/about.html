@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="hi" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>हमारे बारे में (About Us) - TECH RWT Discovery</title>
+  <meta name="description" content="TECH RWT Discovery के बारे में जानिए - जटिल Science और Technology को आसान Hindi में समझने का मंच।">
+  <link rel="stylesheet" href="../css/style.css">
+  <style>
+    .static-page-container {
+      max-width: 800px;
+      margin: 40px auto;
+      background-color: var(--card-bg);
+      border: 1px solid var(--border-color);
+      border-radius: 16px;
+      padding: 40px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.03);
+    }
+    .static-page-container h1 {
+      font-size: 2.3rem;
+      font-weight: 800;
+      margin-bottom: 25px;
+      color: var(--text-main);
+    }
+    .static-page-container h2 {
+      font-size: 1.5rem;
+      margin: 30px 0 15px 0;
+      color: var(--text-main);
+    }
+    .static-page-container p {
+      font-size: 1.1rem;
+      line-height: 1.8;
+      margin-bottom: 20px;
+      color: var(--text-main);
+    }
+    .static-page-container ul {
+      margin-bottom: 20px;
+      padding-left: 20px;
+      list-style-type: disc;
+    }
+    .static-page-container li {
+      font-size: 1.1rem;
+      line-height: 1.6;
+      margin-bottom: 8px;
+    }
+    .highlight-box {
+      background-color: rgba(37, 99, 235, 0.08);
+      border-left: 4px solid var(--accent);
+      padding: 20px;
+      border-radius: 0 8px 8px 0;
+      margin: 25px 0;
+    }
+    .highlight-box p {
+      margin: 0;
+      font-weight: 600;
+      color: var(--accent);
+    }
+    @media (max-width: 768px) {
+      .static-page-container {
+        padding: 20px;
+        margin: 20px 10px;
+      }
+      .static-page-container h1 {
+        font-size: 1.7rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header & Navigation -->
+  <header>
+    <div class="container nav-container">
+      <div class="logo-area">
+        <a href="../index.html" class="logo-text">TECH RWT Discovery</a>
+        <span class="logo-tagline">विज्ञान और भविष्य की तकनीक</span>
+      </div>
+
+      <nav>
+        <ul class="nav-links" id="navLinks">
+          <li><a href="../index.html">होम</a></li>
+          <li><a href="science.html">Science</a></li>
+          <li><a href="space.html">Space & ISRO</a></li>
+          <li><a href="technology.html">Technology</a></li>
+          <li><a href="environment.html">Environment</a></li>
+          <li><a href="innovation.html">Innovation</a></li>
+          <li><a href="about.html" class="active">हमारे बारे में</a></li>
+          <li><a href="contact.html">संपर्क</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <button class="search-toggle" onclick="window.location.href='search.html'" title="खोजें">🔍</button>
+        <button class="theme-toggle" id="themeToggle" title="Theme Toggle">🌙</button>
+        <button class="hamburger" id="hamburger" aria-label="Menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content Area -->
+  <main class="container">
+    <div class="static-page-container">
+      <h1>हमारे बारे में (About Us)</h1>
+      
+      <div class="highlight-box">
+        <p>Core Positioning: “जटिल Science और Technology को आसान Hindi में समझने का platform.”</p>
+      </div>
+
+      <p><strong>TECH RWT Discovery</strong> एक दीर्घकालिक (long-term) हिंदी डिजिटल प्रकाशन है, जिसे विशेष रूप से विज्ञान, अंतरिक्ष, भविष्य की तकनीक, पर्यावरण और नवाचार (Innovation) के क्षेत्र में सटीक, तथ्यात्मक और सरल सामग्री प्रदान करने के लिए स्थापित किया गया है।</p>
+      
+      <p>आज के दौर में जब विज्ञान और तकनीक हमारी जिंदगी के हर पहलू को बदल रही है, यह बेहद जरूरी है कि वैज्ञानिक जानकारियां हर भारतीय तक उनकी अपनी मातृभाषा हिंदी में पहुंचे। हमारा उद्देश्य किसी भी जटिल वैज्ञानिक सिद्धांत या अंतरिक्ष अभियान को इस तरह प्रस्तुत करना है कि आम पाठक से लेकर शोधार्थी तक हर कोई उसे आसानी से समझ सके।</p>
+
+      <h2>हमारा मुख्य फोकस (Core Focus Areas)</h2>
+      <ul>
+        <li><strong>Science (विज्ञान):</strong> भौतिकी, रसायन, जीव विज्ञान और ब्रह्मांड के रहस्यों की खोज।</li>
+        <li><strong>Space & ISRO (अंतरिक्ष और इसरो):</strong> भारतीय अंतरिक्ष अनुसंधान संगठन के अभियानों, उपग्रहों और रॉकेट साइंस की विस्तृत रिपोर्ट्स।</li>
+        <li><strong>Technology & Future Tech (भविष्य की तकनीक):</strong> आर्टिफिशियल इंटेलिजेंस, क्वांटम कंप्यूटिंग, रोबोटिक्स और डिजिटल भविष्य।</li>
+        <li><strong>Environment (पर्यावरण):</strong> जलवायु परिवर्तन, हरित ऊर्जा और पर्यावरण संरक्षण के उपाय।</li>
+        <li><strong>Innovation (नवाचार):</strong> भारत और दुनिया भर में हो रहे नए वैज्ञानिक आविष्कार और स्टार्टअप्स।</li>
+      </ul>
+
+      <h2>हमारा दृष्टिकोण (Our Vision)</h2>
+      <p>हमारा उद्देश्य भारत में वैज्ञानिक सोच (Scientific Temperament) और जिज्ञासा को बढ़ावा देना है। हम एक ऐसा डिजिटल मंच बना रहे हैं जो विज्ञापनों या भ्रामक खबरों से दूर, केवल गुणवत्तापूर्ण और ज्ञानवर्धक सामग्री पर केंद्रित हो।</p>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container footer-grid">
+      <div class="footer-col">
+        <h3>TECH RWT Discovery</h3>
+        <p>जटिल Science और Technology को आसान Hindi में समझने का एक गंभीर मंच।</p>
+      </div>
+      <div class="footer-col">
+        <h3>प्रमुख श्रेणियां</h3>
+        <ul>
+          <li><a href="science.html">Science</a></li>
+          <li><a href="space.html">Space & ISRO</a></li>
+          <li><a href="technology.html">Technology & Future Tech</a></li>
+          <li><a href="environment.html">Environment</a></li>
+          <li><a href="innovation.html">Innovation</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h3>त्वरित लिंक्स</h3>
+        <ul>
+          <li><a href="about.html">हमारे बारे में</a></li>
+          <li><a href="contact.html">संपर्क करें</a></li>
+          <li><a href="search.html">आर्टिकल खोजें</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h3>कानूनी जानकारी</h3>
+        <ul>
+          <li><a href="privacy.html">गोपनीयता नीति</a></li>
+          <li><a href="disclaimer.html">अस्वीकरण</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>&copy; 2026 TECH RWT Discovery. सर्वाधिकार सुरक्षित।</p>
+    </div>
+  </footer>
+
+  <script src="../js/main.js"></script>
+</body>
+</html>

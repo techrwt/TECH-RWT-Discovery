@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="hi" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>संपर्क करें (Contact Us) - TECH RWT Discovery</title>
+  <meta name="description" content="TECH RWT Discovery टीम से संपर्क करें। अपने सुझाव और प्रश्न साझा करें।">
+  <link rel="stylesheet" href="../css/style.css">
+  <style>
+    .static-page-container {
+      max-width: 800px;
+      margin: 40px auto;
+      background-color: var(--card-bg);
+      border: 1px solid var(--border-color);
+      border-radius: 16px;
+      padding: 40px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.03);
+    }
+    .static-page-container h1 {
+      font-size: 2.3rem;
+      font-weight: 800;
+      margin-bottom: 25px;
+      color: var(--text-main);
+    }
+    .static-page-container p {
+      font-size: 1.1rem;
+      line-height: 1.8;
+      margin-bottom: 20px;
+      color: var(--text-main);
+    }
+    .contact-form {
+      margin-top: 30px;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+    .form-group {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+    .form-group label {
+      font-weight: 600;
+      font-size: 0.95rem;
+    }
+    .form-group input, .form-group textarea {
+      padding: 12px 16px;
+      font-size: 1rem;
+      border: 1px solid var(--border-color);
+      border-radius: 8px;
+      background-color: var(--bg-color);
+      color: var(--text-main);
+      outline: none;
+      transition: var(--transition);
+    }
+    .form-group input:focus, .form-group textarea:focus {
+      border-color: var(--accent);
+    }
+    .submit-btn {
+      padding: 12px 30px;
+      background-color: var(--accent);
+      color: #ffffff;
+      border: none;
+      border-radius: 8px;
+      font-size: 1rem;
+      font-weight: 600;
+      cursor: pointer;
+      align-self: flex-start;
+      transition: var(--transition);
+    }
+    .submit-btn:hover {
+      background-color: var(--accent-hover);
+    }
+    @media (max-width: 768px) {
+      .static-page-container {
+        padding: 20px;
+        margin: 20px 10px;
+      }
+      .static-page-container h1 {
+        font-size: 1.7rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header & Navigation -->
+  <header>
+    <div class="container nav-container">
+      <div class="logo-area">
+        <a href="../index.html" class="logo-text">TECH RWT Discovery</a>
+        <span class="logo-tagline">विज्ञान और भविष्य की तकनीक</span>
+      </div>
+
+      <nav>
+        <ul class="nav-links" id="navLinks">
+          <li><a href="../index.html">होम</a></li>
+          <li><a href="science.html">Science</a></li>
+          <li><a href="space.html">Space & ISRO</a></li>
+          <li><a href="technology.html">Technology</a></li>
+          <li><a href="environment.html">Environment</a></li>
+          <li><a href="innovation.html">Innovation</a></li>
+          <li><a href="about.html">हमारे बारे में</a></li>
+          <li><a href="contact.html" class="active">संपर्क</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <button class="search-toggle" onclick="window.location.href='search.html'" title="खोजें">🔍</button>
+        <button class="theme-toggle" id="themeToggle" title="Theme Toggle">🌙</button>
+        <button class="hamburger" id="hamburger" aria-label="Menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content Area -->
+  <main class="container">
+    <div class="static-page-container">
+      <h1>संपर्क करें (Contact Us)</h1>
+      <p>यदि आपके पास कोई सुझाव, प्रश्न या प्रतिक्रिया है, या आप TECH RWT Discovery टीम से जुड़ना चाहते हैं, तो नीचे दिए गए फॉर्म के माध्यम से संपर्क कर सकते हैं।</p>
+      
+      <form class="contact-form" onsubmit="event.preventDefault(); alert('आपका संदेश सफलतापूर्वक प्राप्त हो गया है। धन्यवाद!');">
+        <div class="form-group">
+          <label for="name">आपका नाम (Your Name)</label>
+          <input type="text" id="name" required placeholder="अपना पूरा नाम दर्ज करें">
+        </div>
+        <div class="form-group">
+          <label for="email">ईमेल आईडी (Email Address)</label>
+          <input type="email" id="email" required placeholder="अपना ईमेल दर्ज करें">
+        </div>
+        <div class="form-group">
+          <label for="message">संदेश (Message)</label>
+          <textarea id="message" rows="5" required placeholder="अपना संदेश यहाँ लिखें..."></textarea>
+        </div>
+        <button type="submit" class="submit-btn">संदेश भेजें</button>
+      </form>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container footer-grid">
+      <div class="footer-col">
+        <h3>TECH RWT Discovery</h3>
+        <p>जटिल Science और Technology को आसान Hindi में समझने का एक गंभीर मंच।</p>
+      </div>
+      <div class="footer-col">
+        <h3>प्रमुख श्रेणियां</h3>
+        <ul>
+          <li><a href="science.html">Science</a></li>
+          <li><a href="space.html">Space & ISRO</a></li>
+          <li><a href="technology.html">Technology & Future Tech</a></li>
+          <li><a href="environment.html">Environment</a></li>
+          <li><a href="innovation.html">Innovation</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h3>त्वरित लिंक्स</h3>
+        <ul>
+          <li><a href="about.html">हमारे बारे में</a></li>
+          <li><a href="contact.html">संपर्क करें</a></li>
+          <li><a href="search.html">आर्टिकल खोजें</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h3>कानूनी जानकारी</h3>
+        <ul>
+          <li><a href="privacy.html">गोपनीयता नीति</a></li>
+          <li><a href="disclaimer.html">अस्वीकरण</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>&copy; 2026 TECH RWT Discovery. सर्वाधिकार सुरक्षित।</p>
+    </div>
+  </footer>
+
+  <script src="../js/main.js"></script>
+</body>
+</html>

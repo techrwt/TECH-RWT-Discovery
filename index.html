@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="hi" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TECH RWT Discovery - जटिल Science और Technology को आसान Hindi में</title>
+  <meta name="description" content="TECH RWT Discovery एक हिंदी डिजिटल publication है जो Science, Space & ISRO, Technology, Environment, aur Innovation पर गहराई से जानकारी देता है।">
+  <link rel="stylesheet" href="css/style.css">
+<link rel="icon" type="image/png" href="assets/images/Favicon.png">
+</head>
+<body>
+
+<!-- Header & Navigation -->
+  <header style="padding: 15px 0; background-color: var(--card-bg); border-bottom: 1px solid var(--border-color);">
+    <div class="container" style="display: flex; flex-direction: column; align-items: center; gap: 15px; position: relative;">
+      
+      <!-- Top Actions (Search & Theme Toggle) on Right -->
+      <div style="position: absolute; right: 0; top: 0; display: flex; gap: 10px; align-items: center;">
+        <button class="search-toggle" onclick="window.location.href='pages/search.html'" title="खोजें" style="background:none; border:none; cursor:pointer; font-size:1.2rem;">🔍</button>
+        <button class="theme-toggle" id="themeToggle" title="Theme Toggle" style="background:none; border:none; cursor:pointer; font-size:1.2rem;">🌙</button>
+      </div>
+
+      <!-- Center Logo Image -->
+      <div class="logo-area" style="text-align: center;">
+        <a href="index.html" style="display: inline-block; max-width: 380px;">
+          <img src="assets/images/Logo line.png" alt="TECH RWT Discovery Logo" style="width: 100%; height: auto; display: block;">
+        </a>
+      </div>
+
+      <!-- Centered Navigation Links -->
+      <nav>
+        <ul class="nav-links" id="navLinks" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; list-style: none; margin: 0; padding: 0;">
+          <li><a href="index.html" style="font-weight: 600; text-decoration: none; color: var(--text-main);">होम</a></li>
+          <li><a href="pages/science.html" style="font-weight: 600; text-decoration: none; color: var(--text-main);">Science</a></li>
+          <li><a href="pages/space.html" style="font-weight: 600; text-decoration: none; color: var(--text-main);">Space & ISRO</a></li>
+          <li><a href="pages/technology.html" style="font-weight: 600; text-decoration: none; color: var(--text-main);">Technology</a></li>
+          <li><a href="pages/environment.html" style="font-weight: 600; text-decoration: none; color: var(--text-main);">Environment</a></li>
+          <li><a href="pages/innovation.html" style="font-weight: 600; text-decoration: none; color: var(--text-main);">Innovation</a></li>
+          <li><a href="pages/about.html" style="font-weight: 600; text-decoration: none; color: var(--text-main);">हमारे बारे में</a></li>
+          <li><a href="pages/contact.html" style="font-weight: 600; text-decoration: none; color: var(--text-main);">संपर्क</a></li>
+        </ul>
+      </nav>
+
+    </div>
+  </header>
+
+  <!-- Main Content Area -->
+  <main class="container">
+    
+    <!-- Hero Banner with Line.png -->
+<section class="hero-section" style="background: none; padding: 10px 0;">
+  <div style="text-align: center;">
+    <img src="assets/images/Line.png" alt="TECH RWT Discovery Categories" style="width: 100%; max-width: 1200px; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.05);">
+  </div>
+</section>
+
+    <!-- Category Filter Bar -->
+    <div class="category-filter">
+      <button class="cat-btn active" onclick="filterCategory('All', this)">सभी लेख</button>
+      <button class="cat-btn" onclick="filterCategory('Science', this)">Science</button>
+      <button class="cat-btn" onclick="filterCategory('Space & ISRO', this)">Space & ISRO</button>
+      <button class="cat-btn" onclick="filterCategory('Technology & Future Tech', this)">Technology</button>
+      <button class="cat-btn" onclick="filterCategory('Environment', this)">Environment</button>
+      <button class="cat-btn" onclick="filterCategory('Innovation', this)">Innovation</button>
+    </div>
+
+    <!-- Latest Articles Grid -->
+    <section>
+      <h2 class="section-title">नवीनतम प्रकाशन (Latest Articles)</h2>
+      <div class="articles-grid" id="articlesGrid">
+        <!-- Articles will be loaded dynamically via main.js -->
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container footer-grid">
+      <div class="footer-col">
+        <h3>TECH RWT Discovery</h3>
+        <p>जटिल Science और Technology को आसान Hindi में समझने का एक गंभीर मंच। हमारा उद्देश्य भारत में वैज्ञानिक सोच और जिज्ञासा को बढ़ावा देना है।</p>
+        <p><strong>Core Positioning:</strong> जटिल Science और Technology को आसान Hindi में समझने का platform.</p>
+      </div>
+      <div class="footer-col">
+        <h3>प्रमुख श्रेणियां</h3>
+        <ul>
+          <li><a href="pages/science.html">Science</a></li>
+          <li><a href="pages/space.html">Space & ISRO</a></li>
+          <li><a href="pages/technology.html">Technology & Future Tech</a></li>
+          <li><a href="pages/environment.html">Environment</a></li>
+          <li><a href="pages/innovation.html">Innovation</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h3>त्वरित लिंक्स</h3>
+        <ul>
+          <li><a href="pages/about.html">हमारे बारे में (About Us)</a></li>
+          <li><a href="pages/contact.html">संपर्क करें (Contact)</a></li>
+          <li><a href="pages/search.html">आर्टिकल खोजें (Search)</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h3>कानूनी जानकारी</h3>
+        <ul>
+          <li><a href="pages/privacy.html">गोपनीयता नीति (Privacy Policy)</a></li>
+          <li><a href="pages/disclaimer.html">अस्वीकरण (Disclaimer)</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>&copy; 2026 TECH RWT Discovery. सर्वाधिकार सुरक्षित।</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

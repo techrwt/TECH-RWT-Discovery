@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="hi" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Environment Articles - TECH RWT Discovery</title>
+  <meta name="description" content="पर्यावरण संरक्षण, क्लाइमेट चेंज, रिन्यूएबल एनर्जी और हरित विकास पर हिंदी में विशेष रिपोर्ट्स।">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+  <!-- Header & Navigation -->
+  <header>
+    <div class="container nav-container">
+      <div class="logo-area">
+        <a href="../index.html" class="logo-text">TECH RWT Discovery</a>
+        <span class="logo-tagline">विज्ञान और भविष्य की तकनीक</span>
+      </div>
+
+      <nav>
+        <ul class="nav-links" id="navLinks">
+          <li><a href="../index.html">होम</a></li>
+          <li><a href="science.html">Science</a></li>
+          <li><a href="space.html">Space & ISRO</a></li>
+          <li><a href="technology.html">Technology</a></li>
+          <li><a href="environment.html" class="active">Environment</a></li>
+          <li><a href="innovation.html">Innovation</a></li>
+          <li><a href="about.html">हमारे बारे में</a></li>
+          <li><a href="contact.html">संपर्क</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <button class="search-toggle" onclick="window.location.href='search.html'" title="खोजें">🔍</button>
+        <button class="theme-toggle" id="themeToggle" title="Theme Toggle">🌙</button>
+        <button class="hamburger" id="hamburger" aria-label="Menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content Area -->
+  <main class="container">
+    
+    <section class="hero-section" style="padding-bottom: 10px;">
+      <div class="hero-banner" style="padding: 35px 20px; background: linear-gradient(135deg, #065f46 0%, #10b981 100%);">
+        <h1>Environment (पर्यावरण)</h1>
+        <p>जलवायु परिवर्तन, पर्यावरण संरक्षण, सोलर क्रांति और ग्रीन एनर्जी से जुड़े महत्वपूर्ण विश्लेषण।</p>
+      </div>
+    </section>
+
+    <!-- Articles Grid -->
+    <section style="margin-top: 20px;">
+      <h2 class="section-title">Environment श्रेणी के लेख</h2>
+      <div class="articles-grid" id="categoryArticlesGrid">
+        <p style="grid-column: 1/-1; text-align: center; color: var(--text-muted); padding: 40px;">लेख लोड हो रहे हैं...</p>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container footer-grid">
+      <div class="footer-col">
+        <h3>TECH RWT Discovery</h3>
+        <p>जटिल Science और Technology को आसान Hindi में समझने का एक गंभीर मंच।</p>
+      </div>
+      <div class="footer-col">
+        <h3>प्रमुख श्रेणियां</h3>
+        <ul>
+          <li><a href="science.html">Science</a></li>
+          <li><a href="space.html">Space & ISRO</a></li>
+          <li><a href="technology.html">Technology & Future Tech</a></li>
+          <li><a href="environment.html">Environment</a></li>
+          <li><a href="innovation.html">Innovation</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h3>त्वरित लिंक्स</h3>
+        <ul>
+          <li><a href="about.html">हमारे बारे में</a></li>
+          <li><a href="contact.html">संपर्क करें</a></li>
+          <li><a href="search.html">आर्टिकल खोजें</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h3>कानूनी जानकारी</h3>
+        <ul>
+          <li><a href="privacy.html">गोपनीयता नीति</a></li>
+          <li><a href="disclaimer.html">अस्वीकरण</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>&copy; 2026 TECH RWT Discovery. सर्वाधिकार सुरक्षित।</p>
+    </div>
+  </footer>
+
+  <script src="../js/main.js"></script>
+  <script>
+    // Specific script to load Environment category articles
+    document.addEventListener("DOMContentLoaded", async () => {
+      const grid = document.getElementById("categoryArticlesGrid");
+      try {
+        const response = await fetch("../articles.json");
+        const articles = await response.json();
+        // Filter for Environment category
+        const filtered = articles.filter(a => a.category.toLowerCase().includes("environment"));
+
+        if (filtered.length === 0) {
+          grid.innerHTML = "<p style='grid-column: 1/-1; text-align: center; color: var(--text-muted); padding: 40px;'>इस श्रेणी में अभी कोई लेख उपलब्ध नहीं है।</p>";
+          return;
+        }
+
+        grid.innerHTML = "";
+        filtered.forEach(article => {
+          const card = document.createElement("div");
+          card.className = "article-card";
+          card.innerHTML = `
+            <div class="card-img-wrapper">
+              <img src="../${article.image}" alt="${article.title}" onerror="this.src='../assets/images/sample-space.jpg'">
+            </div>
+            <div class="card-content">
+              <div class="card-meta">
+                <span class="card-category">${article.category}</span>
+                <span class="card-date">${article.date}</span>
+              </div>
+              <h3 class="card-title">
+                <a href="../article.html?slug=${article.slug}">${article.title}</a>
+              </h3>
+              <p class="card-excerpt">${article.excerpt}</p>
+              <a href="../article.html?slug=${article.slug}" class="read-more">पूरा लेख पढ़ें &rarr;</a>
+            </div>
+          `;
+          grid.appendChild(card);
+        });
+      } catch (e) {
+        console.error(e);
+        grid.innerHTML = "<p style='color: red; text-align: center;'>लेख लोड करने में त्रुटि हुई।</p>";
+      }
+    });
+  </script>
+</body>
+</html>

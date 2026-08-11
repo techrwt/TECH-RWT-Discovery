@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="hi" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title id="pageTitle">TECH RWT Discovery - आर्टिकल</title>
+  <meta id="metaDesc" name="description" content="TECH RWT Discovery article reader.">
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    .article-container {
+      max-width: 800px;
+      margin: 40px auto;
+      background-color: var(--card-bg);
+      border: 1px solid var(--border-color);
+      border-radius: 16px;
+      padding: 40px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.03);
+    }
+    .article-header {
+      margin-bottom: 30px;
+    }
+    .article-category-date {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 0.9rem;
+      color: var(--text-muted);
+      margin-bottom: 15px;
+    }
+    .article-title {
+      font-size: 2.3rem;
+      font-weight: 800;
+      line-height: 1.3;
+      margin-bottom: 20px;
+      color: var(--text-main);
+    }
+    .article-featured-image {
+      width: 100%;
+      max-height: 450px;
+      object-fit: cover;
+      border-radius: 12px;
+      margin-bottom: 30px;
+      background-color: var(--border-color);
+    }
+    .article-body {
+      font-size: 1.1rem;
+      line-height: 1.8;
+      color: var(--text-main);
+    }
+    .article-body p {
+      margin-bottom: 20px;
+    }
+    .article-body h3 {
+      font-size: 1.5rem;
+      margin: 30px 0 15px 0;
+      color: var(--text-main);
+    }
+    .article-body ul {
+      margin-bottom: 20px;
+      padding-left: 20px;
+      list-style-type: disc;
+    }
+    .article-body li {
+      margin-bottom: 8px;
+    }
+    .back-home {
+      display: inline-block;
+      margin-top: 30px;
+      font-weight: 600;
+      color: var(--accent);
+    }
+    @media (max-width: 768px) {
+      .article-container {
+        padding: 20px;
+        margin: 20px 10px;
+      }
+      .article-title {
+        font-size: 1.7rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header & Navigation -->
+  <header>
+    <div class="container nav-container">
+      <div class="logo-area">
+        <a href="index.html" class="logo-text">TECH RWT Discovery</a>
+        <span class="logo-tagline">विज्ञान और भविष्य की तकनीक</span>
+      </div>
+
+      <nav>
+        <ul class="nav-links" id="navLinks">
+          <li><a href="index.html">होम</a></li>
+          <li><a href="pages/science.html">Science</a></li>
+          <li><a href="pages/space.html">Space & ISRO</a></li>
+          <li><a href="pages/technology.html">Technology</a></li>
+          <li><a href="pages/environment.html">Environment</a></li>
+          <li><a href="pages/innovation.html">Innovation</a></li>
+          <li><a href="pages/about.html">हमारे बारे में</a></li>
+          <li><a href="pages/contact.html">संपर्क</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <button class="search-toggle" onclick="window.location.href='pages/search.html'" title="खोजें">🔍</button>
+        <button class="theme-toggle" id="themeToggle" title="Theme Toggle">🌙</button>
+        <button class="hamburger" id="hamburger" aria-label="Menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Article Reader Content -->
+  <main class="container">
+    <div class="article-container" id="articleContainer">
+      <p style="text-align: center; color: var(--text-muted); padding: 40px;">लेख लोड हो रहा है...</p>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container footer-grid">
+      <div class="footer-col">
+        <h3>TECH RWT Discovery</h3>
+        <p>जटिल Science और Technology को आसान Hindi में समझने का एक गंभीर मंच।</p>
+      </div>
+      <div class="footer-col">
+        <h3>प्रमुख श्रेणियां</h3>
+        <ul>
+          <li><a href="pages/science.html">Science</a></li>
+          <li><a href="pages/space.html">Space & ISRO</a></li>
+          <li><a href="pages/technology.html">Technology & Future Tech</a></li>
+          <li><a href="pages/environment.html">Environment</a></li>
+          <li><a href="pages/innovation.html">Innovation</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h3>त्वरित लिंक्स</h3>
+        <ul>
+          <li><a href="pages/about.html">हमारे बारे में</a></li>
+          <li><a href="pages/contact.html">संपर्क करें</a></li>
+          <li><a href="pages/search.html">आर्टिकल खोजें</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h3>कानूनी जानकारी</h3>
+        <ul>
+          <li><a href="pages/privacy.html">गोपनीयता नीति</a></li>
+          <li><a href="pages/disclaimer.html">अस्वीकरण</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>&copy; 2026 TECH RWT Discovery. सर्वाधिकार सुरक्षित।</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script>
+    // Specific script to load single article based on URL slug query parameter
+    document.addEventListener("DOMContentLoaded", async () => {
+      const urlParams = new URLSearchParams(window.location.search);
+      const slug = urlParams.get("slug");
+      const container = document.getElementById("articleContainer");
+
+      if (!slug) {
+        container.innerHTML = "<h2>लेख नहीं मिला</h2><p>कृपया मुख्य पृष्ठ पर जाएं।</p><a href='index.html' class='back-home'>&larr; होम पर वापस जाएं</a>";
+        return;
+      }
+
+      try {
+        const response = await fetch("articles.json");
+        const articles = await response.json();
+        const article = articles.find(a => a.slug === slug);
+
+        if (!article) {
+          container.innerHTML = "<h2>यह लेख उपलब्ध नहीं है</h2><p>संभवतः इसे हटा दिया गया है या लिंक गलत है।</p><a href='index.html' class='back-home'>&larr; होम पर वापस जाएं</a>";
+          return;
+        }
+
+        // Update Document Title and Meta Description for SEO
+        document.getElementById("pageTitle").innerText = article.title + " - TECH RWT Discovery";
+        document.getElementById("metaDesc").setAttribute("content", article.excerpt);
+
+        container.innerHTML = `
+          <div class="article-header">
+            <div class="article-category-date">
+              <span class="card-category">${article.category}</span>
+              <span>प्रकाशित तिथि: ${article.date}</span>
+            </div>
+            <h1 class="article-title">${article.title}</h1>
+          </div>
+          <img src="${article.image}" alt="${article.title}" class="article-featured-image" onerror="this.src='assets/images/sample-space.jpg'">
+          <div class="article-body">
+            ${article.content}
+          </div>
+          <a href="index.html" class="back-home">&larr; होम पर वापस जाएं</a>
+        `;
+
+      } catch (error) {
+        console.error("Error loading article:", error);
+        container.innerHTML = "<p style='color: red; text-align: center;'>लेख लोड करने में त्रुटि हुई।</p>";
+      }
+    });
+  </script>
+</body>
+</html>
