@@ -512,3 +512,28 @@ body {
   background-size: 100% 100%, 100% 100%, 100% 100%, 40px 40px, 40px 40px !important;
   background-attachment: fixed !important;
 }
+/* ==========================================
+   Solid Logo Background Highlight
+   ========================================== */
+
+.logo-area {
+  background: #0f172a !important; /* Ekdum solid rich dark background */
+  border: 2px solid #2563eb !important; /* Vibrant blue border jo logo ke blue shade se match kare */
+  padding: 8px 16px !important;
+  border-radius: 12px !important;
+  box-shadow: 0 6px 20px rgba(37, 99, 235, 0.3) !important;
+}
+
+/* Logo ke text aur elements ko dark background par white/bright dikhane ke liye */
+.logo-area .logo-text {
+  color: #ffffff !important;
+}
+
+.logo-area .logo-tagline {
+  color: #94a3b8 !important;
+}
+
+/* Agar logo ki image ya white box wali background ko blend karna ho */
+.logo-area img, .logo-area svg {
+  filter: drop-shadow(0 2px 4px rgba(0,0,0,0.3));
+}
