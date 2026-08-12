@@ -630,3 +630,27 @@ footer a:hover {
   color: #1e3a8a !important;
   text-decoration: underline !important;
 }
+/* ==========================================
+   Compact Article Cards Fix
+   ========================================== */
+
+/* Articles grid ya container ko compact banane ke liye */
+.articles-grid, .latest-articles-grid, .recent-posts {
+  display: grid !important;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)) !important;
+  gap: 20px !important;
+}
+
+/* Individual article card ka size chota aur clean karne ke liye */
+article, .article-card, .post-card {
+  max-width: 100% !important;
+  padding: 15px !important;
+  border-radius: 12px !important;
+}
+
+/* Card ke andar ki images ka size fix karne ke liye */
+article img, .article-card img, .post-card img {
+  height: 160px !important;
+  object-fit: cover !important;
+  border-radius: 8px !important;
+}
