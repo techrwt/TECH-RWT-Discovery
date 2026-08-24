@@ -2,59 +2,70 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
   <url>
-    <loc>https://techrwt.github.io/TECH-RWT-Discovery/index.html</loc>
+    <loc>https://techrawatdiscovery.sbs/</loc>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
+
   <url>
-    <loc>https://techrwt.github.io/TECH-RWT-Discovery/pages/science.html</loc>
+    <loc>https://techrawatdiscovery.sbs/pages/science.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
+
   <url>
-    <loc>https://techrwt.github.io/TECH-RWT-Discovery/pages/space.html</loc>
+    <loc>https://techrawatdiscovery.sbs/pages/space.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
+
   <url>
-    <loc>https://techrwt.github.io/TECH-RWT-Discovery/pages/technology.html</loc>
+    <loc>https://techrawatdiscovery.sbs/pages/technology.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
+
   <url>
-    <loc>https://techrwt.github.io/TECH-RWT-Discovery/pages/environment.html</loc>
+    <loc>https://techrawatdiscovery.sbs/pages/environment.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
+
   <url>
-    <loc>https://techrwt.github.io/TECH-RWT-Discovery/pages/innovation.html</loc>
+    <loc>https://techrawatdiscovery.sbs/pages/innovation.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
+
   <url>
-    <loc>https://techrwt.github.io/TECH-RWT-Discovery/pages/about.html</loc>
+    <loc>https://techrawatdiscovery.sbs/pages/about.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
+
   <url>
-    <loc>https://techrwt.github.io/TECH-RWT-Discovery/pages/contact.html</loc>
+    <loc>https://techrawatdiscovery.sbs/pages/contact.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.4</priority>
   </url>
+
   <url>
-    <loc>https://techrwt.github.io/TECH-RWT-Discovery/pages/privacy.html</loc>
+    <loc>https://techrawatdiscovery.sbs/pages/privacy.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.2</priority>
   </url>
+
   <url>
-    <loc>https://techrwt.github.io/TECH-RWT-Discovery/pages/disclaimer.html</loc>
+    <loc>https://techrawatdiscovery.sbs/pages/disclaimer.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.2</priority>
   </url>
+
   <url>
-    <loc>https://techrwt.github.io/TECH-RWT-Discovery/article.html?slug=chandrayaan-4-mission-details</loc>
+    <loc>https://techrawatdiscovery.sbs/article.html?slug=chandrayaan-4-mission-details</loc>
     <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
+
 </urlset>
