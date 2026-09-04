@@ -55,7 +55,7 @@ async function fetchArticles(selectedCategory = "All") {
   articlesGrid.innerHTML = "<p style='grid-column: 1/-1; text-align: center; color: var(--text-muted);'>लोड हो रहा है...</p>";
 
   try {
-    const response = await fetch("articles.json");
+    const response = await fetch("data/articles-index.json");
     if (!response.ok) throw new Error("Articles load karne mein samasya aayi.");
     const articles = await response.json();
 
