@@ -1,0 +1,27 @@
+name: Update Articles Index
+
+on:
+  push:
+    paths:
+      - "data/articles/batch-*.json"
+
+permissions:
+  contents: write
+
+jobs:
+  update-index:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Run index generator
+        run: node generate-index.js
+
+      - name: Commit updated index and manifest
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/articles-index.json data/articles/manifest.json
+          git diff --staged --quiet || git commit -m "Auto-update index and manifest"
+          git push
