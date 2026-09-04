@@ -183,9 +183,20 @@
       }
 
       try {
-        const response = await fetch("articles.json");
-        const articles = await response.json();
-        const article = articles.find(a => a.slug === slug);
+        // Step 1: index se article dhoondo (isme sab fields hai batch number samet, content ke bina)
+        const indexResponse = await fetch("data/articles-index.json");
+        const index = await indexResponse.json();
+        const indexEntry = index.find(a => a.slug === slug);
+
+        if (!indexEntry) {
+          container.innerHTML = "<h2>यह लेख उपलब्ध नहीं है</h2><p>संभवतः इसे हटा दिया गया है या लिंक गलत है।</p><a href='index.html' class='back-home'>&larr; होम पर वापस जाएं</a>";
+          return;
+        }
+
+        // Step 2: uss article ki batch file se poora content (content field samet) fetch karo
+        const batchResponse = await fetch(`data/articles/batch-${indexEntry.batch}.json`);
+        const batchArticles = await batchResponse.json();
+        const article = batchArticles.find(a => a.slug === slug);
 
         if (!article) {
           container.innerHTML = "<h2>यह लेख उपलब्ध नहीं है</h2><p>संभवतः इसे हटा दिया गया है या लिंक गलत है।</p><a href='index.html' class='back-home'>&larr; होम पर वापस जाएं</a>";
