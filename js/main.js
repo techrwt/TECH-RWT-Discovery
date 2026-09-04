@@ -3,6 +3,30 @@
    ========================================== */
 
 document.addEventListener("DOMContentLoaded", () => {
+  // 0. Welcome Intro Screen (homepage only, typing animation)
+  const welcomeScreen = document.getElementById("welcomeScreen");
+  if (welcomeScreen) {
+    document.body.classList.add("welcome-active");
+    const typedTextEl = document.getElementById("typedText");
+    const welcomeMessage = "टेक रावत डिस्कवरी में आपका स्वागत है";
+    let charIndex = 0;
+
+    function typeWelcomeText() {
+      if (charIndex < welcomeMessage.length) {
+        typedTextEl.textContent += welcomeMessage.charAt(charIndex);
+        charIndex++;
+        setTimeout(typeWelcomeText, 60);
+      } else {
+        setTimeout(() => {
+          welcomeScreen.classList.add("hide");
+          document.body.classList.remove("welcome-active");
+        }, 700);
+      }
+    }
+
+    typeWelcomeText();
+  }
+
   // 1. Dark / Light Mode Toggle
   const themeToggle = document.getElementById("themeToggle");
   const currentTheme = localStorage.getItem("theme") || "light";
