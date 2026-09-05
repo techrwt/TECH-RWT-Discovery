@@ -107,7 +107,7 @@
   "featured": false,
   "trending": true,
   "searchDescription": "Quantum imaging में superconductors की electron waves से microscopic images बनाने का 20 साल पुराना idea अब experiment से support हुआ है। जानिए यह कैसे काम करता है।",
-  "image": "assets/images/science/quantum-imaging-superconductor-electron-waves.jpg",
+  "image": "assets/images/Quan.jpg",
   "excerpt": "Quantum physics में electrons सिर्फ छोटे particles नहीं, wave की तरह भी behave कर सकते हैं। करीब दो दशक पुराने theoretical idea ने इसी property का इस्तेमाल करके superconductors से microscopic quantum images बनाने की संभावना बताई थी। अब नए experiment ने उस predicted effect को experimentally demonstrate किया है।",
   "batch": 13
  },
@@ -121,7 +121,7 @@
   "featured": false,
   "trending": false,
   "searchDescription": "Aheesa Digital Innovations की VIHAAN broadband chip ने indigenous VEGA microprocessor के साथ first-pass silicon success हासिल किया। जानिए यह milestone भारत के chip-design ecosystem के लिए क्यों अहम है।",
-  "image": "assets/images/innovation/vihaan-chip-indigenous-vega-processor-broadband-india.jpg",
+  "image": "assets/images/vihaan.png",
   "excerpt": "भारत में semiconductor innovation का मतलब सिर्फ chip fabrication plant बनाना नहीं है। Aheesa Digital Innovations की VIHAAN broadband networking SoC दिखाती है कि भारतीय teams processor core से लेकर complex networking silicon तक अपना design तैयार करके working silicon हासिल कर सकती हैं। Indigenous VEGA RISC-V processor पर आधारित VIHAAN का first-pass silicon success इसी engineering journey का महत्वपूर्ण पड़ाव है।",
   "batch": 13
  },
@@ -135,7 +135,7 @@
   "featured": false,
   "trending": true,
   "searchDescription": "EOS-05 भारत का पहला geosynchronous-orbit imaging satellite है। जानिए GSLV-F17 इसे Sub-GTO में कैसे पहुंचाएगा और ऊंची orbit से Earth observation का क्या फायदा है।",
-  "image": "assets/images/space/eos-05-satellite-gslv-f17-geosynchronous-earth-imaging.jpg",
+  "image": "assets/images/space.webp",
   "excerpt": "EOS-05 यानी GISAT-1A भारत की Earth observation क्षमता में एक अलग तरह का satellite है। इसे GSLV-F17 से Sub-Geosynchronous Transfer Orbit में भेजने की तैयारी है, जिसके बाद यह geosynchronous orbit से बड़े क्षेत्र की imaging कर सकेगा। इसकी खासियत सिर्फ camera नहीं, बल्कि ऐसी orbit है जो लंबे समय तक एक बड़े geographic region पर नजर रखने के लिए उपयोगी है।",
   "batch": 13
  },
@@ -149,7 +149,7 @@
   "featured": false,
   "trending": false,
   "searchDescription": "Gulf of Mannar और Palk Bay की नई research में seawater chemistry में ऐसे संकेत मिले हैं जो ocean acidification के emerging hotspots की ओर इशारा करते हैं।",
-  "image": "assets/images/environment/ocean-acidification-india-gulf-mannar-palk-bay.jpg",
+  "image": "assets/images/Deadcoral_pho_gulfofmannar_17nov2021_lrg.jpg",
   "excerpt": "समुद्र केवल गर्म नहीं हो रहा, उसकी chemistry भी बदल रही है। Gulf of Mannar और Palk Bay की 2023–24 field study में pH और aragonite saturation state के ऐसे अंतर मिले हैं जो भारत के coastal ecosystems में ocean acidification के जोखिम को समझने के लिए महत्वपूर्ण हैं।",
   "batch": 13
  },
@@ -163,7 +163,7 @@
   "featured": false,
   "trending": false,
   "searchDescription": "Digital Twin और Physical AI मिलकर factories को real-time में monitor और simulate कर सकते हैं। जानिए AI factory की problems को पहले पहचानकर manufacturing को कैसे बदल सकता है।",
-  "image": "assets/images/technology/digital-twin-physical-ai-manufacturing.jpg",
+  "image": "assets/images/System-architecture-of-the-smart-factory.jpg",
   "excerpt": "Digital Twin किसी factory की सिर्फ 3D virtual copy नहीं है। Sensors, cameras, AI और simulation को जोड़कर इसका इस्तेमाल production process की live स्थिति समझने, abnormal behaviour पहचानने और संभावित समस्याओं का अनुमान लगाने में किया जा सकता है। Physical AI के साथ यही technology future smart factories को ज्यादा adaptive बनाने की दिशा दिखाती है।",
   "batch": 13
  },
