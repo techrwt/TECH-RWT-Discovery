@@ -37,7 +37,7 @@
   "featured": false,
   "trending": true,
   "searchDescription": "EOS-05 भारत का पहला geosynchronous imaging satellite है। जानिए GSLV-F17 इसे orbit में कैसे पहुंचाएगा और Earth observation में इसकी खास भूमिका क्या होगी।",
-  "image": "assets/images/space/eos-05-geosynchronous-imaging-satellite-gslv-f17.jpg",
+  "image": "assets/images/GSLV-F17–EOS-05_Mission_-_Pre-Launch_Image_(17).webp",
   "excerpt": "ISRO का GSLV-F17 मिशन EOS-05 को अंतरिक्ष में पहुंचाने की तैयारी में है। इस satellite की खासियत सिर्फ Earth की तस्वीर लेना नहीं, बल्कि geosynchronous orbit से बड़े क्षेत्र को बार-बार observe करने की क्षमता है। यही approach disaster monitoring, agriculture और environmental observation जैसे कामों में उपयोगी हो सकती है।",
   "batch": 14
  },
@@ -51,7 +51,7 @@
   "featured": false,
   "trending": false,
   "searchDescription": "Physical AI और Edge AI semiconductor factories की machines को real-time data पर adapt करने में मदद कर सकते हैं। जानिए future chip manufacturing में AI control loop क्यों महत्वपूर्ण है।",
-  "image": "assets/images/technology/physical-ai-semiconductor-manufacturing.jpg",
+  "image": "assets/images/Wafertraksystem.jpg",
   "excerpt": "Semiconductor manufacturing में Physical AI और Edge AI का इस्तेमाल machines को सिर्फ automated नहीं, बल्कि real-time data के आधार पर अधिक responsive और adaptive बनाने की दिशा में बढ़ रहा है। जानिए wafer inspection, metrology और fab equipment में AI control loop कैसे काम कर सकता है।",
   "batch": 14
  },
@@ -65,7 +65,7 @@
   "featured": false,
   "trending": true,
   "searchDescription": "LUX-ZEPLIN experiment में एक रहस्यमयी particle event मिला है। जानिए Dark Matter signal, WIMP और liquid xenon detector इसे कैसे पकड़ते हैं।",
-  "image": "assets/images/science/dark-matter-signal-lux-zeplin.jpg",
+  "image": "assets/images/Large_Underground_Xenon_detector_inside_watertank.jpg",
   "excerpt": "Dark Matter की तलाश में LUX-ZEPLIN experiment ने एक unusual high-energy event दर्ज किया है। यह WIMP interaction जैसा दिखता है, लेकिन अभी इसे Dark Matter की confirmed discovery नहीं माना गया है।",
   "batch": 14
  },
