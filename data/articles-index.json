@@ -1,5 +1,33 @@
 [
  {
+  "id": "tech-physics-informed-robot-learning-20260907",
+  "title": "Robots अब Physics के नियमों से सीखेंगे? नई AI Technique से Machines Unseen दुनिया में भी Adapt कर पाएंगी",
+  "slug": "physics-informed-robot-learning-generalization",
+  "category": "Technology & Future Tech",
+  "date": "2026-09-07",
+  "author": "TECH RWT Discovery",
+  "featured": false,
+  "trending": false,
+  "searchDescription": "नई AI research दिखाती है कि physics-based filtering robot learning को unseen environments में generalize करने में मदद कर सकती है। जानिए यह technology future robots को कैसे बदल सकती है।",
+  "image": "assets/images/Humanoid_robot_is_being_programmed.jpg",
+  "excerpt": "Robots को हर possible situation के लिए हजारों training examples देने के बजाय physics की जानकारी और real-time feedback का इस्तेमाल करके ज्यादा adaptable बनाया जा सकता है। नई PhyFilter technique ने quadruped robots, drones और aerial manipulators में unseen conditions के बीच robot learning की generalization क्षमता बेहतर दिखाई है।",
+  "batch": 16
+ },
+ {
+  "id": "eos-05-orbit-raising-science",
+  "title": "EOS-05 को 36,000 Km की Orbit तक ISRO कैसे पहुंचा रहा है? Satellite की Orbit Raising की पूरी Science",
+  "slug": "eos-05-orbit-raising-science",
+  "category": "Space & ISRO",
+  "date": "2026-09-07",
+  "author": "TECH RWT Discovery",
+  "featured": false,
+  "trending": true,
+  "searchDescription": "EOS-05 launch के बाद ISRO उसकी orbit को धीरे-धीरे बढ़ा रहा है। जानिए orbit manoeuvre, LAM engine, apogee और 85.5°E geosynchronous slot की पूरी science आसान Hindi में।",
+  "image": "assets/images/GSLV-F17–EOS-05_Mission_-_Pre-Launch_Image_(18).webp",
+  "excerpt": "EOS-05 को GSLV-F17 ने सीधे 36,000 km की final orbit में नहीं पहुंचाया। जानिए Sub-GTO से GSO तक satellite की orbit कैसे बदली जाती है, LAM engine apogee और perigee को कैसे प्रभावित करता है और 85.5°E orbital slot तक पहुंचने के पीछे orbital mechanics क्या है।",
+  "batch": 16
+ },
+ {
   "id": "eos-05-geosynchronous-imaging-technology",
   "title": "EOS-05 Satellite एक ही जगह से धरती को बार-बार कैसे देखेगा? ISRO की Geosynchronous Imaging Technology का राज",
   "slug": "eos-05-satellite-geosynchronous-imaging-technology",
