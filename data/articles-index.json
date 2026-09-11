@@ -1,5 +1,47 @@
 [
  {
+  "id": "bihar-air-pollution-hidden-exposure-2026",
+  "title": "Air Pollution हर जगह एक जैसा नहीं? बिहार में Sensors ने दिखाया Pollution का छिपा हुआ फर्क",
+  "slug": "bihar-air-pollution-hidden-exposure-low-cost-sensors",
+  "category": "Environment",
+  "date": "2026-09-10",
+  "author": "TECH RWT Discovery",
+  "featured": false,
+  "trending": true,
+  "searchDescription": "बिहार की नई Nature Communications study ने low-cost sensors और machine learning से PM2.5 exposure में बड़े district-level फर्क का खुलासा किया है। जानिए pollution monitoring की यह नई approach क्यों महत्वपूर्ण है।",
+  "image": "assets/images/environment/bihar-air-pollution-hidden-exposure-low-cost-sensors.jpg",
+  "excerpt": "बिहार में air pollution को लेकर नई research ने दिखाया है कि एक ही राज्य में रहने वाले लोगों का PM2.5 exposure काफी अलग हो सकता है। Dense low-cost sensor network और machine learning की मदद से researchers ने pollution के ऐसे regional और district-level differences सामने लाए हैं, जो केवल बड़े monitoring stations या state-level averages से छिप सकते हैं।",
+  "batch": 17
+ },
+ {
+  "id": "innovation-iit-delhi-diesel-retrofit-device",
+  "title": "पुराने Diesel Trucks भी बनेंगे Clean? IIT Delhi के ₹5,000 Device ने Pollution घटाने का नया रास्ता दिखाया",
+  "slug": "iit-delhi-diesel-retrofit-device-old-trucks-pollution",
+  "category": "Innovation",
+  "date": "2026-09-10",
+  "author": "TECH RWT Discovery",
+  "featured": false,
+  "trending": false,
+  "searchDescription": "IIT Delhi के innovation पर आधारित ₹4,000-5,000 retrofit device पुराने diesel trucks और buses के particulate emissions को 90% तक घटाने में मदद कर सकता है। जानिए RECD कैसे काम करता है और इसकी सीमाएं क्या हैं।",
+  "image": "assets/images/innovation/iit-delhi-diesel-retrofit-device-old-trucks-pollution.jpg",
+  "excerpt": "पुराने BS-III और BS-IV diesel trucks और buses को तुरंत बदलने के बजाय उनके exhaust को retrofit technology से cleaner बनाने की कोशिश तेज हुई है। IIT Delhi के innovation पर आधारित RECD को लेकर सरकार ने rollout की दिशा में कदम बढ़ाया है।",
+  "batch": 17
+ },
+ {
+  "id": "science-20260910-quantum-gravity-experiment-einstein",
+  "title": "Gravity ने Quantum World को भी प्रभावित किया? Scientists ने पहली बार Quantum Scale पर Einstein की Theory Test की",
+  "slug": "quantum-gravity-experiment-einstein-equivalence-principle",
+  "category": "Science",
+  "date": "2026-09-10",
+  "author": "TECH RWT Discovery",
+  "featured": false,
+  "trending": true,
+  "searchDescription": "Scientists ने quantum scale पर gravity का असर मापा। जानिए rubidium atoms, Quantum Galileo Interferometer और Einstein की equivalence principle का क्या मतलब है।",
+  "image": "assets/images/science/quantum-gravity-experiment-einstein-equivalence-principle.jpg",
+  "excerpt": "एक नए experiment में scientists ने ultracold rubidium atoms की quantum wave पर gravity से पैदा होने वाले phase बदलाव को मापा। Quantum Galileo Interferometer की मदद से किया गया यह प्रयोग दिखाता है कि Einstein का equivalence principle quantum regime में भी सही बैठता है। हालांकि यह quantum gravity की खोज नहीं है, लेकिन quantum mechanics और gravity के बीच की सबसे महत्वपूर्ण experimental boundaries में से एक को test करता है।",
+  "batch": 17
+ },
+ {
   "id": "tech-physics-informed-robot-learning-20260907",
   "title": "Robots अब Physics के नियमों से सीखेंगे? नई AI Technique से Machines Unseen दुनिया में भी Adapt कर पाएंगी",
   "slug": "physics-informed-robot-learning-generalization",
