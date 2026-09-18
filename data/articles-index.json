@@ -141,16 +141,16 @@
  },
  {
   "id": "eos-05-geosynchronous-imaging-technology",
-  "title": "EOS-05 Satellite एक ही जगह से धरती को बार-बार कैसे देखेगा? ISRO की Geosynchronous Imaging Technology का राज",
+  "title": "EOS-05 का Imaging Camera कैसे काम करता है? Geosynchronous Orbit से बार-बार Earth Imaging की Technology",
   "slug": "eos-05-satellite-geosynchronous-imaging-technology",
   "category": "Space & ISRO",
   "date": "2026-09-03",
   "author": "TECH RWT Discovery",
   "featured": false,
   "trending": true,
-  "searchDescription": "ISRO का EOS-05 भारत का पहला geosynchronous imaging satellite है। जानिए GSLV-F17 इसे orbit में कैसे पहुंचाएगा और एक ही क्षेत्र की बार-बार Earth imaging क्यों महत्वपूर्ण है।",
+  "searchDescription": "EOS-05 satellite का imaging camera और sensor system geosynchronous orbit से बार-बार Earth की तस्वीरें कैसे लेता है? जानिए resolution और imaging technology की पूरी कहानी।",
   "image": "assets/images/GSLV-F17–EOS-05_Mission_-_Pre-Launch_Image_(13).webp",
-  "excerpt": "EOS-05 को खास geosynchronous orbit से Earth observation के लिए तैयार किया गया है। समझिए GSLV-F17 इसे Sub-GTO में कैसे पहुंचाएगा, लगभग 36,000 km ऊंचाई वाली orbit से बार-बार imaging कैसे संभव होती है और इससे भारत की Earth observation capability में क्या बदलाव आ सकता है।",
+  "excerpt": "EOS-05 को खास geosynchronous orbit से Earth observation के लिए तैयार किया गया है। जानिए इसका imaging camera कैसे काम करता है, resolution क्या है और एक ही क्षेत्र की बार-बार तस्वीर लेने की technology इससे कैसे संभव होती है।",
   "batch": 15
  },
  {
@@ -169,16 +169,16 @@
  },
  {
   "id": "space-20260902-eos-05-gslv-f17",
-  "title": "EOS-05 क्या बदलेगा? भारत के पहले Geosynchronous Imaging Satellite की पूरी Science",
+  "title": "EOS-05 Launch Date और Mission Readiness: Payload Integration से Countdown तक की कहानी",
   "slug": "eos-05-geosynchronous-imaging-satellite-gslv-f17",
   "category": "Space & ISRO",
   "date": "2026-09-02",
   "author": "TECH RWT Discovery",
   "featured": false,
   "trending": true,
-  "searchDescription": "EOS-05 भारत का पहला geosynchronous imaging satellite है। जानिए GSLV-F17 इसे orbit में कैसे पहुंचाएगा और Earth observation में इसकी खास भूमिका क्या होगी।",
+  "searchDescription": "EOS-05 satellite के launch से पहले payload integration, testing और countdown तक की तैयारी कैसे होती है? जानिए mission की पूरी launch readiness टाइमलाइन।",
   "image": "assets/images/GSLV-F17–EOS-05_Mission_-_Pre-Launch_Image_(17).webp",
-  "excerpt": "ISRO का GSLV-F17 मिशन EOS-05 को अंतरिक्ष में पहुंचाने की तैयारी में है। इस satellite की खासियत सिर्फ Earth की तस्वीर लेना नहीं, बल्कि geosynchronous orbit से बड़े क्षेत्र को बार-बार observe करने की क्षमता है। यही approach disaster monitoring, agriculture और environmental observation जैसे कामों में उपयोगी हो सकती है।",
+  "excerpt": "किसी satellite launch की सफलता सिर्फ rocket तक सीमित नहीं होती, उससे पहले की तैयारी भी उतनी ही अहम है। जानिए EOS-05 के payload integration, testing और countdown की मिशन-रेडीनेस प्रक्रिया कैसे पूरी हुई।",
   "batch": 14
  },
  {
@@ -267,16 +267,16 @@
  },
  {
   "id": "space-20260830-eos-05-gslv-f17",
-  "title": "EOS-05 Satellite क्या है? GSLV-F17 से Geosynchronous Orbit में भारत की नई Earth Imaging",
+  "title": "GSLV-F17 Rocket EOS-05 को Space में कैसे ले जाएगा? Launch Vehicle की पूरी Engineering",
   "slug": "eos-05-satellite-gslv-f17-geosynchronous-earth-imaging",
   "category": "Space & ISRO",
   "date": "2026-08-31",
   "author": "TECH RWT Discovery",
   "featured": false,
   "trending": true,
-  "searchDescription": "EOS-05 भारत का पहला geosynchronous-orbit imaging satellite है। जानिए GSLV-F17 इसे Sub-GTO में कैसे पहुंचाएगा और ऊंची orbit से Earth observation का क्या फायदा है।",
+  "searchDescription": "GSLV-F17 rocket के stages और propulsion system EOS-05 satellite को orbit तक कैसे पहुंचाएंगे? जानिए इस launch vehicle की engineering की पूरी कहानी।",
   "image": "assets/images/space.webp",
-  "excerpt": "EOS-05 यानी GISAT-1A भारत की Earth observation क्षमता में एक अलग तरह का satellite है। इसे GSLV-F17 से Sub-Geosynchronous Transfer Orbit में भेजने की तैयारी है, जिसके बाद यह geosynchronous orbit से बड़े क्षेत्र की imaging कर सकेगा। इसकी खासियत सिर्फ camera नहीं, बल्कि ऐसी orbit है जो लंबे समय तक एक बड़े geographic region पर नजर रखने के लिए उपयोगी है।",
+  "excerpt": "EOS-05 को space तक पहुंचाने का जिम्मा GSLV-F17 रॉकेट पर है। जानिए इसके solid, liquid और cryogenic stages कैसे काम करते हैं और launch vehicle की propulsion engineering EOS-05 को Sub-GTO तक कैसे पहुंचाती है।",
   "batch": 13
  },
  {
@@ -568,7 +568,7 @@
   "author": "TECH RWT Discovery",
   "featured": false,
   "trending": false,
-  "searchDescription": "Silicon Quantum Chip क्या है और बड़े quantum computers बनाने में इसकी भूमिका क्यों महत्वपूर्ण है? जानिए silicon qubits, exchange-only qubits, cryogenic CMOS, wiring और quantum error correction की पूरी कहानी।",
+  "searchDescription": "लाखों qubits तक scale करने की engineering challenge को नया silicon quantum chip architecture कैसे हल कर रहा है? जानिए exchange-only qubits, cryogenic CMOS और wiring bottleneck की पूरी कहानी।",
   "image": "assets/images/250px-Superconducting_Quantum_Chip_with_Dispersive_Background_2.png",
   "excerpt": "Quantum computer को शक्तिशाली बनाने की चुनौती सिर्फ ज्यादा qubits बनाने की नहीं है। असली समस्या हजारों या लाखों qubits को कम wiring, कम noise और reliable control के साथ चलाने की है। Silicon quantum processor की नई architecture इसी engineering bottleneck को address करने की कोशिश कर रही है।",
   "batch": 9
@@ -610,23 +610,23 @@
   "author": "TECH RWT Discovery",
   "featured": false,
   "trending": false,
-  "searchDescription": "Vision-Based Tactile Sensor क्या है? जानिए camera और soft material की मदद से robots touch, pressure और contact को कैसे समझ सकते हैं और Physical AI में यह technology क्यों महत्वपूर्ण है।",
+  "searchDescription": "Vision-Based Tactile Sensor में camera और soft material की मदद से touch signals कैसे capture होते हैं, और यह hardware-based Electronic Skin sensors से कैसे अलग तरीका है? जानिए इस camera-driven touch-sensing approach की पूरी कहानी।",
   "image": "assets/images/250px-USkin_Sensor_Integration.png",
   "excerpt": "Robot किसी वस्तु को देखकर पहचान सकता है, लेकिन उसे पकड़ते समय contact force, surface deformation और slipping समझने के लिए touch की जरूरत होती है। Vision-Based Tactile Sensor इस physical touch को camera images में बदलकर AI के लिए usable data बनाता है।",
   "batch": 8
  },
  {
   "id": "space-20260822-gisat-1a-eos-05",
-  "title": "GISAT-1A क्या है? ISRO का नया Satellite भारत के ऊपर से लगातार तस्वीरें कैसे ले सकेगा",
+  "title": "EOS-05 Satellite क्या है? ISRO इसे क्यों बना रहा है, Mission Objective की पूरी कहानी",
   "slug": "gisat-1a-eos-05-geostationary-earth-observation-satellite",
   "category": "Space & ISRO",
   "date": "2026-08-22",
   "author": "TECH RWT Discovery",
   "featured": false,
   "trending": true,
-  "searchDescription": "GISAT-1A यानी EOS-05 क्या है और ISRO इसे geostationary orbit में क्यों भेज रहा है? जानिए GSLV-F17, geo-imaging और भारत के लगातार Earth observation की पूरी कहानी।",
+  "searchDescription": "EOS-05 यानी GISAT-1A ISRO का geostationary Earth-observation satellite क्यों बनाया जा रहा है? जानिए इसका disaster monitoring, agriculture और weather observation में role।",
   "image": "assets/images/250px-GISAT-1_spacecraft_in_clean_room.jpg",
-  "excerpt": "GISAT-1A यानी EOS-05 भारत की अगली generation की geostationary Earth-observation capability को मजबूत करने वाला satellite है। करीब 36,000 km ऊंचाई से इसका उद्देश्य भारतीय उपमहाद्वीप को बार-बार observe करना और disaster, environment तथा मौसम से जुड़े बदलावों की near-real-time monitoring में मदद करना है।",
+  "excerpt": "GISAT-1A यानी EOS-05 भारत की अगली generation की geostationary Earth-observation capability को मजबूत करने वाला satellite है। जानिए यह mission ISRO के लिए क्यों बनाया गया और disaster, environment तथा मौसम से जुड़े कामों में इसका उद्देश्य क्या है।",
   "batch": 8
  },
  {
@@ -708,7 +708,7 @@
   "author": "TECH RWT Discovery",
   "featured": false,
   "trending": false,
-  "searchDescription": "Electronic Skin क्या है और robots को इंसान की तरह touch महसूस कराने में यह technology कैसे मदद कर सकती है? जानिए tactile sensors, pressure, slip detection और Physical AI की पूरी कहानी।",
+  "searchDescription": "Electronic Skin में flexible tactile sensors किस तरह pressure, force और slip को सीधे electrical signal में बदलते हैं? जानिए इस hardware-based touch-sensing approach की पूरी कहानी।",
   "image": "assets/images/250px-USkin_Sensor_Integration.png",
   "excerpt": "Camera robot को किसी strawberry को देखने में मदद कर सकता है, लेकिन उसे यह बताने के लिए कि strawberry कितनी ताकत से पकड़ी गई है, touch sensing चाहिए। Electronic Skin इसी missing sense को robots तक पहुंचाने की कोशिश है, जहां flexible tactile sensors pressure, force और slip जैसे signals को electrical data में बदलते हैं।",
   "batch": 7
@@ -757,16 +757,16 @@
  },
  {
   "id": "space-20260819-nasa-moon-base-isro-role",
-  "title": "NASA का Moon Base प्लान और ISRO: चांद के South Pole पर भारत की भूमिका कितनी बड़ी हो सकती है?",
+  "title": "Lunar South Pole पर Moon Base कैसे बनेगा? NASA के Infrastructure Plan में भारत की भूमिका",
   "slug": "nasa-moon-base-isro-role-lunar-south-pole",
   "category": "Space & ISRO",
   "date": "2026-08-19",
   "author": "TECH RWT Discovery",
   "featured": false,
   "trending": true,
-  "searchDescription": "NASA ने ISRO को Moon Base programme में शामिल होने का निमंत्रण क्यों दिया? जानिए Lunar South Pole, Artemis, Moon Base technology और भविष्य में भारत की संभावित भूमिका की पूरी कहानी।",
+  "searchDescription": "Lunar South Pole पर long-term Moon Base बनाने के लिए NASA किस तरह की infrastructure technology तैयार कर रहा है? जानिए water-ice, habitat और भारत की संभावित भूमिका की पूरी कहानी।",
   "image": "assets/images/330px-Artemis_Base_Camp.png",
-  "excerpt": "NASA ने भारत को अपने Moon Base programme में भागीदारी के लिए आमंत्रित किया है। यह सिर्फ चांद पर दोबारा पहुंचने की कहानी नहीं, बल्कि Lunar South Pole पर लंबे समय तक मानव मौजूदगी के लिए infrastructure बनाने की दिशा में बड़ा बदलाव है।",
+  "excerpt": "चांद पर सिर्फ पहुंचना नहीं, बल्कि लंबे समय तक टिके रहना असली चुनौती है। Lunar South Pole पर water-ice जैसे resources के आसपास NASA का Moon Base infrastructure plan किस तरह आकार ले रहा है, और भारत इसमें कैसे भागीदार बन सकता है।",
   "batch": 6
  },
  {
@@ -953,16 +953,16 @@
  },
  {
   "id": "tech-silicon-quantum-chip-2026-08-14",
-  "title": "Silicon Quantum Chip क्या है? सामान्य Semiconductor Technology से Quantum Computer बनाने की कोशिश कैसे काम करती है",
+  "title": "Silicon Quantum Chip क्या है? Quantum Computing की Basics आसान Hindi में समझिए",
   "slug": "silicon-quantum-chip-kaise-kaam-karta-hai",
   "category": "Technology & Future Tech",
   "date": "2026-08-14",
   "author": "TECH RWT Discovery",
   "featured": false,
   "trending": false,
-  "searchDescription": "Silicon Quantum Chip क्या है और सामान्य semiconductor technology की मदद से quantum computer बनाना कैसे संभव हो सकता है? जानिए silicon qubits, cryogenic CMOS, error correction और इसकी चुनौतियां।",
+  "searchDescription": "Silicon Quantum Chip क्या है और quantum computing की दुनिया में यह basic building block कैसे काम करता है? जानिए silicon qubits, transistor जैसी manufacturing और शुरुआती चुनौतियां आसान भाषा में।",
   "image": "assets/images/330px-Superconducting_Quantum_Chip_with_Dispersive_Background.png",
-  "excerpt": "Quantum computer को बड़ा बनाने की सबसे बड़ी चुनौती सिर्फ qubits की संख्या बढ़ाना नहीं, बल्कि उन्हें नियंत्रित और आपस में जोड़ना है। Silicon quantum chips इस समस्या के लिए semiconductor industry की पुरानी manufacturing technology को quantum computing के साथ जोड़ने की कोशिश कर रहे हैं।",
+  "excerpt": "Quantum computer की चर्चा जितनी complex लगती है, उसकी नींव उतनी ही basic engineering सवाल से शुरू होती है: qubit बनाया कैसे जाए। Silicon quantum chip इसी सवाल का जवाब सामान्य semiconductor manufacturing तकनीक से देने की कोशिश है।",
   "batch": 3
  },
  {
@@ -1051,16 +1051,16 @@
  },
  {
   "id": "space-20260812-nasa-isro-moon-base",
-  "title": "NASA का Moon Base प्लान और ISRO: चांद पर भारत की भूमिका कितनी बड़ी हो सकती है?",
+  "title": "NASA Artemis Programme में ISRO Partnership: भारत की Moon Strategy क्या है?",
   "slug": "nasa-moon-base-isro-india-artemis",
   "category": "Space & ISRO",
   "date": "2026-08-12",
   "author": "TECH RWT Discovery",
   "featured": false,
   "trending": true,
-  "searchDescription": "NASA के Moon Base कार्यक्रम में ISRO की संभावित भूमिका भारत के लिए क्यों महत्वपूर्ण है? जानिए Artemis, चंद्र आधार, Chandrayaan-4 और भारत की Moon Mission Strategy को आसान भाषा में।",
+  "searchDescription": "NASA के Artemis programme में ISRO partnership का प्रस्ताव भारत के लिए क्यों अहम है? जानिए Chandrayaan-4, Moon Mission Strategy और भारत-अमेरिका space cooperation की पूरी कहानी।",
   "image": "assets/images/330px-Artemis_Base_Camp.png",
-  "excerpt": "चांद पर लंबे समय तक इंसानों की मौजूदगी की तैयारी अब केवल अमेरिका का कार्यक्रम नहीं रह गई है। NASA के Moon to Mars Architecture और भारत की बढ़ती Lunar Exploration क्षमता के बीच सहयोग की नई संभावनाएं बन रही हैं।",
+  "excerpt": "NASA का Artemis programme सिर्फ अमेरिका तक सीमित नहीं रह गया। भारत के साथ बढ़ती space cooperation और ISRO की Chandrayaan-4 जैसी upcoming missions ने भारत-अमेरिका partnership की नई संभावनाएं खोली हैं।",
   "batch": 2
  },
  {
