@@ -101,7 +101,7 @@ async function fetchArticles(selectedCategory = "All") {
       card.className = "article-card";
       card.innerHTML = `
         <div class="card-img-wrapper">
-          <img src="${article.image}" alt="${article.title}" onerror="this.src='assets/images/sample-space.jpg'">
+          <img src="${article.image.replace(/\.(png|jpe?g)$/i, '.webp')}" alt="${article.title}" onerror="this.onerror=function(){this.src='assets/images/sample-space.jpg'};this.src='${article.image}'">
         </div>
         <div class="card-content">
           <div class="card-meta">
