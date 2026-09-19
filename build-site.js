@@ -111,6 +111,47 @@ if (fs.existsSync("index.html")) {
   }
 }
 
+// 3b. Category pages (pages/science.html ...) + search.html noindex
+const cardHtml = (a) => {
+  const link = `/articles/${esc(a.slug)}.html`;
+  return `
+        <div class="article-card">
+          <div class="card-img-wrapper"><img src="/${esc(encodeURI(a.image))}" alt="${esc(a.title)}" loading="lazy" onerror="this.src='/assets/images/sample-space.jpg'"></div>
+          <div class="card-content">
+            <div class="card-meta"><span class="card-category">${esc(a.category)}</span><span class="card-date">${esc(a.date)}</span></div>
+            <h3 class="card-title"><a href="${link}">${esc(a.title)}</a></h3>
+            <p class="card-excerpt">${esc(a.excerpt)}</p>
+            <a href="${link}" class="read-more">पूरा लेख पढ़ें &rarr;</a>
+          </div>
+        </div>`;
+};
+for (const [cat, file] of Object.entries(CATEGORY_PAGE)) {
+  if (!fs.existsSync(file)) continue;
+  let pg = read(file);
+  // purani galat/purani cheezein theek karo (baar baar chalane par bhi safe)
+  pg = pg.replace('fetch("../articles.json")', 'fetch("../data/articles-index.json")');
+  pg = pg.split('../article.html?slug=${article.slug}').join('../articles/${article.slug}.html');
+  // markers na hon to grid ke andar laga do
+  if (!pg.includes("<!-- CATEGORY_START -->")) {
+    pg = pg.replace(/(<div class="articles-grid" id="categoryArticlesGrid">)[\s\S]*?(<\/div>\s*<\/section>)/,
+      "$1\n        <!-- CATEGORY_START -->\n        <!-- CATEGORY_END -->\n      $2");
+  }
+  const list = articles.filter((a) => a.category === cat).slice(0, 30).map(cardHtml).join("");
+  pg = pg.replace(/(<!-- CATEGORY_START -->)[\s\S]*?(<!-- CATEGORY_END -->)/, (_, s, e) => `${s}${list}\n        ${e}`);
+  // canonical
+  if (!pg.includes('rel="canonical"')) {
+    pg = pg.replace(/(<meta name="description"[^>]*>)/, `$1\n  <link rel="canonical" href="${SITE}/${file}">`);
+  }
+  fs.writeFileSync(file, pg);
+}
+if (fs.existsSync("pages/search.html")) {
+  let s = read("pages/search.html");
+  if (!/name="robots"/.test(s)) {
+    s = s.replace("</title>", '</title>\n  <meta name="robots" content="noindex, follow">');
+    fs.writeFileSync("pages/search.html", s);
+  }
+}
+
 // 4. sitemap.xml
 const urls = [{ loc: SITE + "/" }];
 for (const p of STATIC_PAGES) if (fs.existsSync(p)) urls.push({ loc: `${SITE}/${p}` });
