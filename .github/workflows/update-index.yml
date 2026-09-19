@@ -32,3 +32,9 @@ jobs:
           git diff --staged --quiet || git commit -m "Auto-update index, article pages and sitemap"
           git pull --rebase
           git push
+
+      - name: Bing ko naye URLs bhejo (IndexNow)
+        continue-on-error: true
+        run: |
+          sleep 90
+          node indexnow.js
