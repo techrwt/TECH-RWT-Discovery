@@ -5,7 +5,9 @@ on:
   push:
     paths:
       - "data/articles/batch-*.json"
+      - "assets/images/**"
       - "build-site.js"
+      - "convert-images.js"
       - "article-template.html"
 
 permissions:
@@ -17,6 +19,12 @@ jobs:
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
+
+      - name: Install image tool (sharp)
+        run: npm install sharp --no-save --no-package-lock --prefix /tmp/imgtools
+
+      - name: Convert png/jpg images to webp
+        run: NODE_PATH=/tmp/imgtools/node_modules node convert-images.js
 
       - name: Run index generator
         run: node generate-index.js
