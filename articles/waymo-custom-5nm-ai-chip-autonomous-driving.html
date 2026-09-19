@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="hi" data-theme="light">
+<head>
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-9PS4WX9LXB"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-9PS4WX9LXB');
+</script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Self-Driving Car को अपनी AI Chip क्यों चाहिए? Waymo के Custom 5nm Chip की पूरी कहानी - TECH RWT Discovery</title>
+  <meta name="description" content="Waymo ने autonomous driving के लिए custom 5nm AI ASIC बनाई है। जानिए camera, LiDAR और radar data को milliseconds में process करने के लिए dedicated automotive A…">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <link rel="canonical" href="https://techrawatdiscovery.sbs/articles/waymo-custom-5nm-ai-chip-autonomous-driving.html">
+
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="TECH RWT Discovery">
+  <meta property="og:locale" content="hi_IN">
+  <meta property="og:title" content="Self-Driving Car को अपनी AI Chip क्यों चाहिए? Waymo के Custom 5nm Chip की पूरी कहानी">
+  <meta property="og:description" content="Waymo ने autonomous driving के लिए custom 5nm AI ASIC बनाई है। जानिए camera, LiDAR और radar data को milliseconds में process करने के लिए dedicated automotive A…">
+  <meta property="og:url" content="https://techrawatdiscovery.sbs/articles/waymo-custom-5nm-ai-chip-autonomous-driving.html">
+  <meta property="og:image" content="https://techrawatdiscovery.sbs/assets/images/330px-Waymo_Jaguar_I-Pace_-_Side_View_01.jpg">
+  <meta property="article:published_time" content="2026-08-27">
+  <meta property="article:section" content="Technology &amp; Future Tech">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","mainEntityOfPage":{"@type":"WebPage","@id":"https://techrawatdiscovery.sbs/articles/waymo-custom-5nm-ai-chip-autonomous-driving.html"},"headline":"Self-Driving Car को अपनी AI Chip क्यों चाहिए? Waymo के Custom 5nm Chip की पूरी कहानी","description":"Waymo ने autonomous driving के लिए custom 5nm AI ASIC बनाई है। जानिए camera, LiDAR और radar data को milliseconds में process करने के लिए dedicated automotive A…","image":["https://techrawatdiscovery.sbs/assets/images/330px-Waymo_Jaguar_I-Pace_-_Side_View_01.jpg"],"datePublished":"2026-08-27","dateModified":"2026-08-27","inLanguage":"hi","articleSection":"Technology & Future Tech","author":{"@type":"Organization","name":"TECH RWT Discovery","url":"https://techrawatdiscovery.sbs/"},"publisher":{"@type":"Organization","name":"TECH RWT Discovery","url":"https://techrawatdiscovery.sbs/"}}</script>
+
+  <link rel="stylesheet" href="/css/style.css?v=2.0">
+  <link rel="icon" type="image/png" href="/assets/images/Favicon.png">
+  <style>
+    .article-container { max-width: 800px; margin: 40px auto; background-color: var(--card-bg); border: 1px solid var(--border-color); border-radius: 16px; padding: 40px; box-shadow: 0 4px 20px rgba(0,0,0,0.03); }
+    .article-header { margin-bottom: 30px; }
+    .article-category-date { display: flex; justify-content: space-between; align-items: center; font-size: 0.9rem; color: var(--text-muted); margin-bottom: 15px; }
+    .article-title { font-size: 2.3rem; font-weight: 800; line-height: 1.3; margin-bottom: 20px; color: var(--text-main); }
+    .article-featured-image { width: 100%; max-height: 450px; object-fit: cover; border-radius: 12px; margin-bottom: 30px; background-color: var(--border-color); }
+    .article-body { font-size: 1.1rem; line-height: 1.8; color: var(--text-main); }
+    .article-body p { margin-bottom: 20px; }
+    .article-body h2 { font-size: 1.7rem; margin: 34px 0 15px 0; color: var(--text-main); }
+    .article-body h3 { font-size: 1.5rem; margin: 30px 0 15px 0; color: var(--text-main); }
+    .article-body ul { margin-bottom: 20px; padding-left: 20px; list-style-type: disc; }
+    .article-body li { margin-bottom: 8px; }
+    .related { margin-top: 40px; padding-top: 25px; border-top: 1px solid var(--border-color); }
+    .related h2 { font-size: 1.3rem; margin-bottom: 12px; }
+    .related li { margin-bottom: 8px; }
+    .back-home { display: inline-block; margin-top: 30px; font-weight: 600; color: var(--accent); }
+    @media (max-width: 768px) {
+      .article-container { padding: 20px; margin: 20px 10px; }
+      .article-title { font-size: 1.7rem; }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="container nav-container">
+      <div class="logo-area">
+        <a href="/" class="logo-text">TECH RWT Discovery</a>
+        <span class="logo-tagline">विज्ञान और भविष्य की तकनीक</span>
+      </div>
+      <nav>
+        <ul class="nav-links" id="navLinks">
+          <li><a href="/">होम</a></li>
+          <li><a href="/pages/science.html">Science</a></li>
+          <li><a href="/pages/space.html">Space &amp; ISRO</a></li>
+          <li><a href="/pages/technology.html">Technology</a></li>
+          <li><a href="/pages/environment.html">Environment</a></li>
+          <li><a href="/pages/innovation.html">Innovation</a></li>
+          <li><a href="/pages/about.html">हमारे बारे में</a></li>
+          <li><a href="/pages/contact.html">संपर्क</a></li>
+        </ul>
+      </nav>
+      <div class="nav-actions">
+        <button class="search-toggle" onclick="window.location.href='/pages/search.html'" title="खोजें">🔍</button>
+        <button class="theme-toggle" id="themeToggle" title="Theme Toggle">🌙</button>
+        <button class="hamburger" id="hamburger" aria-label="Menu"><span></span><span></span><span></span></button>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <article class="article-container">
+      <div class="article-header">
+        <div class="article-category-date">
+          <a class="card-category" href="/pages/technology.html">Technology &amp; Future Tech</a>
+          <time datetime="2026-08-27">प्रकाशित तिथि: 2026-08-27</time>
+        </div>
+        <h1 class="article-title">Self-Driving Car को अपनी AI Chip क्यों चाहिए? Waymo के Custom 5nm Chip की पूरी कहानी</h1>
+      </div>
+      <img src="/assets/images/330px-Waymo_Jaguar_I-Pace_-_Side_View_01.jpg" alt="Self-Driving Car को अपनी AI Chip क्यों चाहिए? Waymo के Custom 5nm Chip की पूरी कहानी" class="article-featured-image" width="800" height="450" onerror="this.src='/assets/images/sample-space.jpg'">
+      <div class="article-body">
+        <article><p>Self-driving car को सड़क पर किसी pedestrian को देख लेना ही काफी नहीं है। उसे यह भी समझना होता है कि वह किस दिशा में जा रहा है, सामने वाली गाड़ी की गति कैसे बदल रही है और सड़क पर मौजूद किसी obstacle से कितनी दूरी बनाए रखनी है। इन फैसलों के पीछे AI software जितना महत्वपूर्ण है, उतना ही महत्वपूर्ण वह computing hardware है जो इन calculations को real time में करता है।</p><p>इसी जरूरत ने <strong>autonomous driving AI chip</strong> को semiconductor industry का एक अलग technology area बना दिया है। Waymo ने अगस्त 2026 में अपने compute architecture की जानकारी साझा करते हुए एक purpose-built <strong>5nm ASIC</strong> दिखाई, जिसे raw camera, LiDAR और radar data को process, fuse और machine-learning workloads के लिए तैयार करने के लिए बनाया गया है। कंपनी के अनुसार उसकी custom ASICs front-end processing और ML workloads के लिए 1,000 TOPS से अधिक performance देती हैं। (Waymo)</p><p>लेकिन इसे ऐसी अकेली chip समझना गलत होगा जो पूरी car खुद चलाती है। Waymo का system CPUs, GPUs और दूसरे accelerators के साथ मिलकर काम करने वाला heterogeneous computing architecture है। असली बदलाव यह है कि autonomous driving के लिए hardware को उसके खास workload के हिसाब से भी design किया जा रहा है।</p><h2>Autonomous Driving AI Chip क्या है?</h2><p>Autonomous Driving AI Chip ऐसा processor या accelerator है जिसे vehicle के AI, sensor processing और real-time inference workloads के लिए optimize किया जाता है। सामान्य computer में ज्यादा throughput उपयोगी हो सकता है, लेकिन self-driving car में calculation सही समय पर पूरी होना भी उतना ही जरूरी है।</p><p>Vehicle को camera, LiDAR और radar जैसे sensors से लगातार data मिलता है। इस data को process करके environment की digital representation तैयार करनी होती है और फिर AI models को उस information के आधार पर prediction करनी होती है। इसलिए autonomous vehicle का compute system केवल powerful नहीं, बल्कि <strong>low-latency और predictable</strong> भी होना चाहिए। अगस्त 2026 में प्रकाशित Nature Reviews Electrical Engineering की Perspective इसी कारण autonomous-driving chips में safety, real-time intelligence और cost को प्रमुख design requirements बताती है। (Nature)</p><h2>Self-Driving Car को अलग AI Chip की जरूरत क्यों पड़ती है?</h2><p>एक self-driving car के sensors लगातार बड़ी मात्रा में data generate करते हैं। Camera visual frames देता है, LiDAR आसपास की objects का 3D information देता है और radar दूरी तथा movement से जुड़ी जानकारी उपलब्ध करा सकता है। AI system को इन अलग-अलग data streams को एक साथ समझना पड़ता है।</p><p>यह काम cloud पर भेजकर करने का विकल्प भी practical नहीं है, क्योंकि driving decision के लिए network response का इंतजार नहीं किया जा सकता। जरूरी computation vehicle के अंदर ही होना चाहिए। इसे <strong>Edge AI</strong> का एक महत्वपूर्ण उदाहरण माना जा सकता है।</p><p>Waymo के अनुसार उसका latest compute system 13 high-resolution cameras से आने वाले data को एक साथ real time में process करता है। कंपनी का कहना है कि उसका architecture raw sensor data को core ML system तक पहुंचने से पहले specialized processing से गुजारता है। (Waymo)</p><h2>Waymo का Custom 5nm Chip कैसे काम करता है?</h2><p>Waymo की purpose-built 5nm ASIC को autonomous driving system की शुरुआती computing layer के रूप में समझना आसान होगा। Sensors से आने वाला raw data सीधे किसी बड़े AI model में डालने के बजाय पहले specialized processing से गुजरता है।</p><p>Waymo के अनुसार ASIC में specialized accelerators raw <strong>LiDAR, radar और camera streams</strong> से महत्वपूर्ण information निकालते हैं। इसमें low-light perception को बेहतर बनाने के लिए temporal denoising जैसी processing भी शामिल है। Processed information आगे purpose-built inference engine तक जाती है, जहां sensor-fusion ML models काम करते हैं। (Waymo)</p><p>सरल उदाहरण से समझें तो sensors सड़क से कच्चा data लेकर आते हैं। Custom ASIC उस data को छांटकर AI के लिए ज्यादा उपयोगी रूप में तैयार करती है। उसके बाद दूसरा computing layer environment को समझने और आगे की prediction में मदद करता है।</p><h2>Camera, LiDAR और Radar का Data एक साथ क्यों चाहिए?</h2><p>हर sensor की अपनी ताकत और सीमा होती है। Camera रंग, texture और visual details जैसी information देता है। LiDAR distance और 3D structure को समझने में मदद करता है। Radar radio waves के आधार पर objects की दूरी और movement से जुड़ी information दे सकता है।</p><p>इन तीनों को अलग-अलग देखने के बजाय AI system जब उनकी information को combine करता है, तो इसे <strong>sensor fusion</strong> कहा जाता है। उदाहरण के लिए camera किसी object को पहचानने में मदद कर सकता है, जबकि LiDAR उसकी physical position के बारे में अलग information दे सकता है। Radar भी movement से जुड़ा अतिरिक्त signal दे सकता है।</p><p>Waymo का custom hardware इसी तरह के data-heavy front-end processing को workload-specific तरीके से संभालने के लिए बनाया गया है। कंपनी का कहना है कि sensors, silicon और algorithms को साथ में design करने से sensor fidelity और bandwidth efficiency को optimize किया जा सकता है। (Waymo)</p><h2>5nm Chip का फायदा क्या है?</h2><p>5nm का मतलब यह नहीं है कि chip अपने आप किसी पुराने processor से कई गुना तेज हो जाती है। Process technology transistor density, power efficiency और architecture के लिए उपलब्ध design possibilities को प्रभावित करती है। वास्तविक performance chip architecture और workload पर भी निर्भर करती है।</p><p>Waymo के मामले में 5nm process के साथ custom architecture महत्वपूर्ण है। कंपनी ने अपने sensors, algorithms और silicon को side-by-side co-design करने की बात कही है ताकि अलग-अलग AI models और sensor-processing workloads को efficiently चलाया जा सके। (Waymo)</p><p>यानी असली लक्ष्य केवल छोटा transistor बनाना नहीं है। लक्ष्य यह है कि vehicle के अंदर मौजूद computing resources को उसी काम के लिए बेहतर ढंग से इस्तेमाल किया जाए जिसके लिए वे बनाए गए हैं।</p><h2>1,000 TOPS का मतलब क्या है?</h2><p>Waymo के अनुसार उसकी custom ASICs front-end processing और ML workloads के लिए <strong>1,000 TOPS से अधिक</strong> performance देती हैं। TOPS यानी <strong>Trillion Operations Per Second</strong>, एक सेकंड में किए जा सकने वाले खरबों computational operations का एक performance metric है। (Waymo)</p><p>हालांकि TOPS को देखकर किसी chip की वास्तविक autonomous-driving performance तय नहीं की जा सकती। Actual performance model architecture, numerical precision, memory movement, software optimization और workload पर निर्भर करती है। Waymo भी अपने पूरे computing stack की achieved performance को optimize करने की बात करता है, खासकर low-batch workloads के लिए। (Waymo)</p><h2>Low Latency Self-Driving में इतनी महत्वपूर्ण क्यों है?</h2><p>मान लीजिए कोई vehicle लगभग 100 km/h की speed से चल रहा है। वह करीब 27.8 meter प्रति second की गति से आगे बढ़ रहा है। ऐसे में 100 milliseconds का अतिरिक्त delay लगभग 2.8 meter की यात्रा के बराबर हो सकता है। यह किसी specific autonomous system की safety measurement नहीं, बल्कि latency के physical effect को समझाने वाला सरल उदाहरण है।</p><p>Self-driving system में sensor input से लेकर perception, prediction, planning और control तक कई stages होती हैं। अगर हर stage में अनावश्यक delay जुड़ता जाए तो पूरा decision loop धीमा हो सकता है। इसलिए autonomous driving hardware में केवल high throughput नहीं, बल्कि <strong>low और predictable latency</strong> भी महत्वपूर्ण है। Nature की 2026 Perspective autonomous-driving chips को इसी real-time और safety-critical computing problem के संदर्भ में देखती है। (Nature)</p><h2>GPU होते हुए भी Custom ASIC क्यों?</h2><p>GPU बेहद flexible और powerful processor है और AI workloads के लिए व्यापक रूप से इस्तेमाल होता है। लेकिन autonomous vehicle के सभी workloads एक जैसे नहीं होते। कुछ calculations बार-बार एक निर्धारित pattern में होती हैं और उनके लिए dedicated hardware ज्यादा efficient हो सकता है।</p><p>Custom ASIC को किसी खास workload के लिए बनाया जा सकता है। इसमें data paths, accelerators और processing units को उसी workload के हिसाब से optimize किया जाता है। इससे power consumption, memory movement और latency को बेहतर तरीके से control करने की संभावना मिलती है।</p><p>Waymo का approach GPU को हटाना नहीं है। कंपनी के अनुसार उसका heterogeneous system CPUs, GPUs और accelerators को custom silicon के साथ इस्तेमाल करता है। Non-ML tasks जैसे orchestration, data movement और logging भी अलग computing resources से संभाले जाते हैं। (Waymo)</p><h2>Autonomous Driving Chip और सामान्य AI Chip में अंतर</h2><table><thead><tr><th>पहलू</th><th>सामान्य AI Chip</th><th>Autonomous Driving AI Chip</th></tr></thead><tbody><tr><td>मुख्य लक्ष्य</td><td>कई तरह के AI workloads</td><td>Real-time driving workloads</td></tr><tr><td>Input</td><td>Application के अनुसार अलग-अलग data</td><td>Camera, LiDAR और radar जैसे sensor streams</td></tr><tr><td>Latency</td><td>High throughput प्रमुख हो सकता है</td><td>Low और predictable latency जरूरी</td></tr><tr><td>Power</td><td>Data-center power budget संभव</td><td>Vehicle के सीमित power और thermal budget में काम करना</td></tr><tr><td>Architecture</td><td>अधिक general-purpose</td><td>Workload-specific accelerators और data paths</td></tr></tbody></table><p>इसलिए autonomous driving chip का लक्ष्य केवल ज्यादा calculations करना नहीं है। उसे सही data को सही समय पर process करना और vehicle की power तथा thermal limitations के भीतर काम करना होता है।</p><h2>Self-Driving Car के अंदर Data का सफर</h2><ol><li><strong>Sensor capture:</strong> Camera, LiDAR और radar आसपास की दुनिया से raw information collect करते हैं।</li><li><strong>Data processing:</strong> Sensor-specific processing, image processing और noise reduction जैसे काम होते हैं।</li><li><strong>AI acceleration:</strong> Specialized hardware neural-network operations को तेज करता है।</li><li><strong>Sensor fusion:</strong> अलग-अलग sensors की information को एक combined representation में जोड़ा जाता है।</li><li><strong>Inference:</strong> AI models objects, environment और संभावित situations के बारे में predictions बनाते हैं।</li><li><strong>Planning:</strong> System संभावित actions का मूल्यांकन करता है।</li><li><strong>Control:</strong> Steering, braking और acceleration जैसे vehicle commands generate होते हैं।</li></ol><p>Waymo की custom ASIC इस पूरी pipeline का केवल एक हिस्सा है। कंपनी ने इसे raw sensor data के front-end processing और ML workloads के लिए बनाया है, जबकि बाकी system में दूसरे processors और accelerators भी काम करते हैं। (Waymo)</p><h2>क्या तेज AI Chip से Self-Driving अपने आप सुरक्षित हो जाती है?</h2><p>नहीं। तेज processor safety की guarantee नहीं देता। Autonomous driving एक complete system engineering problem है जिसमें sensors, perception models, prediction, planning, vehicle control, redundancy, testing और validation सभी महत्वपूर्ण हैं।</p><p>Waymo के अनुसार उसने hardware, sensors और algorithms को लंबे समय से साथ में co-design किया है। उसका उद्देश्य real-world edge computing की constraints के भीतर deterministic और low-latency performance हासिल करना है। (Waymo)</p><p>Nature की Perspective भी autonomous-driving chips को केवल performance race की तरह नहीं देखती। उसके अनुसार safety, real-time intelligence और cost के बीच संतुलन बनाना future autonomous systems की बड़ी engineering challenges में से एक है। (Nature)</p><h2>इस Technology के सामने बड़ी चुनौतियां</h2><h3>Power और Heat</h3><p>Vehicle में data-center जैसी cooling और power infrastructure उपलब्ध नहीं होती। इसलिए high-performance AI hardware को सीमित thermal और electrical budget के भीतर काम करना पड़ता है। हाल की research यह भी दिखाती है कि autonomous mobility में onboard computing energy demand system architecture और safety requirements के अनुसार काफी बदल सकती है। (Nature)</p><h3>Reliability</h3><p>Automotive hardware को temperature changes, vibration और लंबे operational lifetime जैसी conditions के लिए तैयार करना पड़ता है। इसलिए chip design में केवल peak performance नहीं, reliability और predictable operation भी महत्वपूर्ण हैं।</p><h3>Data Movement</h3><p>AI accelerator बहुत तेज हो, लेकिन अगर sensor data memory और processors के बीच आने-जाने में ज्यादा समय लेता है तो पूरा system bottleneck का सामना कर सकता है। इसी कारण modern autonomous-driving architecture में memory, bandwidth और data paths भी महत्वपूर्ण design elements हैं।</p><h3>Software-Hardware Co-Design</h3><p>AI models स्थिर नहीं रहते। समय के साथ architecture और workloads बदल सकते हैं। इसलिए custom chip को पर्याप्त flexibility के साथ design करना पड़ता है। Waymo के अनुसार उसका silicon architecture sparse convolutions से लेकर dense transformers तक अलग-अलग model types को support करने के लिए बनाया गया है। (Waymo)</p><h2>क्या Future Cars में Dedicated AI Chips जरूरी होंगी?</h2><p>यह कहना अभी सही नहीं होगा कि हर self-driving car manufacturer अपनी custom chip बनाएगा। ASIC development महंगा और technically complex process है। कई कंपनियों के लिए commercial automotive processors या AI accelerators का उपयोग करना ज्यादा व्यावहारिक हो सकता है।</p><p>फिर भी broader trend स्पष्ट है। जैसे-जैसे autonomous driving models अधिक complex होते हैं, hardware और software को साथ design करने की जरूरत बढ़ रही है। Nature की 2026 Perspective भी conventional semiconductor scaling की सीमाओं के बीच domain-specific architectures और hardware-software co-design को महत्वपूर्ण दिशा मानती है। (Nature)</p><p>इसलिए future autonomous vehicle में एक ही “super chip” के बजाय कई specialized processors का combination ज्यादा practical हो सकता है।</p><h2>भारत के लिए इसका क्या मतलब है?</h2><p>भारत में fully autonomous robotaxi ecosystem अभी Waymo के अमेरिकी deployment स्तर पर नहीं है, लेकिन automotive semiconductor और AI hardware capabilities का महत्व बढ़ रहा है। Electric और software-defined vehicles में onboard computing बढ़ने के साथ automotive processors, sensor-processing hardware और AI accelerators की जरूरत भी बढ़ सकती है।</p><p>भारत में semiconductor manufacturing और chip-design ecosystem को विकसित करने पर भी जोर दिया जा रहा है। Autonomous driving जैसे demanding applications भविष्य में advanced chip design capabilities के लिए महत्वपूर्ण use case बन सकते हैं। हालांकि भारत में इस technology की commercial deployment को लेकर अलग regulatory और infrastructure challenges भी हैं।</p><h2>Waymo की Custom Chip से बड़ा Technology Shift क्या दिखता है?</h2><p>Waymo की announcement का सबसे महत्वपूर्ण हिस्सा केवल 5nm process या 1,000 TOPS का आंकड़ा नहीं है। बड़ा बदलाव यह है कि autonomous-driving company अपने <strong>sensors, algorithms और silicon</strong> को एक साथ design कर रही है।</p><p>यह approach उस broader semiconductor trend से जुड़ी है जिसमें general-purpose computing के बजाय specific workloads के लिए specialized hardware तैयार किया जाता है। Autonomous driving में यह खास तौर पर महत्वपूर्ण है क्योंकि यहां computing को vehicle के अंदर, लगातार और safety-critical real-time conditions में करना होता है।</p><p>Waymo का August 2026 compute disclosure इस बात का एक स्पष्ट उदाहरण है कि future autonomous vehicles में AI performance केवल software model पर निर्भर नहीं रहेगी। Sensor architecture, memory movement, accelerators और custom silicon भी final system performance को तय करेंगे। (Waymo)</p><h2>निष्कर्ष</h2><p><strong>Autonomous Driving AI Chip</strong> का असली महत्व इस बात में है कि self-driving vehicle को दुनिया को लगातार sense करके बहुत कम समय में समझना और प्रतिक्रिया देना होता है। Camera, LiDAR और radar से आने वाला विशाल data onboard process होता है और sensor fusion तथा AI inference के लिए तैयार किया जाता है।</p><p>Waymo की custom 5nm ASIC इसी pipeline के front-end को specialized computing देती है। कंपनी के अनुसार उसकी ASICs 1,000 TOPS से अधिक ML performance देती हैं और raw sensor streams पर processing, fusion तथा neural-network workloads संभालती हैं। साथ ही पूरा system CPUs, GPUs और दूसरे accelerators का इस्तेमाल करता है। (Waymo)</p><p>इसलिए Waymo की chip को car का अकेला “AI brain” कहना सही नहीं होगा। असली innovation hardware, sensors और algorithms के co-design में है। Autonomous driving जैसे systems में आगे की competition केवल बेहतर AI models की नहीं होगी, बल्कि उन्हें vehicle के अंदर कितनी तेजी, reliability और energy efficiency के साथ चलाया जा सकता है, यह भी उतना ही महत्वपूर्ण होगा।</p><h2>FAQ</h2><h3>Autonomous Driving AI Chip क्या है?</h3><p>यह ऐसा processor या accelerator है जिसे autonomous vehicle के AI और sensor-processing workloads को कम latency और सीमित power budget में चलाने के लिए optimize किया जाता है।</p><h3>Waymo की 5nm chip क्या करती है?</h3><p>Waymo के अनुसार इसकी purpose-built ASIC raw camera, LiDAR और radar data को process और fuse करने तथा front-end machine-learning workloads चलाने के लिए बनाई गई है। (Waymo)</p><h3>Waymo की custom chip कितनी तेज है?</h3><p>Waymo के अनुसार उसकी custom ASICs front-end processing और ML workloads के लिए 1,000 TOPS से अधिक performance देती हैं। यह एक compute-performance metric है; वास्तविक application performance पूरे hardware और software stack तथा workload पर निर्भर करती है। (Waymo)</p><h3>5nm chip autonomous driving को तेज कैसे बनाती है?</h3><p>5nm process अधिक transistor density और power-performance optimization की संभावनाएं देता है, लेकिन speed केवल process node से तय नहीं होती। Workload-specific architecture, specialized accelerators और hardware-software co-design भी महत्वपूर्ण भूमिका निभाते हैं।</p><h3>क्या Autonomous Driving में GPU की जगह Custom ASIC ले लेगी?</h3><p>जरूरी नहीं। Waymo का अपना architecture भी CPUs, GPUs और accelerators के combination का इस्तेमाल करता है। Future autonomous vehicles में अलग-अलग workloads के लिए heterogeneous computing ज्यादा practical approach हो सकती है। (Waymo)</h3></article>
+      </div>
+      <section class="related"><h2>और पढ़ें</h2><ul><li><a href="/articles/physical-ai-robots-single-video-learning.html">अब Robot को हर काम के लिए अलग Training नहीं चाहिए? एक Video देखकर नया काम सीख रही Physical AI</a></li><li><a href="/articles/physics-informed-robot-learning-generalization.html">Robots अब Physics के नियमों से सीखेंगे? नई AI Technique से Machines Unseen दुनिया में भी Adapt कर पाएंगी</a></li><li><a href="/articles/ai-physics-experiments-scientific-discovery.html">अब AI खुद Physics Experiment Design करेगा? Scientists ने AI को नई Scientific Discoveries खोजने का काम दिया</a></li></ul></section>
+      <a href="/" class="back-home">&larr; होम पर वापस जाएं</a>
+    </article>
+  </main>
+
+  <footer>
+    <div class="container footer-grid">
+      <div class="footer-col">
+        <h3>TECH RWT Discovery</h3>
+        <p>जटिल Science और Technology को आसान Hindi में समझने का एक गंभीर मंच।</p>
+      </div>
+      <div class="footer-col">
+        <h3>प्रमुख श्रेणियां</h3>
+        <ul>
+          <li><a href="/pages/science.html">Science</a></li>
+          <li><a href="/pages/space.html">Space &amp; ISRO</a></li>
+          <li><a href="/pages/technology.html">Technology &amp; Future Tech</a></li>
+          <li><a href="/pages/environment.html">Environment</a></li>
+          <li><a href="/pages/innovation.html">Innovation</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h3>त्वरित लिंक्स</h3>
+        <ul>
+          <li><a href="/pages/about.html">हमारे बारे में</a></li>
+          <li><a href="/pages/contact.html">संपर्क करें</a></li>
+          <li><a href="/pages/search.html">आर्टिकल खोजें</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h3>कानूनी जानकारी</h3>
+        <ul>
+          <li><a href="/pages/privacy.html">गोपनीयता नीति</a></li>
+          <li><a href="/pages/disclaimer.html">अस्वीकरण</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>&copy; 2026 TECH RWT Discovery. सर्वाधिकार सुरक्षित।</p>
+    </div>
+  </footer>
+
+  <script src="/js/main.js"></script>
+</body>
+</html>
