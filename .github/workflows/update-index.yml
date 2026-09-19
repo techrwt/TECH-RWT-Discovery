@@ -1,9 +1,12 @@
 name: Update Articles Index
 
 on:
+  workflow_dispatch:
   push:
     paths:
       - "data/articles/batch-*.json"
+      - "build-site.js"
+      - "article-template.html"
 
 permissions:
   contents: write
@@ -18,10 +21,14 @@ jobs:
       - name: Run index generator
         run: node generate-index.js
 
-      - name: Commit updated index and manifest
+      - name: Build article pages, homepage cards and sitemap
+        run: node build-site.js
+
+      - name: Commit updated files
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/articles-index.json data/articles/manifest.json
-          git diff --staged --quiet || git commit -m "Auto-update index and manifest"
+          git add data/articles-index.json data/articles/manifest.json index.html articles sitemap.xml robots.txt
+          git diff --staged --quiet || git commit -m "Auto-update index, article pages and sitemap"
+          git pull --rebase
           git push
