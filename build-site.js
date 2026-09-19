@@ -4,9 +4,11 @@
 // Chalane ka tarika:  node build-site.js
 
 const fs = require("fs");
+const os = require("os");
 const path = require("path");
 
 const SITE = "https://techrawatdiscovery.sbs";
+const INDEXNOW_KEY = "ea815ecda59b4438b6b0a0385443a39c"; // IndexNow key (site par ea815ecda59b4438b6b0a0385443a39c.txt banegi)
 const HOME_CARDS = 40; // homepage HTML mein kitne latest cards (Google ke liye)
 // "([AGU Newsroom][1])" jaise citation ka kya karna hai:
 //   "text"   -> "(AGU Newsroom)" bana do (koi link nahi)
@@ -51,9 +53,13 @@ const imgUrl = (img) => SITE + "/" + encodeURI(img);
 // 2. Article pages
 const tpl = read("article-template.html");
 fs.mkdirSync("articles", { recursive: true });
+const existingPages = new Set(fs.readdirSync("articles"));
+const newUrls = [];
+const newCats = new Set();
 
 for (const a of articles) {
   const url = `${SITE}/articles/${a.slug}.html`;
+  if (!existingPages.has(`${a.slug}.html`)) { newUrls.push(url); newCats.add(a.category); }
   const desc = trim(a.searchDescription || a.excerpt, 160);
   const catPage = "/" + (CATEGORY_PAGE[a.category] || "");
   const related = articles.filter((r) => r.slug !== a.slug && r.category === a.category).slice(0, 3);
@@ -160,6 +166,16 @@ const sitemap = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://w
   urls.map((u) => `  <url><loc>${esc(u.loc)}</loc>${u.lastmod ? `<lastmod>${esc(u.lastmod)}</lastmod>` : ""}</url>`).join("\n") +
   `\n</urlset>\n`;
 fs.writeFileSync("sitemap.xml", sitemap);
+
+// 4b. IndexNow: key file + naye URLs ki list (indexnow.js ise Bing ko bhejta hai)
+if (!fs.existsSync(`${INDEXNOW_KEY}.txt`)) fs.writeFileSync(`${INDEXNOW_KEY}.txt`, INDEXNOW_KEY);
+const submit = [];
+if (newUrls.length) {
+  submit.push(...newUrls, SITE + "/");
+  for (const c of newCats) if (CATEGORY_PAGE[c]) submit.push(`${SITE}/${CATEGORY_PAGE[c]}`);
+}
+fs.writeFileSync(path.join(os.tmpdir(), "indexnow-urls.json"),
+  JSON.stringify({ host: new URL(SITE).host, key: INDEXNOW_KEY, keyLocation: `${SITE}/${INDEXNOW_KEY}.txt`, urlList: submit }));
 
 // 5. robots.txt (sirf tab banega jab pehle se na ho)
 if (!fs.existsSync("robots.txt")) {
