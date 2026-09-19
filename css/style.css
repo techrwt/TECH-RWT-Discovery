@@ -859,3 +859,9 @@ header button, nav.navbar button, .nav-icons button {
 body.welcome-active {
   overflow: hidden;
 }
+/* ==========================================
+   Images poori dikhane ke liye (kate nahi) - end mein add karo
+   ========================================== */
+.article-card .card-img-wrapper { height: auto !important; aspect-ratio: 16 / 10; background: var(--border-color); overflow: hidden; }
+.article-card .card-img-wrapper img { width: 100% !important; height: 100% !important; object-fit: contain !important; }
+.article-container img.article-featured-image { width: 100% !important; height: auto !important; max-height: none !important; object-fit: contain !important; }
