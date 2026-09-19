@@ -175,6 +175,7 @@
     document.addEventListener("DOMContentLoaded", async () => {
       const urlParams = new URLSearchParams(window.location.search);
       const slug = urlParams.get("slug");
+      if (slug) { location.replace("/articles/" + encodeURIComponent(slug) + ".html"); return; }
       const container = document.getElementById("articleContainer");
 
       if (!slug) {
