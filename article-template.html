@@ -12,7 +12,7 @@
 </script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{TITLE}} - TECH RWT Discovery</title>
+  <title>{{SEO_TITLE}}</title>
   <meta name="description" content="{{DESCRIPTION}}">
   <meta name="robots" content="index, follow, max-image-preview:large">
   <link rel="canonical" href="{{URL}}">
@@ -20,7 +20,7 @@
   <meta property="og:type" content="article">
   <meta property="og:site_name" content="TECH RWT Discovery">
   <meta property="og:locale" content="hi_IN">
-  <meta property="og:title" content="{{TITLE}}">
+  <meta property="og:title" content="{{SEO_TITLE}}">
   <meta property="og:description" content="{{DESCRIPTION}}">
   <meta property="og:url" content="{{URL}}">
   <meta property="og:image" content="{{IMAGE_URL}}">
@@ -44,6 +44,14 @@
     .article-body h3 { font-size: 1.5rem; margin: 30px 0 15px 0; color: var(--text-main); }
     .article-body ul { margin-bottom: 20px; padding-left: 20px; list-style-type: disc; }
     .article-body li { margin-bottom: 8px; }
+    .img-credit { font-size: 0.8rem; color: var(--text-muted); margin: -22px 0 26px 0; }
+    .key-points { background: var(--bg-color, rgba(37,99,235,0.06)); border: 1px solid var(--border-color); border-left: 5px solid var(--accent, #2563eb); border-radius: 10px; padding: 18px 22px; margin-bottom: 30px; }
+    .key-points-title { font-size: 1.15rem; font-weight: 800; margin-bottom: 10px; color: var(--text-main); }
+    .key-points ul { margin: 0; padding-left: 20px; list-style-type: disc; }
+    .key-points li { margin-bottom: 8px; line-height: 1.6; color: var(--text-main); }
+    .article-body table { width: 100%; border-collapse: collapse; margin: 20px 0; display: block; overflow-x: auto; }
+    .article-body th, .article-body td { border: 1px solid var(--border-color); padding: 8px 12px; text-align: left; }
+    .article-body th { background: var(--border-color); }
     .related { margin-top: 40px; padding-top: 25px; border-top: 1px solid var(--border-color); }
     .related h2 { font-size: 1.3rem; margin-bottom: 12px; }
     .related li { margin-bottom: 8px; }
@@ -92,6 +100,8 @@
         <h1 class="article-title">{{TITLE}}</h1>
       </div>
       <img src="/{{IMAGE}}" alt="{{TITLE}}" class="article-featured-image" onerror="this.src='/assets/images/sample-space.jpg'">
+      {{IMAGE_CREDIT}}
+      {{KEY_POINTS}}
       <div class="article-body">
         {{CONTENT}}
       </div>
