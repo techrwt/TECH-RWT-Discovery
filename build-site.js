@@ -91,7 +91,7 @@ if (fs.existsSync("index.html")) {
   const cards = articles.slice(0, HOME_CARDS).map((a) => {
     const link = `articles/${esc(a.slug)}.html`;
     return `
-        <article class="article-card">
+        <div class="article-card">
           <div class="card-img-wrapper"><img src="${esc(a.image)}" alt="${esc(a.title)}" loading="lazy" onerror="this.src='assets/images/sample-space.jpg'"></div>
           <div class="card-content">
             <div class="card-meta"><span class="card-category">${esc(a.category)}</span><span class="card-date">${esc(a.date)}</span></div>
@@ -99,7 +99,7 @@ if (fs.existsSync("index.html")) {
             <p class="card-excerpt">${esc(a.excerpt)}</p>
             <a href="${link}" class="read-more">पूरा लेख पढ़ें &rarr;</a>
           </div>
-        </article>`;
+        </div>`;
   }).join("");
   let home = read("index.html");
   const re = /(<!-- ARTICLES_START -->)[\s\S]*?(<!-- ARTICLES_END -->)/;
