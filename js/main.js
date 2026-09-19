@@ -76,7 +76,9 @@ async function fetchArticles(selectedCategory = "All") {
   const articlesGrid = document.getElementById("articlesGrid");
   if (!articlesGrid) return;
 
-  articlesGrid.innerHTML = "<p style='grid-column: 1/-1; text-align: center; color: var(--text-muted);'>लोड हो रहा है...</p>";
+  if (articlesGrid.children.length === 0) {
+    articlesGrid.innerHTML = "<p style='grid-column: 1/-1; text-align: center; color: var(--text-muted);'>लोड हो रहा है...</p>";
+  }
 
   try {
     const response = await fetch("data/articles-index.json");
@@ -107,10 +109,10 @@ async function fetchArticles(selectedCategory = "All") {
             <span class="card-date">${article.date}</span>
           </div>
           <h3 class="card-title">
-            <a href="article.html?slug=${article.slug}">${article.title}</a>
+            <a href="articles/${article.slug}.html">${article.title}</a>
           </h3>
           <p class="card-excerpt">${article.excerpt}</p>
-          <a href="article.html?slug=${article.slug}" class="read-more">पूरा लेख पढ़ें &rarr;</a>
+          <a href="articles/${article.slug}.html" class="read-more">पूरा लेख पढ़ें &rarr;</a>
         </div>
       `;
       articlesGrid.appendChild(card);
