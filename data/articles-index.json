@@ -46,6 +46,29 @@
   "batch": 20
  },
  {
+  "id": "space-20260920-eos05-geo-imaging",
+  "slug": "eos-05-gisat-1a-isro-geo-imaging-satellite",
+  "title": "EOS-05: 36,000 km ऊपर से भारत को देखेगा इसरो का नया उपग्रह",
+  "seoTitle": "EOS-05 सैटेलाइट क्या है? इसरो का जियो-इमेजिंग मिशन",
+  "category": "Space & ISRO",
+  "date": "2026-09-20",
+  "image": "assets/images/eos-05-gisat-1a-isro-geo-imaging-satellite.webp",
+  "imageCredit": "",
+  "excerpt": "इसरो के EOS-05 (GISAT-1A) को GSLV-F17 से 4 सितंबर 2026 को छोड़ा गया। जानिए यह भू-समकालिक कक्षा से भारत पर कैसे नज़र रखेगा, इसका मक़सद क्या है और यह क्यों ख़ास है।",
+  "searchDescription": "EOS-05 सैटेलाइट क्या है? GSLV-F17 से छोड़े गए इसरो के GISAT-1A का मक़सद, कक्षा का सफ़र, 42 मीटर रिज़ॉल्यूशन और भारत के लिए मतलब।",
+  "author": "TECH RWT Discovery",
+  "featured": false,
+  "trending": false,
+  "keyPoints": [
+   "EOS-05 (GISAT-1A) को GSLV-F17 से 4 सितंबर 2026, सुबह 2:55 बजे श्रीहरिकोटा से छोड़ा गया।",
+   "ISRO के अनुसार यह भू-समकालिक कक्षा से इमेजिंग करने वाला भारत का पहला उपग्रह है।",
+   "7 सितंबर की अंतिम कक्षा-वृद्धि के बाद अनुमानित कक्षा 34,903 x 35,884 km रही।",
+   "उपलब्ध विवरण: 42 मीटर रिज़ॉल्यूशन, पूरे भारत की तस्वीर हर 30 मिनट में।",
+   "पहला उपग्रह EOS-03 अगस्त 2021 में GSLV-F10 की क्रायोजेनिक विफलता से कक्षा में नहीं पहुँचा था।"
+  ],
+  "batch": 21
+ },
+ {
   "id": "science-20260915-mercury-shrinking-23km",
   "title": "Mercury सिकुड़ रहा है? Scientists ने बताया यह छोटा Planet उम्मीद से 30% ज्यादा Shrink हो चुका हो सकता है",
   "slug": "mercury-shrinking-23km-planet-contraction",
