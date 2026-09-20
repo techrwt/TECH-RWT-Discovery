@@ -83,6 +83,11 @@ for (const a of articles) {
   };
 
   const map = {
+    SEO_TITLE: esc(a.seoTitle || a.title),
+    IMAGE_CREDIT: a.imageCredit ? `<p class="img-credit">${esc(a.imageCredit)}</p>` : "",
+    KEY_POINTS: Array.isArray(a.keyPoints) && a.keyPoints.length
+      ? `<div class="key-points"><div class="key-points-title">मुख्य बिंदु</div><ul>${a.keyPoints.map((p) => `<li>${esc(p)}</li>`).join("")}</ul></div>`
+      : "",
     TITLE: esc(a.title), DESCRIPTION: esc(desc), URL: url, IMAGE_URL: esc(imgUrl(a.image)),
     IMAGE: esc(encodeURI(a.image)), DATE: esc(a.date), CATEGORY: esc(a.category), CATEGORY_URL: catPage,
     SCHEMA: JSON.stringify(schema).replace(/</g, "\\u003c"),
