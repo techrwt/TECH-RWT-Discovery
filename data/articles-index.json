@@ -23,6 +23,29 @@
   "batch": 19
  },
  {
+  "id": "innovation-20260920-heat-cooling",
+  "slug": "heat-driven-elastocaloric-cooling",
+  "title": "गर्मी से चलने वाली कूलिंग: मोटर हटी, पर ठंडक अभी सिर्फ़ मिलीवाट में",
+  "seoTitle": "गर्मी से चलने वाली कूलिंग (Heat-Driven Cooling) क्या है?",
+  "category": "Innovation",
+  "date": "2026-09-20",
+  "image": "assets/images/heat-driven-elastocaloric-cooling.webp",
+  "imageCredit": "",
+  "excerpt": "जर्मनी और जापान के शोधकर्ताओं ने बिजली की मोटर की जगह गर्मी से चलने वाला इलास्टोकैलोरिक कूलिंग प्रोटोटाइप बनाया, पर ठंडक अभी बहुत हल्की है और तकनीक लैब में है।",
+  "searchDescription": "गर्मी से चलने वाली कूलिंग क्या है? KIT और Tsukuba के heat-driven elastocaloric प्रोटोटाइप के नतीजे, सीमाएं और भारत के लिए मतलब।",
+  "author": "TECH RWT Discovery",
+  "featured": false,
+  "trending": false,
+  "keyPoints": [
+   "KIT और Tsukuba की टीम ने 28 अगस्त 2026 को Nature Energy में heat-driven कूलिंग प्रोटोटाइप प्रकाशित किया।",
+   "एक निकल-टाइटेनियम फ़िल्म गर्मी से सिकुड़कर दूसरी फ़िल्म को खींचती है, और उसी से ठंडक बनती है।",
+   "86°C की बिजली-हीटिंग पर उपकरण में 4.0°C का अंतर मिला; 130°C के बाहरी हीटर पर 2.2°C।",
+   "कूलिंग पावर सिर्फ़ 2.79 mW रही, इसलिए यह फ्रिज या AC का विकल्प नहीं, केवल लैब प्रोटोटाइप है।",
+   "हीट सिंक बिजली के actuator से हिलाए गए, यानी बिजली की ज़रूरत घटी है, ख़त्म नहीं हुई।"
+  ],
+  "batch": 20
+ },
+ {
   "id": "science-20260915-mercury-shrinking-23km",
   "title": "Mercury सिकुड़ रहा है? Scientists ने बताया यह छोटा Planet उम्मीद से 30% ज्यादा Shrink हो चुका हो सकता है",
   "slug": "mercury-shrinking-23km-planet-contraction",
