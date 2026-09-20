@@ -1,5 +1,28 @@
 [
  {
+  "id": "science-20260920-trex-body-temp",
+  "slug": "t-rex-body-temperature-warm-blooded-study",
+  "title": "T. rex का शरीर का तापमान मिला: 36°C, यानी इंसान जितना गर्म",
+  "seoTitle": "T. rex का शरीर का तापमान: दाँतों से मिला 36°C",
+  "category": "Science",
+  "date": "2026-09-20",
+  "image": "assets/images/t-rex-body-temperature-warm-blooded-study.webp",
+  "imageCredit": "",
+  "excerpt": "UCLA के वैज्ञानिकों ने T. rex के दाँतों की रासायनिक जाँच से उसका शरीर का तापमान करीब 36.3°C बताया है। जानिए तरीका, मतलब और वे बातें जो अभी अनजानी हैं।",
+  "searchDescription": "T. rex का शरीर का तापमान करीब 36°C निकला। Science Advances के नए अध्ययन में दाँतों से मापा गया आँकड़ा, तरीका और भारत के लिए मतलब जानें।",
+  "author": "TECH RWT Discovery",
+  "featured": false,
+  "trending": true,
+  "keyPoints": [
+   "UCLA के अध्ययन (Science Advances, 16 सितंबर 2026) में T. rex का औसत तापमान करीब 36.3°C मिला।",
+   "तापमान दाँत के इनेमल में कार्बन-ऑक्सीजन समस्थानिकों के बंधनों की गिनती से नापा गया।",
+   "उसी जगह के मगरमच्छ-वंशियों के दाँत से करीब 30–31°C मिला, यानी T. rex काफ़ी गर्म था।",
+   "अध्ययन केवल T. rex पर है और नमूना एक इलाके (मोंटाना) का है, इसलिए सभी डायनासोरों पर लागू नहीं।",
+   "भारतीय हाथी का तापमान भी करीब 36°C बताया जाता है, इसलिए तुलना आसान है।"
+  ],
+  "batch": 19
+ },
+ {
   "id": "science-20260915-mercury-shrinking-23km",
   "title": "Mercury सिकुड़ रहा है? Scientists ने बताया यह छोटा Planet उम्मीद से 30% ज्यादा Shrink हो चुका हो सकता है",
   "slug": "mercury-shrinking-23km-planet-contraction",
