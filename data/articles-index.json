@@ -23,6 +23,29 @@
   "batch": 24
  },
  {
+  "id": "technology-20260921-npci-uap-upi",
+  "slug": "npci-unified-agent-protocol-upi-ai-agents",
+  "title": "NPCI बना रहा UPI एजेंट प्रोटोकॉल: AI कर सकेगा छोटे भुगतान",
+  "seoTitle": "UPI एजेंट प्रोटोकॉल: NPCI का AI पेमेंट प्लान",
+  "category": "Technology & Future Tech",
+  "date": "2026-09-21",
+  "image": "assets/images/npci-unified-agent-protocol-upi-ai-agents.webp",
+  "imageCredit": "",
+  "excerpt": "Reuters के अनुसार NPCI यूनिफाइड एजेंट प्रोटोकॉल बना रहा है, जिसमें AI एजेंट तय सीमा में छोटे UPI भुगतान करेगा। UPI Circle और Reserve Pay से तुलना, सीमाएँ और भारत पर असर समझें।",
+  "searchDescription": "UPI एजेंट प्रोटोकॉल क्या है? NPCI AI एजेंट को तय सीमा में छोटे भुगतान करने देगा। UPI Circle, Reserve Pay से तुलना और भारत पर असर समझें।",
+  "author": "TECH RWT Discovery",
+  "featured": false,
+  "trending": false,
+  "keyPoints": [
+   "Reuters के अनुसार NPCI यूनिफाइड एजेंट प्रोटोकॉल बना रहा है; औपचारिक घोषणा अभी नहीं हुई है।",
+   "UPI Circle की पूर्ण delegation सीमा ₹5,000 प्रति भुगतान और ₹15,000 प्रति माह है।",
+   "अगस्त 2026 में UPI पर 24.51 अरब लेन-देन हुए, कीमत ₹29.82 लाख करोड़ (ETBFSI के हवाले से)।",
+   "गलत एजेंट-भुगतान की देनदारी कौन लेगा, यह विस्तृत ढांचा अभी प्रकाशित नहीं हुआ है।",
+   "NPCI अध्यक्ष ने 10 सितंबर 2026 को कहा कि एजेंट सुझाव दे, अंतिम निपटान तय नियमों से हो।"
+  ],
+  "batch": 25
+ },
+ {
   "id": "science-20260920-trex-body-temp",
   "slug": "t-rex-body-temperature-warm-blooded-study",
   "title": "T. rex का शरीर का तापमान मिला: 36°C, यानी इंसान जितना गर्म",
