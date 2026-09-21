@@ -9,6 +9,7 @@ on:
       - "build-site.js"
       - "convert-images.js"
       - "article-template.html"
+      - "archive-template.html"
 
 permissions:
   contents: write
@@ -31,6 +32,8 @@ jobs:
 
       - name: Build article pages, homepage cards and sitemap
         run: node build-site.js
+        env:
+          INDEXNOW_ALL: ${{ github.event_name == 'workflow_dispatch' && '1' || '' }}
 
       - name: Commit updated files
         run: |
