@@ -5,7 +5,13 @@
 document.addEventListener("DOMContentLoaded", () => {
   // 0. Welcome Intro Screen (homepage only, typing animation)
   const welcomeScreen = document.getElementById("welcomeScreen");
-  if (welcomeScreen) {
+  let welcomeSeen = false;
+  try { welcomeSeen = sessionStorage.getItem("welcomeShown") === "1"; } catch (e) {}
+  if (welcomeScreen && welcomeSeen) {
+    // isi visit me pehle dikh chuka hai: seedha hata do (page tez khule)
+    welcomeScreen.remove();
+  } else if (welcomeScreen) {
+    try { sessionStorage.setItem("welcomeShown", "1"); } catch (e) {}
     document.body.classList.add("welcome-active");
     const typedTextEl = document.getElementById("typedText");
     const welcomeMessage = "टेक रावत डिस्कवरी में आपका स्वागत है";
