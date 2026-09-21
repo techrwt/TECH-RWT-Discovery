@@ -12,20 +12,27 @@
 </script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>पेज नहीं मिला (404) - TECH RWT Discovery</title>
-  <meta name="robots" content="noindex, follow">
+  <title>सभी लेख (Archive) - TECH RWT Discovery</title>
+  <meta name="description" content="TECH RWT Discovery के सभी लेखों की पूरी सूची: Science, Space &amp; ISRO, Technology, Environment और Innovation, आसान हिंदी में।">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <link rel="canonical" href="https://techrawatdiscovery.sbs/archive.html">
+  <link rel="alternate" type="application/rss+xml" title="TECH RWT Discovery" href="/feed.xml">
+  <script type="application/ld+json">{{SCHEMA}}</script>
   <link rel="stylesheet" href="/css/style.css?v=2.1">
   <link rel="icon" type="image/png" href="/assets/images/Favicon.png">
   <style>
-    .nf-container { max-width: 800px; margin: 40px auto; background-color: var(--card-bg); border: 1px solid var(--border-color); border-radius: 16px; padding: 50px 40px; text-align: center; box-shadow: 0 4px 20px rgba(0,0,0,0.03); }
-    .nf-code { font-size: 4.5rem; font-weight: 800; line-height: 1; color: var(--accent); margin-bottom: 10px; }
-    .nf-container h1 { font-size: 1.9rem; margin-bottom: 15px; color: var(--text-main); }
-    .nf-container p { font-size: 1.1rem; line-height: 1.8; color: var(--text-muted); margin-bottom: 25px; }
-    .nf-links { display: flex; flex-wrap: wrap; justify-content: center; gap: 10px 14px; margin-bottom: 25px; }
-    .nf-links a { padding: 8px 16px; border: 1px solid var(--border-color); border-radius: 999px; font-weight: 600; color: var(--accent); }
-    .nf-links a:hover { opacity: 0.8; }
-    .nf-home { display: inline-block; font-weight: 700; color: var(--accent); }
-    @media (max-width: 768px) { .nf-container { padding: 30px 20px; margin: 20px 10px; } .nf-code { font-size: 3.5rem; } }
+    .archive-container { max-width: 900px; margin: 40px auto; background-color: var(--card-bg); border: 1px solid var(--border-color); border-radius: 16px; padding: 40px; box-shadow: 0 4px 20px rgba(0,0,0,0.03); }
+    .archive-container h1 { font-size: 2.1rem; font-weight: 800; margin-bottom: 10px; color: var(--text-main); }
+    .archive-lead { color: var(--text-muted); line-height: 1.8; margin-bottom: 25px; }
+    .archive-container h2 { font-size: 1.4rem; margin: 30px 0 12px 0; padding-top: 18px; border-top: 1px solid var(--border-color); color: var(--text-main); }
+    .archive-container h2 a { color: var(--accent); }
+    .archive-container h2 span { font-size: 0.95rem; font-weight: 500; color: var(--text-muted); }
+    .archive-list { list-style: none; margin: 0; padding: 0; }
+    .archive-list li { display: flex; justify-content: space-between; gap: 16px; padding: 9px 0; border-bottom: 1px dashed var(--border-color); line-height: 1.6; }
+    .archive-list a { font-weight: 600; color: var(--text-main); }
+    .archive-list a:hover { color: var(--accent); }
+    .archive-date { flex-shrink: 0; font-size: 0.85rem; color: var(--text-muted); }
+    @media (max-width: 768px) { .archive-container { padding: 20px; margin: 20px 10px; } .archive-container h1 { font-size: 1.6rem; } .archive-list li { flex-direction: column; gap: 2px; } }
   </style>
 </head>
 <body>
@@ -57,19 +64,11 @@
   </header>
 
   <main class="container">
-    <div class="nf-container">
-      <div class="nf-code">404</div>
-      <h1>यह पेज नहीं मिला</h1>
-      <p>जो लिंक आपने खोला, वह गलत है या यह लेख हटा दिया गया है। नीचे से किसी विषय पर जाइए या लेख खोजिए।</p>
-      <div class="nf-links">
-        <a href="/pages/science.html">Science</a>
-        <a href="/pages/space.html">Space &amp; ISRO</a>
-        <a href="/pages/technology.html">Technology</a>
-        <a href="/pages/environment.html">Environment</a>
-        <a href="/pages/innovation.html">Innovation</a>
-        <a href="/pages/search.html">🔍 लेख खोजें</a>
-      </div>
-      <a href="/" class="nf-home">&larr; होम पर वापस जाएं</a>
+    <div class="archive-container">
+      <h1>सभी लेख (Archive)</h1>
+      <p class="archive-lead">अब तक प्रकाशित सभी {{COUNT}} लेख, विषय के हिसाब से। सबसे नया लेख हर विषय में सबसे ऊपर है।</p>
+      {{CONTENT}}
+      <a href="/" class="back-home" style="display:inline-block;margin-top:30px;font-weight:600;color:var(--accent);">&larr; होम पर वापस जाएं</a>
     </div>
   </main>
 

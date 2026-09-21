@@ -25,7 +25,7 @@ const CATEGORY_PAGE = {
 const STATIC_PAGES = [
   "pages/about.html", "pages/contact.html", "pages/science.html", "pages/space.html",
   "pages/technology.html", "pages/environment.html", "pages/innovation.html",
-  "pages/privacy.html", "pages/disclaimer.html",
+  "pages/privacy.html", "pages/disclaimer.html", "archive.html",
 ];
 
 const esc = (s) => String(s ?? "").replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
@@ -180,6 +180,27 @@ if (fs.existsSync("pages/search.html")) {
   }
 }
 
+// 3c. Archive page (archive.html): saare articles ki crawlable list, category ke hisaab se
+if (fs.existsSync("archive-template.html")) {
+  const sections = Object.entries(CATEGORY_PAGE).map(([cat, file]) => {
+    const list = articles.filter((a) => a.category === cat);
+    if (!list.length) return "";
+    return `<h2><a href="/${file}">${esc(cat)}</a> <span>(${list.length} लेख)</span></h2>\n<ul class="archive-list">` +
+      list.map((a) => `<li><a href="/articles/${esc(a.slug)}.html">${esc(a.title)}</a><span class="archive-date">${esc(a.date)}</span></li>`).join("") +
+      `</ul>`;
+  }).join("\n");
+  const archiveSchema = {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    name: "सभी लेख (Archive) - TECH RWT Discovery",
+    url: SITE + "/archive.html",
+    inLanguage: "hi",
+    isPartOf: { "@type": "WebSite", name: "TECH RWT Discovery", url: SITE + "/" },
+  };
+  const archiveMap = { COUNT: String(articles.length), CONTENT: sections, SCHEMA: JSON.stringify(archiveSchema).replace(/</g, "\\u003c") };
+  fs.writeFileSync("archive.html", read("archive-template.html").replace(/\{\{(\w+)\}\}/g, (_, k) => (k in archiveMap ? archiveMap[k] : "")));
+}
+
 // 4. sitemap.xml
 const urls = [{ loc: SITE + "/" }];
 for (const p of STATIC_PAGES) if (fs.existsSync(p)) urls.push({ loc: `${SITE}/${p}` });
@@ -217,7 +238,7 @@ fs.writeFileSync("feed.xml", feed);
 if (!fs.existsSync(`${INDEXNOW_KEY}.txt`)) fs.writeFileSync(`${INDEXNOW_KEY}.txt`, INDEXNOW_KEY);
 const submit = [];
 if (newUrls.length) {
-  submit.push(...newUrls, SITE + "/");
+  submit.push(...newUrls, SITE + "/", SITE + "/archive.html");
   for (const c of newCats) if (CATEGORY_PAGE[c]) submit.push(`${SITE}/${CATEGORY_PAGE[c]}`);
 }
 fs.writeFileSync(path.join(os.tmpdir(), "indexnow-urls.json"),
