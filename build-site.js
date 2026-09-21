@@ -86,6 +86,16 @@ for (const a of articles) {
     publisher: { "@type": "Organization", name: "TECH RWT Discovery", url: SITE + "/" },
   };
 
+  const breadcrumb = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "होम", item: SITE + "/" },
+      ...(CATEGORY_PAGE[a.category] ? [{ "@type": "ListItem", position: 2, name: a.category, item: `${SITE}/${CATEGORY_PAGE[a.category]}` }] : []),
+      { "@type": "ListItem", position: CATEGORY_PAGE[a.category] ? 3 : 2, name: trim(a.title, 110), item: url },
+    ],
+  };
+
   const map = {
     SEO_TITLE: esc(a.seoTitle || a.title),
     IMAGE_CREDIT: a.imageCredit ? `<p class="img-credit">${esc(a.imageCredit)}</p>` : "",
@@ -94,7 +104,7 @@ for (const a of articles) {
       : "",
     TITLE: esc(a.title), DESCRIPTION: esc(desc), URL: url, IMAGE_URL: esc(imgUrl(a.image)),
     IMAGE: esc(encodeURI(a.image)), DATE: esc(a.date), CATEGORY: esc(a.category), CATEGORY_URL: catPage,
-    SCHEMA: JSON.stringify(schema).replace(/</g, "\\u003c"),
+    SCHEMA: JSON.stringify([schema, breadcrumb]).replace(/</g, "\\u003c"),
     CONTENT: cleanContent(a.content || ""), RELATED: relatedHtml,
   };
   const out = tpl.replace(/\{\{(\w+)\}\}/g, (_, k) => (k in map ? map[k] : ""));
@@ -178,7 +188,30 @@ const sitemap = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://w
   urls.map((u) => `  <url><loc>${esc(u.loc)}</loc>${u.lastmod ? `<lastmod>${esc(u.lastmod)}</lastmod>` : ""}</url>`).join("\n") +
   `\n</urlset>\n`;
 fs.writeFileSync("sitemap.xml", sitemap);
-fs.writeFileSync("sitemap-pages.xml", sitemap); // GSC "Couldn't fetch" ke liye doosra naam
+
+// 4a. RSS feed (feed.xml): latest 30 articles
+const rfc822 = (d) => { const t = new Date(d); return isNaN(t) ? new Date().toUTCString() : t.toUTCString(); };
+const feedItems = articles.slice(0, 30).map((a) => `    <item>
+      <title>${esc(a.title)}</title>
+      <link>${SITE}/articles/${esc(a.slug)}.html</link>
+      <guid isPermaLink="true">${SITE}/articles/${esc(a.slug)}.html</guid>
+      <pubDate>${rfc822(a.date)}</pubDate>
+      <category>${esc(a.category)}</category>
+      <description>${esc(trim(a.searchDescription || a.excerpt, 300))}</description>
+    </item>`).join("\n");
+const feed = `<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>TECH RWT Discovery</title>
+    <link>${SITE}/</link>
+    <description>विज्ञान और भविष्य की तकनीक - Science, Space &amp; ISRO, Technology, Environment और Innovation की खबरें आसान Hindi में।</description>
+    <language>hi</language>
+    <atom:link href="${SITE}/feed.xml" rel="self" type="application/rss+xml"/>
+${feedItems}
+  </channel>
+</rss>
+`;
+fs.writeFileSync("feed.xml", feed);
 
 // 4b. IndexNow: key file + naye URLs ki list (indexnow.js ise Bing ko bhejta hai)
 if (!fs.existsSync(`${INDEXNOW_KEY}.txt`)) fs.writeFileSync(`${INDEXNOW_KEY}.txt`, INDEXNOW_KEY);
