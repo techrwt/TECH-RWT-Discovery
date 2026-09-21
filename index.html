@@ -29,12 +29,28 @@
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "WebSite",
-    "name": "TECH RWT Discovery",
-    "url": "https://techrawatdiscovery.sbs/",
-    "inLanguage": "hi"
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "@id": "https://techrawatdiscovery.sbs/#website",
+        "name": "TECH RWT Discovery",
+        "alternateName": "टेक रावत डिस्कवरी",
+        "url": "https://techrawatdiscovery.sbs/",
+        "inLanguage": "hi",
+        "publisher": { "@id": "https://techrawatdiscovery.sbs/#organization" }
+      },
+      {
+        "@type": "Organization",
+        "@id": "https://techrawatdiscovery.sbs/#organization",
+        "name": "TECH RWT Discovery",
+        "url": "https://techrawatdiscovery.sbs/",
+        "logo": "https://techrawatdiscovery.sbs/assets/images/Favicon.png",
+        "description": "जटिल Science और Technology को आसान Hindi में समझने का प्लेटफॉर्म"
+      }
+    ]
   }
   </script>
+  <link rel="alternate" type="application/rss+xml" title="TECH RWT Discovery" href="/feed.xml">
 
   <link rel="stylesheet" href="css/style.css?v=2.1">
 <link rel="icon" type="image/png" href="assets/images/Favicon.png">
