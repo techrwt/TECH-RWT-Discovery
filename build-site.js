@@ -53,16 +53,20 @@ const imgUrl = (img) => SITE + "/" + encodeURI(img);
 // 2. Article pages
 const tpl = read("article-template.html");
 fs.mkdirSync("articles", { recursive: true });
-const existingPages = new Set(fs.readdirSync("articles"));
 const newUrls = [];
 const newCats = new Set();
 
 for (const a of articles) {
   const url = `${SITE}/articles/${a.slug}.html`;
-  if (!existingPages.has(`${a.slug}.html`)) { newUrls.push(url); newCats.add(a.category); }
   const desc = trim(a.searchDescription || a.excerpt, 160);
   const catPage = "/" + (CATEGORY_PAGE[a.category] || "");
-  const related = articles.filter((r) => r.slug !== a.slug && r.category === a.category).slice(0, 3);
+  // apne aap: same category ke 4 latest + doosri categories ke 2 (har article ke liye alag-alag, taaki sab jagah links failein)
+  const sameCat = articles.filter((r) => r.slug !== a.slug && r.category === a.category).slice(0, 4);
+  const others = articles.filter((r) => r.slug !== a.slug && r.category !== a.category);
+  const myIdx = articles.indexOf(a);
+  const mixed = [];
+  for (let i = 0; i < Math.min(2, others.length); i++) mixed.push(others[(myIdx * 2 + i) % others.length]);
+  const related = [...sameCat, ...mixed];
   const relatedHtml = related.length
     ? `<section class="related"><h2>और पढ़ें</h2><ul>${related.map((r) => `<li><a href="/articles/${esc(r.slug)}.html">${esc(r.title)}</a></li>`).join("")}</ul></section>`
     : "";
@@ -94,7 +98,10 @@ for (const a of articles) {
     CONTENT: cleanContent(a.content || ""), RELATED: relatedHtml,
   };
   const out = tpl.replace(/\{\{(\w+)\}\}/g, (_, k) => (k in map ? map[k] : ""));
-  fs.writeFileSync(path.join("articles", `${a.slug}.html`), out);
+  const outPath = path.join("articles", `${a.slug}.html`);
+  const prev = fs.existsSync(outPath) ? read(outPath) : null;
+  if (prev !== out || process.env.INDEXNOW_ALL) { newUrls.push(url); newCats.add(a.category); }
+  fs.writeFileSync(outPath, out);
 }
 
 // 3. Homepage cards
@@ -171,7 +178,7 @@ const sitemap = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://w
   urls.map((u) => `  <url><loc>${esc(u.loc)}</loc>${u.lastmod ? `<lastmod>${esc(u.lastmod)}</lastmod>` : ""}</url>`).join("\n") +
   `\n</urlset>\n`;
 fs.writeFileSync("sitemap.xml", sitemap);
-fs.writeFileSync("sitemap-pages.xml", sitemap);
+fs.writeFileSync("sitemap-pages.xml", sitemap); // GSC "Couldn't fetch" ke liye doosra naam
 
 // 4b. IndexNow: key file + naye URLs ki list (indexnow.js ise Bing ko bhejta hai)
 if (!fs.existsSync(`${INDEXNOW_KEY}.txt`)) fs.writeFileSync(`${INDEXNOW_KEY}.txt`, INDEXNOW_KEY);
