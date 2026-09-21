@@ -171,6 +171,7 @@ const sitemap = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://w
   urls.map((u) => `  <url><loc>${esc(u.loc)}</loc>${u.lastmod ? `<lastmod>${esc(u.lastmod)}</lastmod>` : ""}</url>`).join("\n") +
   `\n</urlset>\n`;
 fs.writeFileSync("sitemap.xml", sitemap);
+fs.writeFileSync("sitemap-pages.xml", sitemap);
 
 // 4b. IndexNow: key file + naye URLs ki list (indexnow.js ise Bing ko bhejta hai)
 if (!fs.existsSync(`${INDEXNOW_KEY}.txt`)) fs.writeFileSync(`${INDEXNOW_KEY}.txt`, INDEXNOW_KEY);
