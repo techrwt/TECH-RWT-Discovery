@@ -7,6 +7,14 @@
     <language>hi</language>
     <atom:link href="https://techrawatdiscovery.sbs/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>क्या हमारा दिमाग असल में एक नहीं, दो अंग है?</title>
+      <link>https://techrawatdiscovery.sbs/articles/human-brain-two-separate-organs-stanford-study.html</link>
+      <guid isPermaLink="true">https://techrawatdiscovery.sbs/articles/human-brain-two-separate-organs-stanford-study.html</guid>
+      <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
+      <category>Science</category>
+      <description>दिमाग असल में दो अंग है? Stanford Medicine की Nature Neuroscience स्टडी, तरीका, भारत के लिए मतलब और SMA-ALS रिसर्च पर असर जानें।</description>
+    </item>
+    <item>
       <title>1.5°C पार होना तय, पर खेल खत्म नहीं: UNEP रिपोर्ट और भारत</title>
       <link>https://techrawatdiscovery.sbs/articles/climate-overshoot-1-5-degree-unep-report-india.html</link>
       <guid isPermaLink="true">https://techrawatdiscovery.sbs/articles/climate-overshoot-1-5-degree-unep-report-india.html</guid>
@@ -237,14 +245,6 @@
       <pubDate>Mon, 31 Aug 2026 00:00:00 GMT</pubDate>
       <category>Technology &amp; Future Tech</category>
       <description>Digital Twin और Physical AI मिलकर factories को real-time में monitor और simulate कर सकते हैं। जानिए AI factory की problems को पहले पहचानकर manufacturing को कैसे बदल सकता है।</description>
-    </item>
-    <item>
-      <title>Solar Flare आने से पहले ही Aditya-L1 ने संकेत पकड़ लिए? सूरज की छोटी चमक का बड़ा रहस्य</title>
-      <link>https://techrawatdiscovery.sbs/articles/aditya-l1-solar-flare-early-warning-signs.html</link>
-      <guid isPermaLink="true">https://techrawatdiscovery.sbs/articles/aditya-l1-solar-flare-early-warning-signs.html</guid>
-      <pubDate>Sun, 30 Aug 2026 00:00:00 GMT</pubDate>
-      <category>Space &amp; ISRO</category>
-      <description>Aditya-L1 ने solar flare से पहले Sun की atmosphere में छोटे brightenings detect किए हैं। जानिए ये संकेत कैसे दिखे और space weather forecasting के लिए क्यों महत्वपूर्ण हैं।</description>
     </item>
   </channel>
 </rss>
