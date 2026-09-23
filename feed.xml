@@ -7,6 +7,14 @@
     <language>hi</language>
     <atom:link href="https://techrawatdiscovery.sbs/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>GOBARdhan लागू: CBG की 100% खरीद और 10 साल तय दाम</title>
+      <link>https://techrawatdiscovery.sbs/articles/gobardhan-scheme-cbg-offtake-price-guidelines.html</link>
+      <guid isPermaLink="true">https://techrawatdiscovery.sbs/articles/gobardhan-scheme-cbg-offtake-price-guidelines.html</guid>
+      <pubDate>Wed, 23 Sep 2026 00:00:00 GMT</pubDate>
+      <category>Innovation</category>
+      <description>GOBARdhan योजना की नई ऑपरेशनल गाइडलाइंस: CBG की 100% खरीद, 10 साल तय दाम और पूंजी सहायता। जानिए SATAT से बदलाव और भारत पर असर।</description>
+    </item>
+    <item>
       <title>क्या हमारा दिमाग असल में एक नहीं, दो अंग है?</title>
       <link>https://techrawatdiscovery.sbs/articles/human-brain-two-separate-organs-stanford-study.html</link>
       <guid isPermaLink="true">https://techrawatdiscovery.sbs/articles/human-brain-two-separate-organs-stanford-study.html</guid>
@@ -237,14 +245,6 @@
       <pubDate>Mon, 31 Aug 2026 00:00:00 GMT</pubDate>
       <category>Innovation</category>
       <description>Aheesa Digital Innovations की VIHAAN broadband chip ने indigenous VEGA microprocessor के साथ first-pass silicon success हासिल किया। जानिए यह milestone भारत के chip-design ecosystem के लिए क्यों अहम है।</description>
-    </item>
-    <item>
-      <title>GSLV-F17 Rocket EOS-05 को Space में कैसे ले जाएगा? Launch Vehicle की पूरी Engineering</title>
-      <link>https://techrawatdiscovery.sbs/articles/eos-05-satellite-gslv-f17-geosynchronous-earth-imaging.html</link>
-      <guid isPermaLink="true">https://techrawatdiscovery.sbs/articles/eos-05-satellite-gslv-f17-geosynchronous-earth-imaging.html</guid>
-      <pubDate>Mon, 31 Aug 2026 00:00:00 GMT</pubDate>
-      <category>Space &amp; ISRO</category>
-      <description>GSLV-F17 rocket के stages और propulsion system EOS-05 satellite को orbit तक कैसे पहुंचाएंगे? जानिए इस launch vehicle की engineering की पूरी कहानी।</description>
     </item>
   </channel>
 </rss>
