@@ -7,6 +7,14 @@
     <language>hi</language>
     <atom:link href="https://techrawatdiscovery.sbs/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>इयरबड्स में अब कैमरा, पर तस्वीर नहीं खींचेगा</title>
+      <link>https://techrawatdiscovery.sbs/articles/qualcomm-snapdragon-sound-elite-gen-2-camera-earbuds.html</link>
+      <guid isPermaLink="true">https://techrawatdiscovery.sbs/articles/qualcomm-snapdragon-sound-elite-gen-2-camera-earbuds.html</guid>
+      <pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
+      <category>Technology &amp; Future Tech</category>
+      <description>कैमरा इयरबड्स: Qualcomm Sound Elite Gen 2 चिप, Cleer का कॉन्सेप्ट डिवाइस और भारत के हियरेबल बाज़ार व गोपनीयता पर इसका असर जानें।</description>
+    </item>
+    <item>
       <title>GOBARdhan लागू: CBG की 100% खरीद और 10 साल तय दाम</title>
       <link>https://techrawatdiscovery.sbs/articles/gobardhan-scheme-cbg-offtake-price-guidelines.html</link>
       <guid isPermaLink="true">https://techrawatdiscovery.sbs/articles/gobardhan-scheme-cbg-offtake-price-guidelines.html</guid>
@@ -237,14 +245,6 @@
       <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
       <category>Space &amp; ISRO</category>
       <description>EOS-05 satellite के launch से पहले payload integration, testing और countdown तक की तैयारी कैसे होती है? जानिए mission की पूरी launch readiness टाइमलाइन।</description>
-    </item>
-    <item>
-      <title>Chip बनाने वाली Machines खुद सीखेंगी? Physical AI Semiconductor Factories को कैसे बदलेगा</title>
-      <link>https://techrawatdiscovery.sbs/articles/physical-ai-semiconductor-manufacturing.html</link>
-      <guid isPermaLink="true">https://techrawatdiscovery.sbs/articles/physical-ai-semiconductor-manufacturing.html</guid>
-      <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
-      <category>Technology &amp; Future Tech</category>
-      <description>Physical AI और Edge AI semiconductor factories की machines को real-time data पर adapt करने में मदद कर सकते हैं। जानिए future chip manufacturing में AI control loop क्यों महत्वपूर्ण है।</description>
     </item>
   </channel>
 </rss>
