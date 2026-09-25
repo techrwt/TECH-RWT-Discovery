@@ -253,6 +253,29 @@
   "batch": 48
  },
  {
+  "id": "technology-20260925-f5-bigip-vulnerability",
+  "slug": "f5-big-ip-apm-critical-vulnerability-cve-2026-94127",
+  "title": "F5 BIG-IP में गंभीर खामी, CVSS स्कोर 9.8",
+  "seoTitle": "F5 BIG-IP खामी CVE-2026-94127: CVSS 9.8 का खतरा",
+  "category": "Technology & Future Tech",
+  "date": "2026-09-25",
+  "image": "assets/images/f5-big-ip-apm-critical-vulnerability-cve-2026-94127.webp",
+  "imageCredit": "",
+  "excerpt": "F5 के BIG-IP APM में मिली CVE-2026-94127 खामी को हमलावर पहले ही इस्तेमाल कर चुके हैं। जानें यह कैसे काम करती है और भारत की संस्थाओं के लिए इसका क्या मतलब है।",
+  "searchDescription": "F5 BIG-IP APM की CVE-2026-94127 खामी, CVSS स्कोर 9.8, CISA की चेतावनी, और भारत में CERT-In व DPDP Act के तहत इस पर कंपनियों का दायित्व जानें।",
+  "author": "TECH RWT Discovery",
+  "featured": false,
+  "trending": true,
+  "keyPoints": [
+   "F5 ने 22 सितंबर 2026 को BIG-IP APM में CVE-2026-94127 खामी की जानकारी दी, CVSS स्कोर 9.8।",
+   "बिना लॉगिन किए हमलावर कोड चला सकते हैं; F5 के अनुसार यह पहले से ही इस्तेमाल हो चुकी है।",
+   "CISA ने अमेरिकी विभागों को 25 सितंबर तक पैच का आदेश दिया; कनाडा ने भी अलर्ट जारी किया।",
+   "भारत में ऐसी घटना CERT-In के 6 घंटे के नियम और DPDP Act के दायरे में आ सकती है।",
+   "हमलावर की पहचान और असर का दायरा अभी साफ नहीं; F5 ने हॉटफिक्स और iRule उपाय जारी किए हैं।"
+  ],
+  "batch": 49
+ },
+ {
   "id": "technology-20260924-camera-earbuds",
   "slug": "qualcomm-snapdragon-sound-elite-gen-2-camera-earbuds",
   "title": "इयरबड्स में अब कैमरा, पर तस्वीर नहीं खींचेगा",
