@@ -46,6 +46,29 @@
   "batch": 39
  },
  {
+  "id": "science-20260925-fire-amoeba-63c-record",
+  "slug": "fire-amoeba-63-celsius-eukaryote-heat-record",
+  "title": "63°C में जिंदा अमीबा मिली, टूटा पुराना रिकॉर्ड",
+  "seoTitle": "63°C पर अमीबा जिंदा: Eukaryote का नया रिकॉर्ड",
+  "category": "Science",
+  "date": "2026-09-25",
+  "image": "assets/images/fire-amoeba-63-celsius-eukaryote-heat-record.webp",
+  "imageCredit": "",
+  "excerpt": "पहले माना जाता था कोई भी कोशिका-नाभिक वाला जीव 60°C से ज़्यादा गर्मी में बंट नहीं सकता। California की एक अमीबा ने 63°C पर यह रिकॉर्ड तोड़ दिया। जानिए तरीका और भारत के लिए मतलब।",
+  "searchDescription": "63°C पर जिंदा मिली अमीबा ने eukaryote जीवन की गर्मी सहने की सीमा तोड़ी। तरीका, वजह और भारत के गर्म पानी के स्रोतों से जुड़ा मतलब जानें।",
+  "author": "TECH RWT Discovery",
+  "featured": false,
+  "trending": true,
+  "keyPoints": [
+   "California में मिली एक अमीबा 63°C पर भी कोशिका बांटती है (Cell journal, 22 सितंबर 2026)।",
+   "पहले किसी eukaryote का दर्ज रिकॉर्ड सिर्फ 57°C तक था; 60-62°C को सैद्धांतिक ऊपरी सीमा माना जाता था।",
+   "Syracuse University की टीम ने इसे खोजा, नाम रखा Incendiamoeba cascadensis यानी 'fire amoeba'।",
+   "64°C से ऊपर यह अमीबा सुस्त cyst बन जाती है, 60°C पर लौटते ही फिर सामान्य हो जाती है; 80°C पर मर जाती है।",
+   "भारत में करीब 400 गर्म पानी के स्रोत हैं, सिर्फ 28 पर स्टडी हुई; यूकैरियोट पर शोध लगभग नहीं हुआ।"
+  ],
+  "batch": 40
+ },
+ {
   "id": "technology-20260924-camera-earbuds",
   "slug": "qualcomm-snapdragon-sound-elite-gen-2-camera-earbuds",
   "title": "इयरबड्स में अब कैमरा, पर तस्वीर नहीं खींचेगा",
