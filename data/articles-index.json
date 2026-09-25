@@ -69,6 +69,29 @@
   "batch": 40
  },
  {
+  "id": "space-20260925-starship-flight-14-orbit",
+  "slug": "starship-flight-14-orbital-launch-spacex",
+  "title": "Starship Flight 14: SpaceX की पहली ऑर्बिट कोशिश 28 सितंबर को",
+  "seoTitle": "Starship Flight 14: SpaceX पहली बार ऑर्बिट में",
+  "category": "Space & ISRO",
+  "date": "2026-09-25",
+  "image": "assets/images/starship-flight-14-orbital-launch-spacex.webp",
+  "imageCredit": "",
+  "excerpt": "SpaceX का Starship रॉकेट 28 सितंबर 2026 को पहली बार ऑर्बिट तक पहुंचने की कोशिश करेगा। जानिए V3 अपग्रेड, पिछली 11 उड़ानों से फर्क, मिशन डिटेल और भारत के लिए इसके मायने।",
+  "searchDescription": "Starship Flight 14: SpaceX 28 सितंबर को पहली बार ऑर्बिट में जाएगा। V3 अपग्रेड, पुरानी उड़ानों से तुलना और भारत के लिए मतलब जानें।",
+  "author": "TECH RWT Discovery",
+  "featured": false,
+  "trending": true,
+  "keyPoints": [
+   "SpaceX का Starship Flight 14 मिशन 28 सितंबर 2026 को शाम करीब 5:45 बजे IST लॉन्च होगा।",
+   "यह Starship प्रोग्राम में पहली बार पूरी तरह ऑर्बिट में जाने की कोशिश है, मिशन करीब 10 घंटे लंबा होगा।",
+   "रॉकेट 26 अपग्रेडेड Starlink V3 सैटेलाइट ले जाएगा; Ship 6 चक्कर के बाद समुद्र में उतरेगा।",
+   "Starship V3, पुराने वर्जन से 1.5 मीटर लंबा है, इसमें Raptor 3 इंजन और सिर्फ 3 ग्रिड फिन हैं।",
+   "ISRO का अपना RLV प्रोग्राम 2030 तक पूरी तरह दोबारा इस्तेमाल होने वाला ऑर्बिटल सिस्टम बनाने का लक्ष्य रखता है।"
+  ],
+  "batch": 41
+ },
+ {
   "id": "technology-20260924-camera-earbuds",
   "slug": "qualcomm-snapdragon-sound-elite-gen-2-camera-earbuds",
   "title": "इयरबड्स में अब कैमरा, पर तस्वीर नहीं खींचेगा",
