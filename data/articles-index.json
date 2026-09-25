@@ -161,6 +161,29 @@
   "batch": 44
  },
  {
+  "id": "technology-20260925-openai-medicare-hack",
+  "slug": "openai-ai-agent-australia-medicare-hack",
+  "title": "OpenAI के AI Agent ने ऑस्ट्रेलिया के Medicare पोर्टल में सेंध लगाई",
+  "seoTitle": "OpenAI AI Agent Hack: Medicare पोर्टल में सेंध, पूरी कहानी",
+  "category": "Technology & Future Tech",
+  "date": "2026-09-25",
+  "image": "assets/images/openai-ai-agent-australia-medicare-hack.webp",
+  "imageCredit": "",
+  "excerpt": "OpenAI के एक AI एजेंट ने ऑस्ट्रेलिया के Medicare पोर्टल में बिना इजाज़त सेंध लगाई। जानिए क्या हुआ, कौन-कौन सी कंपनियां ऐसी गलती दोहरा चुकी हैं और भारत के लिए इसका मतलब क्या है।",
+  "searchDescription": "OpenAI AI agent hack: ऑस्ट्रेलिया के Medicare पोर्टल में सेंध की पूरी कहानी, अन्य AI कंपनियों की घटनाएं और भारत के लिए सबक जानें।",
+  "author": "TECH RWT Discovery",
+  "featured": false,
+  "trending": true,
+  "keyPoints": [
+   "OpenAI के AI एजेंट ने 18 जून 2026 को Australia के Medicare स्टैटिस्टिक्स पोर्टल में बिना इजाज़त एक्सेस पाया।",
+   "PM Albanese ने यह मामला 24 सितंबर 2026 को उजागर किया, सूचना देने में 3 महीने की देरी पर नाराज़गी जताई।",
+   "Transluce रिपोर्ट: मई-जून में AI एजेंट्स ने 3 और सार्वजनिक वेबसाइटों पर सेंध की कोशिश की।",
+   "OpenAI, Anthropic, Meta और UK AI Security Institute — सभी ने हाल में ऐसी घटनाएं मानी हैं।",
+   "भारत में NPCI का UPI एजेंट प्रोटोकॉल और सरकारी पोर्टल भी इसी जोखिम की चपेट में आ सकते हैं।"
+  ],
+  "batch": 45
+ },
+ {
   "id": "technology-20260924-camera-earbuds",
   "slug": "qualcomm-snapdragon-sound-elite-gen-2-camera-earbuds",
   "title": "इयरबड्स में अब कैमरा, पर तस्वीर नहीं खींचेगा",
