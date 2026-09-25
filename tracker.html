@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TECH RWT Discovery — Article Tracker</title>
+<style>
+*{box-sizing:border-box}
+body{margin:0;font-family:system-ui,-apple-system,Segoe UI,sans-serif;background:#0b1020;color:#eef2ff}
+.wrap{max-width:1100px;margin:auto;padding:28px 18px}
+h1{margin:0 0 6px;font-size:28px}
+.sub{color:#9ca8c7;margin-bottom:24px}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:14px}
+.card{background:#131b31;border:1px solid #263250;border-radius:14px;padding:18px}
+.label{color:#9ca8c7;font-size:13px}
+.num{font-size:30px;font-weight:800;margin-top:5px}
+.green{color:#4ade80}.red{color:#fb7185}.yellow{color:#facc15}
+table{width:100%;border-collapse:collapse;margin-top:22px;background:#131b31;border-radius:14px;overflow:hidden}
+th,td{text-align:left;padding:12px 14px;border-bottom:1px solid #263250}
+th{color:#aab6d5;font-size:13px}
+.bar{height:9px;background:#27314c;border-radius:20px;overflow:hidden}
+.fill{height:100%;background:#4ade80;border-radius:20px}
+.note{margin-top:20px;padding:14px 16px;background:#11182b;border:1px solid #263250;border-radius:12px;color:#b8c2db;font-size:14px}
+.error{color:#fb7185}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>📊 TECH RWT Discovery — Article Tracker</h1>
+  <div class="sub">यह tracker archive.html से data खुद पढ़ता है। Archive बदलते ही count भी बदल जाएगा।</div>
+  <div id="app">Loading...</div>
+</div>
+
+<script>
+const ARCHIVE = "archive.html";
+const DAILY_TARGET = 5;
+const CATEGORIES = ["Science","Space & ISRO","Technology & Future Tech","Environment","Innovation"];
+
+function esc(s){
+  return String(s).replace(/[&<>"']/g,m=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[m]));
+}
+
+async function load(){
+  const app=document.getElementById("app");
+  try{
+    const res=await fetch(ARCHIVE + "?v=" + Date.now(), {cache:"no-store"});
+    if(!res.ok) throw new Error("archive.html नहीं मिला");
+    const text=await res.text();
+    const doc=new DOMParser().parseFromString(text,"text/html");
+
+    const counts={};
+    const datesByCat={};
+    CATEGORIES.forEach(c=>{counts[c]=0;datesByCat[c]=[]});
+
+    const headings=[...doc.querySelectorAll("h2")];
+    headings.forEach(h=>{
+      const raw=h.textContent.trim();
+      const cat=CATEGORIES.find(c=>raw.startsWith(c));
+      if(!cat) return;
+      const list=h.nextElementSibling;
+      if(!list) return;
+      const items=[...list.querySelectorAll("li")];
+      counts[cat]=items.length;
+      datesByCat[cat]=items.map(li=>{
+        const d=li.querySelector(".archive-date");
+        return d ? d.textContent.trim() : null;
+      }).filter(Boolean);
+    });
+
+    const allDates=[...new Set(Object.values(datesByCat).flat())].sort();
+    const activeDates=allDates.filter(date =>
+      CATEGORIES.some(c=>datesByCat[c].includes(date))
+    );
+
+    const total=CATEGORIES.reduce((a,c)=>a+counts[c],0);
+    const target=activeDates.length*DAILY_TARGET;
+    const missing=Math.max(0,target-total);
+
+    const rows=CATEGORIES.map(c=>{
+      const targetCat=activeDates.length;
+      const missingCat=Math.max(0,targetCat-counts[c]);
+      const pct=targetCat ? Math.min(100,counts[c]/targetCat*100) : 0;
+      return `<tr>
+        <td><strong>${esc(c)}</strong></td>
+        <td>${counts[c]}</td>
+        <td>${targetCat}</td>
+        <td class="${missingCat?'red':'green'}">${missingCat}</td>
+        <td style="min-width:180px"><div class="bar"><div class="fill" style="width:${pct}%"></div></div></td>
+      </tr>`;
+    }).join("");
+
+    app.innerHTML=`
+      <div class="cards">
+        <div class="card"><div class="label">Published</div><div class="num">${total}</div></div>
+        <div class="card"><div class="label">Active dates</div><div class="num">${activeDates.length}</div></div>
+        <div class="card"><div class="label">Required</div><div class="num">${target}</div></div>
+        <div class="card"><div class="label">Remaining</div><div class="num ${missing?'red':'green'}">${missing}</div></div>
+      </div>
+
+      <table>
+        <thead><tr><th>Category</th><th>Published</th><th>Required</th><th>Missing</th><th>Progress</th></tr></thead>
+        <tbody>${rows}</tbody>
+      </table>
+
+      <div class="note">
+        <b>Rule:</b> हर active date का target 5 articles है। जिस date पर पूरे archive में कोई article नहीं है, वह date target में शामिल नहीं होती।
+        एक ही category में एक ही date पर 2, 3 या 4 articles हों तो सभी published count होते हैं और extra articles automatically backlog को कम करते हैं।
+        <br><br><b>Archive:</b> ${esc(ARCHIVE)} · <b>Last checked:</b> ${new Date().toLocaleString("hi-IN")}
+      </div>
+    `;
+  }catch(e){
+    app.innerHTML=`<div class="card error"><b>Tracker load नहीं हो पाया:</b><br>${esc(e.message)}<br><br>इस file को archive.html के साथ same GitHub folder में रखें.</div>`;
+  }
+}
+load();
+</script>
+</body>
+</html>
