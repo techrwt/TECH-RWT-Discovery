@@ -138,6 +138,29 @@
   "batch": 43
  },
  {
+  "id": "innovation-20260925-iit-delhi-micro-gpu",
+  "slug": "iit-delhi-indigenous-micro-gpu-fpga-graphics-chip",
+  "title": "IIT दिल्ली के Micro-GPU का अगला पड़ाव: FPGA से 65 नैनोमीटर चिप तक",
+  "seoTitle": "IIT Delhi Micro-GPU: भारत का पहला Indigenous GPU",
+  "category": "Innovation",
+  "date": "2026-09-25",
+  "image": "assets/images/iit-delhi-indigenous-micro-gpu-fpga-graphics-chip.webp",
+  "imageCredit": "",
+  "excerpt": "IIT दिल्ली ने भारत का पहला काम करने वाला स्वदेशी माइक्रो-GPU दिखाया है। जानिए यह FPGA प्रोटोटाइप कैसे बना, किन कामों में इस्तेमाल होगा और असली चिप तक पहुंचने में क्या बाकी है।",
+  "searchDescription": "IIT दिल्ली माइक्रो-GPU: भारत का पहला indigenous GPU डिज़ाइन FPGA पर बना। 8-16 कोर आर्किटेक्चर, 65nm ASIC रोडमैप और असली इस्तेमाल जानें।",
+  "author": "TECH RWT Discovery",
+  "featured": false,
+  "trending": true,
+  "keyPoints": [
+   "IIT दिल्ली ने 24 सितंबर 2026 को भारत का पहला काम करने वाला स्वदेशी माइक्रो-GPU डिज़ाइन दिखाया।",
+   "M.Tech छात्र Nammi Akash और M. Ravi Teja ने Prof. Jayadeva और Prof. Kaushik Saha की देखरेख में इसे बनाया।",
+   "GPU इंजन पूरी तरह RTL में डिज़ाइन कर Spartan-7 FPGA पर चलाया गया; असली सिलिकॉन चिप अभी नहीं बनी।",
+   "अगला लक्ष्य 8-16 कोर आर्किटेक्चर और 65nm ASIC प्रोसेस नोड पर proof-of-concept चिप है।",
+   "संभावित इस्तेमाल: e-rickshaw डैशबोर्ड, मछली पकड़ने वाली नावों के नेविगेशन टर्मिनल, सस्ते e-book रीडर।"
+  ],
+  "batch": 44
+ },
+ {
   "id": "technology-20260924-camera-earbuds",
   "slug": "qualcomm-snapdragon-sound-elite-gen-2-camera-earbuds",
   "title": "इयरबड्स में अब कैमरा, पर तस्वीर नहीं खींचेगा",

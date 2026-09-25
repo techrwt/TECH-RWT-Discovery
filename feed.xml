@@ -55,6 +55,14 @@
       <description>भारत के 50 लॉन्च प्रति साल टारगेट के पीछे की वजह, नए लॉन्च पैड, Skyroot-Agnikul की भूमिका और मैन्युफैक्चरिंग-बजट की असली अड़चनें जानें।</description>
     </item>
     <item>
+      <title>IIT दिल्ली के Micro-GPU का अगला पड़ाव: FPGA से 65 नैनोमीटर चिप तक</title>
+      <link>https://techrawatdiscovery.sbs/articles/iit-delhi-indigenous-micro-gpu-fpga-graphics-chip.html</link>
+      <guid isPermaLink="true">https://techrawatdiscovery.sbs/articles/iit-delhi-indigenous-micro-gpu-fpga-graphics-chip.html</guid>
+      <pubDate>Fri, 25 Sep 2026 00:00:00 GMT</pubDate>
+      <category>Innovation</category>
+      <description>IIT दिल्ली माइक्रो-GPU: भारत का पहला indigenous GPU डिज़ाइन FPGA पर बना। 8-16 कोर आर्किटेक्चर, 65nm ASIC रोडमैप और असली इस्तेमाल जानें।</description>
+    </item>
+    <item>
       <title>इयरबड्स में अब कैमरा, पर तस्वीर नहीं खींचेगा</title>
       <link>https://techrawatdiscovery.sbs/articles/qualcomm-snapdragon-sound-elite-gen-2-camera-earbuds.html</link>
       <guid isPermaLink="true">https://techrawatdiscovery.sbs/articles/qualcomm-snapdragon-sound-elite-gen-2-camera-earbuds.html</guid>
@@ -237,14 +245,6 @@
       <pubDate>Tue, 15 Sep 2026 00:00:00 GMT</pubDate>
       <category>Space &amp; ISRO</category>
       <description>ISRO के CE20 cryogenic engine का 22 टन thrust पर सफल test क्यों खास है? जानिए LVM3 M7, C32 stage, cryogenic propulsion और payload क्षमता से इसका संबंध।</description>
-    </item>
-    <item>
-      <title>अब Robot को हर काम के लिए अलग Training नहीं चाहिए? एक Video देखकर नया काम सीख रही Physical AI</title>
-      <link>https://techrawatdiscovery.sbs/articles/physical-ai-robots-single-video-learning.html</link>
-      <guid isPermaLink="true">https://techrawatdiscovery.sbs/articles/physical-ai-robots-single-video-learning.html</guid>
-      <pubDate>Tue, 15 Sep 2026 00:00:00 GMT</pubDate>
-      <category>Technology &amp; Future Tech</category>
-      <description>Physical AI robots को हर task के लिए अलग programming की जरूरत कम कर सकता है। जानिए robot foundation model एक video देखकर नया काम कैसे सीखता है और robotics का future कैसे बदल सकता है।</description>
     </item>
   </channel>
 </rss>
