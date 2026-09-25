@@ -1,5 +1,28 @@
 [
  {
+  "id": "science-20260925-ariel-uranus-ocean",
+  "slug": "ariel-uranus-moon-ancient-ocean-study",
+  "title": "Uranus के चांद Ariel में मिला 170 किमी गहरा प्राचीन समुद्र",
+  "seoTitle": "Ariel Ocean: Uranus के चांद में 170 km गहरा समुद्र",
+  "category": "Science",
+  "date": "2026-09-25",
+  "image": "assets/images/ariel-uranus-moon-ancient-ocean-study.webp",
+  "imageCredit": "",
+  "excerpt": "Icarus में छपी नई स्टडी के मुताबिक Uranus के चांद Ariel में कभी 170 किमी गहरा समुद्र रहा होगा। जानिए यह कैसे पता चला, Miranda से जुड़ाव और भारत के लिए मायने क्या हैं।",
+  "searchDescription": "Uranus के चांद Ariel में 170 km गहरा प्राचीन समुद्र होने का दावा, Icarus स्टडी में सतह की दरारों और tidal stress मॉडलिंग से निकला।",
+  "author": "TECH RWT Discovery",
+  "featured": false,
+  "trending": true,
+  "keyPoints": [
+   "PSI/Icarus स्टडी: Uranus के चांद Ariel में कभी 170 किमी गहरा उपसतही समुद्र रहा हो सकता है।",
+   "यह निष्कर्ष सीधे माप से नहीं, सतह की दरारों और tidal stress मॉडलिंग से निकाला गया है।",
+   "स्टडी के अनुसार Ariel की कक्षा की eccentricity पहले आज से करीब 40 गुना ज़्यादा रही होगी।",
+   "पिछले साल जैसा नतीजा चांद Miranda के लिए भी आया था; दोनों जुड़वां ओशियन वर्ल्ड का संकेत देते हैं।",
+   "Voyager 2 ने 1986 में सिर्फ Ariel का दक्षिणी हिस्सा देखा था; उत्तरी हिस्सा आज भी अनदेखा है।"
+  ],
+  "batch": 37
+ },
+ {
   "id": "technology-20260924-camera-earbuds",
   "slug": "qualcomm-snapdragon-sound-elite-gen-2-camera-earbuds",
   "title": "इयरबड्स में अब कैमरा, पर तस्वीर नहीं खींचेगा",

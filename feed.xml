@@ -7,6 +7,14 @@
     <language>hi</language>
     <atom:link href="https://techrawatdiscovery.sbs/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Uranus के चांद Ariel में मिला 170 किमी गहरा प्राचीन समुद्र</title>
+      <link>https://techrawatdiscovery.sbs/articles/ariel-uranus-moon-ancient-ocean-study.html</link>
+      <guid isPermaLink="true">https://techrawatdiscovery.sbs/articles/ariel-uranus-moon-ancient-ocean-study.html</guid>
+      <pubDate>Fri, 25 Sep 2026 00:00:00 GMT</pubDate>
+      <category>Science</category>
+      <description>Uranus के चांद Ariel में 170 km गहरा प्राचीन समुद्र होने का दावा, Icarus स्टडी में सतह की दरारों और tidal stress मॉडलिंग से निकला।</description>
+    </item>
+    <item>
       <title>इयरबड्स में अब कैमरा, पर तस्वीर नहीं खींचेगा</title>
       <link>https://techrawatdiscovery.sbs/articles/qualcomm-snapdragon-sound-elite-gen-2-camera-earbuds.html</link>
       <guid isPermaLink="true">https://techrawatdiscovery.sbs/articles/qualcomm-snapdragon-sound-elite-gen-2-camera-earbuds.html</guid>
@@ -237,14 +245,6 @@
       <pubDate>Thu, 03 Sep 2026 00:00:00 GMT</pubDate>
       <category>Space &amp; ISRO</category>
       <description>EOS-05 satellite का imaging camera और sensor system geosynchronous orbit से बार-बार Earth की तस्वीरें कैसे लेता है? जानिए resolution और imaging technology की पूरी कहानी।</description>
-    </item>
-    <item>
-      <title>अब AI खुद Physics Experiment Design करेगा? Scientists ने AI को नई Scientific Discoveries खोजने का काम दिया</title>
-      <link>https://techrawatdiscovery.sbs/articles/ai-physics-experiments-scientific-discovery.html</link>
-      <guid isPermaLink="true">https://techrawatdiscovery.sbs/articles/ai-physics-experiments-scientific-discovery.html</guid>
-      <pubDate>Thu, 03 Sep 2026 00:00:00 GMT</pubDate>
-      <category>Technology &amp; Future Tech</category>
-      <description>AI अब सिर्फ data analyze करने तक सीमित नहीं है। जानिए AI physics experiments को कैसे design कर सकता है, नए experimental layouts कैसे खोजता है और scientific discovery का future कैसे बदल सकता है।</description>
     </item>
   </channel>
 </rss>
