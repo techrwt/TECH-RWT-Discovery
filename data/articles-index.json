@@ -138,6 +138,29 @@
   "batch": 56
  },
  {
+  "id": "innovation-20260926-kotak-bizlabs-accelerator-cohort",
+  "slug": "kotak-bizlabs-fitt-iit-delhi-startup-accelerator-cohort",
+  "title": "Kotak BizLabs के दूसरे Cohort से निकलीं 6 भारतीय Startups",
+  "seoTitle": "Kotak BizLabs Accelerator: 6 भारतीय Startups की कहानी",
+  "category": "Innovation",
+  "date": "2026-09-26",
+  "image": "assets/images/kotak-bizlabs-fitt-iit-delhi-startup-accelerator-cohort.webp",
+  "imageCredit": "",
+  "excerpt": "Kotak BizLabs और FITT-IIT Delhi के accelerator से निकलीं 6 भारतीय स्टार्टअप्स की कहानियां, रेलवे सुरक्षा से लेकर रक्षा तकनीक और बिना पानी की रंगाई तक।",
+  "searchDescription": "Kotak BizLabs accelerator (FITT-IIT Delhi) के दूसरे cohort की 6 स्टार्टअप कहानियां, रेलवे, कैंसर AI, एग्रीटेक और क्लीनटेक में प्रगति के साथ।",
+  "author": "TECH RWT Discovery",
+  "featured": false,
+  "trending": true,
+  "keyPoints": [
+   "Kotak BizLabs के FITT-IIT Delhi संग दूसरे Cohort में 15 स्टार्टअप्स ने 6 महीने का एक्सेलेरेशन पूरा किया।",
+   "Pradivya Software ने रेलवे को कटरा साइट सौंपी, ऑर्डर पाइपलाइन ₹8 करोड़ से ऊपर पहुंची।",
+   "Easiofy Solutions के कैंसर-थेरेपी AI को TiEcon Silicon Valley 2026 में TiE50 ग्लोबल अवॉर्ड मिला।",
+   "Open Spectrum AI ने हिम्मतनगर के अनार बाग में 60 लाख लीटर पानी बचाने का दावा किया।",
+   "पहले Cohort में 1,500+ आवेदन आए थे, 55 स्टार्टअप्स accelerate हुए, तीसरे Cohort के आवेदन अब खुले हैं।"
+  ],
+  "batch": 57
+ },
+ {
   "id": "science-20260925-ariel-uranus-ocean",
   "slug": "ariel-uranus-moon-ancient-ocean-study",
   "title": "Uranus के चांद Ariel में मिला 170 किमी गहरा प्राचीन समुद्र",
