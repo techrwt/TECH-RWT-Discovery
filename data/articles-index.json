@@ -253,6 +253,29 @@
   "batch": 61
  },
  {
+  "id": "technology-20260926-amaravati-ibm-quantum-computer",
+  "slug": "amaravati-ibm-quantum-computer-india-first",
+  "title": "क्या भारत का पहला असली Quantum Computer अब तैयार होने वाला है?",
+  "seoTitle": "Amaravati IBM Quantum Computer: भारत का पहला असली सिस्टम",
+  "category": "Technology & Future Tech",
+  "date": "2026-09-26",
+  "image": "assets/images/amaravati-ibm-quantum-computer-india-first.webp",
+  "imageCredit": "",
+  "excerpt": "IBM का 156-qubit Quantum System Two अब Amaravati पहुंच रहा है, यह भारत में लगने वाला पहला बड़ा विदेशी क्वांटम कंप्यूटर होगा। जानिए पूरी कहानी और इसके मायने।",
+  "searchDescription": "Amaravati IBM quantum computer: भारत के पहले 156-qubit System Two की पूरी टाइमलाइन, वजह और आगे क्या होगा, जानें विस्तार से यहां।",
+  "author": "TECH RWT Discovery",
+  "featured": false,
+  "trending": true,
+  "keyPoints": [
+   "IBM का 156-qubit Quantum System Two Amaravati में लगेगा, सितंबर 2026 तक कमीशन का लक्ष्य रखा गया है।",
+   "पहले भारत के पास सिर्फ IBM के cloud क्वांटम कंप्यूटर तक पहुंच थी, अब असली hardware देश में आ रहा है।",
+   "यह प्रोजेक्ट ₹6,000 करोड़ के National Quantum Mission और Andhra Pradesh सरकार की साझेदारी से जुड़ा है।",
+   "भारतीय स्टार्टअप QpiAI का 25-qubit QpiAI-Indus पहले से मौजूद है, IBM की मशीन इससे कहीं बड़ी है।",
+   "पूरी क्वांटम सेवाएं जनवरी 2027 तक शुरू होने की उम्मीद है, मंत्री के बयान के अनुसार।"
+  ],
+  "batch": 62
+ },
+ {
   "id": "science-20260925-ariel-uranus-ocean",
   "slug": "ariel-uranus-moon-ancient-ocean-study",
   "title": "Uranus के चांद Ariel में मिला 170 किमी गहरा प्राचीन समुद्र",
