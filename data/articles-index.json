@@ -69,6 +69,29 @@
   "batch": 53
  },
  {
+  "id": "innovation-20260926-low-speed-ev-motor-power",
+  "slug": "low-speed-ev-motor-power-limit-morth-draft",
+  "title": "बिना लाइसेंस वाले E-Scooter अब कितने तगड़े हो सकते हैं?",
+  "seoTitle": "Low-Speed EV मसौदा: मोटर पावर 600W तक प्रस्तावित",
+  "category": "Innovation",
+  "date": "2026-09-26",
+  "image": "assets/images/low-speed-ev-motor-power-limit-morth-draft.webp",
+  "imageCredit": "",
+  "excerpt": "MoRTH ने बिना लाइसेंस-रजिस्ट्रेशन वाले low-speed EV की मोटर पावर सीमा 250W से 600W करने और वजन सीमा हटाने का मसौदा जारी किया है। जानिए यह बदलाव कैसे काम करेगा और Yulu-BGauss में असहमति क्यों है।",
+  "searchDescription": "Low-Speed EV नियम: MoRTH के मसौदे में मोटर पावर सीमा 600W प्रस्तावित। जानें असर, जांच प्रक्रिया और Yulu-BGauss विवाद की पूरी बात हिंदी में।",
+  "author": "TECH RWT Discovery",
+  "featured": false,
+  "trending": true,
+  "keyPoints": [
+   "MoRTH ने 21 अगस्त 2026 को low-speed EV की मोटर पावर सीमा 250W से बढ़ाकर 600W करने का मसौदा जारी किया।",
+   "स्पीड सीमा 25 किमी/घंटा वही रहेगी, पर 60 किलो वजन की सीमा पूरी तरह हटाने का प्रस्ताव है।",
+   "Yulu ने 12 सितंबर 2026 को विरोध जताया; BGauss जैसी कंपनियां इसे बाजार बढ़ाने वाला कदम मानती हैं।",
+   "2023 में केरल के छापों में 250W स्कूटर में 1,000W मोटर लगाकर बेचे जाने का मामला सामने आया था।",
+   "नए नियम 1 अक्टूबर 2026 से लागू होने की उम्मीद है, अंतिम अधिसूचना अभी जारी नहीं हुई है।"
+  ],
+  "batch": 54
+ },
+ {
   "id": "science-20260925-ariel-uranus-ocean",
   "slug": "ariel-uranus-moon-ancient-ocean-study",
   "title": "Uranus के चांद Ariel में मिला 170 किमी गहरा प्राचीन समुद्र",
