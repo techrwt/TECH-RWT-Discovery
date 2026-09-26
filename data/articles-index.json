@@ -345,6 +345,29 @@
   "batch": 65
  },
  {
+  "id": "science-20260926-magnetic-bacteria-worm-lifespan-myths",
+  "slug": "magnetic-bacteria-worm-lifespan-aging-myths",
+  "title": "क्या चुंबकीय बैक्टीरिया सच में उम्र बढ़ा सकती है?",
+  "seoTitle": "चुंबकीय बैक्टीरिया से 43% ज़्यादा उम्र: सच या भ्रम?",
+  "category": "Science",
+  "date": "2026-09-26",
+  "image": "assets/images/magnetic-bacteria-worm-lifespan-aging-myths.webp",
+  "imageCredit": "",
+  "excerpt": "चीन की एक स्टडी में चुंबक बनाने वाली बैक्टीरिया से worms की उम्र 43% बढ़ी। जानिए इससे जुड़े मैग्नेट थेरेपी, आयरन और anti-aging के आम भ्रम असल में कितने सही हैं।",
+  "searchDescription": "चुंबकीय बैक्टीरिया worm lifespan study: 43% ज़्यादा उम्र, ferroptosis का राज़, और मैग्नेट थेरेपी व आयरन से जुड़े भ्रम, भारत के लिए मायने।",
+  "author": "TECH RWT Discovery",
+  "featured": false,
+  "trending": true,
+  "keyPoints": [
+   "चीन की स्टडी: चुंबक बनाने वाली Magnetospirillum magneticum AMB-1 बैक्टीरिया से worms की उम्र 43.39% बढ़ी।",
+   "असर की वजह चुंबकत्व नहीं, बल्कि ferroptosis (आयरन-आधारित कोशिका मृत्यु) का दबना है।",
+   "यह प्रयोग सिर्फ Caenorhabditis elegans worm पर हुआ है, इंसानों पर सीधा लागू नहीं होता।",
+   "स्टडी में ftn-1, bli-3 और ads-1 जीनों की भूमिका सामने आई।",
+   "भारत में AIIMS दिल्ली जैसे National Centre for Ageing के लिए यह एक नई शोध दिशा हो सकती है।"
+  ],
+  "batch": 66
+ },
+ {
   "id": "science-20260925-ariel-uranus-ocean",
   "slug": "ariel-uranus-moon-ancient-ocean-study",
   "title": "Uranus के चांद Ariel में मिला 170 किमी गहरा प्राचीन समुद्र",
