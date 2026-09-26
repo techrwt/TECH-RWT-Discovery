@@ -299,6 +299,29 @@
   "batch": 63
  },
  {
+  "id": "space-20260926-nasa-prima-telescope",
+  "slug": "nasa-prima-telescope-far-infrared-2033-launch",
+  "title": "1.2 अरब डॉलर में बनेगा NASA का PRIMA टेलीस्कोप, 2033 में लॉन्च",
+  "seoTitle": "NASA PRIMA टेलीस्कोप: 1.2 अरब डॉलर, 2033 लॉन्च लक्ष्य",
+  "category": "Space & ISRO",
+  "date": "2026-09-26",
+  "image": "assets/images/nasa-prima-telescope-far-infrared-2033-launch.webp",
+  "imageCredit": "",
+  "excerpt": "NASA ने अपने नए far-infrared टेलीस्कोप PRIMA को अगले डिजाइन चरण में भेजा है। 1.2 अरब डॉलर बजट और 2033 लॉन्च लक्ष्य वाला यह मिशन James Webb की भी न देखी रोशनी में झांकेगा।",
+  "searchDescription": "NASA का PRIMA टेलीस्कोप Phase B में पहुंचा, बजट 1.2 अरब डॉलर तक सीमित, लॉन्च लक्ष्य 2033। जानिए far-infrared रोशनी क्यों अहम है।",
+  "author": "TECH RWT Discovery",
+  "featured": false,
+  "trending": true,
+  "keyPoints": [
+   "NASA ने 23 सितंबर 2026 को PRIMA टेलीस्कोप को Phase B यानी प्रारंभिक डिजाइन चरण में भेजा।",
+   "PRIMA का बजट अधिकतम 1.2 अरब डॉलर तय है, लॉन्च खर्च इसमें शामिल नहीं है।",
+   "मिशन का लक्ष्य 2033 में लॉन्च और पांच साल तक far-infrared सर्वे करना है।",
+   "PRIMA उस far-infrared रेंज को स्कैन करेगा जिसमें आखिरी बड़ा टेलीस्कोप 2013 में बंद हुए ESA के Herschel था।",
+   "PRIMA James Webb और Roman जैसे 10 अरब डॉलर से ज्यादा के मिशनों से बजट में कहीं छोटा है।"
+  ],
+  "batch": 64
+ },
+ {
   "id": "science-20260925-ariel-uranus-ocean",
   "slug": "ariel-uranus-moon-ancient-ocean-study",
   "title": "Uranus के चांद Ariel में मिला 170 किमी गहरा प्राचीन समुद्र",
