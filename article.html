@@ -26,6 +26,33 @@
       padding: 40px;
       box-shadow: 0 4px 20px rgba(0,0,0,0.03);
     }
+    .breadcrumbs {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 6px;
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      margin-bottom: 22px;
+    }
+    .breadcrumbs a {
+      color: var(--text-muted);
+      font-weight: 600;
+      transition: color 0.2s ease;
+    }
+    .breadcrumbs a:hover { color: var(--accent); }
+    .breadcrumbs .sep { color: var(--border-color); }
+    .breadcrumbs .current {
+      color: var(--text-main);
+      font-weight: 600;
+      max-width: 320px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+    @media (max-width: 768px) {
+      .breadcrumbs .current { max-width: 160px; }
+    }
     .article-header {
       margin-bottom: 30px;
     }
@@ -128,6 +155,7 @@
   <!-- Article Reader Content -->
   <main class="container">
     <div class="article-container" id="articleContainer">
+      <nav class="breadcrumbs" id="breadcrumbs" aria-label="Breadcrumb"></nav>
       <p style="text-align: center; color: var(--text-muted); padding: 40px;">लेख लोड हो रहा है...</p>
     </div>
   </main>
@@ -209,7 +237,40 @@
         document.getElementById("pageTitle").innerText = article.title + " - TECH RWT Discovery";
         document.getElementById("metaDesc").setAttribute("content", article.excerpt);
 
+        // Category name -> category page ka mapping (breadcrumb ke liye)
+        const categoryLinks = {
+          "Science": "pages/science.html",
+          "Space & ISRO": "pages/space.html",
+          "Technology & Future Tech": "pages/technology.html",
+          "Environment": "pages/environment.html",
+          "Innovation": "pages/innovation.html"
+        };
+        const catUrl = categoryLinks[article.category] || "index.html";
+
+        const breadcrumbHtml = `
+          <a href="index.html">होम</a>
+          <span class="sep">&rsaquo;</span>
+          <a href="${catUrl}">${article.category}</a>
+          <span class="sep">&rsaquo;</span>
+          <span class="current" title="${article.title}">${article.title}</span>
+        `;
+
+        // Google ke liye BreadcrumbList schema (search results me path dikhane ke liye)
+        const breadcrumbSchema = document.createElement("script");
+        breadcrumbSchema.type = "application/ld+json";
+        breadcrumbSchema.text = JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "होम", "item": "https://techrawatdiscovery.sbs/" },
+            { "@type": "ListItem", "position": 2, "name": article.category, "item": "https://techrawatdiscovery.sbs/" + catUrl },
+            { "@type": "ListItem", "position": 3, "name": article.title }
+          ]
+        });
+        document.head.appendChild(breadcrumbSchema);
+
         container.innerHTML = `
+          <nav class="breadcrumbs" aria-label="Breadcrumb">${breadcrumbHtml}</nav>
           <div class="article-header">
             <div class="article-category-date">
               <span class="card-category">${article.category}</span>
