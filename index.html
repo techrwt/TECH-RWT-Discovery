@@ -52,7 +52,10 @@
   </script>
   <link rel="alternate" type="application/rss+xml" title="TECH RWT Discovery" href="/feed.xml">
 
-  <link rel="stylesheet" href="css/style.css?v=2.1">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Devanagari:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css?v=3.0">
 <link rel="icon" type="image/png" href="assets/images/Favicon.png">
 </head>
 <body>
@@ -65,41 +68,39 @@
   <script>try{if(sessionStorage.getItem("welcomeShown")==="1"){document.getElementById("welcomeScreen").style.display="none";}}catch(e){}</script>
 
 <!-- Header & Navigation -->
-  <header style="padding: 15px 0; background-color: var(--card-bg); border-bottom: 1px solid var(--border-color);">
-    <div class="container" style="display: flex; justify-content: space-between; align-items: center; position: relative;">
-      
+  <header>
+    <div class="container">
+
       <!-- Logo Image -->
       <div class="logo-area">
-        <a href="/" style="display: inline-block; max-width: 250px;">
-          <img src="assets/images/Logo line.png" alt="TECH RWT Discovery Logo" style="width: 100%; height: auto; display: block;">
+        <a href="/">
+          <img src="assets/images/Logo line.png" alt="TECH RWT Discovery Logo">
         </a>
       </div>
 
       <!-- Hamburger Button for Mobile -->
-      <button class="hamburger" id="hamburgerBtn" aria-label="Toggle Menu" style="background:none; border:none; cursor:pointer; display:none; flex-direction:column; gap:5px;">
-        <span style="display:block; width:25px; height:3px; background-color:var(--text-main);"></span>
-        <span style="display:block; width:25px; height:3px; background-color:var(--text-main);"></span>
-        <span style="display:block; width:25px; height:3px; background-color:var(--text-main);"></span>
+      <button class="hamburger" id="hamburgerBtn" aria-label="Toggle Menu">
+        <span></span><span></span><span></span>
       </button>
 
       <!-- Navigation Links -->
       <nav>
-        <ul class="nav-links" id="navLinks" style="display: flex; flex-wrap: wrap; align-items: center; gap: 8px 18px; list-style: none; margin: 0; padding: 0;">
-          <li><a href="/" style="font-weight: 600; text-decoration: none; color: var(--text-main);">होम</a></li>
-          <li><a href="pages/science.html" style="font-weight: 600; text-decoration: none; color: var(--text-main);">Science</a></li>
-          <li><a href="pages/space.html" style="font-weight: 600; text-decoration: none; color: var(--text-main);">Space &amp; ISRO</a></li>
-          <li><a href="pages/technology.html" style="font-weight: 600; text-decoration: none; color: var(--text-main);">Technology</a></li>
-          <li><a href="pages/environment.html" style="font-weight: 600; text-decoration: none; color: var(--text-main);">Environment</a></li>
-          <li><a href="pages/innovation.html" style="font-weight: 600; text-decoration: none; color: var(--text-main);">Innovation</a></li>
-          <li><a href="pages/about.html" style="font-weight: 600; text-decoration: none; color: var(--text-main);">हमारे बारे में</a></li>
-          <li><a href="pages/contact.html" style="font-weight: 600; text-decoration: none; color: var(--text-main);">संपर्क</a></li>
+        <ul class="nav-links" id="navLinks">
+          <li><a href="/">होम</a></li>
+          <li><a href="pages/science.html">Science</a></li>
+          <li><a href="pages/space.html">Space &amp; ISRO</a></li>
+          <li><a href="pages/technology.html">Technology</a></li>
+          <li><a href="pages/environment.html">Environment</a></li>
+          <li><a href="pages/innovation.html">Innovation</a></li>
+          <li><a href="pages/about.html">हमारे बारे में</a></li>
+          <li><a href="pages/contact.html">संपर्क</a></li>
         </ul>
       </nav>
 
       <!-- Right Actions (Search & Theme Toggle) -->
-      <div style="display: flex; gap: 10px; align-items: center;">
-        <button class="search-toggle" onclick="window.location.href='pages/search.html'" title="खोजें" style="background:none; border:none; cursor:pointer; font-size:1.2rem;">🔍</button>
-        <button class="theme-toggle" id="themeToggle" title="Theme Toggle" style="background:none; border:none; cursor:pointer; font-size:1.2rem;">🌙</button>
+      <div class="nav-actions">
+        <button class="search-toggle" onclick="window.location.href='pages/search.html'" title="खोजें">🔍</button>
+        <button class="theme-toggle" id="themeToggle" title="Theme Toggle">🌙</button>
       </div>
 
     </div>
@@ -108,7 +109,7 @@
   <!-- Main Content Area -->
   <main class="container">
     <h1 class="section-title">TECH RWT Discovery: Science और Technology आसान हिंदी में</h1>
-    <p class="site-intro" style="max-width: 900px; margin: 0 auto 25px auto; text-align: center; line-height: 1.8; color: var(--text-muted);">
+    <p class="site-intro">
       TECH RWT Discovery पर विज्ञान और तकनीक की खबरें और गहरी पड़तालें आसान हिंदी में मिलती हैं। हर लेख के अंत में स्रोत दिए जाते हैं और कठिन शब्द सरल भाषा में समझाए जाते हैं। ताज़ा लेख नीचे देखिए, या सीधे किसी विषय पर जाइए:
       <a href="pages/science.html">Science</a>,
       <a href="pages/space.html">Space &amp; ISRO</a>,
@@ -118,11 +119,9 @@
     </p>
     
     <!-- Hero Banner with Line.png -->
-<section class="hero-section" style="background: none; padding: 10px 0;">
-  <div style="text-align: center;">
-    <img src="assets/images/Line.png" alt="Science, Space, Technology, Environment और Innovation categories" style="width: 100%; max-width: 1200px; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.05);">
-  </div>
-</section>
+    <section class="hero-section">
+      <img src="assets/images/Line.png" alt="Science, Space, Technology, Environment और Innovation categories">
+    </section>
 
     <!-- Category Filter Bar -->
     <div class="category-filter">
