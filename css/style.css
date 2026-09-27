@@ -1,35 +1,42 @@
 /* ==========================================
-   TECH RWT Discovery - Main Stylesheet
+   TECH RWT Discovery - Main Stylesheet (Pro Edition)
+   Ek hi jagah se poora design system control hota hai.
    ========================================== */
 
 :root {
   --primary: #0f172a;
   --accent: #2563eb;
+  --accent-2: #0ea5e9;
   --accent-hover: #1d4ed8;
-  --bg-color: #f8fafc;
+  --bg-color: #f4f7fb;
   --card-bg: #ffffff;
   --text-main: #1e293b;
   --text-muted: #64748b;
   --border-color: #e2e8f0;
-  --header-bg: #ffffff;
-  --footer-bg: #0f172a;
-  --footer-text: #94a3b8;
+  --header-bg: rgba(255, 255, 255, 0.9);
+  --footer-bg: #0b1220;
+  --footer-text: #cbd5e1;
   --max-width: 1200px;
-  --transition: all 0.3s ease;
+  --radius: 14px;
+  --transition: all 0.25s ease;
+  --shadow-sm: 0 1px 3px rgba(15, 23, 42, 0.06);
+  --shadow-md: 0 10px 25px -8px rgba(15, 23, 42, 0.12);
+  --shadow-lg: 0 20px 35px -10px rgba(15, 23, 42, 0.18);
 }
 
 [data-theme="dark"] {
   --primary: #f8fafc;
   --accent: #3b82f6;
+  --accent-2: #38bdf8;
   --accent-hover: #60a5fa;
-  --bg-color: #0b0f19;
+  --bg-color: #060a14;
   --card-bg: #111827;
-  --text-main: #f3f4f6;
-  --text-muted: #9ca3af;
+  --text-main: #f1f5f9;
+  --text-muted: #94a3b8;
   --border-color: #1f2937;
-  --header-bg: #111827;
-  --footer-bg: #030712;
-  --footer-text: #9ca3af;
+  --header-bg: rgba(17, 24, 39, 0.85);
+  --footer-bg: #05070d;
+  --footer-text: #94a3b8;
 }
 
 * {
@@ -38,22 +45,23 @@
   padding: 0;
 }
 
+html { scroll-behavior: smooth; }
+
 body {
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  font-family: 'Noto Sans Devanagari', 'Inter', system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
   background-color: var(--bg-color);
+  background-image:
+    radial-gradient(circle at 10% 0%, rgba(37, 99, 235, 0.07) 0%, transparent 45%),
+    radial-gradient(circle at 90% 100%, rgba(14, 165, 233, 0.06) 0%, transparent 45%);
+  background-attachment: fixed;
   color: var(--text-main);
-  line-height: 1.6;
-  transition: var(--transition);
+  line-height: 1.7;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
-ul {
-  list-style: none;
-}
+a { color: inherit; text-decoration: none; }
+ul { list-style: none; }
+img { max-width: 100%; display: block; }
 
 .container {
   max-width: var(--max-width);
@@ -61,81 +69,77 @@ ul {
   padding: 0 20px;
 }
 
-/* Header & Navigation */
+/* ============ Header & Navigation ============ */
 header {
   background-color: var(--header-bg);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
   border-bottom: 1px solid var(--border-color);
   position: sticky;
   top: 0;
   z-index: 1000;
+  padding: 12px 0;
   transition: var(--transition);
 }
 
-.nav-container {
+header .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 75px;
+  gap: 16px;
+  flex-wrap: wrap;
 }
 
-.logo-area {
-  display: flex;
-  flex-direction: column;
+.logo-area a {
+  display: inline-flex;
+  align-items: center;
+  max-width: 230px;
 }
 
-.logo-text {
-  font-size: 1.5rem;
-  font-weight: 800;
-  color: var(--primary);
-  letter-spacing: -0.5px;
-}
+.logo-area img { width: 100%; height: auto; }
 
-.logo-tagline {
-  font-size: 0.7rem;
-  color: var(--text-muted);
-  font-weight: 500;
-}
+nav { flex: 1; display: flex; justify-content: center; }
 
 .nav-links {
   display: flex;
-  gap: 24px;
+  flex-wrap: wrap;
   align-items: center;
+  gap: 6px 22px;
 }
 
 .nav-links a {
+  font-weight: 600;
   font-size: 0.95rem;
-  font-weight: 500;
   color: var(--text-main);
+  padding: 6px 2px;
+  border-bottom: 2px solid transparent;
   transition: var(--transition);
 }
 
-.nav-links a:hover, .nav-links a.active {
+.nav-links a:hover,
+.nav-links a.active {
   color: var(--accent);
+  border-bottom-color: var(--accent);
 }
 
-.nav-actions {
-  display: flex;
-  align-items: center;
-  gap: 15px;
-}
+.nav-actions { display: flex; gap: 8px; align-items: center; }
 
 .theme-toggle, .search-toggle {
   background: none;
   border: 1px solid var(--border-color);
   color: var(--text-main);
-  width: 40px;
-  height: 40px;
-  border-radius: 8px;
+  width: 38px;
+  height: 38px;
+  border-radius: 10px;
   cursor: pointer;
   display: flex;
   align-items: center;
   justify-content: center;
+  font-size: 1.05rem;
   transition: var(--transition);
 }
 
-.theme-toggle:hover, .search-toggle:hover {
-  background-color: var(--border-color);
-}
+.theme-toggle:hover, .search-toggle:hover { background-color: var(--border-color); }
 
 .hamburger {
   display: none;
@@ -143,105 +147,110 @@ header {
   border: none;
   cursor: pointer;
   flex-direction: column;
-  gap: 6px;
+  gap: 5px;
 }
 
 .hamburger span {
   display: block;
-  width: 25px;
-  height: 3px;
+  width: 24px;
+  height: 2.5px;
   background-color: var(--text-main);
   border-radius: 2px;
 }
 
-/* Hero Section */
-.hero-section {
-  padding: 40px 0 20px 0;
+/* ============ Hero / Intro ============ */
+.hero-section { padding: 28px 0 8px; }
+
+.hero-section img {
+  width: 100%;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-sm);
 }
 
-.hero-banner {
-  background: linear-gradient(135deg, #1e3a8a 0%, #2563eb 100%);
-  color: #ffffff;
-  padding: 50px 40px;
-  border-radius: 16px;
-  text-align: center;
-  margin-bottom: 30px;
-}
-
-.hero-banner h1 {
-  font-size: 2.2rem;
+.section-title {
+  font-size: 1.6rem;
   font-weight: 800;
-  margin-bottom: 12px;
+  letter-spacing: -0.3px;
+  text-align: center;
+  margin: 20px 0 12px;
 }
 
-.hero-banner p {
-  font-size: 1.1rem;
-  opacity: 0.9;
-  max-width: 700px;
-  margin: 0 auto;
+.site-intro {
+  max-width: 880px;
+  margin: 0 auto 24px;
+  text-align: center;
+  line-height: 1.9;
+  color: var(--text-muted);
+  font-size: 0.98rem;
 }
 
-/* Category Filter Bar */
+.site-intro a { color: var(--accent); font-weight: 600; }
+.site-intro a:hover { text-decoration: underline; }
+
+/* ============ Category Filter Bar ============ */
 .category-filter {
   display: flex;
   gap: 10px;
   overflow-x: auto;
-  padding-bottom: 10px;
-  margin-bottom: 30px;
+  padding: 4px 2px 14px;
+  margin-bottom: 26px;
 }
 
 .cat-btn {
   background-color: var(--card-bg);
   border: 1px solid var(--border-color);
   color: var(--text-main);
-  padding: 8px 18px;
-  border-radius: 20px;
+  padding: 9px 20px;
+  border-radius: 50px;
   font-size: 0.9rem;
-  font-weight: 500;
+  font-weight: 600;
   cursor: pointer;
   white-space: nowrap;
   transition: var(--transition);
 }
 
-.cat-btn:hover, .cat-btn.active {
-  background-color: var(--accent);
+.cat-btn:hover { border-color: var(--accent); color: var(--accent); }
+
+.cat-btn.active {
+  background: linear-gradient(135deg, var(--accent-2) 0%, var(--accent) 100%);
   color: #ffffff;
-  border-color: var(--accent);
+  border-color: transparent;
+  box-shadow: 0 6px 16px rgba(37, 99, 235, 0.3);
 }
 
-/* Article Grid & Cards */
-.section-title {
-  font-size: 1.5rem;
-  font-weight: 700;
-  margin-bottom: 20px;
+section > .section-title {
+  text-align: left;
   border-left: 4px solid var(--accent);
-  padding-left: 12px;
+  padding-left: 14px;
+  font-size: 1.35rem;
 }
 
+/* ============ Article Grid & Cards ============ */
 .articles-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
-  gap: 25px;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 24px;
   margin-bottom: 50px;
 }
 
 .article-card {
   background-color: var(--card-bg);
   border: 1px solid var(--border-color);
-  border-radius: 12px;
+  border-radius: var(--radius);
   overflow: hidden;
-  transition: var(--transition);
   display: flex;
   flex-direction: column;
+  transition: transform 0.35s cubic-bezier(0.165, 0.84, 0.44, 1), box-shadow 0.35s ease, border-color 0.35s ease;
 }
 
 .article-card:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.05);
+  transform: translateY(-6px);
+  box-shadow: var(--shadow-lg);
+  border-color: var(--accent);
 }
 
 .card-img-wrapper {
-  height: 200px;
+  aspect-ratio: 16 / 9;
   background-color: var(--border-color);
   overflow: hidden;
 }
@@ -250,15 +259,13 @@ header {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  transition: var(--transition);
+  transition: transform 0.5s ease;
 }
 
-.article-card:hover .card-img-wrapper img {
-  transform: scale(1.03);
-}
+.article-card:hover .card-img-wrapper img { transform: scale(1.05); }
 
 .card-content {
-  padding: 20px;
+  padding: 18px 20px 20px;
   display: flex;
   flex-direction: column;
   flex-grow: 1;
@@ -268,7 +275,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-size: 0.8rem;
+  font-size: 0.78rem;
   color: var(--text-muted);
   margin-bottom: 10px;
 }
@@ -277,541 +284,71 @@ header {
   background-color: rgba(37, 99, 235, 0.1);
   color: var(--accent);
   padding: 3px 10px;
-  border-radius: 4px;
-  font-weight: 600;
-}
-
-.card-title {
-  font-size: 1.15rem;
+  border-radius: 6px;
   font-weight: 700;
-  margin-bottom: 10px;
-  line-height: 1.4;
 }
 
-.card-title a:hover {
-  color: var(--accent);
-}
+.card-title { font-size: 1.1rem; font-weight: 700; margin-bottom: 8px; line-height: 1.45; }
+.card-title a:hover { color: var(--accent); }
 
-.card-excerpt {
-  font-size: 0.92rem;
-  color: var(--text-muted);
-  margin-bottom: 20px;
-  flex-grow: 1;
-}
+.card-excerpt { font-size: 0.9rem; color: var(--text-muted); margin-bottom: 16px; flex-grow: 1; }
 
 .read-more {
-  font-size: 0.9rem;
-  font-weight: 600;
+  font-size: 0.88rem;
+  font-weight: 700;
   color: var(--accent);
   display: inline-flex;
   align-items: center;
   gap: 5px;
+  transition: var(--transition);
 }
 
-.read-more:hover {
-  color: var(--accent-hover);
-}
+.read-more:hover { color: var(--accent-hover); gap: 8px; }
 
-/* Footer */
+/* ============ Footer ============ */
 footer {
-  background-color: var(--footer-bg);
+  background: var(--footer-bg);
   color: var(--footer-text);
-  padding: 50px 0 20px 0;
+  padding: 56px 0 22px;
   margin-top: 60px;
-  border-top: 1px solid var(--border-color);
 }
 
 .footer-grid {
   display: grid;
   grid-template-columns: 2fr 1fr 1fr 1fr;
-  gap: 40px;
-  margin-bottom: 40px;
+  gap: 36px;
+  margin-bottom: 36px;
 }
 
 .footer-col h3 {
   color: #ffffff;
-  font-size: 1.1rem;
-  margin-bottom: 15px;
+  font-size: 1.05rem;
   font-weight: 700;
+  margin-bottom: 16px;
+  padding-bottom: 6px;
+  border-bottom: 2px solid var(--accent);
+  display: inline-block;
 }
 
-.footer-col p {
-  font-size: 0.9rem;
-  line-height: 1.6;
-  margin-bottom: 15px;
-}
-
-.footer-col ul li {
-  margin-bottom: 10px;
-}
-
-.footer-col ul li a {
-  font-size: 0.9rem;
-  transition: var(--transition);
-}
-
-.footer-col ul li a:hover {
-  color: #ffffff;
-}
+.footer-col p { font-size: 0.9rem; line-height: 1.7; margin-bottom: 14px; color: var(--footer-text); }
+.footer-col ul li { margin-bottom: 10px; }
+.footer-col ul li a { font-size: 0.9rem; color: var(--footer-text); transition: var(--transition); }
+.footer-col ul li a:hover { color: var(--accent-2); padding-left: 4px; }
 
 .footer-bottom {
   text-align: center;
   padding-top: 20px;
-  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
   font-size: 0.85rem;
+  color: #64748b;
 }
 
-/* Responsive Design */
-@media (max-width: 900px) {
-  .hamburger {
-    display: flex !important;
-  }
-
-  .nav-links {
-    display: none !important;
-    position: absolute;
-    top: 100%;
-    left: 0;
-    width: 100%;
-    background-color: var(--card-bg);
-    flex-direction: column;
-    padding: 20px;
-    border-bottom: 1px solid var(--border-color);
-    box-shadow: 0 10px 15px rgba(0,0,0,0.1);
-    z-index: 1000;
-  }
-
-  .nav-links.active {
-    display: flex !important;
-  }
-}
-/* ==========================================
-   TECH RWT Discovery - Pro High-End Finish
-   ========================================== */
-
-/* 1. Rich Modern Background with Soft Gradient Glow */
-[data-theme="light"] {
-  --bg-color: #f4f7fc;
-  --card-bg: #ffffff;
-  --border-color: #e2e8f0;
-}
-
-[data-theme="dark"] {
-  --bg-color: #030712;
-  --card-bg: #0f172a;
-  --border-color: #1e293b;
-}
-
-body {
-  background-color: var(--bg-color);
-  background-image: 
-    radial-gradient(circle at 10% 15%, rgba(37, 99, 235, 0.06) 0%, transparent 45%),
-    radial-gradient(circle at 90% 85%, rgba(15, 23, 42, 0.06) 0%, transparent 45%);
-  background-attachment: fixed;
-}
-
-/* 2. Frosted Glassmorphism Header */
-header {
-  background-color: var(--header-bg) !important;
-  backdrop-filter: blur(14px);
-  -webkit-backdrop-filter: blur(14px);
-  border-bottom: 1px solid var(--border-color) !important;
-}
-
-/* 3. Professional Apple-Style Rounded Cards & Smooth Hover */
-.article-card {
-  background-color: var(--card-bg);
-  border: 1px solid var(--border-color);
-  border-radius: 18px;
-  overflow: hidden;
-  transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
-}
-
-.article-card:hover {
-  transform: translateY(-8px);
-  box-shadow: 0 20px 35px -10px rgba(0, 0, 0, 0.12);
-  border-color: var(--accent);
-}
-
-.card-img-wrapper img {
-  transition: transform 0.5s ease;
-}
-
-.article-card:hover .card-img-wrapper img {
-  transform: scale(1.05);
-}
-
-/* 4. Modern Pill-Shaped Category Filter Buttons */
-.category-filter {
-  gap: 12px;
-}
-
-.cat-btn {
-  border-radius: 50px !important;
-  padding: 8px 20px !important;
-  font-weight: 600;
-  border: 1px solid var(--border-color);
-  transition: all 0.3s ease;
-}
-
-.cat-btn.active {
-  background-color: var(--accent) !important;
-  color: #ffffff !important;
-  border-color: var(--accent) !important;
-  box-shadow: 0 6px 15px rgba(37, 99, 235, 0.3);
-}
-
-/* 5. Sleek Section Titles */
-.section-title {
-  font-size: 1.4rem;
-  font-weight: 800;
-  letter-spacing: -0.5px;
-  border-left: 4px solid var(--accent);
-  padding-left: 14px;
-}
-/* ==========================================
-   Dhamakedaar Rich Background Fix
-   ========================================== */
-
-[data-theme="light"] {
-  --bg-color: #eef2f7 !important;
-}
-
-[data-theme="dark"] {
-  --bg-color: #02040a !important;
-}
-
-body {
-  background-color: var(--bg-color) !important;
-  background-image: 
-    radial-gradient(circle at 15% 15%, rgba(37, 99, 235, 0.08) 0%, transparent 50%),
-    radial-gradient(circle at 85% 85%, rgba(15, 23, 42, 0.08) 0%, transparent 50%) !important;
-  background-attachment: fixed !important;
-}
-/* ==========================================
-   Ultra-Pro Modern Tech Background Overhaul
-   ========================================== */
-
-[data-theme="light"] {
-  --bg-color: #e2e8f0 !important;
-}
-
-[data-theme="dark"] {
-  --bg-color: #050811 !important;
-}
-
-body {
-  background-color: var(--bg-color) !important;
-  /* High-end tech mesh / grid pattern with glowing gradients */
-  background-image: 
-    radial-gradient(at 0% 0%, rgba(37, 99, 235, 0.15) 0px, transparent 50%),
-    radial-gradient(at 100% 0%, rgba(147, 51, 234, 0.12) 0px, transparent 50%),
-    radial-gradient(at 50% 100%, rgba(14, 165, 233, 0.1) 0px, transparent 50%),
-    linear-gradient(to right, rgba(255, 255, 255, 0.02) 1px, transparent 1px),
-    linear-gradient(to bottom, rgba(255, 255, 255, 0.02) 1px, transparent 1px) !important;
-  background-size: 100% 100%, 100% 100%, 100% 100%, 40px 40px, 40px 40px !important;
-  background-attachment: fixed !important;
-}
-/* ==========================================
-   Solid Logo Background Highlight
-   ========================================== */
-
-.logo-area {
-  background: #0f172a !important; /* Ekdum solid rich dark background */
-  border: 2px solid #2563eb !important; /* Vibrant blue border jo logo ke blue shade se match kare */
-  padding: 8px 16px !important;
-  border-radius: 12px !important;
-  box-shadow: 0 6px 20px rgba(37, 99, 235, 0.3) !important;
-}
-
-/* Logo ke text aur elements ko dark background par white/bright dikhane ke liye */
-.logo-area .logo-text {
-  color: #ffffff !important;
-}
-
-.logo-area .logo-tagline {
-  color: #94a3b8 !important;
-}
-
-/* Agar logo ki image ya white box wali background ko blend karna ho */
-.logo-area img, .logo-area svg {
-  filter: drop-shadow(0 2px 4px rgba(0,0,0,0.3));
-}
-/* ==========================================
-   Pro Footer Styling Overhaul
-   ========================================== */
-
-footer {
-  background: linear-gradient(180deg, #090d16 0%, #030712 100%) !important;
-  border-top: 2px solid #1e293b !important;
-  box-shadow: 0 -10px 30px rgba(0, 0, 0, 0.3) !important;
-  padding: 60px 0 25px 0 !important;
-}
-
-.footer-col h3 {
-  color: #f8fafc !important;
-  font-size: 1.15rem !important;
-  font-weight: 700 !important;
-  letter-spacing: -0.3px;
-  border-bottom: 2px solid #2563eb !important;
-  display: inline-block;
-  padding-bottom: 5px;
-  margin-bottom: 20px !important;
-}
-
-.footer-col p, .footer-col ul li a {
-  color: #94a3b8 !important;
-  transition: all 0.3s ease !important;
-}
-
-.footer-col ul li a:hover {
-  color: #38bdf8 !important;
-  padding-left: 5px;
-}
-
-.footer-bottom {
-  border-top: 1px solid rgba(255, 255, 255, 0.08) !important;
-  margin-top: 40px;
-  color: #64748b !important;
-}
-/* ==========================================
-   Rich Blue Footer Overhaul (No Black)
-   ========================================== */
-
-footer {
-  background: linear-gradient(135deg, #1e3a8a 0%, #2563eb 100%) !important;
-  color: #ffffff !important;
-  border-top: 3px solid #3b82f6 !important;
-  box-shadow: 0 -10px 30px rgba(37, 99, 235, 0.2) !important;
-  padding: 60px 0 25px 0 !important;
-}
-
-.footer-col h3 {
-  color: #ffffff !important;
-  font-size: 1.15rem !important;
-  font-weight: 700 !important;
-  border-bottom: 2px solid rgba(255, 255, 255, 0.3) !important;
-  display: inline-block;
-  padding-bottom: 5px;
-  margin-bottom: 20px !important;
-}
-
-.footer-col p, .footer-col ul li a {
-  color: #e2e8f0 !important;
-  transition: all 0.3s ease !important;
-}
-
-.footer-col ul li a:hover {
-  color: #ffffff !important;
-  padding-left: 5px;
-  text-decoration: underline;
-}
-
-.footer-bottom {
-  border-top: 1px solid rgba(255, 255, 255, 0.2) !important;
-  margin-top: 40px;
-  color: #cbd5e1 !important;
-}
-/* ==========================================
-   Footer High-Contrast Text Fix
-   ========================================== */
-
-footer, footer p, footer li a, footer span, footer div {
-  color: #0f172a !important; /* Ekdum dark readable color */
-}
-
-footer h3, footer .footer-col h3 {
-  color: #020617 !important; /* Headings ke liye extra bold dark shade */
-  font-weight: 800 !important;
-  border-bottom: 2px solid #0f172a !important;
-}
-
-footer a:hover {
-  color: #1e3a8a !important;
-  text-decoration: underline !important;
-}
-/* ==========================================
-   Compact Article Cards Fix
-   ========================================== */
-
-/* Articles grid ya container ko compact banane ke liye */
-.articles-grid, .latest-articles-grid, .recent-posts {
-  display: grid !important;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)) !important;
-  gap: 20px !important;
-}
-
-/* Individual article card ka size chota aur clean karne ke liye */
-article, .article-card, .post-card {
-  max-width: 100% !important;
-  padding: 15px !important;
-  border-radius: 12px !important;
-}
-
-/* Card ke andar ki images ka size fix karne ke liye */
-article img, .article-card img, .post-card img {
-  height: 160px !important;
-  object-fit: cover !important;
-  border-radius: 8px !important;
-}
-/* ==========================================
-   Pro Solid Tech Buttons (Category Filters)
-   ========================================== */
-
-/* Buttons container (thoda spacing ke liye) */
-.category-filters, .filter-buttons {
-  gap: 12px !important;
-  margin-bottom: 30px !important;
-}
-
-/* Individual Button Base Styling */
-.category-filters .filter-btn, 
-.filter-buttons .btn {
-  background: linear-gradient(135deg, #0ea5e9 0%, #2563eb 100%) !important; /* Solid Vibrant Blue Gradient */
-  color: #ffffff !important;
-  border: none !important;
-  padding: 10px 24px !important;
-  border-radius: 50px !important; /* Pill Shape */
-  font-weight: 600 !important;
-  font-size: 0.95rem !important;
-  text-transform: capitalize !important;
-  box-shadow: 0 4px 12px rgba(37, 99, 235, 0.3) !important;
-  transition: all 0.4s cubic-bezier(0.23, 1, 0.32, 1) !important;
-  cursor: pointer !important;
-}
-
-/* Button Hover & Active State */
-.category-filters .filter-btn:hover, 
-.category-filters .filter-btn.active,
-.filter-buttons .btn:hover,
-.filter-buttons .btn.active {
-  background: linear-gradient(135deg, #0369a1 0%, #1d4ed8 100%) !important; /* Darker Gradient on hover */
-  transform: translateY(-2px) !important;
-  box-shadow: 0 6px 15px rgba(37, 99, 235, 0.4) !important;
-}
-
-.category-filters .filter-btn:active,
-.filter-buttons .btn:active {
-  transform: translateY(1px) !important;
-}
-/* ==========================================
-   Global Compact Cards Fix (All Pages)
-   ========================================== */
-
-/* Saare grids ko ek jaisa 3 ya 4 column compact layout dene ke liye */
-.articles-grid, 
-.latest-articles-grid, 
-.recent-posts, 
-.category-posts,
-.posts-grid,
-main .grid,
-section .grid {
-  display: grid !important;
-  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)) !important;
-  gap: 20px !important;
-}
-
-/* Har tarah ke article card ko compact size dene ke liye */
-article, 
-.article-card, 
-.post-card,
-.card {
-  width: 100% !important;
-  max-width: 100% !important;
-  padding: 15px !important;
-  border-radius: 12px !important;
-  margin-bottom: 0 !important;
-}
-
-/* Sabhi card images ki height fix karne ke liye taaki bade na dikhein */
-article img, 
-.article-card img, 
-.post-card img,
-.card img {
-  height: 150px !important;
-  width: 100% !important;
-  object-fit: cover !important;
-  border-radius: 8px !important;
-}
-/* ==========================================
-   Rich Colored Navbar Background
-   ========================================== */
-
-header, nav.navbar, .header-container {
-  background: linear-gradient(135deg, #1e3a8a 0%, #2563eb 100%) !important; /* Rich Blue Gradient */
-  border-bottom: 3px solid #3b82f6 !important;
-  box-shadow: 0 4px 20px rgba(37, 99, 235, 0.25) !important;
-  padding: 15px 0 !important;
-}
-
-header a, nav.navbar a, .nav-links a {
-  color: #facc15 !important;
-  font-weight: 700 !important;
-  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3) !important;
-  transition: all 0.3s ease !important;
-}
-
-header a:hover, nav.navbar a:hover, .nav-links a:hover {
-  color: #38bdf8 !important;
-  transform: translateY(-1px);
-}
-
-header button, nav.navbar button, .nav-icons button, .nav-icons i {
-  color: #facc15 !important;
-  background: transparent !important;
-  border: none !important;
-}
-
-header button:hover, nav.navbar button:hover, .nav-icons button:hover {
-  color: #38bdf8 !important;
-}
-}
-
-header a:hover, nav.navbar a:hover, .nav-links a:hover {
-  color: #bfdbfe !important;
-}
-
-/* Icons (Search & Dark mode) ka color white karne ke liye */
-header button, nav.navbar button, .nav-icons button {
-  color: #ffffff !important;
-  background: transparent !important;
-  border: none !important;
-}
-/* ==========================================
-   Mobile Menu Fix (Contrast & Background)
-   ========================================== */
-@media screen and (max-width: 768px) {
-  /* Mobile dropdown / open menu container background */
-  .nav-links, .navbar-collapse, .mobile-menu, .menu-drawer {
-    background: linear-gradient(135deg, #1e3a8a 0%, #2563eb 100%) !important;
-    padding: 20px !important;
-    border-radius: 0 0 12px 12px !important;
-    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3) !important;
-  }
-
-  /* Mobile menu ke andar ke links ka color aur spacing */
-  .nav-links li a, .navbar-collapse a, .mobile-menu a {
-    color: #facc15 !important;
-    font-weight: 700 !important;
-    padding: 10px 0 !important;
-    display: block !important;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.1) !important;
-  }
-
-  .nav-links li a:hover, .mobile-menu a:hover {
-    color: #38bdf8 !important;
-    padding-left: 5px !important;
-  }
-}
-
-/* ==========================================
-   Welcome Intro Screen (homepage only)
-   ========================================== */
+/* ============ Welcome Intro Screen ============ */
 .welcome-screen {
   position: fixed;
   inset: 0;
   z-index: 9999;
-  background: var(--card-bg, #fff);
+  background: var(--bg-color);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -820,48 +357,55 @@ header button, nav.navbar button, .nav-icons button {
   transition: opacity 0.6s ease, visibility 0.6s ease;
 }
 
-.welcome-screen.hide {
-  opacity: 0;
-  visibility: hidden;
-  pointer-events: none;
-}
+.welcome-screen.hide { opacity: 0; visibility: hidden; pointer-events: none; }
 
-.welcome-robot {
-  font-size: 5rem;
-  animation: welcome-float 2s ease-in-out infinite;
-}
+.welcome-robot { font-size: 4.5rem; animation: welcome-float 2s ease-in-out infinite; }
 
 @keyframes welcome-float {
   0%, 100% { transform: translateY(0); }
-  50% { transform: translateY(-15px); }
+  50% { transform: translateY(-14px); }
 }
 
 .welcome-text {
-  font-size: 1.4rem;
+  font-size: 1.3rem;
   font-weight: 700;
-  color: var(--text-main, #222);
+  color: var(--text-main);
   min-height: 2rem;
   text-align: center;
   padding: 0 20px;
 }
 
-.typing-cursor {
-  display: inline-block;
-  animation: welcome-blink 0.8s steps(1) infinite;
-  font-weight: 400;
+.typing-cursor { display: inline-block; animation: welcome-blink 0.8s steps(1) infinite; font-weight: 400; }
+@keyframes welcome-blink { 0%, 50% { opacity: 1; } 51%, 100% { opacity: 0; } }
+body.welcome-active { overflow: hidden; }
+
+/* ============ Responsive ============ */
+@media (max-width: 900px) {
+  .hamburger { display: flex; }
+  nav { order: 3; flex: 0 0 100%; }
+
+  .nav-links {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: var(--card-bg);
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 18px 20px;
+    border-bottom: 1px solid var(--border-color);
+    box-shadow: var(--shadow-md);
+  }
+
+  .nav-links.active { display: flex; }
+
+  .nav-links a { display: block; width: 100%; padding: 10px 0; border-bottom: 1px solid var(--border-color); }
+
+  .footer-grid { grid-template-columns: 1fr 1fr; }
 }
 
-@keyframes welcome-blink {
-  0%, 50% { opacity: 1; }
-  51%, 100% { opacity: 0; }
+@media (max-width: 520px) {
+  .footer-grid { grid-template-columns: 1fr; }
+  .section-title { font-size: 1.3rem; }
 }
-
-body.welcome-active {
-  overflow: hidden;
-}
-/* ==========================================
-   Images poori dikhane ke liye (kate nahi) - end mein add karo
-   ========================================== */
-.article-card .card-img-wrapper { height: auto !important; aspect-ratio: 16 / 10; background: var(--border-color); overflow: hidden; }
-.article-card .card-img-wrapper img { width: 100% !important; height: 100% !important; object-fit: contain !important; }
-.article-container img.article-featured-image { width: 100% !important; height: auto !important; max-height: none !important; object-fit: contain !important; }
