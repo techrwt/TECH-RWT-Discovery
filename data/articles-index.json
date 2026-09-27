@@ -46,6 +46,29 @@
   "batch": 68
  },
  {
+  "id": "space-20260927-nisar-krasheninnikov-volcano",
+  "slug": "nisar-krasheninnikov-volcano-timelapse-kamchatka",
+  "title": "Krasheninnikov ज्वालामुखी: NISAR ने कैद की 500 साल बाद जागने की वीडियो",
+  "seoTitle": "NISAR ने रिकॉर्ड की Krasheninnikov ज्वालामुखी की टाइम-लैप्स",
+  "category": "Space & ISRO",
+  "date": "2026-09-27",
+  "image": "assets/images/nisar-krasheninnikov-volcano-timelapse-kamchatka.webp",
+  "imageCredit": "",
+  "excerpt": "भारत-अमेरिका के साझा NISAR मिशन ने रूस के 500 साल से सोए Krasheninnikov ज्वालामुखी के जागने की पूरी टाइम-लैप्स वीडियो बनाई है। जानिए रडार तकनीक ने यह कैसे मुमकिन किया।",
+  "searchDescription": "NISAR सैटेलाइट ने रूस के Krasheninnikov ज्वालामुखी के 500 साल बाद जागने की टाइम-लैप्स वीडियो बनाई। जानिए रडार निगरानी पहले से कैसे अलग है।",
+  "author": "TECH RWT Discovery",
+  "featured": false,
+  "trending": true,
+  "keyPoints": [
+   "30 जुलाई 2025 के 8.8 तीव्रता के भूकंप ने रूस के Krasheninnikov ज्वालामुखी को करीब 500 साल बाद जगा दिया।",
+   "NASA-ISRO के साझा NISAR सैटेलाइट ने हर 12 दिन में दो बार रडार तस्वीरें लेकर लगातार निगरानी की।",
+   "दिसंबर 2025 से अगस्त 2026 की 17 तस्वीरों से बनी टाइम-लैप्स में लावा फैलने का पूरा क्रम दिखा।",
+   "रडार माइक्रोवेव से लावा बर्फ और चट्टान से ज्यादा चमकीला दिखता है, जिससे उसकी सीमा साफ पहचानी जाती है।",
+   "यह तकनीक भारत के हिमालयी और भूस्खलन-संभावित इलाकों की निगरानी में भी काम आ सकती है।"
+  ],
+  "batch": 69
+ },
+ {
   "id": "science-20260926-non-abelian-anyons",
   "slug": "non-abelian-anyons-universal-quantum-gate-quantinuum",
   "title": "54 Qubits से बना पहला Universal क्वांटम गेट, पर Error-Correction बाकी",
