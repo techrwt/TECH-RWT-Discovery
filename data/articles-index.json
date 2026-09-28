@@ -1,5 +1,28 @@
 [
  {
+  "id": "science-20260928-mammogram-overdiagnosis",
+  "slug": "breast-cancer-mammogram-overdiagnosis-below-5-percent",
+  "title": "क्या Mammogram का Overdiagnosis वाला डर बढ़ाकर बताया गया?",
+  "seoTitle": "Mammogram Overdiagnosis 5% से कम? नई स्टडी",
+  "category": "Science",
+  "date": "2026-09-28",
+  "image": "assets/images/breast-cancer-mammogram-overdiagnosis-below-5-percent.webp",
+  "imageCredit": "",
+  "excerpt": "पहले कुछ अध्ययनों में 30-50% breast cancer को overdiagnosis बताया गया था। JNCI के नए विश्लेषण के अनुसार यह 5% से कम हो सकता है। जानिए तरीका, सीमाएं और भारत का मतलब।",
+  "searchDescription": "Mammogram overdiagnosis 5% से कम? JNCI की नई स्टडी ने 8 ट्रायल दोबारा जांचे। नतीजा, सीमाएं और भारत में breast cancer screening का मतलब जानें।",
+  "author": "TECH RWT Discovery",
+  "featured": false,
+  "trending": false,
+  "keyPoints": [
+   "JNCI के विश्लेषण के अनुसार mammography का overdiagnosis 5% से कम हो सकता है, पुराने अनुमान 30-50% थे।",
+   "टीम ने सभी 8 randomized ट्रायल दोबारा जांचे और Denmark के screening आंकड़ों से मिलाया।",
+   "पुराने ऊंचे आंकड़े इसलिए बने क्योंकि कई ट्रायल गिरावट दिखने से पहले खत्म हो गए थे।",
+   "NFHS-5 के अनुसार भारत में सिर्फ 0.9% महिलाओं ने कभी breast cancer screening करवाई है।",
+   "यह नए मरीज़ों पर ट्रायल नहीं, पुराने डेटा का दोबारा विश्लेषण है; भारतीय आबादी का अनुमान इसमें नहीं है।"
+  ],
+  "batch": 70
+ },
+ {
   "id": "innovation-20260927-iitm-unicorn-frontier-fund-first-close",
   "slug": "iitm-unicorn-frontier-fund-deep-tech-vc-first-close",
   "title": "₹450 करोड़ जुटे, पर IIT Madras के फंड का असली इम्तिहान बाकी",
