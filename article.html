@@ -15,6 +15,7 @@
   <meta name="robots" content="noindex, follow">
   <title id="pageTitle">TECH RWT Discovery - आर्टिकल</title>
   <meta id="metaDesc" name="description" content="TECH RWT Discovery article reader.">
+  <link rel="canonical" id="canonicalLink" href="https://techrawatdiscovery.sbs/">
   <link rel="stylesheet" href="css/style.css">
   <style>
     .article-container {
@@ -236,6 +237,9 @@
         // Update Document Title and Meta Description for SEO
         document.getElementById("pageTitle").innerText = article.title + " - TECH RWT Discovery";
         document.getElementById("metaDesc").setAttribute("content", article.excerpt);
+        document.getElementById("canonicalLink").setAttribute(
+          "href", "https://techrawatdiscovery.sbs/articles/" + article.slug + ".html"
+        );
 
         // Category name -> category page ka mapping (breadcrumb ke liye)
         const categoryLinks = {
