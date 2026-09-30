@@ -1,5 +1,28 @@
 [
  {
+  "id": "technology-20260930-vega-chip-roadmap",
+  "slug": "india-indigenous-chips-semiconductor-mission-roadmap",
+  "title": "Vega Processor के बाद: भारत के Indigenous Chip मिशन की सच्चाई",
+  "seoTitle": "Vega Processor के बाद क्या: India Chip Mission Roadmap",
+  "category": "Technology & Future Tech",
+  "date": "2026-09-30",
+  "image": "assets/images/india-indigenous-chips-semiconductor-mission-roadmap.webp",
+  "imageCredit": "",
+  "excerpt": "Vega processor बनने के बाद क्या भारत सच में चिप-आत्मनिर्भर बन गया? Dholera fab की असली timeline, Semicon Mission 2.0 के target और चार बड़ी ग़लतफ़हमियों की पूरी सच्चाई यहां जानें।",
+  "searchDescription": "Vega processor के बाद भारत के indigenous chips कैसे बढ़ रहे हैं? Dholera fab की timeline, Semicon Mission 2.0 और चार बड़ी ग़लतफ़हमियों की सच्चाई पढ़ें।",
+  "author": "TECH RWT Discovery",
+  "featured": false,
+  "trending": false,
+  "keyPoints": [
+   "SHAKTI, VEGA, VIKRAM, THEJAS और DHRUV64 भारत की indigenous processor pipeline का हिस्सा हैं।",
+   "IIT मद्रास के अनुसार ये चिप्स नवीनतम विदेशी चिप्स से एक पीढ़ी पीछे ('generation minus one') हैं।",
+   "Tata-PSMC का Dholera fab 28-110nm नोड पर बनेगा; तारीख को लेकर रिपोर्टें अलग-अलग हैं।",
+   "अभी चालू तीन प्लांट (Micron, Kaynes, CG Power) सिर्फ़ असेंबली-टेस्टिंग करते हैं, फ़ैब्रिकेशन नहीं।",
+   "जुलाई 2026 में मंज़ूर Semicon Mission 2.0 (₹1,27,500 करोड़) उपकरण और डिज़ाइन इकोसिस्टम पर केंद्रित है।"
+  ],
+  "batch": 73
+ },
+ {
   "id": "science-20260928-mammogram-overdiagnosis",
   "slug": "breast-cancer-mammogram-overdiagnosis-below-5-percent",
   "title": "क्या Mammogram का Overdiagnosis वाला डर बढ़ाकर बताया गया?",

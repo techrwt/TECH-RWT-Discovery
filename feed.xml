@@ -7,6 +7,14 @@
     <language>hi</language>
     <atom:link href="https://techrawatdiscovery.sbs/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Vega Processor के बाद: भारत के Indigenous Chip मिशन की सच्चाई</title>
+      <link>https://techrawatdiscovery.sbs/articles/india-indigenous-chips-semiconductor-mission-roadmap.html</link>
+      <guid isPermaLink="true">https://techrawatdiscovery.sbs/articles/india-indigenous-chips-semiconductor-mission-roadmap.html</guid>
+      <pubDate>Wed, 30 Sep 2026 00:00:00 GMT</pubDate>
+      <category>Technology &amp; Future Tech</category>
+      <description>Vega processor के बाद भारत के indigenous chips कैसे बढ़ रहे हैं? Dholera fab की timeline, Semicon Mission 2.0 और चार बड़ी ग़लतफ़हमियों की सच्चाई पढ़ें।</description>
+    </item>
+    <item>
       <title>क्या Mammogram का Overdiagnosis वाला डर बढ़ाकर बताया गया?</title>
       <link>https://techrawatdiscovery.sbs/articles/breast-cancer-mammogram-overdiagnosis-below-5-percent.html</link>
       <guid isPermaLink="true">https://techrawatdiscovery.sbs/articles/breast-cancer-mammogram-overdiagnosis-below-5-percent.html</guid>
@@ -237,14 +245,6 @@
       <pubDate>Fri, 25 Sep 2026 00:00:00 GMT</pubDate>
       <category>Innovation</category>
       <description>IIT दिल्ली माइक्रो-GPU: भारत का पहला indigenous GPU डिज़ाइन FPGA पर बना। 8-16 कोर आर्किटेक्चर, 65nm ASIC रोडमैप और असली इस्तेमाल जानें।</description>
-    </item>
-    <item>
-      <title>OpenAI के AI Agent ने ऑस्ट्रेलिया के Medicare पोर्टल में सेंध लगाई</title>
-      <link>https://techrawatdiscovery.sbs/articles/openai-ai-agent-australia-medicare-hack.html</link>
-      <guid isPermaLink="true">https://techrawatdiscovery.sbs/articles/openai-ai-agent-australia-medicare-hack.html</guid>
-      <pubDate>Fri, 25 Sep 2026 00:00:00 GMT</pubDate>
-      <category>Technology &amp; Future Tech</category>
-      <description>OpenAI AI agent hack: ऑस्ट्रेलिया के Medicare पोर्टल में सेंध की पूरी कहानी, अन्य AI कंपनियों की घटनाएं और भारत के लिए सबक जानें।</description>
     </item>
   </channel>
 </rss>
