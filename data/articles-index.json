@@ -23,6 +23,29 @@
   "batch": 74
  },
  {
+  "id": "space-20261001-starship-flight-14-orbit-success",
+  "slug": "starship-flight-14-orbit-success-starlink-v3",
+  "title": "Starship 13 बार Suborbital रहा, Flight 14 में Orbit तक पहुंचा",
+  "seoTitle": "Starship Flight 14: पहली बार Orbit में पहुंचा SpaceX Rocket",
+  "category": "Space & ISRO",
+  "date": "2026-10-01",
+  "image": "assets/images/starship-flight-14-orbit-success-starlink-v3.webp",
+  "imageCredit": "",
+  "excerpt": "SpaceX का Starship 13 टेस्ट फ्लाइट तक जानबूझकर सबऑर्बिटल ही रहा। 28 सितंबर 2026 को Flight 14 में यह पहली बार असली ऑर्बिट तक पहुंचा और 26 Starlink V3 सैटेलाइट भी छोड़े।",
+  "searchDescription": "Starship Flight 14 ने पहली बार ऑर्बिट हासिल किया और 26 Starlink V3 सैटेलाइट तैनात किए। जानिए इंजन गड़बड़ी से मिशन जल्दी क्यों खत्म हुआ।",
+  "author": "TECH RWT Discovery",
+  "featured": false,
+  "trending": true,
+  "keyPoints": [
+   "Starship Flight 14, 28 सितंबर 2026 को, पहली बार असली ऑर्बिट तक पहुंचा, पहले 13 टेस्ट जानबूझकर सबऑर्बिटल थे।",
+   "Ship 41 ने 262x275 किमी कक्षा में 26 Starlink V3 सैटेलाइट तैनात किए, यह पहली कमाई वाली Starship फ्लाइट बनी।",
+   "52 मीटर लंबा Ship 41 अब तक ऑर्बिट में भेजा गया सबसे बड़ा स्पेसक्राफ्ट बन गया।",
+   "चढ़ाई के दौरान इंजन गड़बड़ी के कारण मिशन तय 10 घंटे के बजाय करीब 3 घंटे में ही खत्म कर दिया गया।",
+   "Ship उत्तरी पैसिफिक, हवाई के पास, सुरक्षित सॉफ्ट स्प्लैशडाउन के साथ उतरा।"
+  ],
+  "batch": 75
+ },
+ {
   "id": "technology-20260930-vega-chip-roadmap",
   "slug": "india-indigenous-chips-semiconductor-mission-roadmap",
   "title": "Vega Processor के बाद: भारत के Indigenous Chip मिशन की सच्चाई",
