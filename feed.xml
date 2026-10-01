@@ -7,6 +7,14 @@
     <language>hi</language>
     <atom:link href="https://techrawatdiscovery.sbs/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>क्या 24.5 करोड़ साल पुराने फॉसिल में पेट भी बच सकता है?</title>
+      <link>https://techrawatdiscovery.sbs/articles/austronaga-minuta-fossil-stomach-liver-intestine-preserved.html</link>
+      <guid isPermaLink="true">https://techrawatdiscovery.sbs/articles/austronaga-minuta-fossil-stomach-liver-intestine-preserved.html</guid>
+      <pubDate>Thu, 01 Oct 2026 00:00:00 GMT</pubDate>
+      <category>Science</category>
+      <description>24.5 करोड़ साल पुराने Austronaga minuta फॉसिल में पेट, लिवर और आंत बची मिली। आम फॉसिल से तुलना, तरीका और भारत का Tethys Sea कनेक्शन जानें।</description>
+    </item>
+    <item>
       <title>Vega Processor के बाद: भारत के Indigenous Chip मिशन की सच्चाई</title>
       <link>https://techrawatdiscovery.sbs/articles/india-indigenous-chips-semiconductor-mission-roadmap.html</link>
       <guid isPermaLink="true">https://techrawatdiscovery.sbs/articles/india-indigenous-chips-semiconductor-mission-roadmap.html</guid>
@@ -237,14 +245,6 @@
       <pubDate>Fri, 25 Sep 2026 00:00:00 GMT</pubDate>
       <category>Space &amp; ISRO</category>
       <description>भारत के 50 लॉन्च प्रति साल टारगेट के पीछे की वजह, नए लॉन्च पैड, Skyroot-Agnikul की भूमिका और मैन्युफैक्चरिंग-बजट की असली अड़चनें जानें।</description>
-    </item>
-    <item>
-      <title>भारत का पहला स्वदेशी Micro-GPU दिखा — असली चिप तक की राह कितनी बाकी?</title>
-      <link>https://techrawatdiscovery.sbs/articles/iit-delhi-indigenous-micro-gpu-fpga-graphics-chip.html</link>
-      <guid isPermaLink="true">https://techrawatdiscovery.sbs/articles/iit-delhi-indigenous-micro-gpu-fpga-graphics-chip.html</guid>
-      <pubDate>Fri, 25 Sep 2026 00:00:00 GMT</pubDate>
-      <category>Innovation</category>
-      <description>IIT दिल्ली माइक्रो-GPU: भारत का पहला indigenous GPU डिज़ाइन FPGA पर बना। 8-16 कोर आर्किटेक्चर, 65nm ASIC रोडमैप और असली इस्तेमाल जानें।</description>
     </item>
   </channel>
 </rss>
