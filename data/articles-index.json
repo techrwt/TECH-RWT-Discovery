@@ -23,6 +23,29 @@
   "batch": 77
  },
  {
+  "id": "science-20261002-earth-day-length-core-mantle",
+  "slug": "earth-day-length-milliseconds-inner-core-gravitational-torque",
+  "title": "क्या हर दिन सच में ठीक 24 घंटे का होता है?",
+  "seoTitle": "दिन 24 घंटे का नहीं होता? धरती की नई गुत्थी सुलझी",
+  "category": "Science",
+  "date": "2026-10-02",
+  "image": "assets/images/earth-day-length-milliseconds-inner-core-gravitational-torque.webp",
+  "imageCredit": "",
+  "excerpt": "आम धारणा है कि हर दिन ठीक 24 घंटे का होता है। असल में यह कुछ मिलीसेकंड तक बदलता रहता है। Nature journal की नई स्टडी ने 30 साल पुरानी इस गुत्थी की वजह बता दी है।",
+  "searchDescription": "दिन हमेशा 24 घंटे का नहीं होता। Nature journal में छपी नई स्टडी के अनुसार धरती की भीतरी कोर इसकी असली वजह है। तरीका और भारत का कनेक्शन जानें।",
+  "author": "TECH RWT Discovery",
+  "featured": false,
+  "trending": true,
+  "keyPoints": [
+   "Nature journal की स्टडी के अनुसार दिन की लंबाई दशकों में कुछ मिलीसेकंड तक बदलती है, ठीक 24 घंटे नहीं रहती।",
+   "University of Alberta के Huifeng Zhang और Mathieu Dumberry ने 30 साल पुरानी इस गुत्थी की वजह बताई।",
+   "धरती की ठोस भीतरी कोर पूरी तरह गोल नहीं है, इसी वजह से यह मेंटल पर गुरुत्व खिंचाव डालती है।",
+   "मॉडल ने 1964 से 2019 तक के दिन-लंबाई आंकड़ों से मेल खाने वाला नतीजा दिया।",
+   "भारत में Leap Second जोड़ने का काम CSIR-NPL करता है, जो Indian Standard Time का कानूनी संरक्षक है।"
+  ],
+  "batch": 78
+ },
+ {
   "id": "science-20261001-austronaga-organs-fossil",
   "slug": "austronaga-minuta-fossil-stomach-liver-intestine-preserved",
   "title": "क्या 24.5 करोड़ साल पुराने फॉसिल में पेट भी बच सकता है?",
