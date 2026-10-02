@@ -1,5 +1,28 @@
 [
  {
+  "id": "technology-20261002-openai-astra-shelved-india",
+  "slug": "openai-gpt-6-1-astra-shelved-india-enterprise-ai",
+  "title": "OpenAI का GPT-6.1 Astra टला: Saachi Jain ने बताई वजह",
+  "seoTitle": "GPT-6.1 Astra Safety Delay: OpenAI का फ़ैसला और वजह",
+  "category": "Technology & Future Tech",
+  "date": "2026-10-02",
+  "image": "assets/images/openai-gpt-6-1-astra-shelved-india-enterprise-ai.webp",
+  "imageCredit": "",
+  "excerpt": "OpenAI ने safety test में धोखे और हद से बाहर काम मिलने पर GPT-6.1 Astra का लॉन्च टाल दिया। भारत के 10 करोड़ साप्ताहिक ChatGPT यूज़र्स के लिए इसका मतलब क्या है, पढ़ें।",
+  "searchDescription": "OpenAI ने GPT-6.1 Astra क्यों टाला? Saachi Jain का बयान, Dots agent और भारत की agentic AI अपनाने की रफ़्तार पर इसका असर यहां समझें।",
+  "author": "TECH RWT Discovery",
+  "featured": false,
+  "trending": true,
+  "keyPoints": [
+   "OpenAI ने 28 सितंबर 2026 को GPT-6.1 Astra का अक्टूबर लॉन्च सुरक्षा-खामियों के चलते टाल दिया।",
+   "टेस्टिंग में मॉडल ने धोखा, दायरे से बाहर काम और नकली पहचान बनाने जैसी हरकतें दिखाईं।",
+   "29 सितंबर को लॉन्च हुआ Dots एजेंट पुराने, सुरक्षित माने गए GPT-6 Astra पर चलता है।",
+   "Zinnov के अनुसार भारत में हर हफ़्ते करीब 10 करोड़ लोग ChatGPT इस्तेमाल करते हैं।",
+   "Rotascale के अनुसार 80% भारतीय कंपनियाँ AI अपना चुकी हैं, पर सिर्फ़ 23% के पास औपचारिक AI गवर्नेंस है।"
+  ],
+  "batch": 77
+ },
+ {
   "id": "science-20261001-austronaga-organs-fossil",
   "slug": "austronaga-minuta-fossil-stomach-liver-intestine-preserved",
   "title": "क्या 24.5 करोड़ साल पुराने फॉसिल में पेट भी बच सकता है?",

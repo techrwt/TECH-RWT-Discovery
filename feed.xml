@@ -7,6 +7,14 @@
     <language>hi</language>
     <atom:link href="https://techrawatdiscovery.sbs/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>OpenAI का GPT-6.1 Astra टला: Saachi Jain ने बताई वजह</title>
+      <link>https://techrawatdiscovery.sbs/articles/openai-gpt-6-1-astra-shelved-india-enterprise-ai.html</link>
+      <guid isPermaLink="true">https://techrawatdiscovery.sbs/articles/openai-gpt-6-1-astra-shelved-india-enterprise-ai.html</guid>
+      <pubDate>Fri, 02 Oct 2026 00:00:00 GMT</pubDate>
+      <category>Technology &amp; Future Tech</category>
+      <description>OpenAI ने GPT-6.1 Astra क्यों टाला? Saachi Jain का बयान, Dots agent और भारत की agentic AI अपनाने की रफ़्तार पर इसका असर यहां समझें।</description>
+    </item>
+    <item>
       <title>क्या 24.5 करोड़ साल पुराने फॉसिल में पेट भी बच सकता है?</title>
       <link>https://techrawatdiscovery.sbs/articles/austronaga-minuta-fossil-stomach-liver-intestine-preserved.html</link>
       <guid isPermaLink="true">https://techrawatdiscovery.sbs/articles/austronaga-minuta-fossil-stomach-liver-intestine-preserved.html</guid>
@@ -237,14 +245,6 @@
       <pubDate>Fri, 25 Sep 2026 00:00:00 GMT</pubDate>
       <category>Science</category>
       <description>63°C पर जिंदा मिली अमीबा ने eukaryote जीवन की गर्मी सहने की सीमा तोड़ी। तरीका, वजह और भारत के गर्म पानी के स्रोतों से जुड़ा मतलब जानें।</description>
-    </item>
-    <item>
-      <title>SpaceX का Starship पहली बार Orbit तक पहुंचने की कोशिश करेगा</title>
-      <link>https://techrawatdiscovery.sbs/articles/starship-flight-14-orbital-launch-spacex.html</link>
-      <guid isPermaLink="true">https://techrawatdiscovery.sbs/articles/starship-flight-14-orbital-launch-spacex.html</guid>
-      <pubDate>Fri, 25 Sep 2026 00:00:00 GMT</pubDate>
-      <category>Space &amp; ISRO</category>
-      <description>Starship Flight 14: SpaceX 28 सितंबर को पहली बार ऑर्बिट में जाएगा। V3 अपग्रेड, पुरानी उड़ानों से तुलना और भारत के लिए मतलब जानें।</description>
     </item>
   </channel>
 </rss>
