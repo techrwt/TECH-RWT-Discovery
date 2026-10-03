@@ -46,6 +46,29 @@
   "batch": 80
  },
  {
+  "id": "science-20261003-drimolen-homo-erectus-paranthropus",
+  "slug": "homo-erectus-paranthropus-robustus-drimolen-cave-comparison",
+  "title": "Homo erectus को 10 गुना पीछे छोड़ चुकी थी Paranthropus robustus",
+  "seoTitle": "Homo erectus vs Paranthropus robustus: Drimolen की खोज",
+  "category": "Science",
+  "date": "2026-10-03",
+  "image": "assets/images/homo-erectus-paranthropus-robustus-drimolen-cave-comparison.webp",
+  "imageCredit": "",
+  "excerpt": "20 लाख साल पहले दक्षिण अफ्रीका में दो बिल्कुल अलग पुरखे साथ रहते थे। नए फॉसिल से पता चला कि एक की आबादी दूसरे से 10 गुना ज़्यादा थी। जानिए फर्क और भारत का कनेक्शन।",
+  "searchDescription": "Drimolen Cave के नए फॉसिल से पता चला, Homo erectus और Paranthropus robustus साथ रहते थे। तुलना, आबादी का फर्क और Narmada Man कनेक्शन जानें।",
+  "author": "TECH RWT Discovery",
+  "featured": false,
+  "trending": true,
+  "keyPoints": [
+   "Drimolen Cave के फॉसिल बताते हैं कि 20 लाख साल पहले Homo erectus और Paranthropus robustus साथ रहते थे।",
+   "इस जगह पर Paranthropus robustus की आबादी Homo erectus से 10 गुना से भी ज़्यादा थी।",
+   "नया फॉसिल DNH 127, पहला वयस्क Homo erectus का सबूत है; पहले सिर्फ एक बच्चे का फॉसिल मिला था।",
+   "Homo erectus का दिमाग बड़ा और दांत छोटे थे; P. robustus के जबड़े और दांत चबाने के लिए बहुत मज़बूत थे।",
+   "P. robustus बाद में खत्म हो गई, पर Homo erectus आगे चलकर दुनिया भर में फैला और हमारा पुरखा बना।"
+  ],
+  "batch": 81
+ },
+ {
   "id": "technology-20261002-openai-astra-shelved-india",
   "slug": "openai-gpt-6-1-astra-shelved-india-enterprise-ai",
   "title": "OpenAI का GPT-6.1 Astra टला: Saachi Jain ने बताई वजह",
