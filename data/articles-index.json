@@ -69,6 +69,29 @@
   "batch": 81
  },
  {
+  "id": "technology-20261003-apple-pay-india-how-it-works",
+  "slug": "apple-pay-india-kaise-kaam-karta-hai-axis-bank",
+  "title": "Apple Pay भारत में कैसे काम करता है?",
+  "seoTitle": "Apple Pay India कैसे काम करता है: पूरी जानकारी",
+  "category": "Technology & Future Tech",
+  "date": "2026-10-03",
+  "image": "assets/images/apple-pay-india-kaise-kaam-karta-hai-axis-bank.webp",
+  "imageCredit": "",
+  "excerpt": "Apple Pay अब भारत में Axis Bank के क्रेडिट कार्ड्स के साथ लाइव हो गया है। जानें Wallet में कार्ड जोड़ने से टैप-पेमेंट तक पूरा तरीका, UPI से फ़र्क और अभी की सीमाएं।",
+  "searchDescription": "Apple Pay India कैसे काम करता है? Axis Bank card add करना, NFC से tap-to-pay और UPI से फ़र्क, सब कुछ आसान स्टेप्स में यहां समझें।",
+  "author": "TECH RWT Discovery",
+  "featured": false,
+  "trending": true,
+  "keyPoints": [
+   "Apple Pay 30 सितंबर 2026 से भारत में लाइव है, फ़िलहाल सिर्फ़ Axis Bank के Visa/Mastercard कार्ड के साथ।",
+   "सेटअप: Wallet ऐप में कार्ड जोड़ें, OTP से सत्यापन करें, फिर Face ID/Touch ID से टैप करके भुगतान करें।",
+   "UPI बैंक-खाते से सीधे पैसा भेजता है, जबकि Apple Pay क्रेडिट कार्ड नेटवर्क के टोकन से काम करता है।",
+   "RuPay, डेबिट कार्ड और Amex अभी शामिल नहीं; HDFC, ICICI, SBI Card से बातचीत जारी है।",
+   "Apple की कमाई बैंक की interchange फ़ीस के करीब 0.2% हिस्से से होती है, Startuptalky के अनुसार।"
+  ],
+  "batch": 82
+ },
+ {
   "id": "technology-20261002-openai-astra-shelved-india",
   "slug": "openai-gpt-6-1-astra-shelved-india-enterprise-ai",
   "title": "OpenAI का GPT-6.1 Astra टला: Saachi Jain ने बताई वजह",
