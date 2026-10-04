@@ -69,6 +69,29 @@
   "batch": 85
  },
  {
+  "id": "technology-20261004-ai-physics-nine-loop",
+  "slug": "ai-physics-nine-loop-scattering-amplitude-claude",
+  "title": "क्या AI ने भौतिकी की एक पुरानी गुत्थी सुलझा दी?",
+  "seoTitle": "AI Physics Breakthrough: नौ-लूप गणना की पूरी कहानी",
+  "category": "Technology & Future Tech",
+  "date": "2026-10-04",
+  "image": "assets/images/ai-physics-nine-loop-scattering-amplitude-claude.webp",
+  "imageCredit": "",
+  "excerpt": "एक AI मॉडल ने कुछ हज़ार डॉलर के खर्च में वह नौ-लूप भौतिकी गणना पूरी की, जिसे दुनिया के वैज्ञानिक तीन साल से आगे नहीं बढ़ा पाए थे। पूरी कहानी सवाल-जवाब में, भारत के शोध संस्थानों के लिए मतलब के साथ।",
+  "searchDescription": "AI ने physics की nine-loop scattering amplitude कैसे calculate की? पूरी कहानी, Lance Dixon की पुष्टि और भारत के शोध संस्थानों के लिए मतलब यहां पढ़ें।",
+  "author": "TECH RWT Discovery",
+  "featured": false,
+  "trending": true,
+  "keyPoints": [
+   "Anthropic के Claude मॉडल ने अगस्त-सितंबर 2026 में nine-loop scattering amplitude का हिसाब निकाला।",
+   "2011 से 2023 तक इंसान इसी diagram को सिर्फ़ तीन-लूप से आठ-लूप तक ही ले जा पाए थे।",
+   "आठ-लूप रेकॉर्ड बनाने वाले भौतिक विज्ञानी Lance Dixon ने नतीजे की स्वतंत्र पुष्टि की।",
+   "काम सिर्फ़ कुछ हज़ार डॉलर और करीब एक महीने में पूरा हुआ, एक ही वाक्य के निर्देश से।",
+   "Chinese Academy of Sciences के Song He के समूह ने भी अलग से लगभग वही नतीजा पाया था।"
+  ],
+  "batch": 86
+ },
+ {
   "id": "innovation-20261003-simple-energy-series-c-funding",
   "slug": "simple-energy-1750-crore-series-c-ev-funding",
   "title": "Simple Energy को ₹1,750 करोड़ मिले, पर असली इम्तिहान फैक्ट्री में",
