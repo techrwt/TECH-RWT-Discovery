@@ -23,6 +23,29 @@
   "batch": 83
  },
  {
+  "id": "science-20261004-change6-gamma-iron-india",
+  "slug": "change6-gamma-iron-lunar-magnetic-mineral-chandrayaan-4",
+  "title": "सिर्फ 3 कणों में मिला चांद का नया चुंबकीय लोहा, γ-Fe",
+  "seoTitle": "चांद का नया चुंबकीय लोहा γ-Fe: Chang'e-6 की खोज",
+  "category": "Science",
+  "date": "2026-10-04",
+  "image": "assets/images/change6-gamma-iron-lunar-magnetic-mineral-chandrayaan-4.webp",
+  "imageCredit": "",
+  "excerpt": "चांद पर आज कोई चुंबकीय क्षेत्र नहीं है, फिर भी उसकी मिट्टी में एक नया चुंबकीय लोहा मिला है। चीन के Chang'e-6 सैंपल से यह खोज हुई। जानिए यह क्या है और भारत के अपने चांद मिशन से इसका क्या रिश्ता है।",
+  "searchDescription": "Chang'e-6 के चांद के सैंपल में मिला नया चुंबकीय लोहा γ-Fe क्या है? इसका मतलब, तरीका और भारत के Chandrayaan-4 मिशन से जुड़ा कनेक्शन जानें।",
+  "author": "TECH RWT Discovery",
+  "featured": false,
+  "trending": true,
+  "keyPoints": [
+   "Chang'e-6 सैंपल के 3 कणों में पहली बार चांद की मिट्टी में γ-Fe नाम का चुंबकीय लोहा मिला (PNAS, 2026)।",
+   "यह खोज चांद के दक्षिणी ध्रुव के पास, South Pole-Aitken Basin से लाए गए सैंपल में हुई।",
+   "γ-Fe सामान्य रूप से सिर्फ बहुत ज़्यादा गर्मी में टिकता है; चांद की सतह पर इसका मिलना असाधारण है।",
+   "बड़े γ-Fe कणों में स्थिर चुंबकीय 'वर्टेक्स' पाया गया, जो चांद के पुराने चुंबकीय इतिहास को दर्ज रख सकता है।",
+   "भारत भी Chandrayaan-4 मिशन से चांद के दक्षिणी ध्रुव से सैंपल लाने की तैयारी में है, बजट ₹2,104 करोड़।"
+  ],
+  "batch": 84
+ },
+ {
   "id": "innovation-20261003-simple-energy-series-c-funding",
   "slug": "simple-energy-1750-crore-series-c-ev-funding",
   "title": "Simple Energy को ₹1,750 करोड़ मिले, पर असली इम्तिहान फैक्ट्री में",
