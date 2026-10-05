@@ -1,5 +1,28 @@
 [
  {
+  "id": "space-20261005-davinci-venus-heat-test-myths",
+  "slug": "davinci-venus-heat-test-myths-nasa-shukrayaan",
+  "title": "DAVINCI सिर्फ 1 घंटे टिकेगा, पर अभी यह टेस्ट धरती पर हुआ",
+  "seoTitle": "DAVINCI Venus Test: 4 बड़ी गलतफहमियां दूर करें",
+  "category": "Space & ISRO",
+  "date": "2026-10-05",
+  "image": "assets/images/davinci-venus-heat-test-myths-nasa-shukrayaan.webp",
+  "imageCredit": "",
+  "excerpt": "NASA के DAVINCI प्रोब ने 465°C के टेस्ट में Venus जैसी गर्मी झेली, मगर यह असल में धरती पर हुआ। जानिए इस खबर से जुड़ी गलतफहमियां और भारत के Shukrayaan से इसका क्या संबंध है।",
+  "searchDescription": "NASA के DAVINCI प्रोब ने 465°C तक की गर्मी झेली, मगर यह टेस्ट असल में धरती पर हुआ, Venus पर नहीं। जानिए 4 बड़ी गलतफहमियां और सच्चाई।",
+  "author": "TECH RWT Discovery",
+  "featured": false,
+  "trending": true,
+  "keyPoints": [
+   "NASA के DAVINCI प्रोब के इंजीनियरिंग मॉडल ने 28 अगस्त से 10 सितंबर 2026 तक धरती पर भट्टी में टेस्ट झेला।",
+   "टेस्ट में तापमान छह बार 465°C तक पहुंचाया गया, जो Venus की असली उतराई जैसी गर्मी के बराबर है।",
+   "DAVINCI एक descent probe है, सिर्फ करीब एक घंटे के उतराई के दौरान काम करने के लिए बना है।",
+   "DAVINCI का असली लॉन्च जून 2029 में और Venus पर उतरना 2031 के आखिर तक होने की योजना है।",
+   "भारत का Shukrayaan यानी Venus Orbiter Mission भी इसी दशक में भेजे जाने की योजना में है।"
+  ],
+  "batch": 87
+ },
+ {
   "id": "space-20261004-crew-13-fastest-iss-docking",
   "slug": "crew-13-fastest-iss-docking-record-spacex",
   "title": "Crew-11 को 14 घंटे 43 मिनट लगे, Crew-13 ने यह सफर 8 घंटे में तय किया",
