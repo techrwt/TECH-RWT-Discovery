@@ -46,6 +46,29 @@
   "batch": 88
  },
  {
+  "id": "technology-20261005-bitchat-india-block-meity",
+  "slug": "bitchat-jack-dorsey-india-block-meity-kaise-kaam-karta-hai",
+  "title": "Jack Dorsey का Bitchat भारत में ब्लॉक: MeitY ऑर्डर की कहानी",
+  "seoTitle": "Bitchat क्या है, कैसे काम करता है: India Block वजह",
+  "category": "Technology & Future Tech",
+  "date": "2026-10-05",
+  "image": "assets/images/bitchat-jack-dorsey-india-block-meity-kaise-kaam-karta-hai.webp",
+  "imageCredit": "",
+  "excerpt": "Jack Dorsey का बिना-इंटरनेट मैसेजिंग ऐप Bitchat कैसे काम करता है, और MeitY के आदेश पर Apple ने इसे भारत के App Store से क्यों हटाया, कदम-दर-कदम समझें।",
+  "searchDescription": "Bitchat क्या है और कैसे काम करता है? Jack Dorsey के ऐप को MeitY ने Section 69A के तहत भारत में क्यों ब्लॉक किया, पूरी जानकारी यहां पढ़ें।",
+  "author": "TECH RWT Discovery",
+  "featured": false,
+  "trending": true,
+  "keyPoints": [
+   "Bitchat Bluetooth mesh नेटवर्क से बिना इंटरनेट या सिम के फ़ोन-दर-फ़ोन मैसेज भेजता है।",
+   "3 अक्टूबर 2026 को Apple ने MeitY के Section 69A आदेश पर इसे भारत के App Store से हटाया।",
+   "जुलाई 2026 में सरकार ने पहले ही GitHub को Bitchat का source code हटाने को कहा था।",
+   "फ़रवरी 2026 में चीन भी Bitchat को अपने App Store से हटवा चुका है, अलग वजह बताकर।",
+   "Internet Freedom Foundation ने जुलाई के आदेश को 'असंवैधानिक और सत्तावादी' बताया था।"
+  ],
+  "batch": 89
+ },
+ {
   "id": "space-20261004-crew-13-fastest-iss-docking",
   "slug": "crew-13-fastest-iss-docking-record-spacex",
   "title": "Crew-11 को 14 घंटे 43 मिनट लगे, Crew-13 ने यह सफर 8 घंटे में तय किया",
