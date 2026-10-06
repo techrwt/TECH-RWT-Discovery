@@ -7,6 +7,14 @@
     <language>hi</language>
     <atom:link href="https://techrawatdiscovery.sbs/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>क्या किसी गड्ढे की उम्र 10 करोड़ साल तक गलत निकल सकती है?</title>
+      <link>https://techrawatdiscovery.sbs/articles/ames-crater-age-100-million-years-younger-lonar-comparison.html</link>
+      <guid isPermaLink="true">https://techrawatdiscovery.sbs/articles/ames-crater-age-100-million-years-younger-lonar-comparison.html</guid>
+      <pubDate>Tue, 06 Oct 2026 00:00:00 GMT</pubDate>
+      <category>Science</category>
+      <description>Oklahoma के Ames Crater की उम्र 46.75 करोड़ से घटकर 37 करोड़ साल हो गई। वजह, तरीका और भारत के Lonar Crater से जुड़ा मिलता-जुलता किस्सा जानें।</description>
+    </item>
+    <item>
       <title>DAVINCI सिर्फ 1 घंटे टिकेगा, पर अभी यह टेस्ट धरती पर हुआ</title>
       <link>https://techrawatdiscovery.sbs/articles/davinci-venus-heat-test-myths-nasa-shukrayaan.html</link>
       <guid isPermaLink="true">https://techrawatdiscovery.sbs/articles/davinci-venus-heat-test-myths-nasa-shukrayaan.html</guid>
@@ -237,14 +245,6 @@
       <pubDate>Sat, 26 Sep 2026 00:00:00 GMT</pubDate>
       <category>Science</category>
       <description>CERN LHC upgrade: 28 सुपरकंडक्टिंग मैग्नेट हटे, HiLumi LHC में 40% ज़्यादा मजबूत मैग्नेट लगेंगे। भारत का CERN से 1996 से जुड़ाव जानें।</description>
-    </item>
-    <item>
-      <title>IIT Delhi के Accelerator से निकलीं 6 दमदार भारतीय Startups</title>
-      <link>https://techrawatdiscovery.sbs/articles/kotak-bizlabs-fitt-iit-delhi-startup-accelerator-cohort.html</link>
-      <guid isPermaLink="true">https://techrawatdiscovery.sbs/articles/kotak-bizlabs-fitt-iit-delhi-startup-accelerator-cohort.html</guid>
-      <pubDate>Sat, 26 Sep 2026 00:00:00 GMT</pubDate>
-      <category>Innovation</category>
-      <description>Kotak BizLabs accelerator (FITT-IIT Delhi) के दूसरे cohort की 6 स्टार्टअप कहानियां, रेलवे, कैंसर AI, एग्रीटेक और क्लीनटेक में प्रगति के साथ।</description>
     </item>
   </channel>
 </rss>

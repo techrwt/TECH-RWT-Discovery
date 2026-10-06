@@ -1,5 +1,28 @@
 [
  {
+  "id": "science-20261006-ames-crater-age-revised",
+  "slug": "ames-crater-age-100-million-years-younger-lonar-comparison",
+  "title": "क्या किसी गड्ढे की उम्र 10 करोड़ साल तक गलत निकल सकती है?",
+  "seoTitle": "Ames Crater की उम्र 10 करोड़ साल कम निकली",
+  "category": "Science",
+  "date": "2026-10-06",
+  "image": "assets/images/ames-crater-age-100-million-years-younger-lonar-comparison.webp",
+  "imageCredit": "",
+  "excerpt": "दशकों तक माना जाता था कि Oklahoma का Ames Crater करीब 46.75 करोड़ साल पुराना है। नई जांच में यह सिर्फ 37 करोड़ साल पुराना निकला। जानिए यह फर्क क्यों आया और भारत के गड्ढे का मिलता-जुलता किस्सा।",
+  "searchDescription": "Oklahoma के Ames Crater की उम्र 46.75 करोड़ से घटकर 37 करोड़ साल हो गई। वजह, तरीका और भारत के Lonar Crater से जुड़ा मिलता-जुलता किस्सा जानें।",
+  "author": "TECH RWT Discovery",
+  "featured": false,
+  "trending": true,
+  "keyPoints": [
+   "Ames Crater की उम्र पहले करीब 46.75 करोड़ साल मानी जाती थी, नई जांच में यह सिर्फ 37 करोड़ साल निकली।",
+   "University of Texas at Austin की टीम ने zircon क्रिस्टल की uranium-lead डेटिंग से यह नई उम्र निकाली।",
+   "पुरानी उम्र मछली जैसे प्राचीन जीव conodont के दांतों पर आधारित थी, जो गलती से मिट्टी में मिल गए थे।",
+   "नई उम्र गड्ढे को एक बड़े सामूहिक विनाश, Frasnian-Famennian extinction, के बेहद करीब ले आती है।",
+   "भारत के Lonar Crater की उम्र भी पहले 52,000 साल मानी जाती थी, नई जांच में यह करीब 5.76 लाख साल निकली।"
+  ],
+  "batch": 90
+ },
+ {
   "id": "space-20261005-davinci-venus-heat-test-myths",
   "slug": "davinci-venus-heat-test-myths-nasa-shukrayaan",
   "title": "DAVINCI सिर्फ 1 घंटे टिकेगा, पर अभी यह टेस्ट धरती पर हुआ",
