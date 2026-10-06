@@ -46,6 +46,29 @@
   "batch": 91
  },
  {
+  "id": "technology-20261006-bigendian-veerai-chip",
+  "slug": "bigendian-veerai-ai-vision-chip-130-crore-india",
+  "title": "₹130 करोड़ से बनेगा भारत का अपना AI निगरानी चिप",
+  "seoTitle": "BigEndian VeerAI: भारत की ₹130 करोड़ AI चिप डील",
+  "category": "Technology & Future Tech",
+  "date": "2026-10-06",
+  "image": "assets/images/bigendian-veerai-ai-vision-chip-130-crore-india.webp",
+  "imageCredit": "",
+  "excerpt": "भारत सरकार ने BigEndian Semiconductors को ₹130 करोड़ दिए हैं ताकि वह अपनी AI Vision चिप को बाज़ार तक पहुँचा सके। पूरी कहानी, कंपनी, तकनीक और भारत के लिए मतलब पढ़ें।",
+  "searchDescription": "BigEndian Semiconductors को Project VeerAI के लिए ₹130 करोड़ की सरकारी मदद मिली है। AI Vision चिप, CCTV इस्तेमाल और भारत के चिप-मिशन से इसका रिश्ता यहां समझें।",
+  "author": "TECH RWT Discovery",
+  "featured": false,
+  "trending": true,
+  "keyPoints": [
+   "TDB ने 5 अक्टूबर 2026 को BigEndian को ₹130 करोड़ की RDI फ़ंडिंग दी, कुल प्रोजेक्ट लागत ₹260 करोड़।",
+   "फ़ंडिंग 'Optional Convertible Debt' के रूप में है, और चिप को TRL-5 से TRL-9 तक ले जाने के लिए है।",
+   "BigEndian 2024 से काम कर रही है; उस समय CEO Sunil Kumar ने भारत की सालाना ~1 अरब चिपसेट खपत बताई थी।",
+   "शुरुआत CCTV/सर्विलांस से होगी, आगे डिफ़ेंस, ऑटोमोटिव, इंडस्ट्रियल और मेडिकल क्षेत्रों तक विस्तार की योजना है।",
+   "यह Semicon India Mission के फ़ैब-निर्माण प्रयासों से अलग, चिप-डिज़ाइन को बाज़ार तक पहुँचाने वाला रास्ता है।"
+  ],
+  "batch": 92
+ },
+ {
   "id": "space-20261005-davinci-venus-heat-test-myths",
   "slug": "davinci-venus-heat-test-myths-nasa-shukrayaan",
   "title": "DAVINCI सिर्फ 1 घंटे टिकेगा, पर अभी यह टेस्ट धरती पर हुआ",
