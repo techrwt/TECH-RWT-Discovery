@@ -46,6 +46,29 @@
   "batch": 97
  },
  {
+  "id": "environment-20261008-heat-pregnancy-wellcome-survey",
+  "slug": "extreme-heat-pregnancy-wellcome-survey-india",
+  "title": "क्या भीषण गर्मी गर्भवती महिलाओं और नवजातों के लिए खतरा बन रही है?",
+  "seoTitle": "भीषण गर्मी और गर्भावस्था: Wellcome सर्वे के नतीजे",
+  "category": "Environment",
+  "date": "2026-10-08",
+  "image": "assets/images/extreme-heat-pregnancy-wellcome-survey-india.webp",
+  "imageCredit": "",
+  "excerpt": "Wellcome के नए सर्वे में भारत समेत पांच देशों के 73% मातृ-स्वास्थ्यकर्मियों ने गर्भवती महिलाओं में गर्मी से जुड़ी दिक्कतें बढ़ती देखीं। भारत का आंकड़ा और इसके मायने पढ़ें।",
+  "searchDescription": "भीषण गर्मी और गर्भावस्था पर Wellcome सर्वे: 73% स्वास्थ्यकर्मियों ने दिक्कतें बढ़ती देखीं। भारत के आंकड़े, असर और सीमाएं जानें।",
+  "author": "TECH RWT Discovery",
+  "featured": false,
+  "trending": true,
+  "keyPoints": [
+   "Wellcome सर्वे: 5 देशों के 1,000 कर्मियों में 73% ने गर्भवती महिलाओं में गर्मी की दिक्कतें बढ़ती देखीं।",
+   "76% ने गर्भस्थ शिशु या नवजात की सेहत पर गर्मी का असर बढ़ता देखा; 99% ने ऐसे शिशु की देखभाल की।",
+   "देशवार आंकड़ा: ज़िम्बाब्वे 85%, ऑस्ट्रेलिया 79%, ब्राज़ील 74%, ब्रिटेन 66%, भारत 62%।",
+   "सर्वे धारणा पर आधारित है, क्लिनिकल केस रिकॉर्ड पर नहीं; हर देश से 200 उत्तरदाता थे।",
+   "Wellcome की मांग: WHO गर्मी-गर्भावस्था पर पहली क्लिनिकल गाइडलाइन बनाए।"
+  ],
+  "batch": 98
+ },
+ {
   "id": "environment-20261007-scotusclimate",
   "slug": "us-supreme-court-exxon-suncor-boulder-climate-case",
   "title": "US सुप्रीम कोर्ट में ExxonMobil-Suncor पर बड़ा क्लाइमेट केस",
