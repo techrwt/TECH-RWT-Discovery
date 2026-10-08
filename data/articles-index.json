@@ -69,6 +69,29 @@
   "batch": 98
  },
  {
+  "id": "innovation-20261008-quanfluence-photonic-quantum",
+  "slug": "quanfluence-photonic-quantum-computer-10m-funding",
+  "title": "Quanfluence को $10 मिलियन मिले, पर बड़ी मशीन का वादा 2029 का है",
+  "seoTitle": "Quanfluence Photonic Quantum Computer: $10M फंडिंग",
+  "category": "Innovation",
+  "date": "2026-10-08",
+  "image": "assets/images/quanfluence-photonic-quantum-computer-10m-funding.webp",
+  "imageCredit": "",
+  "excerpt": "बेंगलुरु की Quanfluence ने Chiratae Ventures की अगुवाई में $10 मिलियन जुटाए। जानिए photonic quantum computer क्या है, आज क्या बिकता है और 2027-2029 के लक्ष्य कितने पक्के हैं।",
+  "searchDescription": "Quanfluence photonic quantum computer के लिए $10 मिलियन मिले। रोशनी से qubit कैसे बनता है, आज क्या बिकता है और 2027-2029 का लक्ष्य क्या है, पढ़ें।",
+  "author": "TECH RWT Discovery",
+  "featured": false,
+  "trending": true,
+  "keyPoints": [
+   "Quanfluence ने 7 अक्टूबर 2026 को Chiratae Ventures की अगुवाई में $10 मिलियन जुटाए।",
+   "Pi Ventures दोबारा जुड़ा; 2024 के $2 मिलियन seed से रकम 5 गुना है।",
+   "कंपनी का लक्ष्य: शुरुआती processor 2027 में और बड़ी scalable मशीन 2029 में।",
+   "Photonic Ising machine आज बिकने वाला उत्पाद है; यह आम quantum computer नहीं है।",
+   "Qubit की गिनती और error दर का आँकड़ा इस घोषणा में सामने नहीं आया है।"
+  ],
+  "batch": 99
+ },
+ {
   "id": "environment-20261007-scotusclimate",
   "slug": "us-supreme-court-exxon-suncor-boulder-climate-case",
   "title": "US सुप्रीम कोर्ट में ExxonMobil-Suncor पर बड़ा क्लाइमेट केस",
