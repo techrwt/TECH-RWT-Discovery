@@ -92,6 +92,29 @@
   "batch": 103
  },
  {
+  "id": "technology-20261008-free-space-qkd-india",
+  "slug": "free-space-qkd-india-5-56-km-qnu-labs",
+  "title": "5.56 km हवा में Quantum Key: पिछले 1 km ट्रायल से लगभग 5 गुना दूर",
+  "seoTitle": "Free-Space QKD भारत: 5.56 km ट्रायल का पूरा सच",
+  "category": "Technology & Future Tech",
+  "date": "2026-10-08",
+  "image": "assets/images/free-space-qkd-india-5-56-km-qnu-labs.webp",
+  "imageCredit": "",
+  "excerpt": "QNu Labs, BISAG-N और IIT गांधीनगर ने 27-28 सितंबर 2026 की रात 5.56 km की हवा पर Quantum Key बनाई। यह पिछले 1 km वाले प्रयोग से कितना आगे है और क्या बाकी है?",
+  "searchDescription": "Free-Space QKD भारत में 5.56 km पर आज़माया गया। 230-260 bps की चाबी दर, पिछले 1 km प्रयोग से तुलना और अभी की सीमाएं समझिए।",
+  "author": "TECH RWT Discovery",
+  "featured": false,
+  "trending": false,
+  "keyPoints": [
+   "27-28 सितंबर 2026 की रात 5.56 km के free-space QKD लिंक का ट्रायल हुआ।",
+   "Raksha Anirveda के अनुसार चाबी की दर 230-260 bps और त्रुटि दर 5% से कम रही।",
+   "जून 2025 के DRDO-IIT दिल्ली प्रयोग में दूरी 1 km से कुछ ज़्यादा थी।",
+   "QKD के साथ BISAG-N की PQC परत जोड़ी गई, ताकि एक परत टूटे तो दूसरी बचे।",
+   "ट्रायल एक रात का था; मौसम और लंबे समय की निरंतरता के आंकड़े अभी नहीं हैं।"
+  ],
+  "batch": 104
+ },
+ {
   "id": "environment-20261008-stubbleburningmp",
   "slug": "stubble-burning-2026-madhya-pradesh-overtakes-punjab",
   "title": "पंजाब में पराली जलाना सालों में सबसे कम, पर MP में रेकॉर्ड बढ़त",
