@@ -46,6 +46,29 @@
   "batch": 101
  },
  {
+  "id": "space-20261008-nuri-vs-pslv",
+  "slug": "nuri-rocket-15-satellites-vs-pslv-c37-104",
+  "title": "Nuri के 15 Satellite बनाम PSLV के 104 — असली फर्क कहां है?",
+  "seoTitle": "Nuri रॉकेट बनाम PSLV: 15 और 104 satellite का फर्क",
+  "category": "Space & ISRO",
+  "date": "2026-10-08",
+  "image": "assets/images/nuri-rocket-15-satellites-vs-pslv-c37-104.webp",
+  "imageCredit": "",
+  "excerpt": "Nuri ने 7 अक्टूबर 2026 को 15 में से 14 satellite 570 km की कक्षा में छोड़े, जबकि PSLV-C37 ने 2017 में 104। दोनों का असली फर्क गिनती में नहीं, payload के स्वभाव में है।",
+  "searchDescription": "Nuri रॉकेट की 7 अक्टूबर 2026 की उड़ान और ISRO के PSLV-C37 की तुलना: 15 बनाम 104 satellite, कक्षा, वज़न और भारत के लिए मतलब।",
+  "author": "TECH RWT Discovery",
+  "featured": false,
+  "trending": true,
+  "keyPoints": [
+   "7 अक्टूबर 2026 को Nuri ने 15 में से 14 satellite 570 km पर छोड़े; एक CubeSat अलग नहीं हुआ।",
+   "पांच NEONSAT 35-40 सेकंड के अंतर पर छूटे; KASA के अनुसार कोरिया में यह पहली बार हुआ।",
+   "PSLV-C37 (2017) के 104 satellite का कुल वज़न 1,378 kg था, यानी औसतन करीब 13 kg प्रति satellite।",
+   "Nuri की इस उड़ान में औसत करीब 71 kg प्रति satellite निकलता है: कम संख्या, पर बड़े और एक जैसे payload।",
+   "5 उड़ानों में 4 सफल (80%); PERSAT02 के अलग न होने का कारण अभी सामने नहीं आया।"
+  ],
+  "batch": 102
+ },
+ {
   "id": "environment-20261008-stubbleburningmp",
   "slug": "stubble-burning-2026-madhya-pradesh-overtakes-punjab",
   "title": "पंजाब में पराली जलाना सालों में सबसे कम, पर MP में रेकॉर्ड बढ़त",
