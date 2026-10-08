@@ -23,6 +23,29 @@
   "batch": 100
  },
  {
+  "id": "innovation-20261008-sunfox-spandan-ecg",
+  "slug": "sunfox-spandan-ecg-7m-series-a-funding",
+  "title": "Sunfox को $7 मिलियन की Series A, Spandan ECG का विस्तार होगा",
+  "seoTitle": "Sunfox Spandan ECG: $7M Series A, दावे और सच",
+  "category": "Innovation",
+  "date": "2026-10-08",
+  "image": "assets/images/sunfox-spandan-ecg-7m-series-a-funding.webp",
+  "imageCredit": "",
+  "excerpt": "देहरादून की Sunfox ने $7 मिलियन की Series A जुटाई। जानिए Spandan ECG कैसे काम करता है, तैनाती के आंकड़े कंपनी के दावे हैं या सबूत, और ECG की सीमाएं क्या हैं।",
+  "searchDescription": "Sunfox Spandan ECG को $7 मिलियन की Series A मिली। फोन वाला ECG कैसे काम करता है, 60,000 डिवाइस के दावे कितने पक्के हैं और ECG की सीमाएं क्या हैं, पढ़ें।",
+  "author": "TECH RWT Discovery",
+  "featured": false,
+  "trending": false,
+  "keyPoints": [
+   "Sunfox ने 7 अक्टूबर 2026 को करीब ₹67 करोड़ ($7 मिलियन) की Series A जुटाई।",
+   "कंपनी के अनुसार करीब 60,000 Spandan डिवाइस 20,000+ गांवों तक पहुंचे हैं।",
+   "ये आंकड़े कंपनी के हैं; बचाई गई जानों या पकड़े गए heart attack का आंकड़ा नहीं है।",
+   "सामान्य ECG हर heart attack को खारिज नहीं करता; troponin जांच भी ज़रूरी होती है।",
+   "अमेरिका और यूरोपीय संघ की मंज़ूरी के लिए कंपनी कोशिश कर रही है।"
+  ],
+  "batch": 101
+ },
+ {
   "id": "environment-20261008-stubbleburningmp",
   "slug": "stubble-burning-2026-madhya-pradesh-overtakes-punjab",
   "title": "पंजाब में पराली जलाना सालों में सबसे कम, पर MP में रेकॉर्ड बढ़त",
