@@ -69,6 +69,29 @@
   "batch": 102
  },
  {
+  "id": "science-20261008-neutrino-icecube-nobel",
+  "slug": "neutrino-kaise-pakde-jaate-hain-icecube-nobel-2026",
+  "title": "Neutrino पकड़ना बेहद मुश्किल, पर Antarctica की बर्फ़ से मिला Nobel",
+  "seoTitle": "न्यूट्रिनो कैसे पकड़ते हैं: IceCube और Nobel 2026",
+  "category": "Science",
+  "date": "2026-10-08",
+  "image": "assets/images/neutrino-kaise-pakde-jaate-hain-icecube-nobel-2026.webp",
+  "imageCredit": "",
+  "excerpt": "6 अक्टूबर 2026 को Francis Halzen को भौतिकी का Nobel मिला। जानिए Antarctica की बर्फ़ में दबा IceCube कदम-दर-कदम neutrino कैसे पकड़ता है और भारत के लिए इसका मतलब क्या है।",
+  "searchDescription": "न्यूट्रिनो कैसे पकड़ा जाता है? 2026 Nobel जीतने वाले IceCube की बर्फ़ में दबी तकनीक आसान हिंदी में, साथ में भारत के INO का हाल।",
+  "author": "TECH RWT Discovery",
+  "featured": false,
+  "trending": true,
+  "keyPoints": [
+   "Francis Halzen को 6 अक्टूबर 2026 को IceCube के लिए भौतिकी का Nobel मिला।",
+   "IceCube में 5,000 से ज़्यादा sensor करीब एक घन किलोमीटर Antarctic बर्फ़ में जमे हैं।",
+   "Neutrino की टक्कर से बनी नीली चेरेनकोव रोशनी से उसकी दिशा और ऊर्जा निकलती है।",
+   "2017 में एक neutrino की दिशा blazar TXS 0506+056 से मेल खाई।",
+   "भारत का INO प्रोजेक्ट पर्यावरण चिंताओं के कारण अटका बताया गया है।"
+  ],
+  "batch": 103
+ },
+ {
   "id": "environment-20261008-stubbleburningmp",
   "slug": "stubble-burning-2026-madhya-pradesh-overtakes-punjab",
   "title": "पंजाब में पराली जलाना सालों में सबसे कम, पर MP में रेकॉर्ड बढ़त",
