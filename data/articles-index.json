@@ -23,6 +23,29 @@
   "batch": 105
  },
  {
+  "id": "space-20261009-gaganyaan-g1-crew-module-ready",
+  "slug": "gaganyaan-g1-crew-module-ready-launch-date",
+  "title": "क्या Gaganyaan का पहला मानव-रहित मिशन इसी साल उड़ पाएगा?",
+  "seoTitle": "Gaganyaan G1 कब लॉन्च होगा? क्रू मॉड्यूल तैयार",
+  "category": "Space & ISRO",
+  "date": "2026-10-09",
+  "image": "assets/images/gaganyaan-g1-crew-module-ready-launch-date.webp",
+  "imageCredit": "",
+  "excerpt": "ISRO ने Gaganyaan के पहले मानव-रहित मिशन G1 के क्रू मॉड्यूल की इंटीग्रेशन और टेस्टिंग पूरी कर ली है। रिपोर्ट्स के अनुसार उड़ान नवंबर-दिसंबर 2026 में संभव है, पर तारीख अभी पक्की नहीं।",
+  "searchDescription": "Gaganyaan G1 के क्रू मॉड्यूल की टेस्टिंग पूरी हुई। जानिए अब तक कौन-से टेस्ट पास हुए, देरी क्यों हुई और लॉन्च कब संभव है।",
+  "author": "TECH RWT Discovery",
+  "featured": false,
+  "trending": true,
+  "keyPoints": [
+   "ISRO ने Gaganyaan के पहले मानव-रहित मिशन G1 के क्रू मॉड्यूल की इंटीग्रेशन और टेस्टिंग पूरी की।",
+   "रिपोर्ट के अनुसार G1 नवंबर-दिसंबर 2026 में उड़ सकता है, पर आधिकारिक तारीख घोषित नहीं हुई।",
+   "G1 HLVM3 रॉकेट से उड़ेगा, जो करीब 53 मीटर ऊंचा और लगभग 640 टन वजनी है।",
+   "10 अप्रैल 2026 को क्रू मॉड्यूल का एयर ड्रॉप टेस्ट सफल रहा था।",
+   "G1 में लाइफ सपोर्ट सिस्टम का प्रोटोटाइप जाएगा, पूरा सिस्टम आगे के मिशन से पहले तैयार होगा।"
+  ],
+  "batch": 106
+ },
+ {
   "id": "environment-20261008-antarcticaloss",
   "slug": "antarctica-ice-sheet-committed-mass-loss-2100",
   "title": "Antarctica की बर्फ घटने की संभावना 92%+, कटौती के बाद भी",
