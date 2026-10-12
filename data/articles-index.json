@@ -2868,7 +2868,7 @@
   "searchDescription": "Lunar South Pole पर Moon Base के लिए NASA कौन सी Infrastructure तकनीक बना रहा है? जानिए Water-Ice, Habitat और भारत की संभावित भूमिका।",
   "image": "assets/images/330px-Artemis_Base_Camp.png",
   "excerpt": "चांद पर सिर्फ पहुंचना नहीं, बल्कि लंबे समय तक टिके रहना असली चुनौती है। Lunar South Pole पर water-ice जैसे resources के आसपास NASA का Moon Base infrastructure plan किस तरह आकार ले रहा है, और भारत इसमें कैसे भागीदार बन सकता है।",
-  "seoTitle": "चांद के दक्षिणी ध्रुव पर बेस बनाने में भारत की भूमिका क्या होगी?",
+  "seoTitle": "चांद के दक्षिणी ध्रुव पर बेस: भारत की भूमिका क्या?",
   "batch": 6
  },
  {
@@ -2880,7 +2880,7 @@
   "author": "TECH RWT Discovery",
   "featured": false,
   "trending": false,
-  "searchDescription": "Plastic Waste की Chemical Recycling क्या है? जानिए IIT Bombay की Research, Polymer और Circular Economy की पूरी कहानी।",
+  "searchDescription": "Plastic Waste की Chemical Recycling क्या है? IIT Bombay की Research, Polymer को दोबारा बनाने का तरीका और Circular Economy में इसकी जगह।",
   "image": "assets/images/250px-Plastic_recycling_process.jpg",
   "excerpt": "Plastic को recycle करने का मतलब हमेशा उसे पिघलाकर फिर से वही चीज बनाना नहीं होता। IIT Bombay में researchers mechanical recycling के साथ chemical recycling, multilayer plastics और waste-derived materials पर काम कर रहे हैं। समझिए polymer को molecular level पर recover करने की इस approach की ताकत और सीमाएं।",
   "seoTitle": "Plastic Waste का Chemical Recycling: IIT Bombay की तकनीक",
@@ -2913,7 +2913,7 @@
   "searchDescription": "Vacuum Birefringence क्या है? जानिए Magnetar की शक्तिशाली magnetic field और X-ray polarization से quantum vacuum के रहस्य का evidence कैसे मिला।",
   "image": "assets/images/330px-SGR_1806-20_108536main_NeutronStar-Print1.jpg",
   "excerpt": "खाली space को हम सामान्यतः पूरी तरह खाली मानते हैं। लेकिन quantum physics में vacuum इतना सरल नहीं है। Magnetar की अत्यंत शक्तिशाली magnetic field के पास गुजरती X-ray light में polarization के बदलाव ने वैज्ञानिकों को उस 1930s की prediction के करीब पहुंचाया है, जिसके अनुसार strong magnetic field में vacuum खुद light के लिए एक birefringent medium जैसा व्यवहार कर सकता है।",
-  "seoTitle": "Vacuum Birefringence क्या है? Magnetar से 90 साल पुरानी पहेली",
+  "seoTitle": "Vacuum Birefringence: Magnetar से 90 साल पुरानी पहेली",
   "batch": 5
  },
  {
@@ -2973,7 +2973,7 @@
   "searchDescription": "Atmospheric River क्या है? जानिए जलवाष्प की यह विशाल धारा भारी बारिश और बाढ़ कैसे लाती है और Climate Change से इसका संबंध क्या है।",
   "image": "assets/images/rivers.png",
   "excerpt": "Atmospheric River कोई आसमान में दिखाई देने वाली नदी नहीं है। यह atmosphere में जलवाष्प को हजारों किलोमीटर तक ले जाने वाली लंबी और संकरी moisture corridor होती है। भारत में ऐसी moisture transport systems मानसून की भारी बारिश और कुछ बाढ़ की घटनाओं से जुड़ी पाई गई हैं।",
-  "seoTitle": "आसमान में बहती है पानी की अदृश्य नदी — यही भारत में बाढ़ लाती है",
+  "seoTitle": "Atmospheric River: भारत में बाढ़ लाने वाली अदृश्य नदी",
   "batch": 5
  },
  {
@@ -3015,10 +3015,10 @@
   "author": "TECH RWT Discovery",
   "featured": false,
   "trending": false,
-  "searchDescription": "Bharatiya Antariksh Station क्या है? जानिए BAS के Modules, Gaganyaan से संबंध, Life Support और Microgravity Research की पूरी कहानी।",
+  "searchDescription": "Bharatiya Antariksh Station के Modules, Gaganyaan से संबंध, Life Support और Microgravity Research कैसे काम करेंगे, यह एक जगह समझिए।",
   "image": "assets/images/Indian_space_station_concept_rough_drawing.png",
   "excerpt": "भारत की Space Vision 2047 में चंद्रमा तक पहुंचने से पहले Low Earth Orbit में लंबे समय तक इंसानों के रहने और research करने की क्षमता विकसित करने का लक्ष्य है। इसी योजना का केंद्र Bharatiya Antariksh Station यानी BAS है।",
-  "seoTitle": "भारत का अपना Space Station बनने वाला है — जानिए यह कैसे काम करेगा",
+  "seoTitle": "भारत का Space Station कैसे काम करेगा?",
   "batch": 4
  },
  {
@@ -3075,7 +3075,7 @@
   "author": "TECH RWT Discovery",
   "featured": false,
   "trending": false,
-  "searchDescription": "Silicon Quantum Chip क्या है? जानिए Silicon Qubits, Transistor जैसी Manufacturing और शुरुआती चुनौतियां आसान भाषा में।",
+  "searchDescription": "Silicon Quantum Chip क्या है और Quantum Computer में क्यों अहम? Silicon Qubits, Transistor जैसी Manufacturing और शुरुआती चुनौतियां समझिए।",
   "image": "assets/images/330px-Superconducting_Quantum_Chip_with_Dispersive_Background.png",
   "excerpt": "Quantum computer की चर्चा जितनी complex लगती है, उसकी नींव उतनी ही basic engineering सवाल से शुरू होती है: qubit बनाया कैसे जाए। Silicon quantum chip इसी सवाल का जवाब सामान्य semiconductor manufacturing तकनीक से देने की कोशिश है।",
   "seoTitle": "Silicon Quantum Chip कैसे काम करती है? आसान भाषा में",
@@ -3093,7 +3093,7 @@
   "searchDescription": "Space Debris क्या है और Satellites के लिए कितना खतरनाक? जानिए ISRO का Collision Avoidance Manoeuvre और Debris Free Space Mission।",
   "image": "assets/images/330px-Tracking_Satellites_and_Space_Debris_in_Earth_Orbit_(Feb_2024)_(SVS5258_-_all_trackable_01000_print).jpg",
   "excerpt": "अंतरिक्ष खाली नहीं है। पुराने Satellites, Rocket Stages और टूटे हुए टुकड़ों की बढ़ती संख्या पृथ्वी की कक्षा में सक्रिय Spacecraft के लिए खतरा बन रही है। ISRO इस खतरे को कैसे Track करता है और Collision से Satellites को कैसे बचाता है, समझिए पूरी कहानी।",
-  "seoTitle": "Space Debris से Satellites को बचाना: ISRO का Collision Avoidance",
+  "seoTitle": "Space Debris से Satellites को कैसे बचाता है ISRO?",
   "batch": 3
  },
  {
