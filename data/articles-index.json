@@ -1,5 +1,28 @@
 [
  {
+  "id": "innovation-20261012-iit-mandi-spot-face-skull-face-ai",
+  "slug": "iit-mandi-spot-face-ai-skull-xray-face-matching",
+  "title": "IIT मंडी का SPOT-Face AI: खोपड़ी के X-ray से चेहरे, पहली रैंक पर 50%",
+  "seoTitle": "SPOT-Face AI: IIT मंडी का खोपड़ी-चेहरा मिलान",
+  "category": "Innovation",
+  "date": "2026-10-12",
+  "image": "assets/images/iit-mandi-spot-face-ai-skull-xray-face-matching.webp",
+  "imageCredit": "",
+  "excerpt": "IIT मंडी का SPOT-Face AI खोपड़ी के X-ray से संभावित चेहरों की रैंकिंग बनाता है। भारतीय डेटासेट पर पहली रैंक पर 50% और शीर्ष पांच में 72%, पर परीक्षण बहुत छोटा है।",
+  "searchDescription": "IIT मंडी का SPOT-Face AI मॉडल अज्ञात शव की पहचान में खोपड़ी के X-ray और चेहरे का मिलान करता है। जानिए 50% नतीजा, स्केच से तुलना और असली सीमाएं।",
+  "author": "TECH RWT Discovery",
+  "featured": false,
+  "trending": false,
+  "keyPoints": [
+   "IIT मंडी का SPOT-Face खोपड़ी के X-ray और चेहरे की तस्वीरों का मिलान कर संभावित चेहरों की सूची देता है।",
+   "भारतीय खोपड़ी-चेहरा डेटासेट पर सही चेहरा पहली रैंक पर 50% और शीर्ष पांच में 72% मामलों में आया।",
+   "स्केच-चेहरा डेटासेट पर पहली रैंक की दर 88.4% रही; खोपड़ी से मिलान शोधपत्र के अनुसार कठिन है।",
+   "परीक्षण भाग छोटा है: 102 जोड़ियों का करीब 10%, इसलिए 50% का आंकड़ा बड़े डेटा पर बदल सकता है।",
+   "यह पहचान की पुष्टि का स्वतंत्र विकल्प नहीं, जांच का दायरा छोटा करने वाला सहायक औजार है।"
+  ],
+  "batch": 109
+ },
+ {
   "id": "science-20261010-depression-five-brain-profiles",
   "slug": "depression-five-brain-connectivity-profiles-india-treatment-gap",
   "title": "डिप्रेशन एक बीमारी जैसा दिखता है, पर दिमाग में इसके 5 रूप मिले",

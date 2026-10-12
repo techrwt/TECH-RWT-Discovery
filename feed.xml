@@ -7,6 +7,14 @@
     <language>hi</language>
     <atom:link href="https://techrawatdiscovery.sbs/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>IIT मंडी का SPOT-Face AI: खोपड़ी के X-ray से चेहरे, पहली रैंक पर 50%</title>
+      <link>https://techrawatdiscovery.sbs/articles/iit-mandi-spot-face-ai-skull-xray-face-matching.html</link>
+      <guid isPermaLink="true">https://techrawatdiscovery.sbs/articles/iit-mandi-spot-face-ai-skull-xray-face-matching.html</guid>
+      <pubDate>Mon, 12 Oct 2026 00:00:00 GMT</pubDate>
+      <category>Innovation</category>
+      <description>IIT मंडी का SPOT-Face AI मॉडल अज्ञात शव की पहचान में खोपड़ी के X-ray और चेहरे का मिलान करता है। जानिए 50% नतीजा, स्केच से तुलना और असली सीमाएं।</description>
+    </item>
+    <item>
       <title>डिप्रेशन एक बीमारी जैसा दिखता है, पर दिमाग में इसके 5 रूप मिले</title>
       <link>https://techrawatdiscovery.sbs/articles/depression-five-brain-connectivity-profiles-india-treatment-gap.html</link>
       <guid isPermaLink="true">https://techrawatdiscovery.sbs/articles/depression-five-brain-connectivity-profiles-india-treatment-gap.html</guid>
@@ -237,14 +245,6 @@
       <pubDate>Sat, 03 Oct 2026 00:00:00 GMT</pubDate>
       <category>Technology &amp; Future Tech</category>
       <description>Apple Pay India कैसे काम करता है? Axis Bank card add करना, NFC से tap-to-pay और UPI से फ़र्क, सब कुछ आसान स्टेप्स में यहां समझें।</description>
-    </item>
-    <item>
-      <title>OpenAI का GPT-6.1 Astra टला: Saachi Jain ने बताई वजह</title>
-      <link>https://techrawatdiscovery.sbs/articles/openai-gpt-6-1-astra-shelved-india-enterprise-ai.html</link>
-      <guid isPermaLink="true">https://techrawatdiscovery.sbs/articles/openai-gpt-6-1-astra-shelved-india-enterprise-ai.html</guid>
-      <pubDate>Fri, 02 Oct 2026 00:00:00 GMT</pubDate>
-      <category>Technology &amp; Future Tech</category>
-      <description>OpenAI ने GPT-6.1 Astra क्यों टाला? Saachi Jain का बयान, Dots agent और भारत की agentic AI अपनाने की रफ़्तार पर इसका असर यहां समझें।</description>
     </item>
   </channel>
 </rss>
