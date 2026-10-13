@@ -46,6 +46,29 @@
   "batch": 114
  },
  {
+  "id": "space-20261013-orbitaid-refuelling",
+  "slug": "satellite-refuelling-orbitaid-aayulsat-sslv",
+  "title": "OrbitAID का सैटेलाइट रिफ्यूलिंग प्लान, पर कक्षा में डेमो अभी बाकी",
+  "seoTitle": "सैटेलाइट रिफ्यूलिंग क्या है: OrbitAID का प्लान और भ्रम",
+  "category": "Space & ISRO",
+  "date": "2026-10-13",
+  "image": "assets/images/satellite-refuelling-orbitaid-aayulsat-sslv.webp",
+  "imageCredit": "",
+  "excerpt": "OrbitAID फरवरी 2027 में सैटेलाइट रिफ्यूलिंग और डॉकिंग का डेमो करना चाहती है, पर जनवरी का पहला प्रयास PSLV की विफलता में अधूरा रहा। जानिए क्या हो चुका और क्या सिर्फ़ योजना है।",
+  "searchDescription": "सैटेलाइट रिफ्यूलिंग क्या है और OrbitAID का AayulSAT मिशन कहां पहुंचा? SSLV L1, फरवरी 2027 की योजना और 3 आम भ्रमों का सच।",
+  "author": "TECH RWT Discovery",
+  "featured": false,
+  "trending": false,
+  "keyPoints": [
+   "OrbitAID के अनुसार AayulSAT-1 की दोबारा उड़ान नवंबर 2026 की शुरुआत में SSLV L1 से होगी।",
+   "12 जनवरी 2026 को PSLV-C62 की विफलता में पहला AayulSAT मिशन अधूरा रह गया था।",
+   "AayulSAT-2A और 2B (करीब 70 kg प्रत्येक) का रिफ्यूलिंग-डॉकिंग डेमो फरवरी 2027 के लिए प्रस्तावित है।",
+   "पहले प्रदर्शन में सिर्फ़ SIDRP इंटरफ़ेस वाले सैटेलाइट में ईंधन भरा जाएगा, किसी भी सैटेलाइट में नहीं।",
+   "COMSPOC के अनुसार चीन के Shijian-25 ने 2025 में GEO में संभावित रिफ्यूलिंग की थी।"
+  ],
+  "batch": 115
+ },
+ {
   "id": "innovation-20261012-iit-mandi-spot-face-skull-face-ai",
   "slug": "iit-mandi-spot-face-ai-skull-xray-face-matching",
   "title": "IIT मंडी का SPOT-Face AI: खोपड़ी के X-ray से चेहरे, पहली रैंक पर 50%",
