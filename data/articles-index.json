@@ -23,6 +23,29 @@
   "batch": 113
  },
  {
+  "id": "technology-20261013-spacex-800mhz-spectrum-starlink-india",
+  "slug": "spacex-800-mhz-spectrum-deal-starlink-india",
+  "title": "SpaceX के 800 MHz सौदे का भारत में Starlink पर क्या असर होगा?",
+  "seoTitle": "SpaceX स्पेक्ट्रम सौदा: भारत में Starlink पर असर",
+  "category": "Technology & Future Tech",
+  "date": "2026-10-13",
+  "image": "assets/images/spacex-800-mhz-spectrum-deal-starlink-india.webp",
+  "imageCredit": "",
+  "excerpt": "SpaceX ने अमेरिका में Grain Management से 800 MHz स्पेक्ट्रम ख़रीदने का सौदा किया और टेलीकॉम शेयर गिरे। भारत में Starlink की राह इससे नहीं खुलती; वहां सुरक्षा मंज़ूरी और शुल्क बाक़ी हैं।",
+  "searchDescription": "SpaceX स्पेक्ट्रम सौदे से अमेरिकी टेलीकॉम शेयर गिरे। जानिए 800 MHz ख़रीद क्या है और भारत में Starlink की सुरक्षा मंज़ूरी व स्पेक्ट्रम शुल्क कहां अटके हैं।",
+  "author": "TECH RWT Discovery",
+  "featured": false,
+  "trending": true,
+  "keyPoints": [
+   "SpaceX ने 8 अक्टूबर 2026 को Grain Management से 800 MHz का 14 MHz तक पेयर्ड स्पेक्ट्रम ख़रीदने की घोषणा की।",
+   "सौदे को FCC की मंज़ूरी चाहिए; WSJ के हवाले से रिपोर्ट के अनुसार क़ीमत लगभग $8 अरब है।",
+   "Axios के अनुसार अगले दिन AT&T 9.8%, Verizon 8.8% और T-Mobile 13.3% गिरे।",
+   "भारत में 3 सितंबर को DCC ने सैटकॉम स्पेक्ट्रम शुल्क AGR का 5% (ग्रामीण में 4%) मंज़ूर किया।",
+   "ThePrint के अनुसार Starlink समेत तीनों लाइसेंसधारियों की सुरक्षा मंज़ूरी अभी लंबित है।"
+  ],
+  "batch": 114
+ },
+ {
   "id": "innovation-20261012-iit-mandi-spot-face-skull-face-ai",
   "slug": "iit-mandi-spot-face-ai-skull-xray-face-matching",
   "title": "IIT मंडी का SPOT-Face AI: खोपड़ी के X-ray से चेहरे, पहली रैंक पर 50%",
