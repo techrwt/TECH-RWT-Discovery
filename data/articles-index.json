@@ -69,6 +69,29 @@
   "batch": 115
  },
  {
+  "id": "environment-20261013-living-planet-report-2026",
+  "slug": "wwf-living-planet-report-2026-wildlife-decline-73-percent",
+  "title": "वन्यजीव आबादी औसतन 73% घटी, एशिया-प्रशांत में 49%: WWF रिपोर्ट",
+  "seoTitle": "वन्यजीव आबादी 73% घटी: Living Planet Report 2026",
+  "category": "Environment",
+  "date": "2026-10-13",
+  "image": "assets/images/wwf-living-planet-report-2026-wildlife-decline-73-percent.webp",
+  "imageCredit": "",
+  "excerpt": "WWF की Living Planet Report 2026 के अनुसार निगरानी वाली वन्यजीव आबादी 1970-2022 में औसतन 73% घटी। लैटिन अमेरिका में 95%, एशिया-प्रशांत में 49%। जानिए इसका सही मतलब और भारत का हिसाब।",
+  "searchDescription": "WWF Living Planet Report 2026: वन्यजीव आबादी औसतन 73% घटी। क्षेत्रवार तुलना, मीठे पानी की गिरावट, बाघों की वापसी और भारत के लिए मतलब जानें।",
+  "author": "TECH RWT Discovery",
+  "featured": false,
+  "trending": true,
+  "keyPoints": [
+   "WWF-ZSL: 1970-2022 में निगरानी वाली 5,790 प्रजातियों की आबादी औसतन 73% घटी।",
+   "क्षेत्रवार गिरावट: लैटिन अमेरिका 95%, अफ्रीका 80%, एशिया-प्रशांत 49%, यूरोप-मध्य एशिया 23%।",
+   "मीठे पानी की प्रजातियां सबसे ज़्यादा 85% घटीं; ज़मीन पर 69% और समुद्र में 59%।",
+   "बाघ देशों में जंगली बाघ 2010 के ~3,200 से 2025 में ~5,700 हुए; करीब आधी आबादी स्थिर या बढ़ती है।",
+   "73% का मतलब 73% जानवर खत्म होना नहीं है, और यह भारत का मापा गया आंकड़ा भी नहीं है।"
+  ],
+  "batch": 116
+ },
+ {
   "id": "innovation-20261012-iit-mandi-spot-face-skull-face-ai",
   "slug": "iit-mandi-spot-face-ai-skull-xray-face-matching",
   "title": "IIT मंडी का SPOT-Face AI: खोपड़ी के X-ray से चेहरे, पहली रैंक पर 50%",
