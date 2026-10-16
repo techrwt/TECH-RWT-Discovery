@@ -116,11 +116,11 @@ for (const a of articles) {
 
 // 3. Homepage cards
 if (fs.existsSync("index.html")) {
-  const cards = articles.slice(0, HOME_CARDS).map((a) => {
+  const cards = articles.slice(0, HOME_CARDS).map((a, i) => {
     const link = `articles/${esc(a.slug)}.html`;
     return `
         <div class="article-card">
-          <div class="card-img-wrapper"><img src="${esc(a.image)}" alt="${esc(a.title)}" loading="lazy" onerror="this.src='assets/images/sample-space.jpg'"></div>
+          <div class="card-img-wrapper"><img src="${esc(a.image)}" alt="${esc(a.title)}" ${i === 0 ? 'fetchpriority="high" decoding="async"' : 'loading="lazy" decoding="async"'} onerror="this.src='assets/images/sample-space.jpg'"></div>
           <div class="card-content">
             <div class="card-meta"><span class="card-category">${esc(a.category)}</span><span class="card-date">${esc(a.date)}</span></div>
             <h3 class="card-title"><a href="${link}">${esc(a.title)}</a></h3>
@@ -130,6 +130,11 @@ if (fs.existsSync("index.html")) {
         </div>`;
   }).join("");
   let home = read("index.html");
+  // Speed fix: welcome intro screen hata do (ye pura page dhak kar FCP/LCP dheema karta tha)
+  home = home.replace(/<!-- Welcome Intro Screen -->[\s\S]*?getElementById\("welcomeScreen"\)\.style\.display="none";\}\}catch\(e\)\{\}<\/script>\s*/, "");
+  // Speed fix: Google Fonts page ko block na kare, aur sirf Noto Sans Devanagari lo
+  home = home.replace(/<link href="https:\/\/fonts\.googleapis\.com\/css2\?[^"]*" rel="stylesheet">/,
+    '<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+Devanagari:wght@400;600;700;800&display=swap" media="print" onload="this.media=\'all\'">\n  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+Devanagari:wght@400;600;700;800&display=swap"></noscript>');
   const re = /(<!-- ARTICLES_START -->)[\s\S]*?(<!-- ARTICLES_END -->)/;
   if (re.test(home)) {
     home = home.replace(re, (_, s, e) => `${s}${cards}\n        ${e}`);
