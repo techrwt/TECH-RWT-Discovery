@@ -35,7 +35,7 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   // 2. Mobile Navigation Menu Toggle
-  const hamburger = document.getElementById("hamburgerBtn");
+  const hamburger = document.getElementById("hamburgerBtn") || document.getElementById("hamburger");
   const navLinks = document.getElementById("navLinks");
 
   if (hamburger && navLinks) {
@@ -83,7 +83,7 @@ async function fetchArticles(selectedCategory = "All") {
       card.className = "article-card";
       card.innerHTML = `
         <div class="card-img-wrapper">
-          <img src="${article.image.replace(/\.(png|jpe?g)$/i, '.webp')}" alt="${article.title}" onerror="this.onerror=function(){this.src='assets/images/sample-space.jpg'};this.src='${article.image}'">
+          <img src="${article.image.replace(/\.(png|jpe?g)$/i, '.webp')}" alt="${article.title}" width="640" height="360" loading="lazy" decoding="async" onerror="this.onerror=function(){this.src='assets/images/sample-space.jpg'};this.src='${article.image}'">
         </div>
         <div class="card-content">
           <div class="card-meta">
