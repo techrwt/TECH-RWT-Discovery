@@ -2,13 +2,15 @@
 <html lang="hi" data-theme="light">
 <head>
   <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-9PS4WX9LXB"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
   gtag('config', 'G-9PS4WX9LXB');
+  // Speed: gtag.js pehle interaction par ya 5 sec baad load hoga (page ki speed block nahi karega)
+  (function(){var l=0;function go(){if(l)return;l=1;var s=document.createElement('script');s.async=true;s.src='https://www.googletagmanager.com/gtag/js?id=G-9PS4WX9LXB';document.head.appendChild(s);}
+  ['scroll','click','touchstart','keydown','mousemove'].forEach(function(e){addEventListener(e,go,{once:true,passive:true});});
+  setTimeout(go,5000);})();
 </script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -102,7 +104,7 @@
         </div>
         <h1 class="article-title">अब AI भी करेगा UPI से छोटी Payment? NPCI का नया प्रोटोकॉल</h1>
       </div>
-      <img src="/assets/images/npci-unified-agent-protocol-upi-ai-agents.webp" alt="अब AI भी करेगा UPI से छोटी Payment? NPCI का नया प्रोटोकॉल" class="article-featured-image" onerror="this.src='/assets/images/sample-space.jpg'">
+      <img src="/assets/images/npci-unified-agent-protocol-upi-ai-agents.webp" alt="अब AI भी करेगा UPI से छोटी Payment? NPCI का नया प्रोटोकॉल" class="article-featured-image" fetchpriority="high" decoding="async" onerror="this.src='/assets/images/sample-space.jpg'">
       
       <div class="key-points"><div class="key-points-title">मुख्य बिंदु</div><ul><li>Reuters के अनुसार NPCI यूनिफाइड एजेंट प्रोटोकॉल बना रहा है; औपचारिक घोषणा अभी नहीं हुई है।</li><li>UPI Circle की पूर्ण delegation सीमा ₹5,000 प्रति भुगतान और ₹15,000 प्रति माह है।</li><li>अगस्त 2026 में UPI पर 24.51 अरब लेन-देन हुए, कीमत ₹29.82 लाख करोड़ (ETBFSI के हवाले से)।</li><li>गलत एजेंट-भुगतान की देनदारी कौन लेगा, यह विस्तृत ढांचा अभी प्रकाशित नहीं हुआ है।</li><li>NPCI अध्यक्ष ने 10 सितंबर 2026 को कहा कि एजेंट सुझाव दे, अंतिम निपटान तय नियमों से हो।</li></ul></div>
       <div class="article-body">
@@ -151,6 +153,6 @@
     </div>
   </footer>
 
-  <script src="/js/main.js"></script>
+  <script src="/js/main.js" defer></script>
 </body>
 </html>

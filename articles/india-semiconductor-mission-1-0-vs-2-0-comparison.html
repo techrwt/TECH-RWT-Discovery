@@ -2,13 +2,15 @@
 <html lang="hi" data-theme="light">
 <head>
   <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-9PS4WX9LXB"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
   gtag('config', 'G-9PS4WX9LXB');
+  // Speed: gtag.js pehle interaction par ya 5 sec baad load hoga (page ki speed block nahi karega)
+  (function(){var l=0;function go(){if(l)return;l=1;var s=document.createElement('script');s.async=true;s.src='https://www.googletagmanager.com/gtag/js?id=G-9PS4WX9LXB';document.head.appendChild(s);}
+  ['scroll','click','touchstart','keydown','mousemove'].forEach(function(e){addEventListener(e,go,{once:true,passive:true});});
+  setTimeout(go,5000);})();
 </script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -102,7 +104,7 @@
         </div>
         <h1 class="article-title">सेमीकंडक्टर मिशन 2.0 का बजट बड़ा, पर पहली Fab अभी दूर</h1>
       </div>
-      <img src="/assets/images/india-semiconductor-mission-1-0-vs-2-0-comparison.webp" alt="सेमीकंडक्टर मिशन 2.0 का बजट बड़ा, पर पहली Fab अभी दूर" class="article-featured-image" onerror="this.src='/assets/images/sample-space.jpg'">
+      <img src="/assets/images/india-semiconductor-mission-1-0-vs-2-0-comparison.webp" alt="सेमीकंडक्टर मिशन 2.0 का बजट बड़ा, पर पहली Fab अभी दूर" class="article-featured-image" fetchpriority="high" decoding="async" onerror="this.src='/assets/images/sample-space.jpg'">
       
       <div class="key-points"><div class="key-points-title">मुख्य बिंदु</div><ul><li>ISM 1.0 (2021) का आउटले ₹76,000 करोड़ था, ISM 2.0 (2026) का आउटले ₹1,27,500 करोड़ है।</li><li>ISM 2.0 के तहत 12 चिप प्रोजेक्ट्स मंज़ूर हो चुके हैं, फोकस डिज़ाइन से लेकर टैलेंट तक फैला है।</li><li>अब तक करीब ₹1.64 लाख करोड़ के निवेश की प्रतिबद्धता आई है, जिसमें 12 यूनिट शामिल हैं।</li><li>DLI योजना से 24 प्रोजेक्ट्स, 105 कंपनियों को डिज़ाइन टूल और 23 टेपआउट पूरे हुए हैं।</li><li>पहली सेमीकंडक्टर फैब से असली उत्पादन शुरू होने का लक्ष्य अभी 2028 रखा गया है।</li></ul></div>
       <div class="article-body">
@@ -151,6 +153,6 @@
     </div>
   </footer>
 
-  <script src="/js/main.js"></script>
+  <script src="/js/main.js" defer></script>
 </body>
 </html>

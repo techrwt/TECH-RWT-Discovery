@@ -2,13 +2,15 @@
 <html lang="hi" data-theme="light">
 <head>
   <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-9PS4WX9LXB"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
   gtag('config', 'G-9PS4WX9LXB');
+  // Speed: gtag.js pehle interaction par ya 5 sec baad load hoga (page ki speed block nahi karega)
+  (function(){var l=0;function go(){if(l)return;l=1;var s=document.createElement('script');s.async=true;s.src='https://www.googletagmanager.com/gtag/js?id=G-9PS4WX9LXB';document.head.appendChild(s);}
+  ['scroll','click','touchstart','keydown','mousemove'].forEach(function(e){addEventListener(e,go,{once:true,passive:true});});
+  setTimeout(go,5000);})();
 </script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -102,7 +104,7 @@
         </div>
         <h1 class="article-title">DAVINCI सिर्फ 1 घंटे टिकेगा, पर अभी यह टेस्ट धरती पर हुआ</h1>
       </div>
-      <img src="/assets/images/davinci-venus-heat-test-myths-nasa-shukrayaan.webp" alt="DAVINCI सिर्फ 1 घंटे टिकेगा, पर अभी यह टेस्ट धरती पर हुआ" class="article-featured-image" onerror="this.src='/assets/images/sample-space.jpg'">
+      <img src="/assets/images/davinci-venus-heat-test-myths-nasa-shukrayaan.webp" alt="DAVINCI सिर्फ 1 घंटे टिकेगा, पर अभी यह टेस्ट धरती पर हुआ" class="article-featured-image" fetchpriority="high" decoding="async" onerror="this.src='/assets/images/sample-space.jpg'">
       
       <div class="key-points"><div class="key-points-title">मुख्य बिंदु</div><ul><li>NASA के DAVINCI प्रोब के इंजीनियरिंग मॉडल ने 28 अगस्त से 10 सितंबर 2026 तक धरती पर भट्टी में टेस्ट झेला।</li><li>टेस्ट में तापमान छह बार 465°C तक पहुंचाया गया, जो Venus की असली उतराई जैसी गर्मी के बराबर है।</li><li>DAVINCI एक descent probe है, सिर्फ करीब एक घंटे के उतराई के दौरान काम करने के लिए बना है।</li><li>DAVINCI का असली लॉन्च जून 2029 में और Venus पर उतरना 2031 के आखिर तक होने की योजना है।</li><li>भारत का Shukrayaan यानी Venus Orbiter Mission भी इसी दशक में भेजे जाने की योजना में है।</li></ul></div>
       <div class="article-body">
@@ -151,6 +153,6 @@
     </div>
   </footer>
 
-  <script src="/js/main.js"></script>
+  <script src="/js/main.js" defer></script>
 </body>
 </html>

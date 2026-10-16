@@ -2,13 +2,15 @@
 <html lang="hi" data-theme="light">
 <head>
   <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-9PS4WX9LXB"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
   gtag('config', 'G-9PS4WX9LXB');
+  // Speed: gtag.js pehle interaction par ya 5 sec baad load hoga (page ki speed block nahi karega)
+  (function(){var l=0;function go(){if(l)return;l=1;var s=document.createElement('script');s.async=true;s.src='https://www.googletagmanager.com/gtag/js?id=G-9PS4WX9LXB';document.head.appendChild(s);}
+  ['scroll','click','touchstart','keydown','mousemove'].forEach(function(e){addEventListener(e,go,{once:true,passive:true});});
+  setTimeout(go,5000);})();
 </script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -102,7 +104,7 @@
         </div>
         <h1 class="article-title">iPhone 18 Pro सिर्फ़ $100 महंगा, पर रिपोर्ट में Apple के ऑर्डर घटे</h1>
       </div>
-      <img src="/assets/images/iphone-18-pro-order-cut-memory-chip-shortage-india.webp" alt="iPhone 18 Pro सिर्फ़ $100 महंगा, पर रिपोर्ट में Apple के ऑर्डर घटे" class="article-featured-image" onerror="this.src='/assets/images/sample-space.jpg'">
+      <img src="/assets/images/iphone-18-pro-order-cut-memory-chip-shortage-india.webp" alt="iPhone 18 Pro सिर्फ़ $100 महंगा, पर रिपोर्ट में Apple के ऑर्डर घटे" class="article-featured-image" fetchpriority="high" decoding="async" onerror="this.src='/assets/images/sample-space.jpg'">
       
       <div class="key-points"><div class="key-points-title">मुख्य बिंदु</div><ul><li>Nikkei Asia के अनुसार Apple ने iPhone 18 Pro के अक्टूबर पुर्ज़ों के ऑर्डर 15-20% घटवाए; Apple ने पुष्टि नहीं की।</li><li>iPhone 18 Pro $1,199 और Pro Max $1,299 से शुरू होते हैं, दोनों पिछले मॉडल से $100 महंगे।</li><li>IDC: 2026 में दुनिया भर में फ़ोन शिपमेंट 16.7% गिरकर लगभग 1 अरब यूनिट रहने का अनुमान।</li><li>IDC के अनुसार भारत में $100 से सस्ते फ़ोनों की शिपमेंट 2026 की दूसरी तिमाही में 74.3% गिरी।</li><li>IDC को भारत में 2026 में 128-130 मिलियन फ़ोन बिकने की उम्मीद है, 2025 में यह 152 मिलियन था।</li></ul></div>
       <div class="article-body">
@@ -151,6 +153,6 @@
     </div>
   </footer>
 
-  <script src="/js/main.js"></script>
+  <script src="/js/main.js" defer></script>
 </body>
 </html>

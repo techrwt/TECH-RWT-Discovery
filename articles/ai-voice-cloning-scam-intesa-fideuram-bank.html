@@ -2,13 +2,15 @@
 <html lang="hi" data-theme="light">
 <head>
   <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-9PS4WX9LXB"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
   gtag('config', 'G-9PS4WX9LXB');
+  // Speed: gtag.js pehle interaction par ya 5 sec baad load hoga (page ki speed block nahi karega)
+  (function(){var l=0;function go(){if(l)return;l=1;var s=document.createElement('script');s.async=true;s.src='https://www.googletagmanager.com/gtag/js?id=G-9PS4WX9LXB';document.head.appendChild(s);}
+  ['scroll','click','touchstart','keydown','mousemove'].forEach(function(e){addEventListener(e,go,{once:true,passive:true});});
+  setTimeout(go,5000);})();
 </script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -102,7 +104,7 @@
         </div>
         <h1 class="article-title">नकली AI आवाज़ से Bank को लगा €95 मिलियन का चूना — भारत के लिए चेतावनी</h1>
       </div>
-      <img src="/assets/images/ai-voice-cloning-scam-intesa-fideuram-bank.webp" alt="नकली AI आवाज़ से Bank को लगा €95 मिलियन का चूना — भारत के लिए चेतावनी" class="article-featured-image" onerror="this.src='/assets/images/sample-space.jpg'">
+      <img src="/assets/images/ai-voice-cloning-scam-intesa-fideuram-bank.webp" alt="नकली AI आवाज़ से Bank को लगा €95 मिलियन का चूना — भारत के लिए चेतावनी" class="article-featured-image" fetchpriority="high" decoding="async" onerror="this.src='/assets/images/sample-space.jpg'">
       
       <div class="key-points"><div class="key-points-title">मुख्य बिंदु</div><ul><li>Reuters के सूत्रों के अनुसार Fideuram से करीब €95 मिलियन ($108 मिलियन) ठगे गए।</li><li>फ़रवरी 2026 में CEO के नाम के WhatsApp संदेश के बाद AI से बनी वकील की आवाज़ वाली कॉल आई।</li><li>करीब €53 मिलियन बरामद हुए, लगभग €36 मिलियन क्रिप्टो के रास्ते लापता हैं।</li><li>SEBI ने 17 जुलाई 2026 को I4C की सूचना पर 'Boss Scam' की चेतावनी दी थी।</li><li>बचाव: भुगतान-आदेश की पुष्टि संबंधित अधिकारी को सीधे फ़ोन करके करें।</li></ul></div>
       <div class="article-body">
@@ -151,6 +153,6 @@
     </div>
   </footer>
 
-  <script src="/js/main.js"></script>
+  <script src="/js/main.js" defer></script>
 </body>
 </html>

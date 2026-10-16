@@ -2,13 +2,15 @@
 <html lang="hi" data-theme="light">
 <head>
   <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-9PS4WX9LXB"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
   gtag('config', 'G-9PS4WX9LXB');
+  // Speed: gtag.js pehle interaction par ya 5 sec baad load hoga (page ki speed block nahi karega)
+  (function(){var l=0;function go(){if(l)return;l=1;var s=document.createElement('script');s.async=true;s.src='https://www.googletagmanager.com/gtag/js?id=G-9PS4WX9LXB';document.head.appendChild(s);}
+  ['scroll','click','touchstart','keydown','mousemove'].forEach(function(e){addEventListener(e,go,{once:true,passive:true});});
+  setTimeout(go,5000);})();
 </script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -102,7 +104,7 @@
         </div>
         <h1 class="article-title">1.2 अरब डॉलर का NASA Telescope 2033 में जाएगा Space — क्या है खास?</h1>
       </div>
-      <img src="/assets/images/nasa-prima-telescope-far-infrared-2033-launch.webp" alt="1.2 अरब डॉलर का NASA Telescope 2033 में जाएगा Space — क्या है खास?" class="article-featured-image" onerror="this.src='/assets/images/sample-space.jpg'">
+      <img src="/assets/images/nasa-prima-telescope-far-infrared-2033-launch.webp" alt="1.2 अरब डॉलर का NASA Telescope 2033 में जाएगा Space — क्या है खास?" class="article-featured-image" fetchpriority="high" decoding="async" onerror="this.src='/assets/images/sample-space.jpg'">
       
       <div class="key-points"><div class="key-points-title">मुख्य बिंदु</div><ul><li>NASA ने 23 सितंबर 2026 को PRIMA टेलीस्कोप को Phase B यानी प्रारंभिक डिजाइन चरण में भेजा।</li><li>PRIMA का बजट अधिकतम 1.2 अरब डॉलर तय है, लॉन्च खर्च इसमें शामिल नहीं है।</li><li>मिशन का लक्ष्य 2033 में लॉन्च और पांच साल तक far-infrared सर्वे करना है।</li><li>PRIMA उस far-infrared रेंज को स्कैन करेगा जिसमें आखिरी बड़ा टेलीस्कोप 2013 में बंद हुए ESA के Herschel था।</li><li>PRIMA James Webb और Roman जैसे 10 अरब डॉलर से ज्यादा के मिशनों से बजट में कहीं छोटा है।</li></ul></div>
       <div class="article-body">
@@ -151,6 +153,6 @@
     </div>
   </footer>
 
-  <script src="/js/main.js"></script>
+  <script src="/js/main.js" defer></script>
 </body>
 </html>

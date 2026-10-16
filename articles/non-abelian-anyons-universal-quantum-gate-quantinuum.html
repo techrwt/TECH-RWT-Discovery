@@ -2,13 +2,15 @@
 <html lang="hi" data-theme="light">
 <head>
   <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-9PS4WX9LXB"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
   gtag('config', 'G-9PS4WX9LXB');
+  // Speed: gtag.js pehle interaction par ya 5 sec baad load hoga (page ki speed block nahi karega)
+  (function(){var l=0;function go(){if(l)return;l=1;var s=document.createElement('script');s.async=true;s.src='https://www.googletagmanager.com/gtag/js?id=G-9PS4WX9LXB';document.head.appendChild(s);}
+  ['scroll','click','touchstart','keydown','mousemove'].forEach(function(e){addEventListener(e,go,{once:true,passive:true});});
+  setTimeout(go,5000);})();
 </script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -102,7 +104,7 @@
         </div>
         <h1 class="article-title">54 Qubits से बना पहला Universal Quantum Gate — पर एक चुनौती अभी बाकी</h1>
       </div>
-      <img src="/assets/images/non-abelian-anyons-universal-quantum-gate-quantinuum.webp" alt="54 Qubits से बना पहला Universal Quantum Gate — पर एक चुनौती अभी बाकी" class="article-featured-image" onerror="this.src='/assets/images/sample-space.jpg'">
+      <img src="/assets/images/non-abelian-anyons-universal-quantum-gate-quantinuum.webp" alt="54 Qubits से बना पहला Universal Quantum Gate — पर एक चुनौती अभी बाकी" class="article-featured-image" fetchpriority="high" decoding="async" onerror="this.src='/assets/images/sample-space.jpg'">
       
       <div class="key-points"><div class="key-points-title">मुख्य बिंदु</div><ul><li>Quantinuum के H2 प्रोसेसर पर 54 qubits से S3 समूह के non-Abelian anyons बनाए गए (Nature, 2026)।</li><li>Braiding के साथ fusion जोड़कर पहली बार पूरा यूनिवर्सल क्वांटम गेट सेट दिखाया गया।</li><li>2024 के D4 प्रयोग में सिर्फ braiding से यूनिवर्सल गणना संभव नहीं हो पाई थी।</li><li>टीम ने महंगी 'magic state distillation' के बिना ही magic state सीधे बनाई।</li><li>भारत के National Quantum Mission में IIT Delhi का हब टोपोलॉजिकल सामग्री पर काम करता है।</li></ul></div>
       <div class="article-body">
@@ -198,6 +200,6 @@
     </div>
   </footer>
 
-  <script src="/js/main.js"></script>
+  <script src="/js/main.js" defer></script>
 </body>
 </html>

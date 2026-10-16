@@ -2,13 +2,15 @@
 <html lang="hi" data-theme="light">
 <head>
   <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-9PS4WX9LXB"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
   gtag('config', 'G-9PS4WX9LXB');
+  // Speed: gtag.js pehle interaction par ya 5 sec baad load hoga (page ki speed block nahi karega)
+  (function(){var l=0;function go(){if(l)return;l=1;var s=document.createElement('script');s.async=true;s.src='https://www.googletagmanager.com/gtag/js?id=G-9PS4WX9LXB';document.head.appendChild(s);}
+  ['scroll','click','touchstart','keydown','mousemove'].forEach(function(e){addEventListener(e,go,{once:true,passive:true});});
+  setTimeout(go,5000);})();
 </script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -102,7 +104,7 @@
         </div>
         <h1 class="article-title">भारत का पहला स्वदेशी Micro-GPU दिखा — असली चिप तक की राह कितनी बाकी?</h1>
       </div>
-      <img src="/assets/images/iit-delhi-indigenous-micro-gpu-fpga-graphics-chip.webp" alt="भारत का पहला स्वदेशी Micro-GPU दिखा — असली चिप तक की राह कितनी बाकी?" class="article-featured-image" onerror="this.src='/assets/images/sample-space.jpg'">
+      <img src="/assets/images/iit-delhi-indigenous-micro-gpu-fpga-graphics-chip.webp" alt="भारत का पहला स्वदेशी Micro-GPU दिखा — असली चिप तक की राह कितनी बाकी?" class="article-featured-image" fetchpriority="high" decoding="async" onerror="this.src='/assets/images/sample-space.jpg'">
       
       <div class="key-points"><div class="key-points-title">मुख्य बिंदु</div><ul><li>IIT दिल्ली ने 24 सितंबर 2026 को भारत का पहला काम करने वाला स्वदेशी माइक्रो-GPU डिज़ाइन दिखाया।</li><li>M.Tech छात्र Nammi Akash और M. Ravi Teja ने Prof. Jayadeva और Prof. Kaushik Saha की देखरेख में इसे बनाया।</li><li>GPU इंजन पूरी तरह RTL में डिज़ाइन कर Spartan-7 FPGA पर चलाया गया; असली सिलिकॉन चिप अभी नहीं बनी।</li><li>अगला लक्ष्य 8-16 कोर आर्किटेक्चर और 65nm ASIC प्रोसेस नोड पर proof-of-concept चिप है।</li><li>संभावित इस्तेमाल: e-rickshaw डैशबोर्ड, मछली पकड़ने वाली नावों के नेविगेशन टर्मिनल, सस्ते e-book रीडर।</li></ul></div>
       <div class="article-body">
@@ -151,6 +153,6 @@
     </div>
   </footer>
 
-  <script src="/js/main.js"></script>
+  <script src="/js/main.js" defer></script>
 </body>
 </html>

@@ -2,13 +2,15 @@
 <html lang="hi" data-theme="light">
 <head>
   <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-9PS4WX9LXB"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
   gtag('config', 'G-9PS4WX9LXB');
+  // Speed: gtag.js pehle interaction par ya 5 sec baad load hoga (page ki speed block nahi karega)
+  (function(){var l=0;function go(){if(l)return;l=1;var s=document.createElement('script');s.async=true;s.src='https://www.googletagmanager.com/gtag/js?id=G-9PS4WX9LXB';document.head.appendChild(s);}
+  ['scroll','click','touchstart','keydown','mousemove'].forEach(function(e){addEventListener(e,go,{once:true,passive:true});});
+  setTimeout(go,5000);})();
 </script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -102,7 +104,7 @@
         </div>
         <h1 class="article-title">बिना License वाले E-Scooter अब कितने तेज़ दौड़ सकेंगे? नया नियम आ रहा</h1>
       </div>
-      <img src="/assets/images/low-speed-ev-motor-power-limit-morth-draft.webp" alt="बिना License वाले E-Scooter अब कितने तेज़ दौड़ सकेंगे? नया नियम आ रहा" class="article-featured-image" onerror="this.src='/assets/images/sample-space.jpg'">
+      <img src="/assets/images/low-speed-ev-motor-power-limit-morth-draft.webp" alt="बिना License वाले E-Scooter अब कितने तेज़ दौड़ सकेंगे? नया नियम आ रहा" class="article-featured-image" fetchpriority="high" decoding="async" onerror="this.src='/assets/images/sample-space.jpg'">
       
       <div class="key-points"><div class="key-points-title">मुख्य बिंदु</div><ul><li>MoRTH ने 21 अगस्त 2026 को low-speed EV की मोटर पावर सीमा 250W से बढ़ाकर 600W करने का मसौदा जारी किया।</li><li>स्पीड सीमा 25 किमी/घंटा वही रहेगी, पर 60 किलो वजन की सीमा पूरी तरह हटाने का प्रस्ताव है।</li><li>Yulu ने 12 सितंबर 2026 को विरोध जताया; BGauss जैसी कंपनियां इसे बाजार बढ़ाने वाला कदम मानती हैं।</li><li>2023 में केरल के छापों में 250W स्कूटर में 1,000W मोटर लगाकर बेचे जाने का मामला सामने आया था।</li><li>नए नियम 1 अक्टूबर 2026 से लागू होने की उम्मीद है, अंतिम अधिसूचना अभी जारी नहीं हुई है।</li></ul></div>
       <div class="article-body">
@@ -151,6 +153,6 @@
     </div>
   </footer>
 
-  <script src="/js/main.js"></script>
+  <script src="/js/main.js" defer></script>
 </body>
 </html>

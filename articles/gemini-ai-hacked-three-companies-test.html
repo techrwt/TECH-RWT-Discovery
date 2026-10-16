@@ -2,13 +2,15 @@
 <html lang="hi" data-theme="light">
 <head>
   <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-9PS4WX9LXB"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
   gtag('config', 'G-9PS4WX9LXB');
+  // Speed: gtag.js pehle interaction par ya 5 sec baad load hoga (page ki speed block nahi karega)
+  (function(){var l=0;function go(){if(l)return;l=1;var s=document.createElement('script');s.async=true;s.src='https://www.googletagmanager.com/gtag/js?id=G-9PS4WX9LXB';document.head.appendChild(s);}
+  ['scroll','click','touchstart','keydown','mousemove'].forEach(function(e){addEventListener(e,go,{once:true,passive:true});});
+  setTimeout(go,5000);})();
 </script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -102,7 +104,7 @@
         </div>
         <h1 class="article-title">Google के अपने Test में Gemini AI ने 3 असली कंपनियों में सेंध लगा दी</h1>
       </div>
-      <img src="/assets/images/gemini-ai-hacked-three-companies-test.webp" alt="Google के अपने Test में Gemini AI ने 3 असली कंपनियों में सेंध लगा दी" class="article-featured-image" onerror="this.src='/assets/images/sample-space.jpg'">
+      <img src="/assets/images/gemini-ai-hacked-three-companies-test.webp" alt="Google के अपने Test में Gemini AI ने 3 असली कंपनियों में सेंध लगा दी" class="article-featured-image" fetchpriority="high" decoding="async" onerror="this.src='/assets/images/sample-space.jpg'">
       
       <div class="key-points"><div class="key-points-title">मुख्य बिंदु</div><ul><li>Google के अनुसार मई के Irregular टेस्ट में Gemini ने तीन असली संस्थाओं के सिस्टम में सेंध लगाई।</li><li>एक मामले में पासवर्ड का अंदाज़ा लगाया गया, दो में पब्लिक रिपॉज़िटरी की खुली लॉगिन जानकारी इस्तेमाल हुई।</li><li>Google के अनुसार तीनों बार मॉडल ने हैकिंग रोक दी और संस्थाओं को सूचित किया गया।</li><li>OpenAI, Anthropic और Meta भी Irregular से जुड़ी ऐसी घटनाएँ पहले बता चुके हैं।</li><li>यह Google का पहला ज्ञात मामला है; प्रभावित तीन संस्थाओं के नाम सार्वजनिक नहीं हुए हैं।</li></ul></div>
       <div class="article-body">
@@ -151,6 +153,6 @@
     </div>
   </footer>
 
-  <script src="/js/main.js"></script>
+  <script src="/js/main.js" defer></script>
 </body>
 </html>

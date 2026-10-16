@@ -2,13 +2,15 @@
 <html lang="hi" data-theme="light">
 <head>
   <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-9PS4WX9LXB"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
   gtag('config', 'G-9PS4WX9LXB');
+  // Speed: gtag.js pehle interaction par ya 5 sec baad load hoga (page ki speed block nahi karega)
+  (function(){var l=0;function go(){if(l)return;l=1;var s=document.createElement('script');s.async=true;s.src='https://www.googletagmanager.com/gtag/js?id=G-9PS4WX9LXB';document.head.appendChild(s);}
+  ['scroll','click','touchstart','keydown','mousemove'].forEach(function(e){addEventListener(e,go,{once:true,passive:true});});
+  setTimeout(go,5000);})();
 </script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -102,7 +104,7 @@
         </div>
         <h1 class="article-title">Simple Energy को ₹1,750 करोड़ मिले, पर असली इम्तिहान फैक्ट्री में</h1>
       </div>
-      <img src="/assets/images/simple-energy-1750-crore-series-c-ev-funding.webp" alt="Simple Energy को ₹1,750 करोड़ मिले, पर असली इम्तिहान फैक्ट्री में" class="article-featured-image" onerror="this.src='/assets/images/sample-space.jpg'">
+      <img src="/assets/images/simple-energy-1750-crore-series-c-ev-funding.webp" alt="Simple Energy को ₹1,750 करोड़ मिले, पर असली इम्तिहान फैक्ट्री में" class="article-featured-image" fetchpriority="high" decoding="async" onerror="this.src='/assets/images/sample-space.jpg'">
       
       <div class="key-points"><div class="key-points-title">मुख्य बिंदु</div><ul><li>Simple Energy ने 30 सितंबर 2026 को ₹1,750 करोड़ ($180 मिलियन) का Series C राउंड जुटाया।</li><li>राउंड की अगुवाई Thyrocare के संस्थापक डॉ. अरोकियास्वामी वेलुमणि के फैमिली ऑफिस ने की।</li><li>कंपनी का कुल फंडिंग अब ₹2,530 करोड़ से ऊपर, FY25 से FY26 में राजस्व करीब 4 गुना बढ़ा।</li><li>लक्ष्य उत्पादन 10,000 से बढ़ाकर 30,000 यूनिट प्रति माह करना और नई फैक्ट्री लगाना है।</li><li>कंपनी के अनुसार यह भारत के EV टू-व्हीलर क्षेत्र का अब तक का तीसरा सबसे बड़ा फंडिंग राउंड है।</li></ul></div>
       <div class="article-body">
@@ -151,6 +153,6 @@
     </div>
   </footer>
 
-  <script src="/js/main.js"></script>
+  <script src="/js/main.js" defer></script>
 </body>
 </html>

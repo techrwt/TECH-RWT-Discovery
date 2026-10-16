@@ -2,13 +2,15 @@
 <html lang="hi" data-theme="light">
 <head>
   <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-9PS4WX9LXB"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
   gtag('config', 'G-9PS4WX9LXB');
+  // Speed: gtag.js pehle interaction par ya 5 sec baad load hoga (page ki speed block nahi karega)
+  (function(){var l=0;function go(){if(l)return;l=1;var s=document.createElement('script');s.async=true;s.src='https://www.googletagmanager.com/gtag/js?id=G-9PS4WX9LXB';document.head.appendChild(s);}
+  ['scroll','click','touchstart','keydown','mousemove'].forEach(function(e){addEventListener(e,go,{once:true,passive:true});});
+  setTimeout(go,5000);})();
 </script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -102,7 +104,7 @@
         </div>
         <h1 class="article-title">400 साल से जुड़े दो महासागरों का रिश्ता टूट गया — वजह है इंसान खुद</h1>
       </div>
-      <img src="/assets/images/indian-pacific-ocean-400-year-climate-link-breaking.webp" alt="400 साल से जुड़े दो महासागरों का रिश्ता टूट गया — वजह है इंसान खुद" class="article-featured-image" onerror="this.src='/assets/images/sample-space.jpg'">
+      <img src="/assets/images/indian-pacific-ocean-400-year-climate-link-breaking.webp" alt="400 साल से जुड़े दो महासागरों का रिश्ता टूट गया — वजह है इंसान खुद" class="article-featured-image" fetchpriority="high" decoding="async" onerror="this.src='/assets/images/sample-space.jpg'">
       
       <div class="key-points"><div class="key-points-title">मुख्य बिंदु</div><ul><li>WHOI/Nature Communications स्टडी: हिंद-प्रशांत महासागर 400+ साल जुड़े रहे, सिर्फ 1810-1850 में अलग हुए थे।</li><li>1810-1850 की गड़बड़ी बड़े ज्वालामुखी विस्फोटों से थी; 1980 के बाद का बदलाव मानव-जनित उत्सर्जन से जुड़ा है।</li><li>मौजूदा बदलाव पिछले 1000 साल के मॉडल सिमुलेशन में भी कहीं नहीं मिलता, इसे शोधकर्ता 'असामान्य' बताते हैं।</li><li>शोध प्रवाल (कोरल) से मिले 400 साल के पुराजलवायु रिकॉर्ड और जलवायु मॉडल सिमुलेशन पर आधारित है।</li><li>भारत का मानसून हिंद महासागर पर निर्भर करता है; प्रशांत-आधारित पुराने पूर्वानुमान मॉडल कम भरोसेमंद हो सकते हैं।</li></ul></div>
       <div class="article-body">
@@ -151,6 +153,6 @@
     </div>
   </footer>
 
-  <script src="/js/main.js"></script>
+  <script src="/js/main.js" defer></script>
 </body>
 </html>

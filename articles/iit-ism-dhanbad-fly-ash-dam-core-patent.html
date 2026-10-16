@@ -2,13 +2,15 @@
 <html lang="hi" data-theme="light">
 <head>
   <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-9PS4WX9LXB"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
   gtag('config', 'G-9PS4WX9LXB');
+  // Speed: gtag.js pehle interaction par ya 5 sec baad load hoga (page ki speed block nahi karega)
+  (function(){var l=0;function go(){if(l)return;l=1;var s=document.createElement('script');s.async=true;s.src='https://www.googletagmanager.com/gtag/js?id=G-9PS4WX9LXB';document.head.appendChild(s);}
+  ['scroll','click','touchstart','keydown','mousemove'].forEach(function(e){addEventListener(e,go,{once:true,passive:true});});
+  setTimeout(go,5000);})();
 </script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -102,7 +104,7 @@
         </div>
         <h1 class="article-title">बांध बनाने का नया तरीका — IIT ISM को मिला पेटेंट, पर असली टेस्ट बाकी</h1>
       </div>
-      <img src="/assets/images/iit-ism-dhanbad-fly-ash-dam-core-patent.webp" alt="बांध बनाने का नया तरीका — IIT ISM को मिला पेटेंट, पर असली टेस्ट बाकी" class="article-featured-image" onerror="this.src='/assets/images/sample-space.jpg'">
+      <img src="/assets/images/iit-ism-dhanbad-fly-ash-dam-core-patent.webp" alt="बांध बनाने का नया तरीका — IIT ISM को मिला पेटेंट, पर असली टेस्ट बाकी" class="article-featured-image" fetchpriority="high" decoding="async" onerror="this.src='/assets/images/sample-space.jpg'">
       
       <div class="key-points"><div class="key-points-title">मुख्य बिंदु</div><ul><li>IIT ISM धनबाद को 4 सितंबर 2026 को Clay-Fly Ash-Lime Core तकनीक का भारतीय पेटेंट मिला (नंबर 601531)।</li><li>तकनीक बांध के कोर में प्राकृतिक मिट्टी घटाकर फ्लाई ऐश और चूने का इस्तेमाल बढ़ाती है।</li><li>मई 2025 में शुरू यह शोध बिना बाहरी फंडिंग के सिर्फ छह महीने में पूरा हुआ।</li><li>CEA रिपोर्ट के अनुसार 2024-25 में भारत के 189 थर्मल प्लांटों में फ्लाई ऐश उपयोग 96.34% तक पहुंचा।</li><li>तकनीक अभी लैब स्तर पर है; फील्ड ट्रायल और आर्थिक आकलन अभी बाकी है।</li></ul></div>
       <div class="article-body">
@@ -151,6 +153,6 @@
     </div>
   </footer>
 
-  <script src="/js/main.js"></script>
+  <script src="/js/main.js" defer></script>
 </body>
 </html>

@@ -2,13 +2,15 @@
 <html lang="hi" data-theme="light">
 <head>
   <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-9PS4WX9LXB"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
   gtag('config', 'G-9PS4WX9LXB');
+  // Speed: gtag.js pehle interaction par ya 5 sec baad load hoga (page ki speed block nahi karega)
+  (function(){var l=0;function go(){if(l)return;l=1;var s=document.createElement('script');s.async=true;s.src='https://www.googletagmanager.com/gtag/js?id=G-9PS4WX9LXB';document.head.appendChild(s);}
+  ['scroll','click','touchstart','keydown','mousemove'].forEach(function(e){addEventListener(e,go,{once:true,passive:true});});
+  setTimeout(go,5000);})();
 </script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -102,7 +104,7 @@
         </div>
         <h1 class="article-title">किसी Exoplanet से पहली बार Radio Signal मिला — क्या यह Alien का इशारा है?</h1>
       </div>
-      <img src="/assets/images/beta-pictoris-b-radio-signal-exoplanet-first.webp" alt="किसी Exoplanet से पहली बार Radio Signal मिला — क्या यह Alien का इशारा है?" class="article-featured-image" onerror="this.src='/assets/images/sample-space.jpg'">
+      <img src="/assets/images/beta-pictoris-b-radio-signal-exoplanet-first.webp" alt="किसी Exoplanet से पहली बार Radio Signal मिला — क्या यह Alien का इशारा है?" class="article-featured-image" fetchpriority="high" decoding="async" onerror="this.src='/assets/images/sample-space.jpg'">
       
       <div class="key-points"><div class="key-points-title">मुख्य बिंदु</div><ul><li>MeerKAT रेडियो टेलीस्कोप ने पहली बार किसी exoplanet, Beta Pictoris b, से सीधे रेडियो सिग्नल पकड़े।</li><li>क्वासर की स्थिर स्थिति से तुलना करके तय हुआ कि सिग्नल तारे का नहीं, ग्रह का ही है।</li><li>वैज्ञानिकों के अनुसार यह सिग्नल एलियन तकनीक नहीं, ऑरोरा जैसी प्राकृतिक घटना का नतीजा है।</li><li>ग्रह का मैग्नेटिक फील्ड करीब 1,250 गॉस निकला, पृथ्वी के मुकाबले करीब 2,500 गुना ज्यादा ताकतवर।</li><li>MeerKAT, Square Kilometre Array का पथ-प्रदर्शक टेलीस्कोप है; भारत इसका पूर्ण सदस्य जुलाई 2024 से है।</li></ul></div>
       <div class="article-body">
@@ -151,6 +153,6 @@
     </div>
   </footer>
 
-  <script src="/js/main.js"></script>
+  <script src="/js/main.js" defer></script>
 </body>
 </html>

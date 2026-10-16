@@ -2,13 +2,15 @@
 <html lang="hi" data-theme="light">
 <head>
   <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-9PS4WX9LXB"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
   gtag('config', 'G-9PS4WX9LXB');
+  // Speed: gtag.js pehle interaction par ya 5 sec baad load hoga (page ki speed block nahi karega)
+  (function(){var l=0;function go(){if(l)return;l=1;var s=document.createElement('script');s.async=true;s.src='https://www.googletagmanager.com/gtag/js?id=G-9PS4WX9LXB';document.head.appendChild(s);}
+  ['scroll','click','touchstart','keydown','mousemove'].forEach(function(e){addEventListener(e,go,{once:true,passive:true});});
+  setTimeout(go,5000);})();
 </script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -102,7 +104,7 @@
         </div>
         <h1 class="article-title">पर्यावरण के पक्ष में NGT में 0% जीत, उद्योगों की जीत 58.8%</h1>
       </div>
-      <img src="/assets/images/ngt-environment-appeals-zero-percent-success-2026.webp" alt="पर्यावरण के पक्ष में NGT में 0% जीत, उद्योगों की जीत 58.8%" class="article-featured-image" onerror="this.src='/assets/images/sample-space.jpg'">
+      <img src="/assets/images/ngt-environment-appeals-zero-percent-success-2026.webp" alt="पर्यावरण के पक्ष में NGT में 0% जीत, उद्योगों की जीत 58.8%" class="article-featured-image" fetchpriority="high" decoding="async" onerror="this.src='/assets/images/sample-space.jpg'">
       
       <div class="key-points"><div class="key-points-title">मुख्य बिंदु</div><ul><li>SAREL रिपोर्ट: जनवरी-जून 2026 में NGT में पर्यावरण/जनहित पक्ष की 16 में से 0 अपीलें जीतीं गईं (0% सफलता दर)।</li><li>इसी दौरान उद्योग/प्रोजेक्ट-प्रस्तावक पक्ष ने 51 में से 30 अपीलें जीतीं, यानी 58.8% सफलता दर रही।</li><li>कुल 119 अपीलों में से 52 (~44%) बिना गुण-दोष जांचे प्रक्रियागत आधार पर ही निपटा दी गईं।</li><li>दक्षिणी पीठ (चेन्नई) ने उद्योगों को 12 में से 9 अपीलों में राहत दी; कोलकाता पीठ ने सिर्फ 1 जनहित अपील सुनी।</li><li>एकमात्र आंशिक 'राहत' वाला मामला भी 'जीत नहीं' माना गया, क्योंकि राज्य ने नियम पहले ही वापस ले लिए थे।</li></ul></div>
       <div class="article-body">
@@ -151,6 +153,6 @@
     </div>
   </footer>
 
-  <script src="/js/main.js"></script>
+  <script src="/js/main.js" defer></script>
 </body>
 </html>

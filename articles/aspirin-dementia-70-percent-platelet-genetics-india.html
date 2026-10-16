@@ -2,13 +2,15 @@
 <html lang="hi" data-theme="light">
 <head>
   <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-9PS4WX9LXB"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
   gtag('config', 'G-9PS4WX9LXB');
+  // Speed: gtag.js pehle interaction par ya 5 sec baad load hoga (page ki speed block nahi karega)
+  (function(){var l=0;function go(){if(l)return;l=1;var s=document.createElement('script');s.async=true;s.src='https://www.googletagmanager.com/gtag/js?id=G-9PS4WX9LXB';document.head.appendChild(s);}
+  ['scroll','click','touchstart','keydown','mousemove'].forEach(function(e){addEventListener(e,go,{once:true,passive:true});});
+  setTimeout(go,5000);})();
 </script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -102,7 +104,7 @@
         </div>
         <h1 class="article-title">Aspirin से डिमेंशिया का जोखिम 70% कम दिखा, पर सिर्फ़ एक समूह में</h1>
       </div>
-      <img src="/assets/images/aspirin-dementia-70-percent-platelet-genetics-india.webp" alt="Aspirin से डिमेंशिया का जोखिम 70% कम दिखा, पर सिर्फ़ एक समूह में" class="article-featured-image" onerror="this.src='/assets/images/sample-space.jpg'">
+      <img src="/assets/images/aspirin-dementia-70-percent-platelet-genetics-india.webp" alt="Aspirin से डिमेंशिया का जोखिम 70% कम दिखा, पर सिर्फ़ एक समूह में" class="article-featured-image" fetchpriority="high" decoding="async" onerror="this.src='/assets/images/sample-space.jpg'">
       
       <div class="key-points"><div class="key-points-title">मुख्य बिंदु</div><ul><li>ASPREE जेनेटिक analysis में platelet-स्कोर के शीर्ष 20% में डिमेंशिया aspirin पर 1.0%, placebo पर 3.3% रहा।</li><li>इसी समूह में गंभीर रक्तस्राव aspirin पर 4.4% और placebo पर 2.1% रहा; हर 1,000 में करीब 23 का अंतर।</li><li>5,182 जीन-स्कोर जांचे गए; सुधार के बाद सिर्फ़ तीन जुड़े platelet-स्कोर टिके; analysis exploratory है।</li><li>ASPREE में सिर्फ़ ऑस्ट्रेलिया-अमेरिका के बुज़ुर्ग थे; भारत में 60+ के करीब 88 लाख लोग डिमेंशिया के साथ हैं।</li><li>लेखक Fransquet के अनुसार इस स्टडी पर भरोसा करके aspirin शुरू न करें; पहले डॉक्टर से बात करें।</li></ul></div>
       <div class="article-body">
@@ -151,6 +153,6 @@
     </div>
   </footer>
 
-  <script src="/js/main.js"></script>
+  <script src="/js/main.js" defer></script>
 </body>
 </html>

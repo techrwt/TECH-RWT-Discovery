@@ -2,13 +2,15 @@
 <html lang="hi" data-theme="light">
 <head>
   <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-9PS4WX9LXB"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
   gtag('config', 'G-9PS4WX9LXB');
+  // Speed: gtag.js pehle interaction par ya 5 sec baad load hoga (page ki speed block nahi karega)
+  (function(){var l=0;function go(){if(l)return;l=1;var s=document.createElement('script');s.async=true;s.src='https://www.googletagmanager.com/gtag/js?id=G-9PS4WX9LXB';document.head.appendChild(s);}
+  ['scroll','click','touchstart','keydown','mousemove'].forEach(function(e){addEventListener(e,go,{once:true,passive:true});});
+  setTimeout(go,5000);})();
 </script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -102,7 +104,7 @@
         </div>
         <h1 class="article-title">क्या आवाज़ भी Quantum Jump करती है? पहली बार आंखों के सामने देखा गया</h1>
       </div>
-      <img src="/assets/images/sound-quantum-jump-phonon-stanford-first-time.webp" alt="क्या आवाज़ भी Quantum Jump करती है? पहली बार आंखों के सामने देखा गया" class="article-featured-image" onerror="this.src='/assets/images/sample-space.jpg'">
+      <img src="/assets/images/sound-quantum-jump-phonon-stanford-first-time.webp" alt="क्या आवाज़ भी Quantum Jump करती है? पहली बार आंखों के सामने देखा गया" class="article-featured-image" fetchpriority="high" decoding="async" onerror="this.src='/assets/images/sample-space.jpg'">
       
       <div class="key-points"><div class="key-points-title">मुख्य बिंदु</div><ul><li>Stanford ने पहली बार आवाज़ के कण फोनोन का क्वांटम जंप रीयल-टाइम में देखा (Science journal, सितंबर 2026)।</li><li>1986 में आयन और 2007 में फोटॉन में क्वांटम जंप देखा गया था; आवाज़ में यह अब तक अनदेखा था।</li><li>चिप जैसा छोटा resonator 2 मिलीसेकंड तक 'बजता' रहा, जिससे सुपरकंडक्टिंग क्यूबिट ने सैकड़ों बार जांच की।</li><li>यह तरीका क्वांटम कंप्यूटिंग की गलती पकड़ने और सेल के प्रोटीन जैसी बेहद बारीक चीज़ें मापने में मदद कर सकता है।</li><li>भारत के National Quantum Mission में ₹6,003 करोड़ का निवेश है; IIT, IISc, TIFR जैसे संस्थान इसमें जुटे हैं।</li></ul></div>
       <div class="article-body">
@@ -151,6 +153,6 @@
     </div>
   </footer>
 
-  <script src="/js/main.js"></script>
+  <script src="/js/main.js" defer></script>
 </body>
 </html>

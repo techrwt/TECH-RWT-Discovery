@@ -2,13 +2,15 @@
 <html lang="hi" data-theme="light">
 <head>
   <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-9PS4WX9LXB"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
   gtag('config', 'G-9PS4WX9LXB');
+  // Speed: gtag.js pehle interaction par ya 5 sec baad load hoga (page ki speed block nahi karega)
+  (function(){var l=0;function go(){if(l)return;l=1;var s=document.createElement('script');s.async=true;s.src='https://www.googletagmanager.com/gtag/js?id=G-9PS4WX9LXB';document.head.appendChild(s);}
+  ['scroll','click','touchstart','keydown','mousemove'].forEach(function(e){addEventListener(e,go,{once:true,passive:true});});
+  setTimeout(go,5000);})();
 </script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -102,7 +104,7 @@
         </div>
         <h1 class="article-title">दुनिया की सबसे बड़ी Machine के 28 मैग्नेट हटने लगे — भारत का पुराना नाता</h1>
       </div>
-      <img src="/assets/images/cern-lhc-28-magnets-hilumi-upgrade-india.webp" alt="दुनिया की सबसे बड़ी Machine के 28 मैग्नेट हटने लगे — भारत का पुराना नाता" class="article-featured-image" onerror="this.src='/assets/images/sample-space.jpg'">
+      <img src="/assets/images/cern-lhc-28-magnets-hilumi-upgrade-india.webp" alt="दुनिया की सबसे बड़ी Machine के 28 मैग्नेट हटने लगे — भारत का पुराना नाता" class="article-featured-image" fetchpriority="high" decoding="async" onerror="this.src='/assets/images/sample-space.jpg'">
       
       <div class="key-points"><div class="key-points-title">मुख्य बिंदु</div><ul><li>CERN ने LHC के 28 इनर ट्रिपलेट मैग्नेट हटाना शुरू किया, जो 2005-2007 में लगे थे।</li><li>नए niobium-tin मैग्नेट का चुंबकीय क्षेत्र करीब 40% ज़्यादा मजबूत होगा, यानी ज़्यादा टक्कर, ज़्यादा डेटा।</li><li>यह अपग्रेड Long Shutdown 3 के तहत हो रहा है; मशीन के 2030 के आसपास दोबारा चालू होने की योजना है।</li><li>भारत 1996 से LHC निर्माण और CMS-ALICE डिटेक्टर से जुड़ा है, 2017 में Associate Member State बना।</li><li>भारत आज भी TIFR (मुंबई) और VECC (कोलकाता) में LHC डेटा के लिए दो Tier-2 सेंटर चलाता है।</li></ul></div>
       <div class="article-body">
@@ -151,6 +153,6 @@
     </div>
   </footer>
 
-  <script src="/js/main.js"></script>
+  <script src="/js/main.js" defer></script>
 </body>
 </html>

@@ -2,13 +2,15 @@
 <html lang="hi" data-theme="light">
 <head>
   <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-9PS4WX9LXB"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
   gtag('config', 'G-9PS4WX9LXB');
+  // Speed: gtag.js pehle interaction par ya 5 sec baad load hoga (page ki speed block nahi karega)
+  (function(){var l=0;function go(){if(l)return;l=1;var s=document.createElement('script');s.async=true;s.src='https://www.googletagmanager.com/gtag/js?id=G-9PS4WX9LXB';document.head.appendChild(s);}
+  ['scroll','click','touchstart','keydown','mousemove'].forEach(function(e){addEventListener(e,go,{once:true,passive:true});});
+  setTimeout(go,5000);})();
 </script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -102,7 +104,7 @@
         </div>
         <h1 class="article-title">क्या हर दिन सच में ठीक 24 घंटे का होता है?</h1>
       </div>
-      <img src="/assets/images/earth-day-length-milliseconds-inner-core-gravitational-torque.webp" alt="क्या हर दिन सच में ठीक 24 घंटे का होता है?" class="article-featured-image" onerror="this.src='/assets/images/sample-space.jpg'">
+      <img src="/assets/images/earth-day-length-milliseconds-inner-core-gravitational-torque.webp" alt="क्या हर दिन सच में ठीक 24 घंटे का होता है?" class="article-featured-image" fetchpriority="high" decoding="async" onerror="this.src='/assets/images/sample-space.jpg'">
       
       <div class="key-points"><div class="key-points-title">मुख्य बिंदु</div><ul><li>Nature journal की स्टडी के अनुसार दिन की लंबाई दशकों में कुछ मिलीसेकंड तक बदलती है, ठीक 24 घंटे नहीं रहती।</li><li>University of Alberta के Huifeng Zhang और Mathieu Dumberry ने 30 साल पुरानी इस गुत्थी की वजह बताई।</li><li>धरती की ठोस भीतरी कोर पूरी तरह गोल नहीं है, इसी वजह से यह मेंटल पर गुरुत्व खिंचाव डालती है।</li><li>मॉडल ने 1964 से 2019 तक के दिन-लंबाई आंकड़ों से मेल खाने वाला नतीजा दिया।</li><li>भारत में Leap Second जोड़ने का काम CSIR-NPL करता है, जो Indian Standard Time का कानूनी संरक्षक है।</li></ul></div>
       <div class="article-body">
@@ -151,6 +153,6 @@
     </div>
   </footer>
 
-  <script src="/js/main.js"></script>
+  <script src="/js/main.js" defer></script>
 </body>
 </html>

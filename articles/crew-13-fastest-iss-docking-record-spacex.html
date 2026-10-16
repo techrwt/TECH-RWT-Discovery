@@ -2,13 +2,15 @@
 <html lang="hi" data-theme="light">
 <head>
   <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-9PS4WX9LXB"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
   gtag('config', 'G-9PS4WX9LXB');
+  // Speed: gtag.js pehle interaction par ya 5 sec baad load hoga (page ki speed block nahi karega)
+  (function(){var l=0;function go(){if(l)return;l=1;var s=document.createElement('script');s.async=true;s.src='https://www.googletagmanager.com/gtag/js?id=G-9PS4WX9LXB';document.head.appendChild(s);}
+  ['scroll','click','touchstart','keydown','mousemove'].forEach(function(e){addEventListener(e,go,{once:true,passive:true});});
+  setTimeout(go,5000);})();
 </script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -102,7 +104,7 @@
         </div>
         <h1 class="article-title">Crew-11 को 14 घंटे 43 मिनट लगे, Crew-13 ने यह सफर 8 घंटे में तय किया</h1>
       </div>
-      <img src="/assets/images/crew-13-fastest-iss-docking-record-spacex.webp" alt="Crew-11 को 14 घंटे 43 मिनट लगे, Crew-13 ने यह सफर 8 घंटे में तय किया" class="article-featured-image" onerror="this.src='/assets/images/sample-space.jpg'">
+      <img src="/assets/images/crew-13-fastest-iss-docking-record-spacex.webp" alt="Crew-11 को 14 घंटे 43 मिनट लगे, Crew-13 ने यह सफर 8 घंटे में तय किया" class="article-featured-image" fetchpriority="high" decoding="async" onerror="this.src='/assets/images/sample-space.jpg'">
       
       <div class="key-points"><div class="key-points-title">मुख्य बिंदु</div><ul><li>SpaceX का Crew-13 मिशन 1 अक्टूबर 2026 को सिर्फ 7 घंटे 55 मिनट में ISS से डॉक हुआ।</li><li>यह अमेरिकी स्पेसक्राफ्ट का ISS तक का सबसे तेज सफर है, पुराना रिकॉर्ड Crew-11 का 14 घंटे 43 मिनट था।</li><li>SpaceX के अनुसार यह रफ्तार जोखिम भरे फैसले से नहीं, बल्कि स्टेशन की अनुकूल ऑर्बिटल पोजीशन से मिली।</li><li>सामान्य Dragon रेंडेज़वस में आमतौर पर 24 से 28 घंटे लगते हैं।</li><li>भारत ने भी जनवरी 2025 में SpaDeX मिशन से अपनी डॉकिंग तकनीक दिखाई, चौथा ऐसा देश बनकर।</li></ul></div>
       <div class="article-body">
@@ -151,6 +153,6 @@
     </div>
   </footer>
 
-  <script src="/js/main.js"></script>
+  <script src="/js/main.js" defer></script>
 </body>
 </html>

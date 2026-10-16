@@ -2,13 +2,15 @@
 <html lang="hi" data-theme="light">
 <head>
   <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-9PS4WX9LXB"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
   gtag('config', 'G-9PS4WX9LXB');
+  // Speed: gtag.js pehle interaction par ya 5 sec baad load hoga (page ki speed block nahi karega)
+  (function(){var l=0;function go(){if(l)return;l=1;var s=document.createElement('script');s.async=true;s.src='https://www.googletagmanager.com/gtag/js?id=G-9PS4WX9LXB';document.head.appendChild(s);}
+  ['scroll','click','touchstart','keydown','mousemove'].forEach(function(e){addEventListener(e,go,{once:true,passive:true});});
+  setTimeout(go,5000);})();
 </script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -102,7 +104,7 @@
         </div>
         <h1 class="article-title">T. rex के शरीर का तापमान मिला — इंसान जितना गर्म था यह दैत्य</h1>
       </div>
-      <img src="/assets/images/t-rex-body-temperature-warm-blooded-study.webp" alt="T. rex के शरीर का तापमान मिला — इंसान जितना गर्म था यह दैत्य" class="article-featured-image" onerror="this.src='/assets/images/sample-space.jpg'">
+      <img src="/assets/images/t-rex-body-temperature-warm-blooded-study.webp" alt="T. rex के शरीर का तापमान मिला — इंसान जितना गर्म था यह दैत्य" class="article-featured-image" fetchpriority="high" decoding="async" onerror="this.src='/assets/images/sample-space.jpg'">
       
       <div class="key-points"><div class="key-points-title">मुख्य बिंदु</div><ul><li>UCLA के अध्ययन (Science Advances, 16 सितंबर 2026) में T. rex का औसत तापमान करीब 36.3°C मिला।</li><li>तापमान दाँत के इनेमल में कार्बन-ऑक्सीजन समस्थानिकों के बंधनों की गिनती से नापा गया।</li><li>उसी जगह के मगरमच्छ-वंशियों के दाँत से करीब 30–31°C मिला, यानी T. rex काफ़ी गर्म था।</li><li>अध्ययन केवल T. rex पर है और नमूना एक इलाके (मोंटाना) का है, इसलिए सभी डायनासोरों पर लागू नहीं।</li><li>भारतीय हाथी का तापमान भी करीब 36°C बताया जाता है, इसलिए तुलना आसान है।</li></ul></div>
       <div class="article-body">
@@ -151,6 +153,6 @@
     </div>
   </footer>
 
-  <script src="/js/main.js"></script>
+  <script src="/js/main.js" defer></script>
 </body>
 </html>

@@ -2,13 +2,15 @@
 <html lang="hi" data-theme="light">
 <head>
   <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-9PS4WX9LXB"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
   gtag('config', 'G-9PS4WX9LXB');
+  // Speed: gtag.js pehle interaction par ya 5 sec baad load hoga (page ki speed block nahi karega)
+  (function(){var l=0;function go(){if(l)return;l=1;var s=document.createElement('script');s.async=true;s.src='https://www.googletagmanager.com/gtag/js?id=G-9PS4WX9LXB';document.head.appendChild(s);}
+  ['scroll','click','touchstart','keydown','mousemove'].forEach(function(e){addEventListener(e,go,{once:true,passive:true});});
+  setTimeout(go,5000);})();
 </script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -102,7 +104,7 @@
         </div>
         <h1 class="article-title">Antarctica की बर्फ घटने की संभावना 92%+, कटौती के बाद भी</h1>
       </div>
-      <img src="/assets/images/antarctica-ice-sheet-committed-mass-loss-2100.webp" alt="Antarctica की बर्फ घटने की संभावना 92%+, कटौती के बाद भी" class="article-featured-image" onerror="this.src='/assets/images/sample-space.jpg'">
+      <img src="/assets/images/antarctica-ice-sheet-committed-mass-loss-2100.webp" alt="Antarctica की बर्फ घटने की संभावना 92%+, कटौती के बाद भी" class="article-featured-image" fetchpriority="high" decoding="async" onerror="this.src='/assets/images/sample-space.jpg'">
       
       <div class="key-points"><div class="key-points-title">मुख्य बिंदु</div><ul><li>Nature Geoscience (30 सितंबर 2026): अंटार्कटिका की बर्फ 2100 तक घटने की संभावना कम से कम 92%।</li><li>सबसे कम उत्सर्जन वाले SSP1–1.9 रास्ते पर भी यही निष्कर्ष; ज़्यादा उत्सर्जन से ज़्यादा नुकसान की संभावना 89%+।</li><li>2002–2021 में औसत नुकसान 158 ± 14 अरब टन सालाना, यानी लगभग 0.44 मिमी प्रति वर्ष समुद्र स्तर।</li><li>सबसे ऊंचे 1% परिदृश्यों में 2100 तक 15.7 सेमी (9.8–25.4 सेमी); यह ऊपरी छोर है, मध्य अनुमान नहीं।</li><li>अध्ययन के छह शहरों में भारत का कोई नहीं; MICI शामिल नहीं और विश्लेषण 2100 तक सीमित है।</li></ul></div>
       <div class="article-body">
@@ -151,6 +153,6 @@
     </div>
   </footer>
 
-  <script src="/js/main.js"></script>
+  <script src="/js/main.js" defer></script>
 </body>
 </html>

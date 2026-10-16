@@ -2,13 +2,15 @@
 <html lang="hi" data-theme="light">
 <head>
   <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-9PS4WX9LXB"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
   gtag('config', 'G-9PS4WX9LXB');
+  // Speed: gtag.js pehle interaction par ya 5 sec baad load hoga (page ki speed block nahi karega)
+  (function(){var l=0;function go(){if(l)return;l=1;var s=document.createElement('script');s.async=true;s.src='https://www.googletagmanager.com/gtag/js?id=G-9PS4WX9LXB';document.head.appendChild(s);}
+  ['scroll','click','touchstart','keydown','mousemove'].forEach(function(e){addEventListener(e,go,{once:true,passive:true});});
+  setTimeout(go,5000);})();
 </script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -102,7 +104,7 @@
         </div>
         <h1 class="article-title">सुपर El Niño से भारत में 15,800 अतिरिक्त मौतों की आशंका — नई रिपोर्ट</h1>
       </div>
-      <img src="/assets/images/india-el-nino-heat-deaths-climate-impact-lab-report.webp" alt="सुपर El Niño से भारत में 15,800 अतिरिक्त मौतों की आशंका — नई रिपोर्ट" class="article-featured-image" onerror="this.src='/assets/images/sample-space.jpg'">
+      <img src="/assets/images/india-el-nino-heat-deaths-climate-impact-lab-report.webp" alt="सुपर El Niño से भारत में 15,800 अतिरिक्त मौतों की आशंका — नई रिपोर्ट" class="article-featured-image" fetchpriority="high" decoding="async" onerror="this.src='/assets/images/sample-space.jpg'">
       
       <div class="key-points"><div class="key-points-title">मुख्य बिंदु</div><ul><li>Climate Impact Lab: सुपर अल-नीनो से भारत में सितंबर 2026-फरवरी 2027 में ~15,800 (±1,600) अतिरिक्त मौतें संभव।</li><li>दुनियाभर में इसी अवधि में करीब 451,000 अतिरिक्त गर्मी से जुड़ी मौतों का अनुमान, 1996-2025 औसत से तुलना।</li><li>भारत मौतों के अनुमान में नाइजीरिया, इंडोनेशिया, सूडान के बाद चौथे नंबर पर; साहेल क्षेत्र सबसे ऊपर (66,800)।</li><li>करीब 7,400 मौतें दिसंबर 2026-फरवरी 2027 के बीच होने की आशंका; तापमान सामान्य से 1.2°C ज़्यादा रह सकता है।</li><li>रिपोर्ट के सटीक गणितीय गुणांक अभी सार्वजनिक नहीं; पूरी कार्यप्रणाली आने वाले पीयर-रिव्यूड पेपर में आएगी।</li></ul></div>
       <div class="article-body">
@@ -151,6 +153,6 @@
     </div>
   </footer>
 
-  <script src="/js/main.js"></script>
+  <script src="/js/main.js" defer></script>
 </body>
 </html>

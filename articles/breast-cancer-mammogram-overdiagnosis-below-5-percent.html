@@ -2,13 +2,15 @@
 <html lang="hi" data-theme="light">
 <head>
   <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-9PS4WX9LXB"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
   gtag('config', 'G-9PS4WX9LXB');
+  // Speed: gtag.js pehle interaction par ya 5 sec baad load hoga (page ki speed block nahi karega)
+  (function(){var l=0;function go(){if(l)return;l=1;var s=document.createElement('script');s.async=true;s.src='https://www.googletagmanager.com/gtag/js?id=G-9PS4WX9LXB';document.head.appendChild(s);}
+  ['scroll','click','touchstart','keydown','mousemove'].forEach(function(e){addEventListener(e,go,{once:true,passive:true});});
+  setTimeout(go,5000);})();
 </script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -102,7 +104,7 @@
         </div>
         <h1 class="article-title">Mammogram से गलत डर फैलाया गया? नए आंकड़े कुछ और कहते हैं</h1>
       </div>
-      <img src="/assets/images/breast-cancer-mammogram-overdiagnosis-below-5-percent.webp" alt="Mammogram से गलत डर फैलाया गया? नए आंकड़े कुछ और कहते हैं" class="article-featured-image" onerror="this.src='/assets/images/sample-space.jpg'">
+      <img src="/assets/images/breast-cancer-mammogram-overdiagnosis-below-5-percent.webp" alt="Mammogram से गलत डर फैलाया गया? नए आंकड़े कुछ और कहते हैं" class="article-featured-image" fetchpriority="high" decoding="async" onerror="this.src='/assets/images/sample-space.jpg'">
       
       <div class="key-points"><div class="key-points-title">मुख्य बिंदु</div><ul><li>JNCI के विश्लेषण के अनुसार mammography का overdiagnosis 5% से कम हो सकता है, पुराने अनुमान 30-50% थे।</li><li>टीम ने सभी 8 randomized ट्रायल दोबारा जांचे और Denmark के screening आंकड़ों से मिलाया।</li><li>पुराने ऊंचे आंकड़े इसलिए बने क्योंकि कई ट्रायल गिरावट दिखने से पहले खत्म हो गए थे।</li><li>NFHS-5 के अनुसार भारत में सिर्फ 0.9% महिलाओं ने कभी breast cancer screening करवाई है।</li><li>यह नए मरीज़ों पर ट्रायल नहीं, पुराने डेटा का दोबारा विश्लेषण है; भारतीय आबादी का अनुमान इसमें नहीं है।</li></ul></div>
       <div class="article-body">
@@ -151,6 +153,6 @@
     </div>
   </footer>
 
-  <script src="/js/main.js"></script>
+  <script src="/js/main.js" defer></script>
 </body>
 </html>

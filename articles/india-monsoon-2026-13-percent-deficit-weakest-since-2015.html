@@ -2,13 +2,15 @@
 <html lang="hi" data-theme="light">
 <head>
   <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-9PS4WX9LXB"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
   gtag('config', 'G-9PS4WX9LXB');
+  // Speed: gtag.js pehle interaction par ya 5 sec baad load hoga (page ki speed block nahi karega)
+  (function(){var l=0;function go(){if(l)return;l=1;var s=document.createElement('script');s.async=true;s.src='https://www.googletagmanager.com/gtag/js?id=G-9PS4WX9LXB';document.head.appendChild(s);}
+  ['scroll','click','touchstart','keydown','mousemove'].forEach(function(e){addEventListener(e,go,{once:true,passive:true});});
+  setTimeout(go,5000);})();
 </script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -102,7 +104,7 @@
         </div>
         <h1 class="article-title">मानसून 2026: 13% की कमी के साथ खत्म, 2015 के बाद सबसे कमज़ोर</h1>
       </div>
-      <img src="/assets/images/india-monsoon-2026-13-percent-deficit-weakest-since-2015.webp" alt="मानसून 2026: 13% की कमी के साथ खत्म, 2015 के बाद सबसे कमज़ोर" class="article-featured-image" onerror="this.src='/assets/images/sample-space.jpg'">
+      <img src="/assets/images/india-monsoon-2026-13-percent-deficit-weakest-since-2015.webp" alt="मानसून 2026: 13% की कमी के साथ खत्म, 2015 के बाद सबसे कमज़ोर" class="article-featured-image" fetchpriority="high" decoding="async" onerror="this.src='/assets/images/sample-space.jpg'">
       
       <div class="key-points"><div class="key-points-title">मुख्य बिंदु</div><ul><li>IMD: मानसून 2026 सीज़न 759mm बारिश के साथ खत्म, सामान्य (868.6mm) से करीब 13% कम।</li><li>यह 2015 के बाद भारत का सबसे कमज़ोर मानसून है, जून 2026 1901 के बाद पांचवां सबसे सूखा जून रहा।</li><li>पूर्वी-पूर्वोत्तर भारत में 26% और दक्षिण प्रायद्वीप में 24% तक बारिश की कमी दर्ज हुई।</li><li>महाराष्ट्र में 265 और कर्नाटक में 177+ तहसीलों में सूखा घोषित, केंद्रीय टीम 3 अक्टूबर को आकलन करेगी।</li><li>सरकार ने 2026-27 अनाज उत्पादन लक्ष्य घटाकर 373.93 करोड़ टन रखा, दाल-तेल के दाम बढ़ने की आशंका।</li></ul></div>
       <div class="article-body">
@@ -199,6 +201,6 @@
     </div>
   </footer>
 
-  <script src="/js/main.js"></script>
+  <script src="/js/main.js" defer></script>
 </body>
 </html>

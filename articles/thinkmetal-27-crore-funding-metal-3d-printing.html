@@ -2,13 +2,15 @@
 <html lang="hi" data-theme="light">
 <head>
   <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-9PS4WX9LXB"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
   gtag('config', 'G-9PS4WX9LXB');
+  // Speed: gtag.js pehle interaction par ya 5 sec baad load hoga (page ki speed block nahi karega)
+  (function(){var l=0;function go(){if(l)return;l=1;var s=document.createElement('script');s.async=true;s.src='https://www.googletagmanager.com/gtag/js?id=G-9PS4WX9LXB';document.head.appendChild(s);}
+  ['scroll','click','touchstart','keydown','mousemove'].forEach(function(e){addEventListener(e,go,{once:true,passive:true});});
+  setTimeout(go,5000);})();
 </script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -102,7 +104,7 @@
         </div>
         <h1 class="article-title">ThinkMetal को ₹27 करोड़: मेटल 3D प्रिंटिंग पर IAN Alpha का दांव</h1>
       </div>
-      <img src="/assets/images/thinkmetal-27-crore-funding-metal-3d-printing.webp" alt="ThinkMetal को ₹27 करोड़: मेटल 3D प्रिंटिंग पर IAN Alpha का दांव" class="article-featured-image" onerror="this.src='/assets/images/sample-space.jpg'">
+      <img src="/assets/images/thinkmetal-27-crore-funding-metal-3d-printing.webp" alt="ThinkMetal को ₹27 करोड़: मेटल 3D प्रिंटिंग पर IAN Alpha का दांव" class="article-featured-image" fetchpriority="high" decoding="async" onerror="this.src='/assets/images/sample-space.jpg'">
       
       <div class="key-points"><div class="key-points-title">मुख्य बिंदु</div><ul><li>ThinkMetal ने IAN Alpha Fund की अगुआई में ₹27 करोड़ (करीब $2.8 मिलियन) जुटाए।</li><li>SistemT1 धातु फिलामेंट से प्रिंट कर डिबाइंडिंग और सिंटरिंग के बाद पुर्ज़ा तैयार करता है।</li><li>10 गुना तेज़ और आधी लागत का दावा कंपनी और लीड निवेशक का है।</li><li>कंपनी के अनुसार 17 से ज़्यादा IP आवेदन दाखिल हैं; मंज़ूर पेटेंट की संख्या सामने नहीं आई।</li><li>यह रकम 2026 की Q3 की औसत डीपटेक डील (करीब $10.4 मिलियन) का करीब एक-चौथाई है।</li></ul></div>
       <div class="article-body">
@@ -151,6 +153,6 @@
     </div>
   </footer>
 
-  <script src="/js/main.js"></script>
+  <script src="/js/main.js" defer></script>
 </body>
 </html>

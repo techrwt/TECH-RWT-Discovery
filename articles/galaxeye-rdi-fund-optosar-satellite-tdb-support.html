@@ -2,13 +2,15 @@
 <html lang="hi" data-theme="light">
 <head>
   <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-9PS4WX9LXB"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
   gtag('config', 'G-9PS4WX9LXB');
+  // Speed: gtag.js pehle interaction par ya 5 sec baad load hoga (page ki speed block nahi karega)
+  (function(){var l=0;function go(){if(l)return;l=1;var s=document.createElement('script');s.async=true;s.src='https://www.googletagmanager.com/gtag/js?id=G-9PS4WX9LXB';document.head.appendChild(s);}
+  ['scroll','click','touchstart','keydown','mousemove'].forEach(function(e){addEventListener(e,go,{once:true,passive:true});});
+  setTimeout(go,5000);})();
 </script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -102,7 +104,7 @@
         </div>
         <h1 class="article-title">GalaxEye को मिले ₹64 करोड़ — भारतीय Satellite तकनीक की अगली छलांग</h1>
       </div>
-      <img src="/assets/images/galaxeye-rdi-fund-optosar-satellite-tdb-support.webp" alt="GalaxEye को मिले ₹64 करोड़ — भारतीय Satellite तकनीक की अगली छलांग" class="article-featured-image" onerror="this.src='/assets/images/sample-space.jpg'">
+      <img src="/assets/images/galaxeye-rdi-fund-optosar-satellite-tdb-support.webp" alt="GalaxEye को मिले ₹64 करोड़ — भारतीय Satellite तकनीक की अगली छलांग" class="article-featured-image" fetchpriority="high" decoding="async" onerror="this.src='/assets/images/sample-space.jpg'">
       
       <div class="key-points"><div class="key-points-title">मुख्य बिंदु</div><ul><li>TDB ने 24 सितंबर 2026 को GalaxEye से RDI Fund के तहत ₹63.84 करोड़ का समझौता किया।</li><li>मदद optionally convertible debentures के रूप में है, प्रोजेक्ट की कुल लागत ₹247.69 करोड़ है।</li><li>प्रोजेक्ट OptoSAR तकनीक को TRL 6 से TRL 9 तक ले जाएगा, लक्ष्य 0.5 मीटर से बेहतर रेज़ोल्यूशन।</li><li>OptoSAR रडार (SAR) और ऑप्टिकल (EO) इमेजिंग जोड़कर बादलों के पार भी तस्वीर लेने का लक्ष्य रखता है।</li><li>सरकारी मदद कुल लागत का करीब 25.8% है, बाकी करीब ₹184 करोड़ का स्रोत अभी साफ नहीं।</li></ul></div>
       <div class="article-body">
@@ -151,6 +153,6 @@
     </div>
   </footer>
 
-  <script src="/js/main.js"></script>
+  <script src="/js/main.js" defer></script>
 </body>
 </html>

@@ -2,13 +2,15 @@
 <html lang="hi" data-theme="light">
 <head>
   <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-9PS4WX9LXB"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
   gtag('config', 'G-9PS4WX9LXB');
+  // Speed: gtag.js pehle interaction par ya 5 sec baad load hoga (page ki speed block nahi karega)
+  (function(){var l=0;function go(){if(l)return;l=1;var s=document.createElement('script');s.async=true;s.src='https://www.googletagmanager.com/gtag/js?id=G-9PS4WX9LXB';document.head.appendChild(s);}
+  ['scroll','click','touchstart','keydown','mousemove'].forEach(function(e){addEventListener(e,go,{once:true,passive:true});});
+  setTimeout(go,5000);})();
 </script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -102,7 +104,7 @@
         </div>
         <h1 class="article-title">Spacetech में करोड़ों आए, पर असली सवाल अब भी बाकी — कमाई कब शुरू होगी?</h1>
       </div>
-      <img src="/assets/images/india-spacetech-funding-2026-reality-check.webp" alt="Spacetech में करोड़ों आए, पर असली सवाल अब भी बाकी — कमाई कब शुरू होगी?" class="article-featured-image" onerror="this.src='/assets/images/sample-space.jpg'">
+      <img src="/assets/images/india-spacetech-funding-2026-reality-check.webp" alt="Spacetech में करोड़ों आए, पर असली सवाल अब भी बाकी — कमाई कब शुरू होगी?" class="article-featured-image" fetchpriority="high" decoding="async" onerror="this.src='/assets/images/sample-space.jpg'">
       
       <div class="key-points"><div class="key-points-title">मुख्य बिंदु</div><ul><li>Inc42 के अनुसार भारतीय स्पेसटेक स्टार्टअप्स ने 2026 में अब तक $252.9 मिलियन जुटाए, जो 2025 से करीब दोगुना है।</li><li>मई 2026 में Skyroot Aerospace $60 मिलियन जुटाकर भारत का पहला स्पेसटेक यूनिकॉर्न बना, वैल्यूएशन $1.1 अरब।</li><li>सितंबर 2026 में Pixxel ने $100 मिलियन का Series C जुटाया, भारत के किसी स्पेसटेक स्टार्टअप का सबसे बड़ा राउंड।</li><li>सरकार के ₹1,600 करोड़ Antariksh फंड और ₹1 लाख करोड़ RDI फंड से भी स्पेसटेक स्टार्टअप्स को पैसा मिल रहा है।</li><li>निवेशक अब वैल्यूएशन और कमाई के सबूत पर सतर्क हैं, क्योंकि कई स्टार्टअप्स एक जैसी समस्या पर काम कर रहे हैं।</li></ul></div>
       <div class="article-body">
@@ -151,6 +153,6 @@
     </div>
   </footer>
 
-  <script src="/js/main.js"></script>
+  <script src="/js/main.js" defer></script>
 </body>
 </html>

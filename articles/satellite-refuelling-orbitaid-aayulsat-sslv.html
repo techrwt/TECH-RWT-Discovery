@@ -2,13 +2,15 @@
 <html lang="hi" data-theme="light">
 <head>
   <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-9PS4WX9LXB"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
   gtag('config', 'G-9PS4WX9LXB');
+  // Speed: gtag.js pehle interaction par ya 5 sec baad load hoga (page ki speed block nahi karega)
+  (function(){var l=0;function go(){if(l)return;l=1;var s=document.createElement('script');s.async=true;s.src='https://www.googletagmanager.com/gtag/js?id=G-9PS4WX9LXB';document.head.appendChild(s);}
+  ['scroll','click','touchstart','keydown','mousemove'].forEach(function(e){addEventListener(e,go,{once:true,passive:true});});
+  setTimeout(go,5000);})();
 </script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -102,7 +104,7 @@
         </div>
         <h1 class="article-title">OrbitAID का सैटेलाइट रिफ्यूलिंग प्लान, पर कक्षा में डेमो अभी बाकी</h1>
       </div>
-      <img src="/assets/images/satellite-refuelling-orbitaid-aayulsat-sslv.webp" alt="OrbitAID का सैटेलाइट रिफ्यूलिंग प्लान, पर कक्षा में डेमो अभी बाकी" class="article-featured-image" onerror="this.src='/assets/images/sample-space.jpg'">
+      <img src="/assets/images/satellite-refuelling-orbitaid-aayulsat-sslv.webp" alt="OrbitAID का सैटेलाइट रिफ्यूलिंग प्लान, पर कक्षा में डेमो अभी बाकी" class="article-featured-image" fetchpriority="high" decoding="async" onerror="this.src='/assets/images/sample-space.jpg'">
       
       <div class="key-points"><div class="key-points-title">मुख्य बिंदु</div><ul><li>OrbitAID के अनुसार AayulSAT-1 की दोबारा उड़ान नवंबर 2026 की शुरुआत में SSLV L1 से होगी।</li><li>12 जनवरी 2026 को PSLV-C62 की विफलता में पहला AayulSAT मिशन अधूरा रह गया था।</li><li>AayulSAT-2A और 2B (करीब 70 kg प्रत्येक) का रिफ्यूलिंग-डॉकिंग डेमो फरवरी 2027 के लिए प्रस्तावित है।</li><li>पहले प्रदर्शन में सिर्फ़ SIDRP इंटरफ़ेस वाले सैटेलाइट में ईंधन भरा जाएगा, किसी भी सैटेलाइट में नहीं।</li><li>COMSPOC के अनुसार चीन के Shijian-25 ने 2025 में GEO में संभावित रिफ्यूलिंग की थी।</li></ul></div>
       <div class="article-body">
@@ -151,6 +153,6 @@
     </div>
   </footer>
 
-  <script src="/js/main.js"></script>
+  <script src="/js/main.js" defer></script>
 </body>
 </html>

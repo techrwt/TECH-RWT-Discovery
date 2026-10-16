@@ -2,13 +2,15 @@
 <html lang="hi" data-theme="light">
 <head>
   <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-9PS4WX9LXB"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
   gtag('config', 'G-9PS4WX9LXB');
+  // Speed: gtag.js pehle interaction par ya 5 sec baad load hoga (page ki speed block nahi karega)
+  (function(){var l=0;function go(){if(l)return;l=1;var s=document.createElement('script');s.async=true;s.src='https://www.googletagmanager.com/gtag/js?id=G-9PS4WX9LXB';document.head.appendChild(s);}
+  ['scroll','click','touchstart','keydown','mousemove'].forEach(function(e){addEventListener(e,go,{once:true,passive:true});});
+  setTimeout(go,5000);})();
 </script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -102,7 +104,7 @@
         </div>
         <h1 class="article-title">30+ साल के 'क्लाइमेट फिंगरप्रिंट' शोध से सबूत अब और मज़बूत</h1>
       </div>
-      <img src="/assets/images/climate-fingerprint-research-human-influence-evidence.webp" alt="30+ साल के 'क्लाइमेट फिंगरप्रिंट' शोध से सबूत अब और मज़बूत" class="article-featured-image" onerror="this.src='/assets/images/sample-space.jpg'">
+      <img src="/assets/images/climate-fingerprint-research-human-influence-evidence.webp" alt="30+ साल के 'क्लाइमेट फिंगरप्रिंट' शोध से सबूत अब और मज़बूत" class="article-featured-image" fetchpriority="high" decoding="async" onerror="this.src='/assets/images/sample-space.jpg'">
       
       <div class="key-points"><div class="key-points-title">मुख्य बिंदु</div><ul><li>12 अक्टूबर 2026 को 'Earth's Future' जर्नल में बेंजामिन सैंटर और साथियों की बड़ी समीक्षा छपी।</li><li>समीक्षा कहती है कि 2009 की एंडेंजरमेंट फाइंडिंग के बाद इंसानी जलवायु असर के सबूत और मज़बूत हुए हैं।</li><li>जुलाई 2025 की एक विवादित DOE रिपोर्ट ने 'क्लाइमेट फिंगरप्रिंट' की विश्वसनीयता पर सवाल उठाया था।</li><li>सैंटर टीम ने दिखाया कि DOE का दावा एक अप्रकाशित प्रेजेंटेशन की गलत व्याख्या पर आधारित था।</li><li>1995 के IPCC निष्कर्ष से लेकर 2026 तक, फिंगरप्रिंट सबूत अब पूरे जलवायु तंत्र में पहचाना जा सकता है।</li></ul></div>
       <div class="article-body">
@@ -194,6 +196,6 @@
     </div>
   </footer>
 
-  <script src="/js/main.js"></script>
+  <script src="/js/main.js" defer></script>
 </body>
 </html>

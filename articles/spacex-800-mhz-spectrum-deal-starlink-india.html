@@ -2,13 +2,15 @@
 <html lang="hi" data-theme="light">
 <head>
   <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-9PS4WX9LXB"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
   gtag('config', 'G-9PS4WX9LXB');
+  // Speed: gtag.js pehle interaction par ya 5 sec baad load hoga (page ki speed block nahi karega)
+  (function(){var l=0;function go(){if(l)return;l=1;var s=document.createElement('script');s.async=true;s.src='https://www.googletagmanager.com/gtag/js?id=G-9PS4WX9LXB';document.head.appendChild(s);}
+  ['scroll','click','touchstart','keydown','mousemove'].forEach(function(e){addEventListener(e,go,{once:true,passive:true});});
+  setTimeout(go,5000);})();
 </script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -102,7 +104,7 @@
         </div>
         <h1 class="article-title">SpaceX के 800 MHz सौदे का भारत में Starlink पर क्या असर होगा?</h1>
       </div>
-      <img src="/assets/images/spacex-800-mhz-spectrum-deal-starlink-india.webp" alt="SpaceX के 800 MHz सौदे का भारत में Starlink पर क्या असर होगा?" class="article-featured-image" onerror="this.src='/assets/images/sample-space.jpg'">
+      <img src="/assets/images/spacex-800-mhz-spectrum-deal-starlink-india.webp" alt="SpaceX के 800 MHz सौदे का भारत में Starlink पर क्या असर होगा?" class="article-featured-image" fetchpriority="high" decoding="async" onerror="this.src='/assets/images/sample-space.jpg'">
       
       <div class="key-points"><div class="key-points-title">मुख्य बिंदु</div><ul><li>SpaceX ने 8 अक्टूबर 2026 को Grain Management से 800 MHz का 14 MHz तक पेयर्ड स्पेक्ट्रम ख़रीदने की घोषणा की।</li><li>सौदे को FCC की मंज़ूरी चाहिए; WSJ के हवाले से रिपोर्ट के अनुसार क़ीमत लगभग $8 अरब है।</li><li>Axios के अनुसार अगले दिन AT&amp;T 9.8%, Verizon 8.8% और T-Mobile 13.3% गिरे।</li><li>भारत में 3 सितंबर को DCC ने सैटकॉम स्पेक्ट्रम शुल्क AGR का 5% (ग्रामीण में 4%) मंज़ूर किया।</li><li>ThePrint के अनुसार Starlink समेत तीनों लाइसेंसधारियों की सुरक्षा मंज़ूरी अभी लंबित है।</li></ul></div>
       <div class="article-body">
@@ -151,6 +153,6 @@
     </div>
   </footer>
 
-  <script src="/js/main.js"></script>
+  <script src="/js/main.js" defer></script>
 </body>
 </html>

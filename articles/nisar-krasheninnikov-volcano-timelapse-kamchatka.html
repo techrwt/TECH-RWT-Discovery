@@ -2,13 +2,15 @@
 <html lang="hi" data-theme="light">
 <head>
   <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-9PS4WX9LXB"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
   gtag('config', 'G-9PS4WX9LXB');
+  // Speed: gtag.js pehle interaction par ya 5 sec baad load hoga (page ki speed block nahi karega)
+  (function(){var l=0;function go(){if(l)return;l=1;var s=document.createElement('script');s.async=true;s.src='https://www.googletagmanager.com/gtag/js?id=G-9PS4WX9LXB';document.head.appendChild(s);}
+  ['scroll','click','touchstart','keydown','mousemove'].forEach(function(e){addEventListener(e,go,{once:true,passive:true});});
+  setTimeout(go,5000);})();
 </script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -102,7 +104,7 @@
         </div>
         <h1 class="article-title">500 साल से सोया Volcano अचानक जाग गया — NISAR ने कैद किया हर पल</h1>
       </div>
-      <img src="/assets/images/nisar-krasheninnikov-volcano-timelapse-kamchatka.webp" alt="500 साल से सोया Volcano अचानक जाग गया — NISAR ने कैद किया हर पल" class="article-featured-image" onerror="this.src='/assets/images/sample-space.jpg'">
+      <img src="/assets/images/nisar-krasheninnikov-volcano-timelapse-kamchatka.webp" alt="500 साल से सोया Volcano अचानक जाग गया — NISAR ने कैद किया हर पल" class="article-featured-image" fetchpriority="high" decoding="async" onerror="this.src='/assets/images/sample-space.jpg'">
       
       <div class="key-points"><div class="key-points-title">मुख्य बिंदु</div><ul><li>30 जुलाई 2025 के 8.8 तीव्रता के भूकंप ने रूस के Krasheninnikov ज्वालामुखी को करीब 500 साल बाद जगा दिया।</li><li>NASA-ISRO के साझा NISAR सैटेलाइट ने हर 12 दिन में दो बार रडार तस्वीरें लेकर लगातार निगरानी की।</li><li>दिसंबर 2025 से अगस्त 2026 की 17 तस्वीरों से बनी टाइम-लैप्स में लावा फैलने का पूरा क्रम दिखा।</li><li>रडार माइक्रोवेव से लावा बर्फ और चट्टान से ज्यादा चमकीला दिखता है, जिससे उसकी सीमा साफ पहचानी जाती है।</li><li>यह तकनीक भारत के हिमालयी और भूस्खलन-संभावित इलाकों की निगरानी में भी काम आ सकती है।</li></ul></div>
       <div class="article-body">
@@ -151,6 +153,6 @@
     </div>
   </footer>
 
-  <script src="/js/main.js"></script>
+  <script src="/js/main.js" defer></script>
 </body>
 </html>

@@ -2,13 +2,15 @@
 <html lang="hi" data-theme="light">
 <head>
   <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-9PS4WX9LXB"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
   gtag('config', 'G-9PS4WX9LXB');
+  // Speed: gtag.js pehle interaction par ya 5 sec baad load hoga (page ki speed block nahi karega)
+  (function(){var l=0;function go(){if(l)return;l=1;var s=document.createElement('script');s.async=true;s.src='https://www.googletagmanager.com/gtag/js?id=G-9PS4WX9LXB';document.head.appendChild(s);}
+  ['scroll','click','touchstart','keydown','mousemove'].forEach(function(e){addEventListener(e,go,{once:true,passive:true});});
+  setTimeout(go,5000);})();
 </script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -102,7 +104,7 @@
         </div>
         <h1 class="article-title">पहला हरा तारा मिला, पर किसी ने उसे आंखों से हरा नहीं देखा</h1>
       </div>
-      <img src="/assets/images/green-star-wd-j1330-6435-white-dwarf-colours.webp" alt="पहला हरा तारा मिला, पर किसी ने उसे आंखों से हरा नहीं देखा" class="article-featured-image" onerror="this.src='/assets/images/sample-space.jpg'">
+      <img src="/assets/images/green-star-wd-j1330-6435-white-dwarf-colours.webp" alt="पहला हरा तारा मिला, पर किसी ने उसे आंखों से हरा नहीं देखा" class="article-featured-image" fetchpriority="high" decoding="async" onerror="this.src='/assets/images/sample-space.jpg'">
       
       <div class="key-points"><div class="key-points-title">मुख्य बिंदु</div><ul><li>वारविक विश्वविद्यालय ने 15 अक्टूबर 2026 को पहला असली हरा तारा WD J1330+6435 घोषित किया।</li><li>सोडियम इसके घने वायुमंडल में पीली, नारंगी और लाल रोशनी सोखता है, इसलिए यह हरा दिखता है।</li><li>WD J1011+2845 कार्बन अणुओं की वजह से सैल्मन-गुलाबी है और अब तक का सबसे लाल तारा हो सकता है।</li><li>कोई सफेद बौना इतना पास नहीं कि रंग सीधे दिखे, इसलिए रंग स्पेक्ट्रम से निकाले गए।</li><li>भारत का AstroSat UVIT NGC 362 के 17 पराबैंगनी-चमकीले सफेद बौनों पर काम कर चुका है।</li></ul></div>
       <div class="article-body">
@@ -151,6 +153,6 @@
     </div>
   </footer>
 
-  <script src="/js/main.js"></script>
+  <script src="/js/main.js" defer></script>
 </body>
 </html>

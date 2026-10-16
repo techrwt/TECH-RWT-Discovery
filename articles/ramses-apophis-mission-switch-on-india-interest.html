@@ -2,13 +2,15 @@
 <html lang="hi" data-theme="light">
 <head>
   <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-9PS4WX9LXB"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
   gtag('config', 'G-9PS4WX9LXB');
+  // Speed: gtag.js pehle interaction par ya 5 sec baad load hoga (page ki speed block nahi karega)
+  (function(){var l=0;function go(){if(l)return;l=1;var s=document.createElement('script');s.async=true;s.src='https://www.googletagmanager.com/gtag/js?id=G-9PS4WX9LXB';document.head.appendChild(s);}
+  ['scroll','click','touchstart','keydown','mousemove'].forEach(function(e){addEventListener(e,go,{once:true,passive:true});});
+  setTimeout(go,5000);})();
 </script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -102,7 +104,7 @@
         </div>
         <h1 class="article-title">Apophis धरती से नहीं टकराएगा, पर Ramses मिशन अभी से तैयार हो रहा है</h1>
       </div>
-      <img src="/assets/images/ramses-apophis-mission-switch-on-india-interest.webp" alt="Apophis धरती से नहीं टकराएगा, पर Ramses मिशन अभी से तैयार हो रहा है" class="article-featured-image" onerror="this.src='/assets/images/sample-space.jpg'">
+      <img src="/assets/images/ramses-apophis-mission-switch-on-india-interest.webp" alt="Apophis धरती से नहीं टकराएगा, पर Ramses मिशन अभी से तैयार हो रहा है" class="article-featured-image" fetchpriority="high" decoding="async" onerror="this.src='/assets/images/sample-space.jpg'">
       
       <div class="key-points"><div class="key-points-title">मुख्य बिंदु</div><ul><li>ऐस्टरॉयड Apophis 13 अप्रैल 2029 को धरती से सिर्फ करीब 32,000 किमी की दूरी से गुजरेगा।</li><li>यह दूरी जियोस्टेशनरी सैटेलाइट कक्षा से भी कम है, फिर भी NASA के अनुसार धरती को कोई खतरा नहीं है।</li><li>ESA-JAXA के Ramses मिशन का Core Module 23 सितंबर 2026 को मिलान में पहली बार पूरी तरह चालू हुआ।</li><li>Ramses का लॉन्च 2028 में और Apophis तक पहुंचना मार्च 2029 तक होने की योजना है।</li><li>ISRO प्रमुख एस सोमनाथ ने 2024 में भारत के Apophis मिशन में शामिल होने की इच्छा जताई थी।</li></ul></div>
       <div class="article-body">
@@ -151,6 +153,6 @@
     </div>
   </footer>
 
-  <script src="/js/main.js"></script>
+  <script src="/js/main.js" defer></script>
 </body>
 </html>

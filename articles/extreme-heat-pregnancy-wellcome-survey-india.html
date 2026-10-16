@@ -2,13 +2,15 @@
 <html lang="hi" data-theme="light">
 <head>
   <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-9PS4WX9LXB"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
   gtag('config', 'G-9PS4WX9LXB');
+  // Speed: gtag.js pehle interaction par ya 5 sec baad load hoga (page ki speed block nahi karega)
+  (function(){var l=0;function go(){if(l)return;l=1;var s=document.createElement('script');s.async=true;s.src='https://www.googletagmanager.com/gtag/js?id=G-9PS4WX9LXB';document.head.appendChild(s);}
+  ['scroll','click','touchstart','keydown','mousemove'].forEach(function(e){addEventListener(e,go,{once:true,passive:true});});
+  setTimeout(go,5000);})();
 </script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -102,7 +104,7 @@
         </div>
         <h1 class="article-title">क्या भीषण गर्मी गर्भवती महिलाओं और नवजातों के लिए खतरा बन रही है?</h1>
       </div>
-      <img src="/assets/images/extreme-heat-pregnancy-wellcome-survey-india.webp" alt="क्या भीषण गर्मी गर्भवती महिलाओं और नवजातों के लिए खतरा बन रही है?" class="article-featured-image" onerror="this.src='/assets/images/sample-space.jpg'">
+      <img src="/assets/images/extreme-heat-pregnancy-wellcome-survey-india.webp" alt="क्या भीषण गर्मी गर्भवती महिलाओं और नवजातों के लिए खतरा बन रही है?" class="article-featured-image" fetchpriority="high" decoding="async" onerror="this.src='/assets/images/sample-space.jpg'">
       
       <div class="key-points"><div class="key-points-title">मुख्य बिंदु</div><ul><li>Wellcome सर्वे: 5 देशों के 1,000 कर्मियों में 73% ने गर्भवती महिलाओं में गर्मी की दिक्कतें बढ़ती देखीं।</li><li>76% ने गर्भस्थ शिशु या नवजात की सेहत पर गर्मी का असर बढ़ता देखा; 99% ने ऐसे शिशु की देखभाल की।</li><li>देशवार आंकड़ा: ज़िम्बाब्वे 85%, ऑस्ट्रेलिया 79%, ब्राज़ील 74%, ब्रिटेन 66%, भारत 62%।</li><li>सर्वे धारणा पर आधारित है, क्लिनिकल केस रिकॉर्ड पर नहीं; हर देश से 200 उत्तरदाता थे।</li><li>Wellcome की मांग: WHO गर्मी-गर्भावस्था पर पहली क्लिनिकल गाइडलाइन बनाए।</li></ul></div>
       <div class="article-body">
@@ -151,6 +153,6 @@
     </div>
   </footer>
 
-  <script src="/js/main.js"></script>
+  <script src="/js/main.js" defer></script>
 </body>
 </html>

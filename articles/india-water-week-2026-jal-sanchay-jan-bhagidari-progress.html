@@ -2,13 +2,15 @@
 <html lang="hi" data-theme="light">
 <head>
   <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-9PS4WX9LXB"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
   gtag('config', 'G-9PS4WX9LXB');
+  // Speed: gtag.js pehle interaction par ya 5 sec baad load hoga (page ki speed block nahi karega)
+  (function(){var l=0;function go(){if(l)return;l=1;var s=document.createElement('script');s.async=true;s.src='https://www.googletagmanager.com/gtag/js?id=G-9PS4WX9LXB';document.head.appendChild(s);}
+  ['scroll','click','touchstart','keydown','mousemove'].forEach(function(e){addEventListener(e,go,{once:true,passive:true});});
+  setTimeout(go,5000);})();
 </script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -102,7 +104,7 @@
         </div>
         <h1 class="article-title">60 लाख जल-संरचनाएं बन गईं, फिर भी 1 करोड़ का लक्ष्य अभी दूर</h1>
       </div>
-      <img src="/assets/images/india-water-week-2026-jal-sanchay-jan-bhagidari-progress.webp" alt="60 लाख जल-संरचनाएं बन गईं, फिर भी 1 करोड़ का लक्ष्य अभी दूर" class="article-featured-image" onerror="this.src='/assets/images/sample-space.jpg'">
+      <img src="/assets/images/india-water-week-2026-jal-sanchay-jan-bhagidari-progress.webp" alt="60 लाख जल-संरचनाएं बन गईं, फिर भी 1 करोड़ का लक्ष्य अभी दूर" class="article-featured-image" fetchpriority="high" decoding="async" onerror="this.src='/assets/images/sample-space.jpg'">
       
       <div class="key-points"><div class="key-points-title">मुख्य बिंदु</div><ul><li>9वां India Water Week 22-25 सितंबर 2026 को दिल्ली में हुआ, थीम 'Climate Resilient Water Management'।</li><li>जल शक्ति मंत्रालय: 'जल संचय जन भागीदारी' में अब तक 60 लाख संरचनाएं बनीं, लक्ष्य 1 करोड़ का है।</li><li>नीदरलैंड्स और जर्मनी साझीदार देश रहे; 14 राज्य और 6 केंद्रीय मंत्रालय भी साझीदार बने।</li><li>समापन सत्र 25 सितंबर को हुआ; सचिव अशोक के.के. मीणा ने जल-चक्र को 'प्रकृति का सबसे सफल तंत्र' बताया।</li><li>26 सितंबर को दिल्ली-आगरा स्टडी टूर के साथ कार्यक्रम बंद हुआ, जिसमें सीवेज प्लांट का दौरा शामिल था।</li></ul></div>
       <div class="article-body">
@@ -151,6 +153,6 @@
     </div>
   </footer>
 
-  <script src="/js/main.js"></script>
+  <script src="/js/main.js" defer></script>
 </body>
 </html>

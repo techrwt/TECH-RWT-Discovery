@@ -2,13 +2,15 @@
 <html lang="hi" data-theme="light">
 <head>
   <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-9PS4WX9LXB"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
   gtag('config', 'G-9PS4WX9LXB');
+  // Speed: gtag.js pehle interaction par ya 5 sec baad load hoga (page ki speed block nahi karega)
+  (function(){var l=0;function go(){if(l)return;l=1;var s=document.createElement('script');s.async=true;s.src='https://www.googletagmanager.com/gtag/js?id=G-9PS4WX9LXB';document.head.appendChild(s);}
+  ['scroll','click','touchstart','keydown','mousemove'].forEach(function(e){addEventListener(e,go,{once:true,passive:true});});
+  setTimeout(go,5000);})();
 </script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -102,7 +104,7 @@
         </div>
         <h1 class="article-title">भूमध्य रेखा के पास आखिरी बर्फ भी गायब होने वाली है — 1-2 साल ही बचे</h1>
       </div>
-      <img src="/assets/images/puncak-jaya-papua-tropical-glacier-disappearing.webp" alt="भूमध्य रेखा के पास आखिरी बर्फ भी गायब होने वाली है — 1-2 साल ही बचे" class="article-featured-image" onerror="this.src='/assets/images/sample-space.jpg'">
+      <img src="/assets/images/puncak-jaya-papua-tropical-glacier-disappearing.webp" alt="भूमध्य रेखा के पास आखिरी बर्फ भी गायब होने वाली है — 1-2 साल ही बचे" class="article-featured-image" fetchpriority="high" decoding="async" onerror="this.src='/assets/images/sample-space.jpg'">
       
       <div class="key-points"><div class="key-points-title">मुख्य बिंदु</div><ul><li>इंडोनेशिया के पुंचक जया (4,884 मीटर) की उष्णकटिबंधीय बर्फ 2000 के दशक से 2025 तक 95% सिकुड़ चुकी है।</li><li>19वीं सदी में करीब 1,900 हेक्टेयर बर्फ थी, 2025 में सिर्फ करीब 16 हेक्टेयर बची है।</li><li>BBC की रिपोर्ट के मुताबिक बची हुई बर्फ अगले एक-दो साल में पूरी तरह गायब हो सकती है।</li><li>El Niño जैसी सूखी-गर्म घटनाएं बर्फबारी घटाकर और पिघलना बढ़ाकर इस गिरावट को तेज़ करती हैं।</li><li>बर्फ के ice core नमूने मॉनसून से जुड़े पुराने मौसम रिकॉर्ड रखते हैं, जो अब हमेशा के लिए खो सकते हैं।</li></ul></div>
       <div class="article-body">
@@ -193,6 +195,6 @@
     </div>
   </footer>
 
-  <script src="/js/main.js"></script>
+  <script src="/js/main.js" defer></script>
 </body>
 </html>

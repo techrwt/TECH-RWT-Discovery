@@ -2,13 +2,15 @@
 <html lang="hi" data-theme="light">
 <head>
   <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-9PS4WX9LXB"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
   gtag('config', 'G-9PS4WX9LXB');
+  // Speed: gtag.js pehle interaction par ya 5 sec baad load hoga (page ki speed block nahi karega)
+  (function(){var l=0;function go(){if(l)return;l=1;var s=document.createElement('script');s.async=true;s.src='https://www.googletagmanager.com/gtag/js?id=G-9PS4WX9LXB';document.head.appendChild(s);}
+  ['scroll','click','touchstart','keydown','mousemove'].forEach(function(e){addEventListener(e,go,{once:true,passive:true});});
+  setTimeout(go,5000);})();
 </script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -102,7 +104,7 @@
         </div>
         <h1 class="article-title">मंगल पर भारत को पहुंचे 12 साल हुए — अब ISRO का अगला प्लान क्या है?</h1>
       </div>
-      <img src="/assets/images/mangalyaan-12-years-mars-lander-mission-isro.webp" alt="मंगल पर भारत को पहुंचे 12 साल हुए — अब ISRO का अगला प्लान क्या है?" class="article-featured-image" onerror="this.src='/assets/images/sample-space.jpg'">
+      <img src="/assets/images/mangalyaan-12-years-mars-lander-mission-isro.webp" alt="मंगल पर भारत को पहुंचे 12 साल हुए — अब ISRO का अगला प्लान क्या है?" class="article-featured-image" fetchpriority="high" decoding="async" onerror="this.src='/assets/images/sample-space.jpg'">
       
       <div class="key-points"><div class="key-points-title">मुख्य बिंदु</div><ul><li>Mangalyaan 24 सितंबर 2014 को मंगल की ऑर्बिट में पहुंचा था, पहली कोशिश में सफल होने वाला पहला मिशन।</li><li>पूरा मिशन करीब 450 करोड़ रुपये में पूरा हुआ, NASA के MAVEN मिशन से करीब दस गुना कम खर्च में।</li><li>2022 में ईंधन खत्म होने से Mangalyaan से संपर्क टूट गया, ISRO ने इसे नॉन-रिकवरेबल घोषित किया।</li><li>अगला मिशन Mars Lander Mission (Mangalyaan-2) में ऑर्बिटर के साथ लैंडर, रोवर और हेलीकॉप्टर भी शामिल होंगे।</li><li>Mars Lander Mission की लॉन्च तारीख officially तय नहीं, रिपोर्ट्स में अनुमान 2026 से 2030 के बीच है।</li></ul></div>
       <div class="article-body">
@@ -151,6 +153,6 @@
     </div>
   </footer>
 
-  <script src="/js/main.js"></script>
+  <script src="/js/main.js" defer></script>
 </body>
 </html>

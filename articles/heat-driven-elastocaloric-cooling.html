@@ -2,13 +2,15 @@
 <html lang="hi" data-theme="light">
 <head>
   <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-9PS4WX9LXB"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
   gtag('config', 'G-9PS4WX9LXB');
+  // Speed: gtag.js pehle interaction par ya 5 sec baad load hoga (page ki speed block nahi karega)
+  (function(){var l=0;function go(){if(l)return;l=1;var s=document.createElement('script');s.async=true;s.src='https://www.googletagmanager.com/gtag/js?id=G-9PS4WX9LXB';document.head.appendChild(s);}
+  ['scroll','click','touchstart','keydown','mousemove'].forEach(function(e){addEventListener(e,go,{once:true,passive:true});});
+  setTimeout(go,5000);})();
 </script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -102,7 +104,7 @@
         </div>
         <h1 class="article-title">बिना Motor के अब गर्मी से ही होगी Cooling — नई तकनीक की पहली झलक</h1>
       </div>
-      <img src="/assets/images/heat-driven-elastocaloric-cooling.webp" alt="बिना Motor के अब गर्मी से ही होगी Cooling — नई तकनीक की पहली झलक" class="article-featured-image" onerror="this.src='/assets/images/sample-space.jpg'">
+      <img src="/assets/images/heat-driven-elastocaloric-cooling.webp" alt="बिना Motor के अब गर्मी से ही होगी Cooling — नई तकनीक की पहली झलक" class="article-featured-image" fetchpriority="high" decoding="async" onerror="this.src='/assets/images/sample-space.jpg'">
       
       <div class="key-points"><div class="key-points-title">मुख्य बिंदु</div><ul><li>KIT और Tsukuba की टीम ने 28 अगस्त 2026 को Nature Energy में heat-driven कूलिंग प्रोटोटाइप प्रकाशित किया।</li><li>एक निकल-टाइटेनियम फ़िल्म गर्मी से सिकुड़कर दूसरी फ़िल्म को खींचती है, और उसी से ठंडक बनती है।</li><li>86°C की बिजली-हीटिंग पर उपकरण में 4.0°C का अंतर मिला; 130°C के बाहरी हीटर पर 2.2°C।</li><li>कूलिंग पावर सिर्फ़ 2.79 mW रही, इसलिए यह फ्रिज या AC का विकल्प नहीं, केवल लैब प्रोटोटाइप है।</li><li>हीट सिंक बिजली के actuator से हिलाए गए, यानी बिजली की ज़रूरत घटी है, ख़त्म नहीं हुई।</li></ul></div>
       <div class="article-body">
@@ -151,6 +153,6 @@
     </div>
   </footer>
 
-  <script src="/js/main.js"></script>
+  <script src="/js/main.js" defer></script>
 </body>
 </html>

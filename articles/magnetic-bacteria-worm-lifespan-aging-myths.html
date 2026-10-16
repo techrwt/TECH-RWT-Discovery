@@ -2,13 +2,15 @@
 <html lang="hi" data-theme="light">
 <head>
   <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-9PS4WX9LXB"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
   gtag('config', 'G-9PS4WX9LXB');
+  // Speed: gtag.js pehle interaction par ya 5 sec baad load hoga (page ki speed block nahi karega)
+  (function(){var l=0;function go(){if(l)return;l=1;var s=document.createElement('script');s.async=true;s.src='https://www.googletagmanager.com/gtag/js?id=G-9PS4WX9LXB';document.head.appendChild(s);}
+  ['scroll','click','touchstart','keydown','mousemove'].forEach(function(e){addEventListener(e,go,{once:true,passive:true});});
+  setTimeout(go,5000);})();
 </script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -102,7 +104,7 @@
         </div>
         <h1 class="article-title">क्या चुंबकीय बैक्टीरिया सच में उम्र बढ़ा सकती है? Study का दावा</h1>
       </div>
-      <img src="/assets/images/magnetic-bacteria-worm-lifespan-aging-myths.webp" alt="क्या चुंबकीय बैक्टीरिया सच में उम्र बढ़ा सकती है? Study का दावा" class="article-featured-image" onerror="this.src='/assets/images/sample-space.jpg'">
+      <img src="/assets/images/magnetic-bacteria-worm-lifespan-aging-myths.webp" alt="क्या चुंबकीय बैक्टीरिया सच में उम्र बढ़ा सकती है? Study का दावा" class="article-featured-image" fetchpriority="high" decoding="async" onerror="this.src='/assets/images/sample-space.jpg'">
       
       <div class="key-points"><div class="key-points-title">मुख्य बिंदु</div><ul><li>चीन की स्टडी: चुंबक बनाने वाली Magnetospirillum magneticum AMB-1 बैक्टीरिया से worms की उम्र 43.39% बढ़ी।</li><li>असर की वजह चुंबकत्व नहीं, बल्कि ferroptosis (आयरन-आधारित कोशिका मृत्यु) का दबना है।</li><li>यह प्रयोग सिर्फ Caenorhabditis elegans worm पर हुआ है, इंसानों पर सीधा लागू नहीं होता।</li><li>स्टडी में ftn-1, bli-3 और ads-1 जीनों की भूमिका सामने आई।</li><li>भारत में AIIMS दिल्ली जैसे National Centre for Ageing के लिए यह एक नई शोध दिशा हो सकती है।</li></ul></div>
       <div class="article-body">
@@ -151,6 +153,6 @@
     </div>
   </footer>
 
-  <script src="/js/main.js"></script>
+  <script src="/js/main.js" defer></script>
 </body>
 </html>

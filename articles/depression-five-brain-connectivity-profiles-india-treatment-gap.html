@@ -2,13 +2,15 @@
 <html lang="hi" data-theme="light">
 <head>
   <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-9PS4WX9LXB"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
   gtag('config', 'G-9PS4WX9LXB');
+  // Speed: gtag.js pehle interaction par ya 5 sec baad load hoga (page ki speed block nahi karega)
+  (function(){var l=0;function go(){if(l)return;l=1;var s=document.createElement('script');s.async=true;s.src='https://www.googletagmanager.com/gtag/js?id=G-9PS4WX9LXB';document.head.appendChild(s);}
+  ['scroll','click','touchstart','keydown','mousemove'].forEach(function(e){addEventListener(e,go,{once:true,passive:true});});
+  setTimeout(go,5000);})();
 </script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -102,7 +104,7 @@
         </div>
         <h1 class="article-title">डिप्रेशन एक बीमारी जैसा दिखता है, पर दिमाग में इसके 5 रूप मिले</h1>
       </div>
-      <img src="/assets/images/depression-five-brain-connectivity-profiles-india-treatment-gap.webp" alt="डिप्रेशन एक बीमारी जैसा दिखता है, पर दिमाग में इसके 5 रूप मिले" class="article-featured-image" onerror="this.src='/assets/images/sample-space.jpg'">
+      <img src="/assets/images/depression-five-brain-connectivity-profiles-india-treatment-gap.webp" alt="डिप्रेशन एक बीमारी जैसा दिखता है, पर दिमाग में इसके 5 रूप मिले" class="article-featured-image" fetchpriority="high" decoding="async" onerror="this.src='/assets/images/sample-space.jpg'">
       
       <div class="key-points"><div class="key-points-title">मुख्य बिंदु</div><ul><li>University of Helsinki की MEG स्टडी में डिप्रेशन के मरीज़ों में पांच अलग दिमागी connectivity पैटर्न मिले।</li><li>स्टडी में 263 डिप्रेशन के मरीज़ों की दिमागी गतिविधि मापी गई (Nature Mental Health, अगस्त 2026)।</li><li>एक समूह में ज़्यादा connectivity नशे की गंभीरता से जुड़ी मिली, दूसरे में कम connectivity PTSD लक्षणों से।</li><li>शोधकर्ता इन्हें अभी 'संभावित' पैटर्न बता रहे हैं, जिन्हें और पुष्टि की ज़रूरत है।</li><li>भारत में डिप्रेशन का treatment gap करीब 85% है; यहां प्रति लाख आबादी सिर्फ 0.75 मनोचिकित्सक हैं।</li></ul></div>
       <div class="article-body">
@@ -151,6 +153,6 @@
     </div>
   </footer>
 
-  <script src="/js/main.js"></script>
+  <script src="/js/main.js" defer></script>
 </body>
 </html>

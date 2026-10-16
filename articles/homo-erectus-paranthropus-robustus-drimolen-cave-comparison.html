@@ -2,13 +2,15 @@
 <html lang="hi" data-theme="light">
 <head>
   <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-9PS4WX9LXB"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
   gtag('config', 'G-9PS4WX9LXB');
+  // Speed: gtag.js pehle interaction par ya 5 sec baad load hoga (page ki speed block nahi karega)
+  (function(){var l=0;function go(){if(l)return;l=1;var s=document.createElement('script');s.async=true;s.src='https://www.googletagmanager.com/gtag/js?id=G-9PS4WX9LXB';document.head.appendChild(s);}
+  ['scroll','click','touchstart','keydown','mousemove'].forEach(function(e){addEventListener(e,go,{once:true,passive:true});});
+  setTimeout(go,5000);})();
 </script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -102,7 +104,7 @@
         </div>
         <h1 class="article-title">Homo erectus को 10 गुना पीछे छोड़ चुकी थी Paranthropus robustus</h1>
       </div>
-      <img src="/assets/images/homo-erectus-paranthropus-robustus-drimolen-cave-comparison.webp" alt="Homo erectus को 10 गुना पीछे छोड़ चुकी थी Paranthropus robustus" class="article-featured-image" onerror="this.src='/assets/images/sample-space.jpg'">
+      <img src="/assets/images/homo-erectus-paranthropus-robustus-drimolen-cave-comparison.webp" alt="Homo erectus को 10 गुना पीछे छोड़ चुकी थी Paranthropus robustus" class="article-featured-image" fetchpriority="high" decoding="async" onerror="this.src='/assets/images/sample-space.jpg'">
       
       <div class="key-points"><div class="key-points-title">मुख्य बिंदु</div><ul><li>Drimolen Cave के फॉसिल बताते हैं कि 20 लाख साल पहले Homo erectus और Paranthropus robustus साथ रहते थे।</li><li>इस जगह पर Paranthropus robustus की आबादी Homo erectus से 10 गुना से भी ज़्यादा थी।</li><li>नया फॉसिल DNH 127, पहला वयस्क Homo erectus का सबूत है; पहले सिर्फ एक बच्चे का फॉसिल मिला था।</li><li>Homo erectus का दिमाग बड़ा और दांत छोटे थे; P. robustus के जबड़े और दांत चबाने के लिए बहुत मज़बूत थे।</li><li>P. robustus बाद में खत्म हो गई, पर Homo erectus आगे चलकर दुनिया भर में फैला और हमारा पुरखा बना।</li></ul></div>
       <div class="article-body">
@@ -151,6 +153,6 @@
     </div>
   </footer>
 
-  <script src="/js/main.js"></script>
+  <script src="/js/main.js" defer></script>
 </body>
 </html>

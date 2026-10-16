@@ -2,13 +2,15 @@
 <html lang="hi" data-theme="light">
 <head>
   <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-9PS4WX9LXB"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
   gtag('config', 'G-9PS4WX9LXB');
+  // Speed: gtag.js pehle interaction par ya 5 sec baad load hoga (page ki speed block nahi karega)
+  (function(){var l=0;function go(){if(l)return;l=1;var s=document.createElement('script');s.async=true;s.src='https://www.googletagmanager.com/gtag/js?id=G-9PS4WX9LXB';document.head.appendChild(s);}
+  ['scroll','click','touchstart','keydown','mousemove'].forEach(function(e){addEventListener(e,go,{once:true,passive:true});});
+  setTimeout(go,5000);})();
 </script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -102,7 +104,7 @@
         </div>
         <h1 class="article-title">कैंपिंग स्पॉट ढूंढते-ढूंढते मिल गया 39 करोड़ साल पुराना उल्कापिंड गड्ढा</h1>
       </div>
-      <img src="/assets/images/quebec-uhackatik-impact-crater-discovery.webp" alt="कैंपिंग स्पॉट ढूंढते-ढूंढते मिल गया 39 करोड़ साल पुराना उल्कापिंड गड्ढा" class="article-featured-image" onerror="this.src='/assets/images/sample-space.jpg'">
+      <img src="/assets/images/quebec-uhackatik-impact-crater-discovery.webp" alt="कैंपिंग स्पॉट ढूंढते-ढूंढते मिल गया 39 करोड़ साल पुराना उल्कापिंड गड्ढा" class="article-featured-image" fetchpriority="high" decoding="async" onerror="this.src='/assets/images/sample-space.jpg'">
       
       <div class="key-points"><div class="key-points-title">मुख्य बिंदु</div><ul><li>NASA: क्यूबेक में मिला Uhackatik नाम का 25 किमी चौड़ा, 39 करोड़ साल पुराना इम्पैक्ट क्रेटर।</li><li>शौकिया खगोलशास्त्री Joël Lapointe ने 2024 में कैंपिंग स्पॉट ढूंढते समय सैटेलाइट मैप पर गोल आकृति देखी थी।</li><li>अक्टूबर 2025 की मुश्किल यात्रा में टीम को shatter cones मिले, जो टक्कर का इकलौता सीधा मैदानी सबूत हैं।</li><li>2018 के 31 किमी वाले Hiawatha crater के बाद यह अब तक मिला सबसे बड़ा इम्पैक्ट क्रेटर है, औपचारिक मान्यता बाकी।</li><li>भारत के Lonar crater से यह चौड़ाई में करीब 14 गुना बड़ा और उम्र में लाखों साल आगे है।</li></ul></div>
       <div class="article-body">
@@ -151,6 +153,6 @@
     </div>
   </footer>
 
-  <script src="/js/main.js"></script>
+  <script src="/js/main.js" defer></script>
 </body>
 </html>

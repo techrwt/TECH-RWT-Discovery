@@ -2,13 +2,15 @@
 <html lang="hi" data-theme="light">
 <head>
   <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-9PS4WX9LXB"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
   gtag('config', 'G-9PS4WX9LXB');
+  // Speed: gtag.js pehle interaction par ya 5 sec baad load hoga (page ki speed block nahi karega)
+  (function(){var l=0;function go(){if(l)return;l=1;var s=document.createElement('script');s.async=true;s.src='https://www.googletagmanager.com/gtag/js?id=G-9PS4WX9LXB';document.head.appendChild(s);}
+  ['scroll','click','touchstart','keydown','mousemove'].forEach(function(e){addEventListener(e,go,{once:true,passive:true});});
+  setTimeout(go,5000);})();
 </script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -102,7 +104,7 @@
         </div>
         <h1 class="article-title">क्या Gaganyaan का पहला मानव-रहित मिशन इसी साल उड़ पाएगा?</h1>
       </div>
-      <img src="/assets/images/gaganyaan-g1-crew-module-ready-launch-date.webp" alt="क्या Gaganyaan का पहला मानव-रहित मिशन इसी साल उड़ पाएगा?" class="article-featured-image" onerror="this.src='/assets/images/sample-space.jpg'">
+      <img src="/assets/images/gaganyaan-g1-crew-module-ready-launch-date.webp" alt="क्या Gaganyaan का पहला मानव-रहित मिशन इसी साल उड़ पाएगा?" class="article-featured-image" fetchpriority="high" decoding="async" onerror="this.src='/assets/images/sample-space.jpg'">
       
       <div class="key-points"><div class="key-points-title">मुख्य बिंदु</div><ul><li>ISRO ने Gaganyaan के पहले मानव-रहित मिशन G1 के क्रू मॉड्यूल की इंटीग्रेशन और टेस्टिंग पूरी की।</li><li>रिपोर्ट के अनुसार G1 नवंबर-दिसंबर 2026 में उड़ सकता है, पर आधिकारिक तारीख घोषित नहीं हुई।</li><li>G1 HLVM3 रॉकेट से उड़ेगा, जो करीब 53 मीटर ऊंचा और लगभग 640 टन वजनी है।</li><li>10 अप्रैल 2026 को क्रू मॉड्यूल का एयर ड्रॉप टेस्ट सफल रहा था।</li><li>G1 में लाइफ सपोर्ट सिस्टम का प्रोटोटाइप जाएगा, पूरा सिस्टम आगे के मिशन से पहले तैयार होगा।</li></ul></div>
       <div class="article-body">
@@ -151,6 +153,6 @@
     </div>
   </footer>
 
-  <script src="/js/main.js"></script>
+  <script src="/js/main.js" defer></script>
 </body>
 </html>

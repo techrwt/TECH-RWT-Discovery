@@ -2,13 +2,15 @@
 <html lang="hi" data-theme="light">
 <head>
   <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-9PS4WX9LXB"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
   gtag('config', 'G-9PS4WX9LXB');
+  // Speed: gtag.js pehle interaction par ya 5 sec baad load hoga (page ki speed block nahi karega)
+  (function(){var l=0;function go(){if(l)return;l=1;var s=document.createElement('script');s.async=true;s.src='https://www.googletagmanager.com/gtag/js?id=G-9PS4WX9LXB';document.head.appendChild(s);}
+  ['scroll','click','touchstart','keydown','mousemove'].forEach(function(e){addEventListener(e,go,{once:true,passive:true});});
+  setTimeout(go,5000);})();
 </script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -102,7 +104,7 @@
         </div>
         <h1 class="article-title">1.5°C की सीमा पार होना अब तय — पर क्या खेल यहीं खत्म हो गया?</h1>
       </div>
-      <img src="/assets/images/climate-overshoot-1-5-degree-unep-report-india.webp" alt="1.5°C की सीमा पार होना अब तय — पर क्या खेल यहीं खत्म हो गया?" class="article-featured-image" onerror="this.src='/assets/images/sample-space.jpg'">
+      <img src="/assets/images/climate-overshoot-1-5-degree-unep-report-india.webp" alt="1.5°C की सीमा पार होना अब तय — पर क्या खेल यहीं खत्म हो गया?" class="article-featured-image" fetchpriority="high" decoding="async" onerror="this.src='/assets/images/sample-space.jpg'">
       
       <div class="key-points"><div class="key-points-title">मुख्य बिंदु</div><ul><li>UNEP की 2 सितंबर 2026 की रिपोर्ट: 1.5°C पार होना लगभग तय, सबसे अच्छे हालात में शिखर करीब 1.8°C।</li><li>कार्बन बजट लगभग 130 अरब टन CO₂ (2026 से) बचा है; सालाना ~40 अरब टन पर हमारा हिसाब: करीब 3 साल।</li><li>दुनिया आज हर साल करीब 2.2 अरब टन CO₂ हटाती है, लगभग सब ज़मीनी तरीकों से; यह कटौती का विकल्प नहीं।</li><li>भारत में 2025 में चरम मौसम 99% दिनों में दर्ज हुआ और 4,419 मौतें हुईं (CSE)।</li><li>भारत का NDC 3.0 उत्सर्जन तीव्रता पर है (2035 तक 47% कमी), कुल उत्सर्जन की सीमा पर नहीं।</li></ul></div>
       <div class="article-body">
@@ -151,6 +153,6 @@
     </div>
   </footer>
 
-  <script src="/js/main.js"></script>
+  <script src="/js/main.js" defer></script>
 </body>
 </html>

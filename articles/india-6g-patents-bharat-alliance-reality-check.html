@@ -2,13 +2,15 @@
 <html lang="hi" data-theme="light">
 <head>
   <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-9PS4WX9LXB"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
   gtag('config', 'G-9PS4WX9LXB');
+  // Speed: gtag.js pehle interaction par ya 5 sec baad load hoga (page ki speed block nahi karega)
+  (function(){var l=0;function go(){if(l)return;l=1;var s=document.createElement('script');s.async=true;s.src='https://www.googletagmanager.com/gtag/js?id=G-9PS4WX9LXB';document.head.appendChild(s);}
+  ['scroll','click','touchstart','keydown','mousemove'].forEach(function(e){addEventListener(e,go,{once:true,passive:true});});
+  setTimeout(go,5000);})();
 </script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -102,7 +104,7 @@
         </div>
         <h1 class="article-title">7,700 6G Patent फाइल हो गए, पर असली नेटवर्क अभी कोसों दूर है</h1>
       </div>
-      <img src="/assets/images/india-6g-patents-bharat-alliance-reality-check.webp" alt="7,700 6G Patent फाइल हो गए, पर असली नेटवर्क अभी कोसों दूर है" class="article-featured-image" onerror="this.src='/assets/images/sample-space.jpg'">
+      <img src="/assets/images/india-6g-patents-bharat-alliance-reality-check.webp" alt="7,700 6G Patent फाइल हो गए, पर असली नेटवर्क अभी कोसों दूर है" class="article-featured-image" fetchpriority="high" decoding="async" onerror="this.src='/assets/images/sample-space.jpg'">
       
       <div class="key-points"><div class="key-points-title">मुख्य बिंदु</div><ul><li>Patrika (21 सितंबर 2026): Bharat 6G Alliance संस्थाओं के पास 7,700+ पेटेंट, इनमें 4,400+ विदेशी फाइलिंग।</li><li>मार्च 2026 में संसद में बताए ~4,000 पेटेंट से अगस्त 2026 तक यह आंकड़ा लगभग दोगुना, करीब 90% बढ़ा।</li><li>IIT मद्रास, गुवाहाटी और पटना के टेराहर्ट्ज़ टेस्टबेड ने 270 GHz पर 6,400 Mbps लाइन-ऑफ-साइट लिंक दिखाया।</li><li>सितंबर 2026 में भारत अमेरिका सहित 24+ देशों के '6G Leadership and Security' गठबंधन में शामिल हुआ।</li><li>सरकार का लक्ष्य 2030 तक वैश्विक 6G पेटेंट में 10% हिस्सेदारी है, पर व्यावसायिक नेटवर्क अभी वर्षों दूर है।</li></ul></div>
       <div class="article-body">
@@ -151,6 +153,6 @@
     </div>
   </footer>
 
-  <script src="/js/main.js"></script>
+  <script src="/js/main.js" defer></script>
 </body>
 </html>

@@ -2,13 +2,15 @@
 <html lang="hi" data-theme="light">
 <head>
   <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-9PS4WX9LXB"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
   gtag('config', 'G-9PS4WX9LXB');
+  // Speed: gtag.js pehle interaction par ya 5 sec baad load hoga (page ki speed block nahi karega)
+  (function(){var l=0;function go(){if(l)return;l=1;var s=document.createElement('script');s.async=true;s.src='https://www.googletagmanager.com/gtag/js?id=G-9PS4WX9LXB';document.head.appendChild(s);}
+  ['scroll','click','touchstart','keydown','mousemove'].forEach(function(e){addEventListener(e,go,{once:true,passive:true});});
+  setTimeout(go,5000);})();
 </script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -102,7 +104,7 @@
         </div>
         <h1 class="article-title">IIT मंडी का SPOT-Face AI: खोपड़ी के X-ray से चेहरे, पहली रैंक पर 50%</h1>
       </div>
-      <img src="/assets/images/iit-mandi-spot-face-ai-skull-xray-face-matching.webp" alt="IIT मंडी का SPOT-Face AI: खोपड़ी के X-ray से चेहरे, पहली रैंक पर 50%" class="article-featured-image" onerror="this.src='/assets/images/sample-space.jpg'">
+      <img src="/assets/images/iit-mandi-spot-face-ai-skull-xray-face-matching.webp" alt="IIT मंडी का SPOT-Face AI: खोपड़ी के X-ray से चेहरे, पहली रैंक पर 50%" class="article-featured-image" fetchpriority="high" decoding="async" onerror="this.src='/assets/images/sample-space.jpg'">
       
       <div class="key-points"><div class="key-points-title">मुख्य बिंदु</div><ul><li>IIT मंडी का SPOT-Face खोपड़ी के X-ray और चेहरे की तस्वीरों का मिलान कर संभावित चेहरों की सूची देता है।</li><li>भारतीय खोपड़ी-चेहरा डेटासेट पर सही चेहरा पहली रैंक पर 50% और शीर्ष पांच में 72% मामलों में आया।</li><li>स्केच-चेहरा डेटासेट पर पहली रैंक की दर 88.4% रही; खोपड़ी से मिलान शोधपत्र के अनुसार कठिन है।</li><li>परीक्षण भाग छोटा है: 102 जोड़ियों का करीब 10%, इसलिए 50% का आंकड़ा बड़े डेटा पर बदल सकता है।</li><li>यह पहचान की पुष्टि का स्वतंत्र विकल्प नहीं, जांच का दायरा छोटा करने वाला सहायक औजार है।</li></ul></div>
       <div class="article-body">
@@ -151,6 +153,6 @@
     </div>
   </footer>
 
-  <script src="/js/main.js"></script>
+  <script src="/js/main.js" defer></script>
 </body>
 </html>

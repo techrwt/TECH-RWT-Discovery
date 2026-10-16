@@ -2,13 +2,15 @@
 <html lang="hi" data-theme="light">
 <head>
   <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-9PS4WX9LXB"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
   gtag('config', 'G-9PS4WX9LXB');
+  // Speed: gtag.js pehle interaction par ya 5 sec baad load hoga (page ki speed block nahi karega)
+  (function(){var l=0;function go(){if(l)return;l=1;var s=document.createElement('script');s.async=true;s.src='https://www.googletagmanager.com/gtag/js?id=G-9PS4WX9LXB';document.head.appendChild(s);}
+  ['scroll','click','touchstart','keydown','mousemove'].forEach(function(e){addEventListener(e,go,{once:true,passive:true});});
+  setTimeout(go,5000);})();
 </script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -102,7 +104,7 @@
         </div>
         <h1 class="article-title">Microsoft का हैदराबाद Data Center शुरू हुआ, पर सरकार की सलाह कुछ और है</h1>
       </div>
-      <img src="/assets/images/microsoft-hyderabad-data-center-india-ai.webp" alt="Microsoft का हैदराबाद Data Center शुरू हुआ, पर सरकार की सलाह कुछ और है" class="article-featured-image" onerror="this.src='/assets/images/sample-space.jpg'">
+      <img src="/assets/images/microsoft-hyderabad-data-center-india-ai.webp" alt="Microsoft का हैदराबाद Data Center शुरू हुआ, पर सरकार की सलाह कुछ और है" class="article-featured-image" fetchpriority="high" decoding="async" onerror="this.src='/assets/images/sample-space.jpg'">
       
       <div class="key-points"><div class="key-points-title">मुख्य बिंदु</div><ul><li>Microsoft के अनुसार 21 सितंबर 2026 को हैदराबाद में भारत का चौथा Azure रीजन लाइव हुआ, तीन zones के साथ।</li><li>निवेश दिसंबर 2025 के $17.5 अरब से बढ़कर सितंबर 2026 में $20.5 अरब हुआ, कंपनी के बयानों के अनुसार।</li><li>MeitY सचिव Krishnan ने कहा: आगे डेटा सेंटर बिजली उत्पादन केंद्रों के पास बनें, केबल लैंडिंग के पास नहीं।</li><li>Microsoft का दावा: रीजन 'effectively zero water' कूलिंग पर चलता है; स्वतंत्र पुष्टि अभी नहीं है।</li><li>BCG स्टडी के अनुसार भारत का डेटा सेंटर निर्माण 2030 तक $140-200 अरब का आर्थिक असर बना सकता है।</li></ul></div>
       <div class="article-body">
@@ -151,6 +153,6 @@
     </div>
   </footer>
 
-  <script src="/js/main.js"></script>
+  <script src="/js/main.js" defer></script>
 </body>
 </html>

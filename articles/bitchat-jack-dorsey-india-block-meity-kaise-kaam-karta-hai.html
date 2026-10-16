@@ -2,13 +2,15 @@
 <html lang="hi" data-theme="light">
 <head>
   <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-9PS4WX9LXB"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
   gtag('config', 'G-9PS4WX9LXB');
+  // Speed: gtag.js pehle interaction par ya 5 sec baad load hoga (page ki speed block nahi karega)
+  (function(){var l=0;function go(){if(l)return;l=1;var s=document.createElement('script');s.async=true;s.src='https://www.googletagmanager.com/gtag/js?id=G-9PS4WX9LXB';document.head.appendChild(s);}
+  ['scroll','click','touchstart','keydown','mousemove'].forEach(function(e){addEventListener(e,go,{once:true,passive:true});});
+  setTimeout(go,5000);})();
 </script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -102,7 +104,7 @@
         </div>
         <h1 class="article-title">Jack Dorsey का Bitchat भारत में ब्लॉक: MeitY ऑर्डर की कहानी</h1>
       </div>
-      <img src="/assets/images/bitchat-jack-dorsey-india-block-meity-kaise-kaam-karta-hai.webp" alt="Jack Dorsey का Bitchat भारत में ब्लॉक: MeitY ऑर्डर की कहानी" class="article-featured-image" onerror="this.src='/assets/images/sample-space.jpg'">
+      <img src="/assets/images/bitchat-jack-dorsey-india-block-meity-kaise-kaam-karta-hai.webp" alt="Jack Dorsey का Bitchat भारत में ब्लॉक: MeitY ऑर्डर की कहानी" class="article-featured-image" fetchpriority="high" decoding="async" onerror="this.src='/assets/images/sample-space.jpg'">
       
       <div class="key-points"><div class="key-points-title">मुख्य बिंदु</div><ul><li>Bitchat Bluetooth mesh नेटवर्क से बिना इंटरनेट या सिम के फ़ोन-दर-फ़ोन मैसेज भेजता है।</li><li>3 अक्टूबर 2026 को Apple ने MeitY के Section 69A आदेश पर इसे भारत के App Store से हटाया।</li><li>जुलाई 2026 में सरकार ने पहले ही GitHub को Bitchat का source code हटाने को कहा था।</li><li>फ़रवरी 2026 में चीन भी Bitchat को अपने App Store से हटवा चुका है, अलग वजह बताकर।</li><li>Internet Freedom Foundation ने जुलाई के आदेश को 'असंवैधानिक और सत्तावादी' बताया था।</li></ul></div>
       <div class="article-body">
@@ -151,6 +153,6 @@
     </div>
   </footer>
 
-  <script src="/js/main.js"></script>
+  <script src="/js/main.js" defer></script>
 </body>
 </html>

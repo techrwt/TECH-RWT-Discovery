@@ -2,13 +2,15 @@
 <html lang="hi" data-theme="light">
 <head>
   <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-9PS4WX9LXB"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
   gtag('config', 'G-9PS4WX9LXB');
+  // Speed: gtag.js pehle interaction par ya 5 sec baad load hoga (page ki speed block nahi karega)
+  (function(){var l=0;function go(){if(l)return;l=1;var s=document.createElement('script');s.async=true;s.src='https://www.googletagmanager.com/gtag/js?id=G-9PS4WX9LXB';document.head.appendChild(s);}
+  ['scroll','click','touchstart','keydown','mousemove'].forEach(function(e){addEventListener(e,go,{once:true,passive:true});});
+  setTimeout(go,5000);})();
 </script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -102,7 +104,7 @@
         </div>
         <h1 class="article-title">सिर्फ 3 कणों में मिला चांद का नया चुंबकीय लोहा, γ-Fe</h1>
       </div>
-      <img src="/assets/images/change6-gamma-iron-lunar-magnetic-mineral-chandrayaan-4.webp" alt="सिर्फ 3 कणों में मिला चांद का नया चुंबकीय लोहा, γ-Fe" class="article-featured-image" onerror="this.src='/assets/images/sample-space.jpg'">
+      <img src="/assets/images/change6-gamma-iron-lunar-magnetic-mineral-chandrayaan-4.webp" alt="सिर्फ 3 कणों में मिला चांद का नया चुंबकीय लोहा, γ-Fe" class="article-featured-image" fetchpriority="high" decoding="async" onerror="this.src='/assets/images/sample-space.jpg'">
       
       <div class="key-points"><div class="key-points-title">मुख्य बिंदु</div><ul><li>Chang'e-6 सैंपल के 3 कणों में पहली बार चांद की मिट्टी में γ-Fe नाम का चुंबकीय लोहा मिला (PNAS, 2026)।</li><li>यह खोज चांद के दक्षिणी ध्रुव के पास, South Pole-Aitken Basin से लाए गए सैंपल में हुई।</li><li>γ-Fe सामान्य रूप से सिर्फ बहुत ज़्यादा गर्मी में टिकता है; चांद की सतह पर इसका मिलना असाधारण है।</li><li>बड़े γ-Fe कणों में स्थिर चुंबकीय 'वर्टेक्स' पाया गया, जो चांद के पुराने चुंबकीय इतिहास को दर्ज रख सकता है।</li><li>भारत भी Chandrayaan-4 मिशन से चांद के दक्षिणी ध्रुव से सैंपल लाने की तैयारी में है, बजट ₹2,104 करोड़।</li></ul></div>
       <div class="article-body">
@@ -151,6 +153,6 @@
     </div>
   </footer>
 
-  <script src="/js/main.js"></script>
+  <script src="/js/main.js" defer></script>
 </body>
 </html>

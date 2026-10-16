@@ -2,13 +2,15 @@
 <html lang="hi" data-theme="light">
 <head>
   <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-9PS4WX9LXB"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
   gtag('config', 'G-9PS4WX9LXB');
+  // Speed: gtag.js pehle interaction par ya 5 sec baad load hoga (page ki speed block nahi karega)
+  (function(){var l=0;function go(){if(l)return;l=1;var s=document.createElement('script');s.async=true;s.src='https://www.googletagmanager.com/gtag/js?id=G-9PS4WX9LXB';document.head.appendChild(s);}
+  ['scroll','click','touchstart','keydown','mousemove'].forEach(function(e){addEventListener(e,go,{once:true,passive:true});});
+  setTimeout(go,5000);})();
 </script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -102,7 +104,7 @@
         </div>
         <h1 class="article-title">भारत की जलवायु योजना में वायु प्रदूषण नहीं: GCHA स्कोरकार्ड में 2/32</h1>
       </div>
-      <img src="/assets/images/india-ndc-air-pollution-missing-gcha-health-scorecard.webp" alt="भारत की जलवायु योजना में वायु प्रदूषण नहीं: GCHA स्कोरकार्ड में 2/32" class="article-featured-image" onerror="this.src='/assets/images/sample-space.jpg'">
+      <img src="/assets/images/india-ndc-air-pollution-missing-gcha-health-scorecard.webp" alt="भारत की जलवायु योजना में वायु प्रदूषण नहीं: GCHA स्कोरकार्ड में 2/32" class="article-featured-image" fetchpriority="high" decoding="async" onerror="this.src='/assets/images/sample-space.jpg'">
       
       <div class="key-points"><div class="key-points-title">मुख्य बिंदु</div><ul><li>GCHA स्कोरकार्ड (14 अक्टूबर 2026): 117 योजनाओं में भारत को 32 में 2 अंक, जापान-न्यूज़ीलैंड के साथ सबसे नीचे।</li><li>State of Global Air 2025: 2023 में भारत में वायु प्रदूषण से करीब 20 लाख मौतें, 2000 से 43% ज़्यादा।</li><li>The Probe के अनुसार 24 अप्रैल 2026 की भारत की योजना में 'वायु प्रदूषण' या 'वायु गुणवत्ता' शब्द नहीं हैं।</li><li>नेपाल-श्रीलंका को 19, बांग्लादेश 13, पाकिस्तान 12, भूटान 10; वैश्विक औसत स्कोर 11.8 रहा।</li><li>स्कोरकार्ड सिर्फ लिखित योजना आंकता है, ज़मीनी कार्रवाई नहीं; COP31 अंताल्या में 9-20 नवंबर।</li></ul></div>
       <div class="article-body">
@@ -151,6 +153,6 @@
     </div>
   </footer>
 
-  <script src="/js/main.js"></script>
+  <script src="/js/main.js" defer></script>
 </body>
 </html>

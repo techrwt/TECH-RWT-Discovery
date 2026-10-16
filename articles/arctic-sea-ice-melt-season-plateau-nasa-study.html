@@ -2,13 +2,15 @@
 <html lang="hi" data-theme="light">
 <head>
   <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-9PS4WX9LXB"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
   gtag('config', 'G-9PS4WX9LXB');
+  // Speed: gtag.js pehle interaction par ya 5 sec baad load hoga (page ki speed block nahi karega)
+  (function(){var l=0;function go(){if(l)return;l=1;var s=document.createElement('script');s.async=true;s.src='https://www.googletagmanager.com/gtag/js?id=G-9PS4WX9LXB';document.head.appendChild(s);}
+  ['scroll','click','touchstart','keydown','mousemove'].forEach(function(e){addEventListener(e,go,{once:true,passive:true});});
+  setTimeout(go,5000);})();
 </script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -102,7 +104,7 @@
         </div>
         <h1 class="article-title">आर्कटिक की बर्फ पिघलने का मौसम 40 दिन बढ़ा, फिर अचानक थम गया — क्यों?</h1>
       </div>
-      <img src="/assets/images/arctic-sea-ice-melt-season-plateau-nasa-study.webp" alt="आर्कटिक की बर्फ पिघलने का मौसम 40 दिन बढ़ा, फिर अचानक थम गया — क्यों?" class="article-featured-image" onerror="this.src='/assets/images/sample-space.jpg'">
+      <img src="/assets/images/arctic-sea-ice-melt-season-plateau-nasa-study.webp" alt="आर्कटिक की बर्फ पिघलने का मौसम 40 दिन बढ़ा, फिर अचानक थम गया — क्यों?" class="article-featured-image" fetchpriority="high" decoding="async" onerror="this.src='/assets/images/sample-space.jpg'">
       
       <div class="key-points"><div class="key-points-title">मुख्य बिंदु</div><ul><li>NASA स्टडी: आर्कटिक बर्फ पिघलने का मौसम 1979 से करीब 40 दिन लंबा हुआ, ज़्यादातर बढ़ोतरी 2010 से पहले।</li><li>यह बढ़ोतरी मुख्यतः देर से जमने (करीब 34 दिन) से हुई, जल्दी पिघलने (करीब 7 दिन) का हिस्सा कम रहा।</li><li>2010 से 2023 तक औसत मौसम करीब 108 दिन पर टिका, साल-दर-साल ±11 दिन तक हेरफेर के साथ।</li><li>NASA-NSIDC: आर्कटिक बर्फ 12 सितंबर 2026 को सालाना न्यूनतम पर पहुंची, सैटेलाइट रिकॉर्ड में 10वां सबसे कम।</li><li>आर्कटिक बाकी दुनिया से करीब 4 गुना तेज़ गर्म हो रहा है; वैज्ञानिक ठहराव को स्थायी मानने से सतर्क हैं।</li></ul></div>
       <div class="article-body">
@@ -196,6 +198,6 @@
     </div>
   </footer>
 
-  <script src="/js/main.js"></script>
+  <script src="/js/main.js" defer></script>
 </body>
 </html>

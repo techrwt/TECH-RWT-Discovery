@@ -2,13 +2,15 @@
 <html lang="hi" data-theme="light">
 <head>
   <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-9PS4WX9LXB"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
   gtag('config', 'G-9PS4WX9LXB');
+  // Speed: gtag.js pehle interaction par ya 5 sec baad load hoga (page ki speed block nahi karega)
+  (function(){var l=0;function go(){if(l)return;l=1;var s=document.createElement('script');s.async=true;s.src='https://www.googletagmanager.com/gtag/js?id=G-9PS4WX9LXB';document.head.appendChild(s);}
+  ['scroll','click','touchstart','keydown','mousemove'].forEach(function(e){addEventListener(e,go,{once:true,passive:true});});
+  setTimeout(go,5000);})();
 </script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -102,7 +104,7 @@
         </div>
         <h1 class="article-title">Artemis Accords में 75वां देश जुड़ा — चीन-रूस के गुट से यह कितना अलग?</h1>
       </div>
-      <img src="/assets/images/artemis-accords-75-members-vs-ilrs-comparison.webp" alt="Artemis Accords में 75वां देश जुड़ा — चीन-रूस के गुट से यह कितना अलग?" class="article-featured-image" onerror="this.src='/assets/images/sample-space.jpg'">
+      <img src="/assets/images/artemis-accords-75-members-vs-ilrs-comparison.webp" alt="Artemis Accords में 75वां देश जुड़ा — चीन-रूस के गुट से यह कितना अलग?" class="article-featured-image" fetchpriority="high" decoding="async" onerror="this.src='/assets/images/sample-space.jpg'">
       
       <div class="key-points"><div class="key-points-title">मुख्य बिंदु</div><ul><li>24 सितंबर 2026 को कोत दिव्वार Artemis Accords का 75वां सदस्य बना; शुरुआत अक्टूबर 2020 में 8 देशों से हुई थी।</li><li>Artemis Accords द्विपक्षीय समझौतों का सिलसिला है, जबकि चीन-रूस का ILRS एक चरणबद्ध प्रोग्राम ब्लूप्रिंट है।</li><li>2024 में 19, 2025 में सिर्फ 7, और 2026 में अब तक करीब 14 देश Artemis Accords से जुड़े।</li><li>भारत जून 2023 से Artemis Accords का सदस्य है; पड़ोसी पाकिस्तान अक्टूबर 2023 में ILRS से जुड़ा।</li><li>थाईलैंड और सेनेगल जैसे देश दोनों गुटों, Artemis Accords और ILRS दोनों में शामिल हैं।</li></ul></div>
       <div class="article-body">
@@ -212,6 +214,6 @@
     </div>
   </footer>
 
-  <script src="/js/main.js"></script>
+  <script src="/js/main.js" defer></script>
 </body>
 </html>

@@ -2,13 +2,15 @@
 <html lang="hi" data-theme="light">
 <head>
   <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-9PS4WX9LXB"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
   gtag('config', 'G-9PS4WX9LXB');
+  // Speed: gtag.js pehle interaction par ya 5 sec baad load hoga (page ki speed block nahi karega)
+  (function(){var l=0;function go(){if(l)return;l=1;var s=document.createElement('script');s.async=true;s.src='https://www.googletagmanager.com/gtag/js?id=G-9PS4WX9LXB';document.head.appendChild(s);}
+  ['scroll','click','touchstart','keydown','mousemove'].forEach(function(e){addEventListener(e,go,{once:true,passive:true});});
+  setTimeout(go,5000);})();
 </script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -102,7 +104,7 @@
         </div>
         <h1 class="article-title">छुट्टी की एक्सरसाइज़ से डिमेंशिया 24% कम, काम की मेहनत से बढ़ा</h1>
       </div>
-      <img src="/assets/images/physical-activity-paradox-dementia-risk-comparison-india.webp" alt="छुट्टी की एक्सरसाइज़ से डिमेंशिया 24% कम, काम की मेहनत से बढ़ा" class="article-featured-image" onerror="this.src='/assets/images/sample-space.jpg'">
+      <img src="/assets/images/physical-activity-paradox-dementia-risk-comparison-india.webp" alt="छुट्टी की एक्सरसाइज़ से डिमेंशिया 24% कम, काम की मेहनत से बढ़ा" class="article-featured-image" fetchpriority="high" decoding="async" onerror="this.src='/assets/images/sample-space.jpg'">
       
       <div class="key-points"><div class="key-points-title">मुख्य बिंदु</div><ul><li>The Lancet Public Health के विश्लेषण में छुट्टी के वक्त की एक्सरसाइज़ से डिमेंशिया का खतरा 24% कम मिला।</li><li>नौकरी या काम के दौरान की शारीरिक मेहनत (occupational activity) से डिमेंशिया का खतरा 20% ज़्यादा मिला।</li><li>घर के काम से 15% कम खतरा मिला, पर यह सिर्फ एक स्टडी पर आधारित है, इसलिए कम भरोसेमंद है।</li><li>शोधकर्ता इसे 'Physical Activity Paradox' कहते हैं; यह दिल की बीमारी की रिसर्च में भी पहले देखा जा चुका है।</li><li>भारत में 90% वर्कफोर्स अनौपचारिक, मेहनत वाले काम में है; LASI के अनुसार 60+ उम्र में डिमेंशिया दर 7.4% है।</li></ul></div>
       <div class="article-body">
@@ -151,6 +153,6 @@
     </div>
   </footer>
 
-  <script src="/js/main.js"></script>
+  <script src="/js/main.js" defer></script>
 </body>
 </html>

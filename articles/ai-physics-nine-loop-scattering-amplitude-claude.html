@@ -2,13 +2,15 @@
 <html lang="hi" data-theme="light">
 <head>
   <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-9PS4WX9LXB"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
   gtag('config', 'G-9PS4WX9LXB');
+  // Speed: gtag.js pehle interaction par ya 5 sec baad load hoga (page ki speed block nahi karega)
+  (function(){var l=0;function go(){if(l)return;l=1;var s=document.createElement('script');s.async=true;s.src='https://www.googletagmanager.com/gtag/js?id=G-9PS4WX9LXB';document.head.appendChild(s);}
+  ['scroll','click','touchstart','keydown','mousemove'].forEach(function(e){addEventListener(e,go,{once:true,passive:true});});
+  setTimeout(go,5000);})();
 </script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -102,7 +104,7 @@
         </div>
         <h1 class="article-title">क्या AI ने भौतिकी की एक पुरानी गुत्थी सुलझा दी?</h1>
       </div>
-      <img src="/assets/images/ai-physics-nine-loop-scattering-amplitude-claude.webp" alt="क्या AI ने भौतिकी की एक पुरानी गुत्थी सुलझा दी?" class="article-featured-image" onerror="this.src='/assets/images/sample-space.jpg'">
+      <img src="/assets/images/ai-physics-nine-loop-scattering-amplitude-claude.webp" alt="क्या AI ने भौतिकी की एक पुरानी गुत्थी सुलझा दी?" class="article-featured-image" fetchpriority="high" decoding="async" onerror="this.src='/assets/images/sample-space.jpg'">
       
       <div class="key-points"><div class="key-points-title">मुख्य बिंदु</div><ul><li>Anthropic के Claude मॉडल ने अगस्त-सितंबर 2026 में nine-loop scattering amplitude का हिसाब निकाला।</li><li>2011 से 2023 तक इंसान इसी diagram को सिर्फ़ तीन-लूप से आठ-लूप तक ही ले जा पाए थे।</li><li>आठ-लूप रेकॉर्ड बनाने वाले भौतिक विज्ञानी Lance Dixon ने नतीजे की स्वतंत्र पुष्टि की।</li><li>काम सिर्फ़ कुछ हज़ार डॉलर और करीब एक महीने में पूरा हुआ, एक ही वाक्य के निर्देश से।</li><li>Chinese Academy of Sciences के Song He के समूह ने भी अलग से लगभग वही नतीजा पाया था।</li></ul></div>
       <div class="article-body">
@@ -151,6 +153,6 @@
     </div>
   </footer>
 
-  <script src="/js/main.js"></script>
+  <script src="/js/main.js" defer></script>
 </body>
 </html>

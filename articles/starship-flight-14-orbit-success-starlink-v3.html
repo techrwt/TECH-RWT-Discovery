@@ -2,13 +2,15 @@
 <html lang="hi" data-theme="light">
 <head>
   <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-9PS4WX9LXB"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
   gtag('config', 'G-9PS4WX9LXB');
+  // Speed: gtag.js pehle interaction par ya 5 sec baad load hoga (page ki speed block nahi karega)
+  (function(){var l=0;function go(){if(l)return;l=1;var s=document.createElement('script');s.async=true;s.src='https://www.googletagmanager.com/gtag/js?id=G-9PS4WX9LXB';document.head.appendChild(s);}
+  ['scroll','click','touchstart','keydown','mousemove'].forEach(function(e){addEventListener(e,go,{once:true,passive:true});});
+  setTimeout(go,5000);})();
 </script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -102,7 +104,7 @@
         </div>
         <h1 class="article-title">Starship 13 बार Suborbital रहा, Flight 14 में Orbit तक पहुंचा</h1>
       </div>
-      <img src="/assets/images/starship-flight-14-orbit-success-starlink-v3.webp" alt="Starship 13 बार Suborbital रहा, Flight 14 में Orbit तक पहुंचा" class="article-featured-image" onerror="this.src='/assets/images/sample-space.jpg'">
+      <img src="/assets/images/starship-flight-14-orbit-success-starlink-v3.webp" alt="Starship 13 बार Suborbital रहा, Flight 14 में Orbit तक पहुंचा" class="article-featured-image" fetchpriority="high" decoding="async" onerror="this.src='/assets/images/sample-space.jpg'">
       
       <div class="key-points"><div class="key-points-title">मुख्य बिंदु</div><ul><li>Starship Flight 14, 28 सितंबर 2026 को, पहली बार असली ऑर्बिट तक पहुंचा, पहले की 13 उड़ानें जानबूझकर सबऑर्बिटल थीं।</li><li>Ship 41 ने करीब 170 मील (लगभग 275 किमी) की ऊंचाई पर 26 Starlink V3 सैटेलाइट तैनात किए, यह Starship की पहली व्यावसायिक उड़ान रही।</li><li>चढ़ाई में एक Raptor Vacuum इंजन समय से पहले बंद हुआ, फिर भी जहाज ऑर्बिट में पहुंचा।</li><li>मिशन करीब 10 घंटे की योजना के बजाय लगभग 3 घंटे में खत्म हुआ, Ship हवाई के उत्तर में प्रशांत महासागर में उतरा।</li><li>कंपनी के अनुसार 26 V3 सैटेलाइट करीब 26 Tbps क्षमता जोड़ते हैं, पर दोहराव और दोबारा इस्तेमाल अभी साबित होना बाकी है।</li></ul></div>
       <div class="article-body">
@@ -151,6 +153,6 @@
     </div>
   </footer>
 
-  <script src="/js/main.js"></script>
+  <script src="/js/main.js" defer></script>
 </body>
 </html>

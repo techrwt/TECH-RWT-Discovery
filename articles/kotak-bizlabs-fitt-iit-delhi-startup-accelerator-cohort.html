@@ -2,13 +2,15 @@
 <html lang="hi" data-theme="light">
 <head>
   <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-9PS4WX9LXB"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
   gtag('config', 'G-9PS4WX9LXB');
+  // Speed: gtag.js pehle interaction par ya 5 sec baad load hoga (page ki speed block nahi karega)
+  (function(){var l=0;function go(){if(l)return;l=1;var s=document.createElement('script');s.async=true;s.src='https://www.googletagmanager.com/gtag/js?id=G-9PS4WX9LXB';document.head.appendChild(s);}
+  ['scroll','click','touchstart','keydown','mousemove'].forEach(function(e){addEventListener(e,go,{once:true,passive:true});});
+  setTimeout(go,5000);})();
 </script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -102,7 +104,7 @@
         </div>
         <h1 class="article-title">IIT Delhi के Accelerator से निकलीं 6 दमदार भारतीय Startups</h1>
       </div>
-      <img src="/assets/images/kotak-bizlabs-fitt-iit-delhi-startup-accelerator-cohort.webp" alt="IIT Delhi के Accelerator से निकलीं 6 दमदार भारतीय Startups" class="article-featured-image" onerror="this.src='/assets/images/sample-space.jpg'">
+      <img src="/assets/images/kotak-bizlabs-fitt-iit-delhi-startup-accelerator-cohort.webp" alt="IIT Delhi के Accelerator से निकलीं 6 दमदार भारतीय Startups" class="article-featured-image" fetchpriority="high" decoding="async" onerror="this.src='/assets/images/sample-space.jpg'">
       
       <div class="key-points"><div class="key-points-title">मुख्य बिंदु</div><ul><li>Kotak BizLabs के FITT-IIT Delhi संग दूसरे Cohort में 15 स्टार्टअप्स ने 6 महीने का एक्सेलेरेशन पूरा किया।</li><li>Pradivya Software ने रेलवे को कटरा साइट सौंपी, ऑर्डर पाइपलाइन ₹8 करोड़ से ऊपर पहुंची।</li><li>Easiofy Solutions के कैंसर-थेरेपी AI को TiEcon Silicon Valley 2026 में TiE50 ग्लोबल अवॉर्ड मिला।</li><li>Open Spectrum AI ने हिम्मतनगर के अनार बाग में 60 लाख लीटर पानी बचाने का दावा किया।</li><li>पहले Cohort में 1,500+ आवेदन आए थे, 55 स्टार्टअप्स accelerate हुए, तीसरे Cohort के आवेदन अब खुले हैं।</li></ul></div>
       <div class="article-body">
@@ -151,6 +153,6 @@
     </div>
   </footer>
 
-  <script src="/js/main.js"></script>
+  <script src="/js/main.js" defer></script>
 </body>
 </html>

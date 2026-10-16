@@ -2,13 +2,15 @@
 <html lang="hi" data-theme="light">
 <head>
   <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-9PS4WX9LXB"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
   gtag('config', 'G-9PS4WX9LXB');
+  // Speed: gtag.js pehle interaction par ya 5 sec baad load hoga (page ki speed block nahi karega)
+  (function(){var l=0;function go(){if(l)return;l=1;var s=document.createElement('script');s.async=true;s.src='https://www.googletagmanager.com/gtag/js?id=G-9PS4WX9LXB';document.head.appendChild(s);}
+  ['scroll','click','touchstart','keydown','mousemove'].forEach(function(e){addEventListener(e,go,{once:true,passive:true});});
+  setTimeout(go,5000);})();
 </script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -102,7 +104,7 @@
         </div>
         <h1 class="article-title">Google अपने AI Chips को Space में भेज रहा है — पूरी सच्चाई क्या है?</h1>
       </div>
-      <img src="/assets/images/google-project-suncatcher-tpu-space-launch.webp" alt="Google अपने AI Chips को Space में भेज रहा है — पूरी सच्चाई क्या है?" class="article-featured-image" onerror="this.src='/assets/images/sample-space.jpg'">
+      <img src="/assets/images/google-project-suncatcher-tpu-space-launch.webp" alt="Google अपने AI Chips को Space में भेज रहा है — पूरी सच्चाई क्या है?" class="article-featured-image" fetchpriority="high" decoding="async" onerror="this.src='/assets/images/sample-space.jpg'">
       
       <div class="key-points"><div class="key-points-title">मुख्य बिंदु</div><ul><li>Google 1 अक्टूबर 2026 को MVP सैटेलाइट लॉन्च करेगा, जिसमें सिर्फ 4 Trillium TPU और 1 kW सोलर पावर है।</li><li>स्पेस में हवा नहीं होती, इसलिए ठंडा करना धरती से आसान नहीं बल्कि कठिन इंजीनियरिंग चुनौती है।</li><li>TPU ने UC Davis लैब में 5 साल के स्पेस मिशन जितनी रेडिएशन बिना नुकसान के झेल ली।</li><li>भारत की Pixxel-Sarvam Pathfinder सैटेलाइट भी 2026 की चौथी तिमाही में लॉन्च होने वाली है।</li><li>प्रतिद्वंद्वी कंपनी Starcloud अगस्त 2026 में 2.3 अरब डॉलर वैल्यूएशन तक पहुंच चुकी है।</li></ul></div>
       <div class="article-body">
@@ -151,6 +153,6 @@
     </div>
   </footer>
 
-  <script src="/js/main.js"></script>
+  <script src="/js/main.js" defer></script>
 </body>
 </html>

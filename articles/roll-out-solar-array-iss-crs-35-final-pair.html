@@ -2,13 +2,15 @@
 <html lang="hi" data-theme="light">
 <head>
   <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-9PS4WX9LXB"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
   gtag('config', 'G-9PS4WX9LXB');
+  // Speed: gtag.js pehle interaction par ya 5 sec baad load hoga (page ki speed block nahi karega)
+  (function(){var l=0;function go(){if(l)return;l=1;var s=document.createElement('script');s.async=true;s.src='https://www.googletagmanager.com/gtag/js?id=G-9PS4WX9LXB';document.head.appendChild(s);}
+  ['scroll','click','touchstart','keydown','mousemove'].forEach(function(e){addEventListener(e,go,{once:true,passive:true});});
+  setTimeout(go,5000);})();
 </script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -102,7 +104,7 @@
         </div>
         <h1 class="article-title">SpaceX CRS-35 रवाना: ISS के आख़िरी दो Roll-Out Solar Array रास्ते में</h1>
       </div>
-      <img src="/assets/images/roll-out-solar-array-iss-crs-35-final-pair.webp" alt="SpaceX CRS-35 रवाना: ISS के आख़िरी दो Roll-Out Solar Array रास्ते में" class="article-featured-image" onerror="this.src='/assets/images/sample-space.jpg'">
+      <img src="/assets/images/roll-out-solar-array-iss-crs-35-final-pair.webp" alt="SpaceX CRS-35 रवाना: ISS के आख़िरी दो Roll-Out Solar Array रास्ते में" class="article-featured-image" fetchpriority="high" decoding="async" onerror="this.src='/assets/images/sample-space.jpg'">
       
       <div class="key-points"><div class="key-points-title">मुख्य बिंदु</div><ul><li>CRS-35 ने 13 अक्टूबर 2026 को ISS के लिए आख़िरी दो iROSA पैनल रवाना किए।</li><li>ROSA नापने वाले टेप की तरह लिपटकर जाता है और composite booms की ऊर्जा से खुद खुलता है।</li><li>NASASpaceFlight के अनुसार हर पैनल 20 से 28 kW बिजली देता है; 6 पैनल पहले लग चुके हैं।</li><li>Dragon की डॉकिंग 15 अक्टूबर, 15:00 UTC (रात 8:30 IST) को तय है; पैनल बाद में स्पेसवॉक से लगेंगे।</li><li>पैनल पुराने ऐरे को हटाते नहीं, उनके सामने फैलकर स्टेशन का बिजली-मार्जिन बढ़ाते हैं।</li></ul></div>
       <div class="article-body">
@@ -151,6 +153,6 @@
     </div>
   </footer>
 
-  <script src="/js/main.js"></script>
+  <script src="/js/main.js" defer></script>
 </body>
 </html>

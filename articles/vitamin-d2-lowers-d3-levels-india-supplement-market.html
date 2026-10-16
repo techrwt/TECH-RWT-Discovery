@@ -2,13 +2,15 @@
 <html lang="hi" data-theme="light">
 <head>
   <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-9PS4WX9LXB"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
   gtag('config', 'G-9PS4WX9LXB');
+  // Speed: gtag.js pehle interaction par ya 5 sec baad load hoga (page ki speed block nahi karega)
+  (function(){var l=0;function go(){if(l)return;l=1;var s=document.createElement('script');s.async=true;s.src='https://www.googletagmanager.com/gtag/js?id=G-9PS4WX9LXB';document.head.appendChild(s);}
+  ['scroll','click','touchstart','keydown','mousemove'].forEach(function(e){addEventListener(e,go,{once:true,passive:true});});
+  setTimeout(go,5000);})();
 </script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -102,7 +104,7 @@
         </div>
         <h1 class="article-title">Vitamin D2 Supplement से घट सकता है D3 का स्तर: नई स्टडी</h1>
       </div>
-      <img src="/assets/images/vitamin-d2-lowers-d3-levels-india-supplement-market.webp" alt="Vitamin D2 Supplement से घट सकता है D3 का स्तर: नई स्टडी" class="article-featured-image" onerror="this.src='/assets/images/sample-space.jpg'">
+      <img src="/assets/images/vitamin-d2-lowers-d3-levels-india-supplement-market.webp" alt="Vitamin D2 Supplement से घट सकता है D3 का स्तर: नई स्टडी" class="article-featured-image" fetchpriority="high" decoding="async" onerror="this.src='/assets/images/sample-space.jpg'">
       
       <div class="key-points"><div class="key-points-title">मुख्य बिंदु</div><ul><li>Nutrition Reviews में प्रकाशित 26 ट्रायल के विश्लेषण में पाया गया: Vitamin D2 लेने से D3 का स्तर घट सकता है।</li><li>Vitamin D3, धूप से बनने वाला प्राकृतिक रूप, D2 से ज़्यादा असरदार और लंबे समय तक टिकने वाला माना जाता है।</li><li>एक अलग स्टडी में सिर्फ D3, न कि D2, ने इम्यून सिस्टम के एक अहम हिस्से को सक्रिय करते देखा गया।</li><li>भारत में बिकने वाली ज़्यादातर Vitamin D सप्लीमेंट D3 (cholecalciferol) के सैशे हैं, D2 वाली दवाएं बहुत कम हैं।</li><li>इसके बावजूद भारत में 70-90% आबादी धूप भरपूर होने के बाद भी Vitamin D की कमी से जूझती है।</li></ul></div>
       <div class="article-body">
@@ -151,6 +153,6 @@
     </div>
   </footer>
 
-  <script src="/js/main.js"></script>
+  <script src="/js/main.js" defer></script>
 </body>
 </html>

@@ -2,13 +2,15 @@
 <html lang="hi" data-theme="light">
 <head>
   <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-9PS4WX9LXB"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
   gtag('config', 'G-9PS4WX9LXB');
+  // Speed: gtag.js pehle interaction par ya 5 sec baad load hoga (page ki speed block nahi karega)
+  (function(){var l=0;function go(){if(l)return;l=1;var s=document.createElement('script');s.async=true;s.src='https://www.googletagmanager.com/gtag/js?id=G-9PS4WX9LXB';document.head.appendChild(s);}
+  ['scroll','click','touchstart','keydown','mousemove'].forEach(function(e){addEventListener(e,go,{once:true,passive:true});});
+  setTimeout(go,5000);})();
 </script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -102,7 +104,7 @@
         </div>
         <h1 class="article-title">63°C की गर्मी में भी ज़िंदा मिली यह Amoeba — पुराना रिकॉर्ड टूटा</h1>
       </div>
-      <img src="/assets/images/fire-amoeba-63-celsius-eukaryote-heat-record.webp" alt="63°C की गर्मी में भी ज़िंदा मिली यह Amoeba — पुराना रिकॉर्ड टूटा" class="article-featured-image" onerror="this.src='/assets/images/sample-space.jpg'">
+      <img src="/assets/images/fire-amoeba-63-celsius-eukaryote-heat-record.webp" alt="63°C की गर्मी में भी ज़िंदा मिली यह Amoeba — पुराना रिकॉर्ड टूटा" class="article-featured-image" fetchpriority="high" decoding="async" onerror="this.src='/assets/images/sample-space.jpg'">
       
       <div class="key-points"><div class="key-points-title">मुख्य बिंदु</div><ul><li>California में मिली एक अमीबा 63°C पर भी कोशिका बांटती है (Cell journal, 22 सितंबर 2026)।</li><li>पहले किसी eukaryote का दर्ज रिकॉर्ड सिर्फ 57°C तक था; 60-62°C को सैद्धांतिक ऊपरी सीमा माना जाता था।</li><li>Syracuse University की टीम ने इसे खोजा, नाम रखा Incendiamoeba cascadensis यानी 'fire amoeba'।</li><li>64°C से ऊपर यह अमीबा सुस्त cyst बन जाती है, 60°C पर लौटते ही फिर सामान्य हो जाती है; 80°C पर मर जाती है।</li><li>भारत में करीब 400 गर्म पानी के स्रोत हैं, सिर्फ 28 पर स्टडी हुई; यूकैरियोट पर शोध लगभग नहीं हुआ।</li></ul></div>
       <div class="article-body">
@@ -151,6 +153,6 @@
     </div>
   </footer>
 
-  <script src="/js/main.js"></script>
+  <script src="/js/main.js" defer></script>
 </body>
 </html>

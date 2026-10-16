@@ -2,13 +2,15 @@
 <html lang="hi" data-theme="light">
 <head>
   <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-9PS4WX9LXB"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
   gtag('config', 'G-9PS4WX9LXB');
+  // Speed: gtag.js pehle interaction par ya 5 sec baad load hoga (page ki speed block nahi karega)
+  (function(){var l=0;function go(){if(l)return;l=1;var s=document.createElement('script');s.async=true;s.src='https://www.googletagmanager.com/gtag/js?id=G-9PS4WX9LXB';document.head.appendChild(s);}
+  ['scroll','click','touchstart','keydown','mousemove'].forEach(function(e){addEventListener(e,go,{once:true,passive:true});});
+  setTimeout(go,5000);})();
 </script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -102,7 +104,7 @@
         </div>
         <h1 class="article-title">5.56 km हवा में Quantum Key: पिछले 1 km ट्रायल से लगभग 5 गुना दूर</h1>
       </div>
-      <img src="/assets/images/free-space-qkd-india-5-56-km-qnu-labs.webp" alt="5.56 km हवा में Quantum Key: पिछले 1 km ट्रायल से लगभग 5 गुना दूर" class="article-featured-image" onerror="this.src='/assets/images/sample-space.jpg'">
+      <img src="/assets/images/free-space-qkd-india-5-56-km-qnu-labs.webp" alt="5.56 km हवा में Quantum Key: पिछले 1 km ट्रायल से लगभग 5 गुना दूर" class="article-featured-image" fetchpriority="high" decoding="async" onerror="this.src='/assets/images/sample-space.jpg'">
       
       <div class="key-points"><div class="key-points-title">मुख्य बिंदु</div><ul><li>27-28 सितंबर 2026 की रात 5.56 km के free-space QKD लिंक का ट्रायल हुआ।</li><li>Raksha Anirveda के अनुसार चाबी की दर 230-260 bps और त्रुटि दर 5% से कम रही।</li><li>जून 2025 के DRDO-IIT दिल्ली प्रयोग में दूरी 1 km से कुछ ज़्यादा थी।</li><li>QKD के साथ BISAG-N की PQC परत जोड़ी गई, ताकि एक परत टूटे तो दूसरी बचे।</li><li>ट्रायल एक रात का था; मौसम और लंबे समय की निरंतरता के आंकड़े अभी नहीं हैं।</li></ul></div>
       <div class="article-body">
@@ -151,6 +153,6 @@
     </div>
   </footer>
 
-  <script src="/js/main.js"></script>
+  <script src="/js/main.js" defer></script>
 </body>
 </html>

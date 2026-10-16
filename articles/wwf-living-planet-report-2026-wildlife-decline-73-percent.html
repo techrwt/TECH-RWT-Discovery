@@ -2,13 +2,15 @@
 <html lang="hi" data-theme="light">
 <head>
   <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-9PS4WX9LXB"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
   gtag('config', 'G-9PS4WX9LXB');
+  // Speed: gtag.js pehle interaction par ya 5 sec baad load hoga (page ki speed block nahi karega)
+  (function(){var l=0;function go(){if(l)return;l=1;var s=document.createElement('script');s.async=true;s.src='https://www.googletagmanager.com/gtag/js?id=G-9PS4WX9LXB';document.head.appendChild(s);}
+  ['scroll','click','touchstart','keydown','mousemove'].forEach(function(e){addEventListener(e,go,{once:true,passive:true});});
+  setTimeout(go,5000);})();
 </script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -102,7 +104,7 @@
         </div>
         <h1 class="article-title">वन्यजीव आबादी औसतन 73% घटी, एशिया-प्रशांत में 49%: WWF रिपोर्ट</h1>
       </div>
-      <img src="/assets/images/wwf-living-planet-report-2026-wildlife-decline-73-percent.webp" alt="वन्यजीव आबादी औसतन 73% घटी, एशिया-प्रशांत में 49%: WWF रिपोर्ट" class="article-featured-image" onerror="this.src='/assets/images/sample-space.jpg'">
+      <img src="/assets/images/wwf-living-planet-report-2026-wildlife-decline-73-percent.webp" alt="वन्यजीव आबादी औसतन 73% घटी, एशिया-प्रशांत में 49%: WWF रिपोर्ट" class="article-featured-image" fetchpriority="high" decoding="async" onerror="this.src='/assets/images/sample-space.jpg'">
       
       <div class="key-points"><div class="key-points-title">मुख्य बिंदु</div><ul><li>WWF-ZSL: 1970-2022 में निगरानी वाली 5,790 प्रजातियों की आबादी औसतन 73% घटी।</li><li>क्षेत्रवार गिरावट: लैटिन अमेरिका 95%, अफ्रीका 80%, एशिया-प्रशांत 49%, यूरोप-मध्य एशिया 23%।</li><li>मीठे पानी की प्रजातियां सबसे ज़्यादा 85% घटीं; ज़मीन पर 69% और समुद्र में 59%।</li><li>बाघ देशों में जंगली बाघ 2010 के ~3,200 से 2025 में ~5,700 हुए; करीब आधी आबादी स्थिर या बढ़ती है।</li><li>73% का मतलब 73% जानवर खत्म होना नहीं है, और यह भारत का मापा गया आंकड़ा भी नहीं है।</li></ul></div>
       <div class="article-body">
@@ -151,6 +153,6 @@
     </div>
   </footer>
 
-  <script src="/js/main.js"></script>
+  <script src="/js/main.js" defer></script>
 </body>
 </html>

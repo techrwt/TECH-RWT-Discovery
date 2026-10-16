@@ -2,13 +2,15 @@
 <html lang="hi" data-theme="light">
 <head>
   <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-9PS4WX9LXB"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
   gtag('config', 'G-9PS4WX9LXB');
+  // Speed: gtag.js pehle interaction par ya 5 sec baad load hoga (page ki speed block nahi karega)
+  (function(){var l=0;function go(){if(l)return;l=1;var s=document.createElement('script');s.async=true;s.src='https://www.googletagmanager.com/gtag/js?id=G-9PS4WX9LXB';document.head.appendChild(s);}
+  ['scroll','click','touchstart','keydown','mousemove'].forEach(function(e){addEventListener(e,go,{once:true,passive:true});});
+  setTimeout(go,5000);})();
 </script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -102,7 +104,7 @@
         </div>
         <h1 class="article-title">गोबर से बनी गैस अब सरकार 10 साल तक तय दाम पर खरीदेगी — GOBARdhan की डिटेल</h1>
       </div>
-      <img src="/assets/images/gobardhan-scheme-cbg-offtake-price-guidelines.webp" alt="गोबर से बनी गैस अब सरकार 10 साल तक तय दाम पर खरीदेगी — GOBARdhan की डिटेल" class="article-featured-image" onerror="this.src='/assets/images/sample-space.jpg'">
+      <img src="/assets/images/gobardhan-scheme-cbg-offtake-price-guidelines.webp" alt="गोबर से बनी गैस अब सरकार 10 साल तक तय दाम पर खरीदेगी — GOBARdhan की डिटेल" class="article-featured-image" fetchpriority="high" decoding="async" onerror="this.src='/assets/images/sample-space.jpg'">
       
       <div class="key-points"><div class="key-points-title">मुख्य बिंदु</div><ul><li>पेट्रोलियम मंत्रालय ने 15 सितंबर 2026 को ₹23,731 करोड़ की GOBARdhan योजना की ऑपरेशनल गाइडलाइंस जारी कीं।</li><li>CBG उत्पादकों को तकनीकी क्षमता के अनुसार 100% तक ऑफटेक और कम से कम 10 साल तक तय दाम मिल सकता है।</li><li>नए प्लांट को ₹1.25 करोड़/TPD पूंजी सहायता, अधिकतम ₹30 करोड़/प्रोजेक्ट (अगस्त एलान से बदला)।</li><li>1 सितंबर 2026 से SATAT योजना GOBARdhan में मिला दी गई है; पुराने वादे पूरे किए जाते रहेंगे।</li><li>PIB के अनुसार 17 सितंबर 2026 तक देश में 1,314 GOBARdhan बायोगैस प्लांट चालू थे।</li></ul></div>
       <div class="article-body">
@@ -151,6 +153,6 @@
     </div>
   </footer>
 
-  <script src="/js/main.js"></script>
+  <script src="/js/main.js" defer></script>
 </body>
 </html>

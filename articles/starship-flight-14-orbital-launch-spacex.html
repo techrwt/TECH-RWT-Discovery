@@ -2,13 +2,15 @@
 <html lang="hi" data-theme="light">
 <head>
   <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-9PS4WX9LXB"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
   gtag('config', 'G-9PS4WX9LXB');
+  // Speed: gtag.js pehle interaction par ya 5 sec baad load hoga (page ki speed block nahi karega)
+  (function(){var l=0;function go(){if(l)return;l=1;var s=document.createElement('script');s.async=true;s.src='https://www.googletagmanager.com/gtag/js?id=G-9PS4WX9LXB';document.head.appendChild(s);}
+  ['scroll','click','touchstart','keydown','mousemove'].forEach(function(e){addEventListener(e,go,{once:true,passive:true});});
+  setTimeout(go,5000);})();
 </script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -102,7 +104,7 @@
         </div>
         <h1 class="article-title">SpaceX का Starship पहली बार Orbit तक पहुंचने की कोशिश करेगा</h1>
       </div>
-      <img src="/assets/images/starship-flight-14-orbital-launch-spacex.webp" alt="SpaceX का Starship पहली बार Orbit तक पहुंचने की कोशिश करेगा" class="article-featured-image" onerror="this.src='/assets/images/sample-space.jpg'">
+      <img src="/assets/images/starship-flight-14-orbital-launch-spacex.webp" alt="SpaceX का Starship पहली बार Orbit तक पहुंचने की कोशिश करेगा" class="article-featured-image" fetchpriority="high" decoding="async" onerror="this.src='/assets/images/sample-space.jpg'">
       
       <div class="key-points"><div class="key-points-title">मुख्य बिंदु</div><ul><li>SpaceX का Starship Flight 14 मिशन 28 सितंबर 2026 को शाम करीब 5:45 बजे IST लॉन्च होगा।</li><li>यह Starship प्रोग्राम में पहली बार पूरी तरह ऑर्बिट में जाने की कोशिश है, मिशन करीब 10 घंटे लंबा होगा।</li><li>रॉकेट 26 अपग्रेडेड Starlink V3 सैटेलाइट ले जाएगा; Ship 6 चक्कर के बाद समुद्र में उतरेगा।</li><li>Starship V3, पुराने वर्जन से 1.5 मीटर लंबा है, इसमें Raptor 3 इंजन और सिर्फ 3 ग्रिड फिन हैं।</li><li>ISRO का अपना RLV प्रोग्राम 2030 तक पूरी तरह दोबारा इस्तेमाल होने वाला ऑर्बिटल सिस्टम बनाने का लक्ष्य रखता है।</li></ul></div>
       <div class="article-body">
@@ -212,6 +214,6 @@
     </div>
   </footer>
 
-  <script src="/js/main.js"></script>
+  <script src="/js/main.js" defer></script>
 </body>
 </html>
