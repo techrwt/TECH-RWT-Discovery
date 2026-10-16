@@ -51,7 +51,9 @@ const trim = (s, n) => { s = String(s || "").replace(/\s+/g, " ").trim(); return
 const imgUrl = (img) => SITE + "/" + encodeURI(img);
 
 // 2. Article pages
-const tpl = read("article-template.html");
+// Speed: style.css ko HTML ke andar inline karo (render-blocking request hat jati hai)
+const minCss = read("css/style.css").replace(/\/\*[\s\S]*?\*\//g, "").replace(/\s+/g, " ").replace(/\s*([{};,])\s*/g, "$1").replace(/:\s+/g, ":").trim();
+const tpl = read("article-template.html").replace(/<link rel="stylesheet" href="\/css\/style\.css[^"]*">/, () => `<style>${minCss}</style>`);
 fs.mkdirSync("articles", { recursive: true });
 const newUrls = [];
 const newCats = new Set();
@@ -120,7 +122,7 @@ if (fs.existsSync("index.html")) {
     const link = `articles/${esc(a.slug)}.html`;
     return `
         <div class="article-card">
-          <div class="card-img-wrapper"><img src="${esc(a.image)}" alt="${esc(a.title)}" ${i === 0 ? 'fetchpriority="high" decoding="async"' : 'loading="lazy" decoding="async"'} onerror="this.src='assets/images/sample-space.jpg'"></div>
+          <div class="card-img-wrapper"><img src="${esc(a.image)}" alt="${esc(a.title)}" width="640" height="360" loading="lazy" decoding="async" onerror="this.src='assets/images/sample-space.jpg'"></div>
           <div class="card-content">
             <div class="card-meta"><span class="card-category">${esc(a.category)}</span><span class="card-date">${esc(a.date)}</span></div>
             <h3 class="card-title"><a href="${link}">${esc(a.title)}</a></h3>
@@ -130,6 +132,8 @@ if (fs.existsSync("index.html")) {
         </div>`;
   }).join("");
   let home = read("index.html");
+  // Speed: style.css inline (pehli baar link ko, baad mein purane inline block ko badalta hai)
+  home = home.replace(/<link rel="stylesheet" href="css\/style\.css[^"]*">|<style id="inline-css">[\s\S]*?<\/style>/, () => `<style id="inline-css">${minCss}</style>`);
   // Speed fix: welcome intro screen hata do (ye pura page dhak kar FCP/LCP dheema karta tha)
   home = home.replace(/<!-- Welcome Intro Screen -->[\s\S]*?getElementById\("welcomeScreen"\)\.style\.display="none";\}\}catch\(e\)\{\}<\/script>\s*/, "");
   // Speed fix: Google Fonts page ko block na kare, aur sirf Noto Sans Devanagari lo
@@ -149,7 +153,7 @@ const cardHtml = (a) => {
   const link = `/articles/${esc(a.slug)}.html`;
   return `
         <div class="article-card">
-          <div class="card-img-wrapper"><img src="/${esc(encodeURI(a.image))}" alt="${esc(a.title)}" loading="lazy" onerror="this.src='/assets/images/sample-space.jpg'"></div>
+          <div class="card-img-wrapper"><img src="/${esc(encodeURI(a.image))}" alt="${esc(a.title)}" width="640" height="360" loading="lazy" decoding="async" onerror="this.src='/assets/images/sample-space.jpg'"></div>
           <div class="card-content">
             <div class="card-meta"><span class="card-category">${esc(a.category)}</span><span class="card-date">${esc(a.date)}</span></div>
             <h3 class="card-title"><a href="${link}">${esc(a.title)}</a></h3>
