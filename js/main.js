@@ -3,35 +3,9 @@
    ========================================== */
 
 document.addEventListener("DOMContentLoaded", () => {
-  // 0. Welcome Intro Screen (homepage only, typing animation)
+  // 0. Welcome Intro Screen: hata diya (page speed + SEO ke liye)
   const welcomeScreen = document.getElementById("welcomeScreen");
-  let welcomeSeen = false;
-  try { welcomeSeen = sessionStorage.getItem("welcomeShown") === "1"; } catch (e) {}
-  if (welcomeScreen && welcomeSeen) {
-    // isi visit me pehle dikh chuka hai: seedha hata do (page tez khule)
-    welcomeScreen.remove();
-  } else if (welcomeScreen) {
-    try { sessionStorage.setItem("welcomeShown", "1"); } catch (e) {}
-    document.body.classList.add("welcome-active");
-    const typedTextEl = document.getElementById("typedText");
-    const welcomeMessage = "टेक रावत डिस्कवरी में आपका स्वागत है";
-    let charIndex = 0;
-
-    function typeWelcomeText() {
-      if (charIndex < welcomeMessage.length) {
-        typedTextEl.textContent += welcomeMessage.charAt(charIndex);
-        charIndex++;
-        setTimeout(typeWelcomeText, 60);
-      } else {
-        setTimeout(() => {
-          welcomeScreen.classList.add("hide");
-          document.body.classList.remove("welcome-active");
-        }, 700);
-      }
-    }
-
-    typeWelcomeText();
-  }
+  if (welcomeScreen) welcomeScreen.remove();
 
   // 1. Dark / Light Mode Toggle
   const themeToggle = document.getElementById("themeToggle");
@@ -72,7 +46,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // 3. Load Articles on Homepage
   const articlesGrid = document.getElementById("articlesGrid");
-  if (articlesGrid) {
+  // Articles pehle se HTML mein chhape hote hain; dobara fetch karke grid mat badlo
+  // (isse images dobara load hoti thi aur LCP 11s tak chala jata tha)
+  if (articlesGrid && articlesGrid.children.length === 0) {
     fetchArticles();
   }
 });
