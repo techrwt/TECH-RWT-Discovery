@@ -2,13 +2,15 @@
 <html lang="hi" data-theme="light">
 <head>
   <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-9PS4WX9LXB"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
   gtag('config', 'G-9PS4WX9LXB');
+  // Speed: gtag.js pehle interaction par ya 5 sec baad load hoga (page ki speed block nahi karega)
+  (function(){var l=0;function go(){if(l)return;l=1;var s=document.createElement('script');s.async=true;s.src='https://www.googletagmanager.com/gtag/js?id=G-9PS4WX9LXB';document.head.appendChild(s);}
+  ['scroll','click','touchstart','keydown','mousemove'].forEach(function(e){addEventListener(e,go,{once:true,passive:true});});
+  setTimeout(go,5000);})();
 </script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -52,6 +54,9 @@
   </script>
   <link rel="alternate" type="application/rss+xml" title="TECH RWT Discovery" href="/feed.xml">
 
+  <!-- HERO_PRELOAD_START -->
+  <link rel="preload" as="image" href="assets/images/Line.png" fetchpriority="high">
+  <!-- HERO_PRELOAD_END -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+Devanagari:wght@400;600;700;800&display=swap" media="print" onload="this.media='all'">
@@ -68,7 +73,9 @@
       <!-- Logo Image -->
       <div class="logo-area">
         <a href="/">
+          <!-- LOGO_IMG_START -->
           <img src="assets/images/Logo line.png" alt="TECH RWT Discovery Logo">
+          <!-- LOGO_IMG_END -->
         </a>
       </div>
 
@@ -114,7 +121,9 @@
     
     <!-- Hero Banner with Line.png -->
     <section class="hero-section">
+      <!-- HERO_IMG_START -->
       <img src="assets/images/Line.png" alt="Science, Space, Technology, Environment और Innovation categories">
+      <!-- HERO_IMG_END -->
     </section>
 
     <!-- Category Filter Bar -->
@@ -133,7 +142,7 @@
       <div class="articles-grid" id="articlesGrid">
         <!-- ARTICLES_START -->
         <div class="article-card">
-          <div class="card-img-wrapper"><img src="assets/images/artemis-ii-heat-shield-analysis-9-vs-103-myths.webp" alt="क्या Artemis II का Heat Shield सच में पास हुआ? 4 भ्रम और सच" fetchpriority="high" decoding="async" onerror="this.src='assets/images/sample-space.jpg'"></div>
+          <div class="card-img-wrapper"><img src="assets/images/artemis-ii-heat-shield-analysis-9-vs-103-myths.webp" alt="क्या Artemis II का Heat Shield सच में पास हुआ? 4 भ्रम और सच" width="640" height="360" loading="lazy" decoding="async" onerror="this.src='assets/images/sample-space.jpg'"></div>
           <div class="card-content">
             <div class="card-meta"><span class="card-category">Space &amp; ISRO</span><span class="card-date">2026-10-16</span></div>
             <h3 class="card-title"><a href="articles/artemis-ii-heat-shield-analysis-9-vs-103-myths.html">क्या Artemis II का Heat Shield सच में पास हुआ? 4 भ्रम और सच</a></h3>
@@ -142,7 +151,7 @@
           </div>
         </div>
         <div class="article-card">
-          <div class="card-img-wrapper"><img src="assets/images/green-star-wd-j1330-6435-white-dwarf-colours.webp" alt="पहला हरा तारा मिला, पर किसी ने उसे आंखों से हरा नहीं देखा" loading="lazy" decoding="async" onerror="this.src='assets/images/sample-space.jpg'"></div>
+          <div class="card-img-wrapper"><img src="assets/images/green-star-wd-j1330-6435-white-dwarf-colours.webp" alt="पहला हरा तारा मिला, पर किसी ने उसे आंखों से हरा नहीं देखा" width="640" height="360" loading="lazy" decoding="async" onerror="this.src='assets/images/sample-space.jpg'"></div>
           <div class="card-content">
             <div class="card-meta"><span class="card-category">Space &amp; ISRO</span><span class="card-date">2026-10-16</span></div>
             <h3 class="card-title"><a href="articles/green-star-wd-j1330-6435-white-dwarf-colours.html">पहला हरा तारा मिला, पर किसी ने उसे आंखों से हरा नहीं देखा</a></h3>
@@ -151,7 +160,7 @@
           </div>
         </div>
         <div class="article-card">
-          <div class="card-img-wrapper"><img src="assets/images/indiaai-gpu-tender-cdac-empanelment-kaise-kaam-karta-hai.webp" alt="10,000 GPU तक का पैनल: पास होने को 100 में 60 अंक चाहिए" loading="lazy" decoding="async" onerror="this.src='assets/images/sample-space.jpg'"></div>
+          <div class="card-img-wrapper"><img src="assets/images/indiaai-gpu-tender-cdac-empanelment-kaise-kaam-karta-hai.webp" alt="10,000 GPU तक का पैनल: पास होने को 100 में 60 अंक चाहिए" width="640" height="360" loading="lazy" decoding="async" onerror="this.src='assets/images/sample-space.jpg'"></div>
           <div class="card-content">
             <div class="card-meta"><span class="card-category">Technology &amp; Future Tech</span><span class="card-date">2026-10-16</span></div>
             <h3 class="card-title"><a href="articles/indiaai-gpu-tender-cdac-empanelment-kaise-kaam-karta-hai.html">10,000 GPU तक का पैनल: पास होने को 100 में 60 अंक चाहिए</a></h3>
@@ -160,7 +169,7 @@
           </div>
         </div>
         <div class="article-card">
-          <div class="card-img-wrapper"><img src="assets/images/india-ndc-air-pollution-missing-gcha-health-scorecard.webp" alt="भारत की जलवायु योजना में वायु प्रदूषण नहीं: GCHA स्कोरकार्ड में 2/32" loading="lazy" decoding="async" onerror="this.src='assets/images/sample-space.jpg'"></div>
+          <div class="card-img-wrapper"><img src="assets/images/india-ndc-air-pollution-missing-gcha-health-scorecard.webp" alt="भारत की जलवायु योजना में वायु प्रदूषण नहीं: GCHA स्कोरकार्ड में 2/32" width="640" height="360" loading="lazy" decoding="async" onerror="this.src='assets/images/sample-space.jpg'"></div>
           <div class="card-content">
             <div class="card-meta"><span class="card-category">Environment</span><span class="card-date">2026-10-16</span></div>
             <h3 class="card-title"><a href="articles/india-ndc-air-pollution-missing-gcha-health-scorecard.html">भारत की जलवायु योजना में वायु प्रदूषण नहीं: GCHA स्कोरकार्ड में 2/32</a></h3>
@@ -169,7 +178,7 @@
           </div>
         </div>
         <div class="article-card">
-          <div class="card-img-wrapper"><img src="assets/images/el-nino-2026-nino-34-record-sst-imd-ond-outlook.webp" alt="क्या El Niño 2026 रिकॉर्ड तोड़ रहा है? भारत की बारिश पर असर" loading="lazy" decoding="async" onerror="this.src='assets/images/sample-space.jpg'"></div>
+          <div class="card-img-wrapper"><img src="assets/images/el-nino-2026-nino-34-record-sst-imd-ond-outlook.webp" alt="क्या El Niño 2026 रिकॉर्ड तोड़ रहा है? भारत की बारिश पर असर" width="640" height="360" loading="lazy" decoding="async" onerror="this.src='assets/images/sample-space.jpg'"></div>
           <div class="card-content">
             <div class="card-meta"><span class="card-category">Environment</span><span class="card-date">2026-10-16</span></div>
             <h3 class="card-title"><a href="articles/el-nino-2026-nino-34-record-sst-imd-ond-outlook.html">क्या El Niño 2026 रिकॉर्ड तोड़ रहा है? भारत की बारिश पर असर</a></h3>
@@ -178,7 +187,7 @@
           </div>
         </div>
         <div class="article-card">
-          <div class="card-img-wrapper"><img src="assets/images/iit-guwahati-neuromorphic-vision-device-mxene.webp" alt="IIT का नया विज़न डिवाइस: 500 गुना कम ऊर्जा, पर MXene से तुलना में" loading="lazy" decoding="async" onerror="this.src='assets/images/sample-space.jpg'"></div>
+          <div class="card-img-wrapper"><img src="assets/images/iit-guwahati-neuromorphic-vision-device-mxene.webp" alt="IIT का नया विज़न डिवाइस: 500 गुना कम ऊर्जा, पर MXene से तुलना में" width="640" height="360" loading="lazy" decoding="async" onerror="this.src='assets/images/sample-space.jpg'"></div>
           <div class="card-content">
             <div class="card-meta"><span class="card-category">Innovation</span><span class="card-date">2026-10-16</span></div>
             <h3 class="card-title"><a href="articles/iit-guwahati-neuromorphic-vision-device-mxene.html">IIT का नया विज़न डिवाइस: 500 गुना कम ऊर्जा, पर MXene से तुलना में</a></h3>
@@ -187,7 +196,7 @@
           </div>
         </div>
         <div class="article-card">
-          <div class="card-img-wrapper"><img src="assets/images/cosmochute-funding-lunar-robotics-leap-pre-seed.webp" alt="Cosmochute को $1.5 मिलियन, पर चांद का रोवर अभी बनना बाकी" loading="lazy" decoding="async" onerror="this.src='assets/images/sample-space.jpg'"></div>
+          <div class="card-img-wrapper"><img src="assets/images/cosmochute-funding-lunar-robotics-leap-pre-seed.webp" alt="Cosmochute को $1.5 मिलियन, पर चांद का रोवर अभी बनना बाकी" width="640" height="360" loading="lazy" decoding="async" onerror="this.src='assets/images/sample-space.jpg'"></div>
           <div class="card-content">
             <div class="card-meta"><span class="card-category">Innovation</span><span class="card-date">2026-10-16</span></div>
             <h3 class="card-title"><a href="articles/cosmochute-funding-lunar-robotics-leap-pre-seed.html">Cosmochute को $1.5 मिलियन, पर चांद का रोवर अभी बनना बाकी</a></h3>
@@ -196,7 +205,7 @@
           </div>
         </div>
         <div class="article-card">
-          <div class="card-img-wrapper"><img src="assets/images/roll-out-solar-array-iss-crs-35-final-pair.webp" alt="SpaceX CRS-35 रवाना: ISS के आख़िरी दो Roll-Out Solar Array रास्ते में" loading="lazy" decoding="async" onerror="this.src='assets/images/sample-space.jpg'"></div>
+          <div class="card-img-wrapper"><img src="assets/images/roll-out-solar-array-iss-crs-35-final-pair.webp" alt="SpaceX CRS-35 रवाना: ISS के आख़िरी दो Roll-Out Solar Array रास्ते में" width="640" height="360" loading="lazy" decoding="async" onerror="this.src='assets/images/sample-space.jpg'"></div>
           <div class="card-content">
             <div class="card-meta"><span class="card-category">Space &amp; ISRO</span><span class="card-date">2026-10-14</span></div>
             <h3 class="card-title"><a href="articles/roll-out-solar-array-iss-crs-35-final-pair.html">SpaceX CRS-35 रवाना: ISS के आख़िरी दो Roll-Out Solar Array रास्ते में</a></h3>
@@ -205,7 +214,7 @@
           </div>
         </div>
         <div class="article-card">
-          <div class="card-img-wrapper"><img src="assets/images/south-korea-bank-hack-ai-artex-india-banks.webp" alt="क्या AI ने सच में दक्षिण कोरिया के 7 बैंकों में सेंध लगाई?" loading="lazy" decoding="async" onerror="this.src='assets/images/sample-space.jpg'"></div>
+          <div class="card-img-wrapper"><img src="assets/images/south-korea-bank-hack-ai-artex-india-banks.webp" alt="क्या AI ने सच में दक्षिण कोरिया के 7 बैंकों में सेंध लगाई?" width="640" height="360" loading="lazy" decoding="async" onerror="this.src='assets/images/sample-space.jpg'"></div>
           <div class="card-content">
             <div class="card-meta"><span class="card-category">Technology &amp; Future Tech</span><span class="card-date">2026-10-14</span></div>
             <h3 class="card-title"><a href="articles/south-korea-bank-hack-ai-artex-india-banks.html">क्या AI ने सच में दक्षिण कोरिया के 7 बैंकों में सेंध लगाई?</a></h3>
@@ -214,7 +223,7 @@
           </div>
         </div>
         <div class="article-card">
-          <div class="card-img-wrapper"><img src="assets/images/aspirin-dementia-70-percent-platelet-genetics-india.webp" alt="Aspirin से डिमेंशिया का जोखिम 70% कम दिखा, पर सिर्फ़ एक समूह में" loading="lazy" decoding="async" onerror="this.src='assets/images/sample-space.jpg'"></div>
+          <div class="card-img-wrapper"><img src="assets/images/aspirin-dementia-70-percent-platelet-genetics-india.webp" alt="Aspirin से डिमेंशिया का जोखिम 70% कम दिखा, पर सिर्फ़ एक समूह में" width="640" height="360" loading="lazy" decoding="async" onerror="this.src='assets/images/sample-space.jpg'"></div>
           <div class="card-content">
             <div class="card-meta"><span class="card-category">Science</span><span class="card-date">2026-10-14</span></div>
             <h3 class="card-title"><a href="articles/aspirin-dementia-70-percent-platelet-genetics-india.html">Aspirin से डिमेंशिया का जोखिम 70% कम दिखा, पर सिर्फ़ एक समूह में</a></h3>
@@ -223,7 +232,7 @@
           </div>
         </div>
         <div class="article-card">
-          <div class="card-img-wrapper"><img src="assets/images/climate-fingerprint-research-human-influence-evidence.webp" alt="30+ साल के 'क्लाइमेट फिंगरप्रिंट' शोध से सबूत अब और मज़बूत" loading="lazy" decoding="async" onerror="this.src='assets/images/sample-space.jpg'"></div>
+          <div class="card-img-wrapper"><img src="assets/images/climate-fingerprint-research-human-influence-evidence.webp" alt="30+ साल के 'क्लाइमेट फिंगरप्रिंट' शोध से सबूत अब और मज़बूत" width="640" height="360" loading="lazy" decoding="async" onerror="this.src='assets/images/sample-space.jpg'"></div>
           <div class="card-content">
             <div class="card-meta"><span class="card-category">Environment</span><span class="card-date">2026-10-14</span></div>
             <h3 class="card-title"><a href="articles/climate-fingerprint-research-human-influence-evidence.html">30+ साल के 'क्लाइमेट फिंगरप्रिंट' शोध से सबूत अब और मज़बूत</a></h3>
@@ -232,7 +241,7 @@
           </div>
         </div>
         <div class="article-card">
-          <div class="card-img-wrapper"><img src="assets/images/thinkmetal-27-crore-funding-metal-3d-printing.webp" alt="ThinkMetal को ₹27 करोड़: मेटल 3D प्रिंटिंग पर IAN Alpha का दांव" loading="lazy" decoding="async" onerror="this.src='assets/images/sample-space.jpg'"></div>
+          <div class="card-img-wrapper"><img src="assets/images/thinkmetal-27-crore-funding-metal-3d-printing.webp" alt="ThinkMetal को ₹27 करोड़: मेटल 3D प्रिंटिंग पर IAN Alpha का दांव" width="640" height="360" loading="lazy" decoding="async" onerror="this.src='assets/images/sample-space.jpg'"></div>
           <div class="card-content">
             <div class="card-meta"><span class="card-category">Innovation</span><span class="card-date">2026-10-14</span></div>
             <h3 class="card-title"><a href="articles/thinkmetal-27-crore-funding-metal-3d-printing.html">ThinkMetal को ₹27 करोड़: मेटल 3D प्रिंटिंग पर IAN Alpha का दांव</a></h3>
@@ -241,7 +250,7 @@
           </div>
         </div>
         <div class="article-card">
-          <div class="card-img-wrapper"><img src="assets/images/glp1-nail-detachment-hair-loss-eadv-2026-india.webp" alt="EADV स्टडी: GLP-1 यूज़र्स में नाखून उखड़ने की शिकायत 39%, बाकी में 9%" loading="lazy" decoding="async" onerror="this.src='assets/images/sample-space.jpg'"></div>
+          <div class="card-img-wrapper"><img src="assets/images/glp1-nail-detachment-hair-loss-eadv-2026-india.webp" alt="EADV स्टडी: GLP-1 यूज़र्स में नाखून उखड़ने की शिकायत 39%, बाकी में 9%" width="640" height="360" loading="lazy" decoding="async" onerror="this.src='assets/images/sample-space.jpg'"></div>
           <div class="card-content">
             <div class="card-meta"><span class="card-category">Science</span><span class="card-date">2026-10-13</span></div>
             <h3 class="card-title"><a href="articles/glp1-nail-detachment-hair-loss-eadv-2026-india.html">EADV स्टडी: GLP-1 यूज़र्स में नाखून उखड़ने की शिकायत 39%, बाकी में 9%</a></h3>
@@ -250,7 +259,7 @@
           </div>
         </div>
         <div class="article-card">
-          <div class="card-img-wrapper"><img src="assets/images/spacex-800-mhz-spectrum-deal-starlink-india.webp" alt="SpaceX के 800 MHz सौदे का भारत में Starlink पर क्या असर होगा?" loading="lazy" decoding="async" onerror="this.src='assets/images/sample-space.jpg'"></div>
+          <div class="card-img-wrapper"><img src="assets/images/spacex-800-mhz-spectrum-deal-starlink-india.webp" alt="SpaceX के 800 MHz सौदे का भारत में Starlink पर क्या असर होगा?" width="640" height="360" loading="lazy" decoding="async" onerror="this.src='assets/images/sample-space.jpg'"></div>
           <div class="card-content">
             <div class="card-meta"><span class="card-category">Technology &amp; Future Tech</span><span class="card-date">2026-10-13</span></div>
             <h3 class="card-title"><a href="articles/spacex-800-mhz-spectrum-deal-starlink-india.html">SpaceX के 800 MHz सौदे का भारत में Starlink पर क्या असर होगा?</a></h3>
@@ -259,7 +268,7 @@
           </div>
         </div>
         <div class="article-card">
-          <div class="card-img-wrapper"><img src="assets/images/satellite-refuelling-orbitaid-aayulsat-sslv.webp" alt="OrbitAID का सैटेलाइट रिफ्यूलिंग प्लान, पर कक्षा में डेमो अभी बाकी" loading="lazy" decoding="async" onerror="this.src='assets/images/sample-space.jpg'"></div>
+          <div class="card-img-wrapper"><img src="assets/images/satellite-refuelling-orbitaid-aayulsat-sslv.webp" alt="OrbitAID का सैटेलाइट रिफ्यूलिंग प्लान, पर कक्षा में डेमो अभी बाकी" width="640" height="360" loading="lazy" decoding="async" onerror="this.src='assets/images/sample-space.jpg'"></div>
           <div class="card-content">
             <div class="card-meta"><span class="card-category">Space &amp; ISRO</span><span class="card-date">2026-10-13</span></div>
             <h3 class="card-title"><a href="articles/satellite-refuelling-orbitaid-aayulsat-sslv.html">OrbitAID का सैटेलाइट रिफ्यूलिंग प्लान, पर कक्षा में डेमो अभी बाकी</a></h3>
@@ -268,7 +277,7 @@
           </div>
         </div>
         <div class="article-card">
-          <div class="card-img-wrapper"><img src="assets/images/wwf-living-planet-report-2026-wildlife-decline-73-percent.webp" alt="वन्यजीव आबादी औसतन 73% घटी, एशिया-प्रशांत में 49%: WWF रिपोर्ट" loading="lazy" decoding="async" onerror="this.src='assets/images/sample-space.jpg'"></div>
+          <div class="card-img-wrapper"><img src="assets/images/wwf-living-planet-report-2026-wildlife-decline-73-percent.webp" alt="वन्यजीव आबादी औसतन 73% घटी, एशिया-प्रशांत में 49%: WWF रिपोर्ट" width="640" height="360" loading="lazy" decoding="async" onerror="this.src='assets/images/sample-space.jpg'"></div>
           <div class="card-content">
             <div class="card-meta"><span class="card-category">Environment</span><span class="card-date">2026-10-13</span></div>
             <h3 class="card-title"><a href="articles/wwf-living-planet-report-2026-wildlife-decline-73-percent.html">वन्यजीव आबादी औसतन 73% घटी, एशिया-प्रशांत में 49%: WWF रिपोर्ट</a></h3>
@@ -277,7 +286,7 @@
           </div>
         </div>
         <div class="article-card">
-          <div class="card-img-wrapper"><img src="assets/images/iit-mandi-spot-face-ai-skull-xray-face-matching.webp" alt="IIT मंडी का SPOT-Face AI: खोपड़ी के X-ray से चेहरे, पहली रैंक पर 50%" loading="lazy" decoding="async" onerror="this.src='assets/images/sample-space.jpg'"></div>
+          <div class="card-img-wrapper"><img src="assets/images/iit-mandi-spot-face-ai-skull-xray-face-matching.webp" alt="IIT मंडी का SPOT-Face AI: खोपड़ी के X-ray से चेहरे, पहली रैंक पर 50%" width="640" height="360" loading="lazy" decoding="async" onerror="this.src='assets/images/sample-space.jpg'"></div>
           <div class="card-content">
             <div class="card-meta"><span class="card-category">Innovation</span><span class="card-date">2026-10-12</span></div>
             <h3 class="card-title"><a href="articles/iit-mandi-spot-face-ai-skull-xray-face-matching.html">IIT मंडी का SPOT-Face AI: खोपड़ी के X-ray से चेहरे, पहली रैंक पर 50%</a></h3>
@@ -286,7 +295,7 @@
           </div>
         </div>
         <div class="article-card">
-          <div class="card-img-wrapper"><img src="assets/images/grap-2026-delhi-ncr-how-it-works-what-changed.webp" alt="GRAP 2026 कैसे काम करता है, और इस बार क्या बदला है?" loading="lazy" decoding="async" onerror="this.src='assets/images/sample-space.jpg'"></div>
+          <div class="card-img-wrapper"><img src="assets/images/grap-2026-delhi-ncr-how-it-works-what-changed.webp" alt="GRAP 2026 कैसे काम करता है, और इस बार क्या बदला है?" width="640" height="360" loading="lazy" decoding="async" onerror="this.src='assets/images/sample-space.jpg'"></div>
           <div class="card-content">
             <div class="card-meta"><span class="card-category">Environment</span><span class="card-date">2026-10-12</span></div>
             <h3 class="card-title"><a href="articles/grap-2026-delhi-ncr-how-it-works-what-changed.html">GRAP 2026 कैसे काम करता है, और इस बार क्या बदला है?</a></h3>
@@ -295,7 +304,7 @@
           </div>
         </div>
         <div class="article-card">
-          <div class="card-img-wrapper"><img src="assets/images/iphone-18-pro-order-cut-memory-chip-shortage-india.webp" alt="iPhone 18 Pro सिर्फ़ $100 महंगा, पर रिपोर्ट में Apple के ऑर्डर घटे" loading="lazy" decoding="async" onerror="this.src='assets/images/sample-space.jpg'"></div>
+          <div class="card-img-wrapper"><img src="assets/images/iphone-18-pro-order-cut-memory-chip-shortage-india.webp" alt="iPhone 18 Pro सिर्फ़ $100 महंगा, पर रिपोर्ट में Apple के ऑर्डर घटे" width="640" height="360" loading="lazy" decoding="async" onerror="this.src='assets/images/sample-space.jpg'"></div>
           <div class="card-content">
             <div class="card-meta"><span class="card-category">Technology &amp; Future Tech</span><span class="card-date">2026-10-12</span></div>
             <h3 class="card-title"><a href="articles/iphone-18-pro-order-cut-memory-chip-shortage-india.html">iPhone 18 Pro सिर्फ़ $100 महंगा, पर रिपोर्ट में Apple के ऑर्डर घटे</a></h3>
@@ -304,7 +313,7 @@
           </div>
         </div>
         <div class="article-card">
-          <div class="card-img-wrapper"><img src="assets/images/chemistry-nobel-2026-kagan-soai-chirality-india-pharma.webp" alt="0.00005% से 99.5% तक: Chemistry Nobel 2026 और भारतीय दवाओं का रिश्ता" loading="lazy" decoding="async" onerror="this.src='assets/images/sample-space.jpg'"></div>
+          <div class="card-img-wrapper"><img src="assets/images/chemistry-nobel-2026-kagan-soai-chirality-india-pharma.webp" alt="0.00005% से 99.5% तक: Chemistry Nobel 2026 और भारतीय दवाओं का रिश्ता" width="640" height="360" loading="lazy" decoding="async" onerror="this.src='assets/images/sample-space.jpg'"></div>
           <div class="card-content">
             <div class="card-meta"><span class="card-category">Science</span><span class="card-date">2026-10-12</span></div>
             <h3 class="card-title"><a href="articles/chemistry-nobel-2026-kagan-soai-chirality-india-pharma.html">0.00005% से 99.5% तक: Chemistry Nobel 2026 और भारतीय दवाओं का रिश्ता</a></h3>
@@ -313,7 +322,7 @@
           </div>
         </div>
         <div class="article-card">
-          <div class="card-img-wrapper"><img src="assets/images/depression-five-brain-connectivity-profiles-india-treatment-gap.webp" alt="डिप्रेशन एक बीमारी जैसा दिखता है, पर दिमाग में इसके 5 रूप मिले" loading="lazy" decoding="async" onerror="this.src='assets/images/sample-space.jpg'"></div>
+          <div class="card-img-wrapper"><img src="assets/images/depression-five-brain-connectivity-profiles-india-treatment-gap.webp" alt="डिप्रेशन एक बीमारी जैसा दिखता है, पर दिमाग में इसके 5 रूप मिले" width="640" height="360" loading="lazy" decoding="async" onerror="this.src='assets/images/sample-space.jpg'"></div>
           <div class="card-content">
             <div class="card-meta"><span class="card-category">Science</span><span class="card-date">2026-10-10</span></div>
             <h3 class="card-title"><a href="articles/depression-five-brain-connectivity-profiles-india-treatment-gap.html">डिप्रेशन एक बीमारी जैसा दिखता है, पर दिमाग में इसके 5 रूप मिले</a></h3>
@@ -322,7 +331,7 @@
           </div>
         </div>
         <div class="article-card">
-          <div class="card-img-wrapper"><img src="assets/images/vitamin-d2-lowers-d3-levels-india-supplement-market.webp" alt="Vitamin D2 Supplement से घट सकता है D3 का स्तर: नई स्टडी" loading="lazy" decoding="async" onerror="this.src='assets/images/sample-space.jpg'"></div>
+          <div class="card-img-wrapper"><img src="assets/images/vitamin-d2-lowers-d3-levels-india-supplement-market.webp" alt="Vitamin D2 Supplement से घट सकता है D3 का स्तर: नई स्टडी" width="640" height="360" loading="lazy" decoding="async" onerror="this.src='assets/images/sample-space.jpg'"></div>
           <div class="card-content">
             <div class="card-meta"><span class="card-category">Science</span><span class="card-date">2026-10-09</span></div>
             <h3 class="card-title"><a href="articles/vitamin-d2-lowers-d3-levels-india-supplement-market.html">Vitamin D2 Supplement से घट सकता है D3 का स्तर: नई स्टडी</a></h3>
@@ -331,7 +340,7 @@
           </div>
         </div>
         <div class="article-card">
-          <div class="card-img-wrapper"><img src="assets/images/gaganyaan-g1-crew-module-ready-launch-date.webp" alt="क्या Gaganyaan का पहला मानव-रहित मिशन इसी साल उड़ पाएगा?" loading="lazy" decoding="async" onerror="this.src='assets/images/sample-space.jpg'"></div>
+          <div class="card-img-wrapper"><img src="assets/images/gaganyaan-g1-crew-module-ready-launch-date.webp" alt="क्या Gaganyaan का पहला मानव-रहित मिशन इसी साल उड़ पाएगा?" width="640" height="360" loading="lazy" decoding="async" onerror="this.src='assets/images/sample-space.jpg'"></div>
           <div class="card-content">
             <div class="card-meta"><span class="card-category">Space &amp; ISRO</span><span class="card-date">2026-10-09</span></div>
             <h3 class="card-title"><a href="articles/gaganyaan-g1-crew-module-ready-launch-date.html">क्या Gaganyaan का पहला मानव-रहित मिशन इसी साल उड़ पाएगा?</a></h3>
@@ -340,7 +349,7 @@
           </div>
         </div>
         <div class="article-card">
-          <div class="card-img-wrapper"><img src="assets/images/antarctica-ice-sheet-committed-mass-loss-2100.webp" alt="Antarctica की बर्फ घटने की संभावना 92%+, कटौती के बाद भी" loading="lazy" decoding="async" onerror="this.src='assets/images/sample-space.jpg'"></div>
+          <div class="card-img-wrapper"><img src="assets/images/antarctica-ice-sheet-committed-mass-loss-2100.webp" alt="Antarctica की बर्फ घटने की संभावना 92%+, कटौती के बाद भी" width="640" height="360" loading="lazy" decoding="async" onerror="this.src='assets/images/sample-space.jpg'"></div>
           <div class="card-content">
             <div class="card-meta"><span class="card-category">Environment</span><span class="card-date">2026-10-08</span></div>
             <h3 class="card-title"><a href="articles/antarctica-ice-sheet-committed-mass-loss-2100.html">Antarctica की बर्फ घटने की संभावना 92%+, कटौती के बाद भी</a></h3>
@@ -349,7 +358,7 @@
           </div>
         </div>
         <div class="article-card">
-          <div class="card-img-wrapper"><img src="assets/images/sunfox-spandan-ecg-7m-series-a-funding.webp" alt="Sunfox को $7 मिलियन की Series A, Spandan ECG का विस्तार होगा" loading="lazy" decoding="async" onerror="this.src='assets/images/sample-space.jpg'"></div>
+          <div class="card-img-wrapper"><img src="assets/images/sunfox-spandan-ecg-7m-series-a-funding.webp" alt="Sunfox को $7 मिलियन की Series A, Spandan ECG का विस्तार होगा" width="640" height="360" loading="lazy" decoding="async" onerror="this.src='assets/images/sample-space.jpg'"></div>
           <div class="card-content">
             <div class="card-meta"><span class="card-category">Innovation</span><span class="card-date">2026-10-08</span></div>
             <h3 class="card-title"><a href="articles/sunfox-spandan-ecg-7m-series-a-funding.html">Sunfox को $7 मिलियन की Series A, Spandan ECG का विस्तार होगा</a></h3>
@@ -358,7 +367,7 @@
           </div>
         </div>
         <div class="article-card">
-          <div class="card-img-wrapper"><img src="assets/images/nuri-rocket-15-satellites-vs-pslv-c37-104.webp" alt="Nuri के 15 Satellite बनाम PSLV के 104 — असली फर्क कहां है?" loading="lazy" decoding="async" onerror="this.src='assets/images/sample-space.jpg'"></div>
+          <div class="card-img-wrapper"><img src="assets/images/nuri-rocket-15-satellites-vs-pslv-c37-104.webp" alt="Nuri के 15 Satellite बनाम PSLV के 104 — असली फर्क कहां है?" width="640" height="360" loading="lazy" decoding="async" onerror="this.src='assets/images/sample-space.jpg'"></div>
           <div class="card-content">
             <div class="card-meta"><span class="card-category">Space &amp; ISRO</span><span class="card-date">2026-10-08</span></div>
             <h3 class="card-title"><a href="articles/nuri-rocket-15-satellites-vs-pslv-c37-104.html">Nuri के 15 Satellite बनाम PSLV के 104 — असली फर्क कहां है?</a></h3>
@@ -367,7 +376,7 @@
           </div>
         </div>
         <div class="article-card">
-          <div class="card-img-wrapper"><img src="assets/images/neutrino-kaise-pakde-jaate-hain-icecube-nobel-2026.webp" alt="Neutrino पकड़ना बेहद मुश्किल, पर Antarctica की बर्फ़ से मिला Nobel" loading="lazy" decoding="async" onerror="this.src='assets/images/sample-space.jpg'"></div>
+          <div class="card-img-wrapper"><img src="assets/images/neutrino-kaise-pakde-jaate-hain-icecube-nobel-2026.webp" alt="Neutrino पकड़ना बेहद मुश्किल, पर Antarctica की बर्फ़ से मिला Nobel" width="640" height="360" loading="lazy" decoding="async" onerror="this.src='assets/images/sample-space.jpg'"></div>
           <div class="card-content">
             <div class="card-meta"><span class="card-category">Science</span><span class="card-date">2026-10-08</span></div>
             <h3 class="card-title"><a href="articles/neutrino-kaise-pakde-jaate-hain-icecube-nobel-2026.html">Neutrino पकड़ना बेहद मुश्किल, पर Antarctica की बर्फ़ से मिला Nobel</a></h3>
@@ -376,7 +385,7 @@
           </div>
         </div>
         <div class="article-card">
-          <div class="card-img-wrapper"><img src="assets/images/free-space-qkd-india-5-56-km-qnu-labs.webp" alt="5.56 km हवा में Quantum Key: पिछले 1 km ट्रायल से लगभग 5 गुना दूर" loading="lazy" decoding="async" onerror="this.src='assets/images/sample-space.jpg'"></div>
+          <div class="card-img-wrapper"><img src="assets/images/free-space-qkd-india-5-56-km-qnu-labs.webp" alt="5.56 km हवा में Quantum Key: पिछले 1 km ट्रायल से लगभग 5 गुना दूर" width="640" height="360" loading="lazy" decoding="async" onerror="this.src='assets/images/sample-space.jpg'"></div>
           <div class="card-content">
             <div class="card-meta"><span class="card-category">Technology &amp; Future Tech</span><span class="card-date">2026-10-08</span></div>
             <h3 class="card-title"><a href="articles/free-space-qkd-india-5-56-km-qnu-labs.html">5.56 km हवा में Quantum Key: पिछले 1 km ट्रायल से लगभग 5 गुना दूर</a></h3>
@@ -385,7 +394,7 @@
           </div>
         </div>
         <div class="article-card">
-          <div class="card-img-wrapper"><img src="assets/images/stubble-burning-2026-madhya-pradesh-overtakes-punjab.webp" alt="पंजाब में पराली जलाना सालों में सबसे कम, पर MP में रेकॉर्ड बढ़त" loading="lazy" decoding="async" onerror="this.src='assets/images/sample-space.jpg'"></div>
+          <div class="card-img-wrapper"><img src="assets/images/stubble-burning-2026-madhya-pradesh-overtakes-punjab.webp" alt="पंजाब में पराली जलाना सालों में सबसे कम, पर MP में रेकॉर्ड बढ़त" width="640" height="360" loading="lazy" decoding="async" onerror="this.src='assets/images/sample-space.jpg'"></div>
           <div class="card-content">
             <div class="card-meta"><span class="card-category">Environment</span><span class="card-date">2026-10-08</span></div>
             <h3 class="card-title"><a href="articles/stubble-burning-2026-madhya-pradesh-overtakes-punjab.html">पंजाब में पराली जलाना सालों में सबसे कम, पर MP में रेकॉर्ड बढ़त</a></h3>
@@ -394,7 +403,7 @@
           </div>
         </div>
         <div class="article-card">
-          <div class="card-img-wrapper"><img src="assets/images/rdi-fund-tdb-applications-pause-deep-tech.webp" alt="RDI Fund: TDB ने नई अर्जियां रोकीं, पहले दौर में चुनीं 22 कंपनियां" loading="lazy" decoding="async" onerror="this.src='assets/images/sample-space.jpg'"></div>
+          <div class="card-img-wrapper"><img src="assets/images/rdi-fund-tdb-applications-pause-deep-tech.webp" alt="RDI Fund: TDB ने नई अर्जियां रोकीं, पहले दौर में चुनीं 22 कंपनियां" width="640" height="360" loading="lazy" decoding="async" onerror="this.src='assets/images/sample-space.jpg'"></div>
           <div class="card-content">
             <div class="card-meta"><span class="card-category">Innovation</span><span class="card-date">2026-10-08</span></div>
             <h3 class="card-title"><a href="articles/rdi-fund-tdb-applications-pause-deep-tech.html">RDI Fund: TDB ने नई अर्जियां रोकीं, पहले दौर में चुनीं 22 कंपनियां</a></h3>
@@ -403,7 +412,7 @@
           </div>
         </div>
         <div class="article-card">
-          <div class="card-img-wrapper"><img src="assets/images/extreme-heat-pregnancy-wellcome-survey-india.webp" alt="क्या भीषण गर्मी गर्भवती महिलाओं और नवजातों के लिए खतरा बन रही है?" loading="lazy" decoding="async" onerror="this.src='assets/images/sample-space.jpg'"></div>
+          <div class="card-img-wrapper"><img src="assets/images/extreme-heat-pregnancy-wellcome-survey-india.webp" alt="क्या भीषण गर्मी गर्भवती महिलाओं और नवजातों के लिए खतरा बन रही है?" width="640" height="360" loading="lazy" decoding="async" onerror="this.src='assets/images/sample-space.jpg'"></div>
           <div class="card-content">
             <div class="card-meta"><span class="card-category">Environment</span><span class="card-date">2026-10-08</span></div>
             <h3 class="card-title"><a href="articles/extreme-heat-pregnancy-wellcome-survey-india.html">क्या भीषण गर्मी गर्भवती महिलाओं और नवजातों के लिए खतरा बन रही है?</a></h3>
@@ -412,7 +421,7 @@
           </div>
         </div>
         <div class="article-card">
-          <div class="card-img-wrapper"><img src="assets/images/quanfluence-photonic-quantum-computer-10m-funding.webp" alt="Quanfluence को $10 मिलियन मिले, पर बड़ी मशीन का वादा 2029 का है" loading="lazy" decoding="async" onerror="this.src='assets/images/sample-space.jpg'"></div>
+          <div class="card-img-wrapper"><img src="assets/images/quanfluence-photonic-quantum-computer-10m-funding.webp" alt="Quanfluence को $10 मिलियन मिले, पर बड़ी मशीन का वादा 2029 का है" width="640" height="360" loading="lazy" decoding="async" onerror="this.src='assets/images/sample-space.jpg'"></div>
           <div class="card-content">
             <div class="card-meta"><span class="card-category">Innovation</span><span class="card-date">2026-10-08</span></div>
             <h3 class="card-title"><a href="articles/quanfluence-photonic-quantum-computer-10m-funding.html">Quanfluence को $10 मिलियन मिले, पर बड़ी मशीन का वादा 2029 का है</a></h3>
@@ -421,7 +430,7 @@
           </div>
         </div>
         <div class="article-card">
-          <div class="card-img-wrapper"><img src="assets/images/us-supreme-court-exxon-suncor-boulder-climate-case.webp" alt="US सुप्रीम कोर्ट में ExxonMobil-Suncor पर बड़ा क्लाइमेट केस" loading="lazy" decoding="async" onerror="this.src='assets/images/sample-space.jpg'"></div>
+          <div class="card-img-wrapper"><img src="assets/images/us-supreme-court-exxon-suncor-boulder-climate-case.webp" alt="US सुप्रीम कोर्ट में ExxonMobil-Suncor पर बड़ा क्लाइमेट केस" width="640" height="360" loading="lazy" decoding="async" onerror="this.src='assets/images/sample-space.jpg'"></div>
           <div class="card-content">
             <div class="card-meta"><span class="card-category">Environment</span><span class="card-date">2026-10-07</span></div>
             <h3 class="card-title"><a href="articles/us-supreme-court-exxon-suncor-boulder-climate-case.html">US सुप्रीम कोर्ट में ExxonMobil-Suncor पर बड़ा क्लाइमेट केस</a></h3>
@@ -430,7 +439,7 @@
           </div>
         </div>
         <div class="article-card">
-          <div class="card-img-wrapper"><img src="assets/images/deepverse-launch-india-deeptech-reality-check.webp" alt="DeepVerse लॉन्च हुआ, पर भारत का डीपटेक सच क्या है?" loading="lazy" decoding="async" onerror="this.src='assets/images/sample-space.jpg'"></div>
+          <div class="card-img-wrapper"><img src="assets/images/deepverse-launch-india-deeptech-reality-check.webp" alt="DeepVerse लॉन्च हुआ, पर भारत का डीपटेक सच क्या है?" width="640" height="360" loading="lazy" decoding="async" onerror="this.src='assets/images/sample-space.jpg'"></div>
           <div class="card-content">
             <div class="card-meta"><span class="card-category">Innovation</span><span class="card-date">2026-10-07</span></div>
             <h3 class="card-title"><a href="articles/deepverse-launch-india-deeptech-reality-check.html">DeepVerse लॉन्च हुआ, पर भारत का डीपटेक सच क्या है?</a></h3>
@@ -439,7 +448,7 @@
           </div>
         </div>
         <div class="article-card">
-          <div class="card-img-wrapper"><img src="assets/images/india-semiconductor-mission-1-0-vs-2-0-comparison.webp" alt="सेमीकंडक्टर मिशन 2.0 का बजट बड़ा, पर पहली Fab अभी दूर" loading="lazy" decoding="async" onerror="this.src='assets/images/sample-space.jpg'"></div>
+          <div class="card-img-wrapper"><img src="assets/images/india-semiconductor-mission-1-0-vs-2-0-comparison.webp" alt="सेमीकंडक्टर मिशन 2.0 का बजट बड़ा, पर पहली Fab अभी दूर" width="640" height="360" loading="lazy" decoding="async" onerror="this.src='assets/images/sample-space.jpg'"></div>
           <div class="card-content">
             <div class="card-meta"><span class="card-category">Innovation</span><span class="card-date">2026-10-07</span></div>
             <h3 class="card-title"><a href="articles/india-semiconductor-mission-1-0-vs-2-0-comparison.html">सेमीकंडक्टर मिशन 2.0 का बजट बड़ा, पर पहली Fab अभी दूर</a></h3>
@@ -448,7 +457,7 @@
           </div>
         </div>
         <div class="article-card">
-          <div class="card-img-wrapper"><img src="assets/images/ames-crater-age-100-million-years-younger-lonar-comparison.webp" alt="क्या किसी गड्ढे की उम्र 10 करोड़ साल तक गलत निकल सकती है?" loading="lazy" decoding="async" onerror="this.src='assets/images/sample-space.jpg'"></div>
+          <div class="card-img-wrapper"><img src="assets/images/ames-crater-age-100-million-years-younger-lonar-comparison.webp" alt="क्या किसी गड्ढे की उम्र 10 करोड़ साल तक गलत निकल सकती है?" width="640" height="360" loading="lazy" decoding="async" onerror="this.src='assets/images/sample-space.jpg'"></div>
           <div class="card-content">
             <div class="card-meta"><span class="card-category">Science</span><span class="card-date">2026-10-06</span></div>
             <h3 class="card-title"><a href="articles/ames-crater-age-100-million-years-younger-lonar-comparison.html">क्या किसी गड्ढे की उम्र 10 करोड़ साल तक गलत निकल सकती है?</a></h3>
@@ -457,7 +466,7 @@
           </div>
         </div>
         <div class="article-card">
-          <div class="card-img-wrapper"><img src="assets/images/ramses-apophis-mission-switch-on-india-interest.webp" alt="Apophis धरती से नहीं टकराएगा, पर Ramses मिशन अभी से तैयार हो रहा है" loading="lazy" decoding="async" onerror="this.src='assets/images/sample-space.jpg'"></div>
+          <div class="card-img-wrapper"><img src="assets/images/ramses-apophis-mission-switch-on-india-interest.webp" alt="Apophis धरती से नहीं टकराएगा, पर Ramses मिशन अभी से तैयार हो रहा है" width="640" height="360" loading="lazy" decoding="async" onerror="this.src='assets/images/sample-space.jpg'"></div>
           <div class="card-content">
             <div class="card-meta"><span class="card-category">Space &amp; ISRO</span><span class="card-date">2026-10-06</span></div>
             <h3 class="card-title"><a href="articles/ramses-apophis-mission-switch-on-india-interest.html">Apophis धरती से नहीं टकराएगा, पर Ramses मिशन अभी से तैयार हो रहा है</a></h3>
@@ -466,7 +475,7 @@
           </div>
         </div>
         <div class="article-card">
-          <div class="card-img-wrapper"><img src="assets/images/bigendian-veerai-ai-vision-chip-130-crore-india.webp" alt="₹130 करोड़ से बनेगा भारत का अपना AI निगरानी चिप" loading="lazy" decoding="async" onerror="this.src='assets/images/sample-space.jpg'"></div>
+          <div class="card-img-wrapper"><img src="assets/images/bigendian-veerai-ai-vision-chip-130-crore-india.webp" alt="₹130 करोड़ से बनेगा भारत का अपना AI निगरानी चिप" width="640" height="360" loading="lazy" decoding="async" onerror="this.src='assets/images/sample-space.jpg'"></div>
           <div class="card-content">
             <div class="card-meta"><span class="card-category">Technology &amp; Future Tech</span><span class="card-date">2026-10-06</span></div>
             <h3 class="card-title"><a href="articles/bigendian-veerai-ai-vision-chip-130-crore-india.html">₹130 करोड़ से बनेगा भारत का अपना AI निगरानी चिप</a></h3>
@@ -475,7 +484,7 @@
           </div>
         </div>
         <div class="article-card">
-          <div class="card-img-wrapper"><img src="assets/images/davinci-venus-heat-test-myths-nasa-shukrayaan.webp" alt="DAVINCI सिर्फ 1 घंटे टिकेगा, पर अभी यह टेस्ट धरती पर हुआ" loading="lazy" decoding="async" onerror="this.src='assets/images/sample-space.jpg'"></div>
+          <div class="card-img-wrapper"><img src="assets/images/davinci-venus-heat-test-myths-nasa-shukrayaan.webp" alt="DAVINCI सिर्फ 1 घंटे टिकेगा, पर अभी यह टेस्ट धरती पर हुआ" width="640" height="360" loading="lazy" decoding="async" onerror="this.src='assets/images/sample-space.jpg'"></div>
           <div class="card-content">
             <div class="card-meta"><span class="card-category">Space &amp; ISRO</span><span class="card-date">2026-10-05</span></div>
             <h3 class="card-title"><a href="articles/davinci-venus-heat-test-myths-nasa-shukrayaan.html">DAVINCI सिर्फ 1 घंटे टिकेगा, पर अभी यह टेस्ट धरती पर हुआ</a></h3>
@@ -484,7 +493,7 @@
           </div>
         </div>
         <div class="article-card">
-          <div class="card-img-wrapper"><img src="assets/images/physical-activity-paradox-dementia-risk-comparison-india.webp" alt="छुट्टी की एक्सरसाइज़ से डिमेंशिया 24% कम, काम की मेहनत से बढ़ा" loading="lazy" decoding="async" onerror="this.src='assets/images/sample-space.jpg'"></div>
+          <div class="card-img-wrapper"><img src="assets/images/physical-activity-paradox-dementia-risk-comparison-india.webp" alt="छुट्टी की एक्सरसाइज़ से डिमेंशिया 24% कम, काम की मेहनत से बढ़ा" width="640" height="360" loading="lazy" decoding="async" onerror="this.src='assets/images/sample-space.jpg'"></div>
           <div class="card-content">
             <div class="card-meta"><span class="card-category">Science</span><span class="card-date">2026-10-05</span></div>
             <h3 class="card-title"><a href="articles/physical-activity-paradox-dementia-risk-comparison-india.html">छुट्टी की एक्सरसाइज़ से डिमेंशिया 24% कम, काम की मेहनत से बढ़ा</a></h3>
@@ -538,6 +547,6 @@
     </div>
   </footer>
 
-  <script src="js/main.js"></script>
+  <script src="js/main.js" defer></script>
 </body>
 </html>
