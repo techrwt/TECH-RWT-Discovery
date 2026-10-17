@@ -11,7 +11,7 @@
   --bg-color: #f4f7fb;
   --card-bg: #ffffff;
   --text-main: #1e293b;
-  --text-muted: #64748b;
+  --text-muted: #526074;
   --border-color: #e2e8f0;
   --header-bg: rgba(255, 255, 255, 0.9);
   --footer-bg: #0b1220;
@@ -282,11 +282,13 @@ section > .section-title {
 
 .card-category {
   background-color: rgba(37, 99, 235, 0.1);
-  color: var(--accent);
+  color: #1e40af;
   padding: 3px 10px;
   border-radius: 6px;
   font-weight: 700;
 }
+
+[data-theme="dark"] .card-category { color: var(--accent-2); }
 
 .card-title { font-size: 1.1rem; font-weight: 700; margin-bottom: 8px; line-height: 1.45; }
 .card-title a:hover { color: var(--accent); }
