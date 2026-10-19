@@ -85,7 +85,8 @@ for (const a of articles) {
     inLanguage: "hi",
     articleSection: a.category,
     author: { "@type": "Organization", name: a.author || "TECH RWT Discovery", url: SITE + "/" },
-    publisher: { "@type": "Organization", name: "TECH RWT Discovery", url: SITE + "/" },
+    publisher: { "@type": "Organization", name: "TECH RWT Discovery", url: SITE + "/", logo: { "@type": "ImageObject", url: SITE + "/assets/images/Favicon.png" } },
+    isAccessibleForFree: true,
   };
 
   const breadcrumb = {
@@ -187,6 +188,79 @@ if (fs.existsSync("pages/search.html")) {
     s = s.replace("</title>", '</title>\n  <meta name="robots" content="noindex, follow">');
     fs.writeFileSync("pages/search.html", s);
   }
+}
+
+// 3b2. Static pages (about, contact, privacy, disclaimer, categories): canonical + OG + schema (jo pehle se na ho) aur gtag speed fix
+const PAGE_META = {
+  "pages/about.html": { type: "AboutPage", name: "हमारे बारे में" },
+  "pages/contact.html": { type: "ContactPage", name: "संपर्क करें" },
+  "pages/privacy.html": { type: "WebPage", name: "गोपनीयता नीति" },
+  "pages/disclaimer.html": { type: "WebPage", name: "अस्वीकरण" },
+  "pages/science.html": { type: "CollectionPage", name: "Science" },
+  "pages/space.html": { type: "CollectionPage", name: "Space & ISRO" },
+  "pages/technology.html": { type: "CollectionPage", name: "Technology & Future Tech" },
+  "pages/environment.html": { type: "CollectionPage", name: "Environment" },
+  "pages/innovation.html": { type: "CollectionPage", name: "Innovation" },
+};
+const unesc = (s) => String(s || "").replace(/&amp;/g, "&").replace(/&lt;/g, "<").replace(/&gt;/g, ">").replace(/&quot;/g, '"').replace(/&#39;/g, "'");
+const OLD_GTAG = '<script async src="https://www.googletagmanager.com/gtag/js?id=G-9PS4WX9LXB"></script>';
+const GTAG_LOADER = "  // Speed: gtag.js pehle interaction par ya 5 sec baad load hoga (page ki speed block nahi karega)\n" +
+  "  (function(){var l=0;function go(){if(l)return;l=1;var s=document.createElement('script');s.async=true;s.src='https://www.googletagmanager.com/gtag/js?id=G-9PS4WX9LXB';document.head.appendChild(s);}\n" +
+  "  ['scroll','click','touchstart','keydown','mousemove'].forEach(function(e){addEventListener(e,go,{once:true,passive:true});});\n" +
+  "  setTimeout(go,5000);})();";
+for (const [file, meta] of Object.entries(PAGE_META)) {
+  if (!fs.existsSync(file)) continue;
+  let pg = read(file);
+  const orig = pg;
+
+  // gtag: purana (turant load hone wala) snippet ho to usse deferred version se badlo (tabhi jab dono hisse mile)
+  const cfg = /gtag\('config', 'G-9PS4WX9LXB'\);\s*<\/script>/;
+  if (pg.includes(OLD_GTAG) && cfg.test(pg)) {
+    pg = pg.replace(OLD_GTAG, "").replace(cfg, () => "gtag('config', 'G-9PS4WX9LXB');\n" + GTAG_LOADER + "\n</script>");
+  }
+
+  // SEO block: jo cheez page mein pehle se hai use dobara nahi daalte
+  const rest = pg.replace(/<!-- PAGE_SEO_START -->[\s\S]*?<!-- PAGE_SEO_END -->\s*/, "");
+  const url = `${SITE}/${file}`;
+  const title = unesc((rest.match(/<title>([\s\S]*?)<\/title>/) || [])[1] || meta.name).trim();
+  const desc = unesc((rest.match(/<meta name="description" content="([^"]*)"/) || [])[1] || "").trim();
+  const img = SITE + "/assets/images/Line.png";
+  const lines = [];
+  if (!/rel="canonical"/.test(rest)) lines.push(`  <link rel="canonical" href="${url}">`);
+  if (!/property="og:title"/.test(rest)) {
+    lines.push(
+      '  <meta property="og:type" content="website">',
+      '  <meta property="og:site_name" content="TECH RWT Discovery">',
+      '  <meta property="og:locale" content="hi_IN">',
+      `  <meta property="og:title" content="${esc(title)}">`,
+      `  <meta property="og:description" content="${esc(desc)}">`,
+      `  <meta property="og:url" content="${url}">`,
+      `  <meta property="og:image" content="${img}">`,
+      '  <meta name="twitter:card" content="summary_large_image">'
+    );
+  }
+  if (!/application\/ld\+json/.test(rest)) {
+    const ld = {
+      "@context": "https://schema.org",
+      "@graph": [
+        { "@type": meta.type, "@id": url + "#page", url, name: title, description: desc, inLanguage: "hi",
+          isPartOf: { "@type": "WebSite", name: "TECH RWT Discovery", url: SITE + "/" },
+          publisher: { "@type": "Organization", name: "TECH RWT Discovery", url: SITE + "/", logo: { "@type": "ImageObject", url: SITE + "/assets/images/Favicon.png" } } },
+        { "@type": "BreadcrumbList", itemListElement: [
+          { "@type": "ListItem", position: 1, name: "होम", item: SITE + "/" },
+          { "@type": "ListItem", position: 2, name: meta.name, item: url } ] },
+      ],
+    };
+    lines.push('  <script type="application/ld+json">' + JSON.stringify(ld).replace(/</g, "\\u003c") + "</script>");
+  }
+  const MS = "<!-- PAGE_SEO_START -->", ME = "<!-- PAGE_SEO_END -->";
+  const blockHtml = lines.length ? `${MS}\n${lines.join("\n")}\n  ${ME}\n` : "";
+  if (/<!-- PAGE_SEO_START -->/.test(pg)) {
+    pg = pg.replace(/<!-- PAGE_SEO_START -->[\s\S]*?<!-- PAGE_SEO_END -->\s*/, () => blockHtml);
+  } else if (blockHtml) {
+    pg = pg.replace("</head>", () => blockHtml + "</head>");
+  }
+  if (pg !== orig) fs.writeFileSync(file, pg);
 }
 
 // 3c. Archive page (archive.html): saare articles ki crawlable list, category ke hisaab se
