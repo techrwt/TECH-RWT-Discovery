@@ -196,24 +196,23 @@
 
         try {
           const response = await fetch("../articles.json");
-          const articles = await response.json();
+          if (!response.ok) throw new Error("articles.json load nahi hui: " + response.status);
+          const data = await response.json();
+          const articles = Array.isArray(data) ? data : (data.articles || []);
 
-          const matches = articles.filter(article => {
-            return (
-              article.title.toLowerCase().includes(q) ||
-              article.excerpt.toLowerCase().includes(q) ||
-              article.category.toLowerCase().includes(q) ||
-              article.content.toLowerCase().includes(q)
-            );
-          });
+          const has = (v) => String(v || "").toLowerCase().includes(q);
+
+          const matches = articles.filter(a =>
+            has(a.title) || has(a.excerpt) || has(a.category) || has(a.content)
+          );
 
           if (matches.length === 0) {
             resultsGrid.innerHTML = "";
-            searchInfo.innerHTML = `"${query}" के लिए कोई परिणाम नहीं मिला। कृपया किसी अन्य कीवर्ड से प्रयास करें।`;
+            searchInfo.textContent = `"${query}" के लिए कोई परिणाम नहीं मिला। कृपया किसी अन्य कीवर्ड से प्रयास करें।`;
             return;
           }
 
-          searchInfo.innerHTML = `"${query}" के लिए कुल **${matches.length}** लेख मिले:`;
+          searchInfo.innerHTML = `"${query}" के लिए कुल <strong>${matches.length}</strong> लेख मिले:`;
           resultsGrid.innerHTML = "";
 
           matches.forEach(article => {
@@ -221,17 +220,17 @@
             card.className = "article-card";
             card.innerHTML = `
               <div class="card-img-wrapper">
-                <img src="../${article.image}" alt="${article.title}" onerror="this.src='../assets/images/sample-space.jpg'">
+                <img src="../${article.image || ''}" alt="${article.title || ''}" onerror="this.src='../assets/images/sample-space.jpg'">
               </div>
               <div class="card-content">
                 <div class="card-meta">
-                  <span class="card-category">${article.category}</span>
-                  <span class="card-date">${article.date}</span>
+                  <span class="card-category">${article.category || ''}</span>
+                  <span class="card-date">${article.date || ''}</span>
                 </div>
                 <h3 class="card-title">
-                  <a href="../article.html?slug=${article.slug}">${article.title}</a>
+                  <a href="../article.html?slug=${article.slug}">${article.title || ''}</a>
                 </h3>
-                <p class="card-excerpt">${article.excerpt}</p>
+                <p class="card-excerpt">${article.excerpt || ''}</p>
                 <a href="../article.html?slug=${article.slug}" class="read-more">पूरा लेख पढ़ें &rarr;</a>
               </div>
             `;
