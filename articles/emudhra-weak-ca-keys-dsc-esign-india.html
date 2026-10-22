@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="hi" data-theme="light">
+<head>
+  <!-- Google tag (gtag.js) -->
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-9PS4WX9LXB');
+  // Speed: gtag.js pehle interaction par ya 5 sec baad load hoga (page ki speed block nahi karega)
+  (function(){var l=0;function go(){if(l)return;l=1;var s=document.createElement('script');s.async=true;s.src='https://www.googletagmanager.com/gtag/js?id=G-9PS4WX9LXB';document.head.appendChild(s);}
+  ['scroll','click','touchstart','keydown','mousemove'].forEach(function(e){addEventListener(e,go,{once:true,passive:true});});
+  setTimeout(go,5000);})();
+</script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>eMudhra Certificate Flaw: भारत की DSC पर क्या असर?</title>
+  <meta name="description" content="eMudhra certificate flaw में 8 CA चाबियां कमज़ोर निकलीं। जानें MeitY और CERT-In ने DSC, eSign और भारतीय वेबसाइटों के बारे में क्या कहा।">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <link rel="canonical" href="https://techrawatdiscovery.sbs/articles/emudhra-weak-ca-keys-dsc-esign-india.html">
+  <link rel="alternate" type="application/rss+xml" title="TECH RWT Discovery" href="/feed.xml">
+
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="TECH RWT Discovery">
+  <meta property="og:locale" content="hi_IN">
+  <meta property="og:title" content="eMudhra Certificate Flaw: भारत की DSC पर क्या असर?">
+  <meta property="og:description" content="eMudhra certificate flaw में 8 CA चाबियां कमज़ोर निकलीं। जानें MeitY और CERT-In ने DSC, eSign और भारतीय वेबसाइटों के बारे में क्या कहा।">
+  <meta property="og:url" content="https://techrawatdiscovery.sbs/articles/emudhra-weak-ca-keys-dsc-esign-india.html">
+  <meta property="og:image" content="https://techrawatdiscovery.sbs/assets/images/emudhra-weak-ca-keys-dsc-esign-india.webp">
+  <meta property="article:published_time" content="2026-10-22">
+  <meta property="article:section" content="Technology &amp; Future Tech">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <script type="application/ld+json">[{"@context":"https://schema.org","@type":"Article","mainEntityOfPage":{"@type":"WebPage","@id":"https://techrawatdiscovery.sbs/articles/emudhra-weak-ca-keys-dsc-esign-india.html"},"headline":"eMudhra की 8 कमज़ोर चाबियां: क्या भारत की DSC पर असर पड़ा?","description":"eMudhra certificate flaw में 8 CA चाबियां कमज़ोर निकलीं। जानें MeitY और CERT-In ने DSC, eSign और भारतीय वेबसाइटों के बारे में क्या कहा।","image":["https://techrawatdiscovery.sbs/assets/images/emudhra-weak-ca-keys-dsc-esign-india.webp"],"datePublished":"2026-10-22","dateModified":"2026-10-22","inLanguage":"hi","articleSection":"Technology & Future Tech","author":{"@type":"Organization","name":"TECH RWT Discovery","url":"https://techrawatdiscovery.sbs/"},"publisher":{"@type":"Organization","name":"TECH RWT Discovery","url":"https://techrawatdiscovery.sbs/","logo":{"@type":"ImageObject","url":"https://techrawatdiscovery.sbs/assets/images/Favicon.png"}},"isAccessibleForFree":true},{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"होम","item":"https://techrawatdiscovery.sbs/"},{"@type":"ListItem","position":2,"name":"Technology & Future Tech","item":"https://techrawatdiscovery.sbs/pages/technology.html"},{"@type":"ListItem","position":3,"name":"eMudhra की 8 कमज़ोर चाबियां: क्या भारत की DSC पर असर पड़ा?","item":"https://techrawatdiscovery.sbs/articles/emudhra-weak-ca-keys-dsc-esign-india.html"}]}]</script>
+
+  <style>:root{--primary:#0f172a;--accent:#2563eb;--accent-2:#0ea5e9;--accent-hover:#1d4ed8;--bg-color:#f4f7fb;--card-bg:#ffffff;--text-main:#1e293b;--text-muted:#526074;--border-color:#e2e8f0;--header-bg:rgba(255,255,255,0.9);--footer-bg:#0b1220;--footer-text:#cbd5e1;--max-width:1200px;--radius:14px;--transition:all 0.25s ease;--shadow-sm:0 1px 3px rgba(15,23,42,0.06);--shadow-md:0 10px 25px -8px rgba(15,23,42,0.12);--shadow-lg:0 20px 35px -10px rgba(15,23,42,0.18);}[data-theme="dark"]{--primary:#f8fafc;--accent:#3b82f6;--accent-2:#38bdf8;--accent-hover:#60a5fa;--bg-color:#060a14;--card-bg:#111827;--text-main:#f1f5f9;--text-muted:#94a3b8;--border-color:#1f2937;--header-bg:rgba(17,24,39,0.85);--footer-bg:#05070d;--footer-text:#94a3b8;}*{box-sizing:border-box;margin:0;padding:0;}html{scroll-behavior:smooth;}body{font-family:'Noto Sans Devanagari','Inter',system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;background-color:var(--bg-color);background-image:radial-gradient(circle at 10% 0%,rgba(37,99,235,0.07) 0%,transparent 45%),radial-gradient(circle at 90% 100%,rgba(14,165,233,0.06) 0%,transparent 45%);background-attachment:fixed;color:var(--text-main);line-height:1.7;transition:background-color 0.3s ease,color 0.3s ease;}a{color:inherit;text-decoration:none;}ul{list-style:none;}img{max-width:100%;height:auto;display:block;}.container{max-width:var(--max-width);margin:0 auto;padding:0 20px;}header{background-color:var(--header-bg);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);border-bottom:1px solid var(--border-color);position:sticky;top:0;z-index:1000;padding:12px 0;transition:var(--transition);}header .container{display:flex;justify-content:space-between;align-items:center;gap:16px;flex-wrap:wrap;}.logo-area a{display:inline-flex;align-items:center;max-width:230px;}.logo-area img{width:100%;height:auto;}nav{flex:1;display:flex;justify-content:center;}.nav-links{display:flex;flex-wrap:wrap;align-items:center;gap:6px 22px;}.nav-links a{font-weight:600;font-size:0.95rem;color:var(--text-main);padding:6px 2px;border-bottom:2px solid transparent;transition:var(--transition);}.nav-links a:hover,.nav-links a.active{color:var(--accent);border-bottom-color:var(--accent);}.nav-actions{display:flex;gap:8px;align-items:center;}.theme-toggle,.search-toggle{background:none;border:1px solid var(--border-color);color:var(--text-main);width:38px;height:38px;border-radius:10px;cursor:pointer;display:flex;align-items:center;justify-content:center;font-size:1.05rem;transition:var(--transition);}.theme-toggle:hover,.search-toggle:hover{background-color:var(--border-color);}.hamburger{display:none;background:none;border:none;cursor:pointer;flex-direction:column;gap:5px;}.hamburger span{display:block;width:24px;height:2.5px;background-color:var(--text-main);border-radius:2px;}.hero-section{padding:28px 0 8px;}.hero-section img{width:100%;border-radius:var(--radius);box-shadow:var(--shadow-sm);}.section-title{font-size:1.6rem;font-weight:800;letter-spacing:-0.3px;text-align:center;margin:20px 0 12px;}.site-intro{max-width:880px;margin:0 auto 24px;text-align:center;line-height:1.9;color:var(--text-muted);font-size:0.98rem;}.site-intro a{color:var(--accent);font-weight:600;}.site-intro a:hover{text-decoration:underline;}.category-filter{display:flex;gap:10px;overflow-x:auto;padding:4px 2px 14px;margin-bottom:26px;}.cat-btn{background-color:var(--card-bg);border:1px solid var(--border-color);color:var(--text-main);padding:9px 20px;border-radius:50px;font-size:0.9rem;font-weight:600;cursor:pointer;white-space:nowrap;transition:var(--transition);}.cat-btn:hover{border-color:var(--accent);color:var(--accent);}.cat-btn.active{background:linear-gradient(135deg,var(--accent-2) 0%,var(--accent) 100%);color:#ffffff;border-color:transparent;box-shadow:0 6px 16px rgba(37,99,235,0.3);}section > .section-title{text-align:left;border-left:4px solid var(--accent);padding-left:14px;font-size:1.35rem;}.articles-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:24px;margin-bottom:50px;}.article-card{background-color:var(--card-bg);border:1px solid var(--border-color);border-radius:var(--radius);overflow:hidden;display:flex;flex-direction:column;transition:transform 0.35s cubic-bezier(0.165,0.84,0.44,1),box-shadow 0.35s ease,border-color 0.35s ease;}.article-card:hover{transform:translateY(-6px);box-shadow:var(--shadow-lg);border-color:var(--accent);}.card-img-wrapper{aspect-ratio:16 / 9;background-color:var(--border-color);overflow:hidden;}.card-img-wrapper img{width:100%;height:100%;object-fit:cover;transition:transform 0.5s ease;}.article-card:hover .card-img-wrapper img{transform:scale(1.05);}.card-content{padding:18px 20px 20px;display:flex;flex-direction:column;flex-grow:1;}.card-meta{display:flex;justify-content:space-between;align-items:center;font-size:0.78rem;color:var(--text-muted);margin-bottom:10px;}.card-category{background-color:rgba(37,99,235,0.1);color:#1e40af;padding:3px 10px;border-radius:6px;font-weight:700;}[data-theme="dark"] .card-category{color:var(--accent-2);}.card-title{font-size:1.1rem;font-weight:700;margin-bottom:8px;line-height:1.45;}.card-title a:hover{color:var(--accent);}.card-excerpt{font-size:0.9rem;color:var(--text-muted);margin-bottom:16px;flex-grow:1;}.read-more{font-size:0.88rem;font-weight:700;color:var(--accent);display:inline-flex;align-items:center;gap:5px;transition:var(--transition);}.read-more:hover{color:var(--accent-hover);gap:8px;}footer{background:var(--footer-bg);color:var(--footer-text);padding:56px 0 22px;margin-top:60px;}.footer-grid{display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:36px;margin-bottom:36px;}.footer-col h3{color:#ffffff;font-size:1.05rem;font-weight:700;margin-bottom:16px;padding-bottom:6px;border-bottom:2px solid var(--accent);display:inline-block;}.footer-col p{font-size:0.9rem;line-height:1.7;margin-bottom:14px;color:var(--footer-text);}.footer-col ul li{margin-bottom:10px;}.footer-col ul li a{font-size:0.9rem;color:var(--footer-text);transition:var(--transition);}.footer-col ul li a:hover{color:var(--accent-2);padding-left:4px;}.footer-bottom{text-align:center;padding-top:20px;border-top:1px solid rgba(255,255,255,0.08);font-size:0.85rem;color:#64748b;}.welcome-screen{position:fixed;inset:0;z-index:9999;background:var(--bg-color);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:20px;transition:opacity 0.6s ease,visibility 0.6s ease;}.welcome-screen.hide{opacity:0;visibility:hidden;pointer-events:none;}.welcome-robot{font-size:4.5rem;animation:welcome-float 2s ease-in-out infinite;}@keyframes welcome-float{0%,100%{transform:translateY(0);}50%{transform:translateY(-14px);}}.welcome-text{font-size:1.3rem;font-weight:700;color:var(--text-main);min-height:2rem;text-align:center;padding:0 20px;}.typing-cursor{display:inline-block;animation:welcome-blink 0.8s steps(1) infinite;font-weight:400;}@keyframes welcome-blink{0%,50%{opacity:1;}51%,100%{opacity:0;}}body.welcome-active{overflow:hidden;}@media (max-width:900px){.hamburger{display:flex;}nav{order:3;flex:0 0 100%;}.nav-links{display:none;position:absolute;top:100%;left:0;width:100%;background-color:var(--card-bg);flex-direction:column;align-items:flex-start;padding:18px 20px;border-bottom:1px solid var(--border-color);box-shadow:var(--shadow-md);}.nav-links.active{display:flex;}.nav-links a{display:block;width:100%;padding:10px 0;border-bottom:1px solid var(--border-color);}.footer-grid{grid-template-columns:1fr 1fr;}}@media (max-width:520px){.footer-grid{grid-template-columns:1fr;}.section-title{font-size:1.3rem;}}</style>
+  <link rel="icon" type="image/png" href="/assets/images/Favicon.png">
+  <style>
+    .article-container { max-width: 800px; margin: 40px auto; background-color: var(--card-bg); border: 1px solid var(--border-color); border-radius: 16px; padding: 40px; box-shadow: 0 4px 20px rgba(0,0,0,0.03); }
+    .article-header { margin-bottom: 30px; }
+    .article-category-date { display: flex; justify-content: space-between; align-items: center; font-size: 0.9rem; color: var(--text-muted); margin-bottom: 15px; }
+    .article-title { font-size: 2.3rem; font-weight: 800; line-height: 1.3; margin-bottom: 20px; color: var(--text-main); }
+    .article-featured-image { width: 100%; height: auto !important; max-height: none !important; object-fit: contain !important; display: block; border-radius: 12px; margin-bottom: 30px; background-color: var(--border-color); }
+    .article-body { font-size: 1.1rem; line-height: 1.8; color: var(--text-main); }
+    .article-body p { margin-bottom: 20px; }
+    .article-body h2 { font-size: 1.7rem; margin: 34px 0 15px 0; color: var(--text-main); }
+    .article-body h3 { font-size: 1.5rem; margin: 30px 0 15px 0; color: var(--text-main); }
+    .article-body ul { margin-bottom: 20px; padding-left: 20px; list-style-type: disc; }
+    .article-body li { margin-bottom: 8px; }
+    .img-credit { font-size: 0.8rem; color: var(--text-muted); margin: -22px 0 26px 0; }
+    .key-points { background: var(--bg-color, rgba(37,99,235,0.06)); border: 1px solid var(--border-color); border-left: 5px solid var(--accent, #2563eb); border-radius: 10px; padding: 18px 22px; margin-bottom: 30px; }
+    .key-points-title { font-size: 1.15rem; font-weight: 800; margin-bottom: 10px; color: var(--text-main); }
+    .key-points ul { margin: 0; padding-left: 20px; list-style-type: disc; }
+    .key-points li { margin-bottom: 8px; line-height: 1.6; color: var(--text-main); }
+    .article-body table { width: 100%; border-collapse: collapse; margin: 20px 0; display: block; overflow-x: auto; }
+    .article-body th, .article-body td { border: 1px solid var(--border-color); padding: 8px 12px; text-align: left; }
+    .article-body th { background: var(--border-color); }
+    .related { margin-top: 40px; padding-top: 25px; border-top: 1px solid var(--border-color); }
+    .related h2 { font-size: 1.3rem; margin-bottom: 12px; }
+    .related li { margin-bottom: 8px; }
+    .related a { color: var(--accent); font-weight: 600; text-decoration: underline; text-underline-offset: 3px; }
+    .related a:hover { opacity: 0.8; }
+    .back-home { display: inline-block; margin-top: 30px; font-weight: 600; color: var(--accent); }
+    @media (max-width: 768px) {
+      .article-container { padding: 20px; margin: 20px 10px; }
+      .article-title { font-size: 1.7rem; }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="container nav-container">
+      <div class="logo-area">
+        <a href="/" class="logo-text">TECH RWT Discovery</a>
+        <span class="logo-tagline">विज्ञान और भविष्य की तकनीक</span>
+      </div>
+      <nav>
+        <ul class="nav-links" id="navLinks">
+          <li><a href="/">होम</a></li>
+          <li><a href="/pages/science.html">Science</a></li>
+          <li><a href="/pages/space.html">Space &amp; ISRO</a></li>
+          <li><a href="/pages/technology.html">Technology</a></li>
+          <li><a href="/pages/environment.html">Environment</a></li>
+          <li><a href="/pages/innovation.html">Innovation</a></li>
+          <li><a href="/pages/about.html">हमारे बारे में</a></li>
+          <li><a href="/pages/contact.html">संपर्क</a></li>
+        </ul>
+      </nav>
+      <div class="nav-actions">
+        <button class="search-toggle" onclick="window.location.href='/pages/search.html'" title="खोजें">🔍</button>
+        <button class="theme-toggle" id="themeToggle" title="Theme Toggle">🌙</button>
+        <button class="hamburger" id="hamburger" aria-label="Menu"><span></span><span></span><span></span></button>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <div class="article-container">
+      <div class="article-header">
+        <div class="article-category-date">
+          <a class="card-category" href="/pages/technology.html">Technology &amp; Future Tech</a>
+          <time datetime="2026-10-22">प्रकाशित तिथि: 2026-10-22</time>
+        </div>
+        <h1 class="article-title">eMudhra की 8 कमज़ोर चाबियां: क्या भारत की DSC पर असर पड़ा?</h1>
+      </div>
+      <img src="/assets/images/emudhra-weak-ca-keys-dsc-esign-india.webp" alt="eMudhra की 8 कमज़ोर चाबियां: क्या भारत की DSC पर असर पड़ा?" class="article-featured-image" fetchpriority="high" decoding="async" onerror="this.src='/assets/images/sample-space.jpg'">
+      
+      <div class="key-points"><div class="key-points-title">मुख्य बिंदु</div><ul><li>17 अक्टूबर 2026 को eMudhra के 8 intermediate certificates की कमज़ोर चाबियां पकड़ी गईं।</li><li>BleepingComputer के अनुसार हर चाबी का मान 256 से छोटा था, यानी सिर्फ़ 256 संख्याएं आज़मानी थीं।</li><li>MeitY के अनुसार DSC और eSign अप्रभावित हैं; घटना वैश्विक वेबसाइट-सुरक्षा कारोबार तक सीमित है।</li><li>Firefox और Chrome ने 17 अक्टूबर को, Apple ने 19 और Microsoft ने 20 अक्टूबर को certificates ब्लॉक किए।</li><li>ब्राउज़र के बाहर के क्लाइंट और सर्वर को अलग से अपडेट चाहिए; दुरुपयोग का सबूत अभी नहीं मिला।</li></ul></div>
+      <div class="article-body">
+        <p>eMudhra की सुरक्षा खामी (certificate flaw) का आपके Digital Signature Certificate (DSC) पर क्या असर पड़ा? MeitY और CERT-In के अनुसार कोई असर नहीं: भारत की DSC और eSign सेवाएं अप्रभावित हैं, खामी कंपनी के वैश्विक वेबसाइट-सुरक्षा कारोबार में निकली। वहां 8 intermediate certificates की निजी चाबियां (private keys) इतनी कमज़ोर थीं कि उन्हें लगभग तुरंत निकाला जा सकता था।</p><p>इस लेख का ध्यान एक फ़र्क पर है: eMudhra के दो कारोबार अलग कैसे हैं, और भारत का आम यूज़र या वेबसाइट चलाने वाला किस हिस्से में आता है।</p><h2>17 अक्टूबर को पकड़ी गई चाबियां</h2><p>BleepingComputer के अनुसार Wayne नाम के सुरक्षा शोधकर्ता ने 17 अक्टूबर 2026 को सार्वजनिक certificate डेटा खंगालते हुए यह कमज़ोरी पकड़ी। Mozilla की घटना-रिपोर्ट के हवाले से बताया गया कि आठों certificates की P-384 चाबियों के मान 256 से छोटे थे। यानी चाबी पाने के लिए सिर्फ़ 256 संख्याएं आज़मानी पड़तीं।</p><p>Intermediate CA वह इकाई है जो वेबसाइटों के certificates पर दस्तख़त करती है। Cloudflare की चेतावनी के अनुसार (iTnews), ऐसी चाबी हाथ लगे तो कोई भी किसी भी डोमेन का नकली certificate बनाकर सर्वर की नकल कर सकता है।</p><p>eMudhra ने Mozilla के बग-ट्रैकर पर बताया कि अप्रैल 2025 की key ceremony में एक स्क्रिप्ट की गड़बड़ी से कमज़ोर चाबियों का दूसरा सेट बन गया। मिलते-जुलते लेबल की वजह से वही इस्तेमाल हो गया (BleepingComputer)। Help Net Security के अनुसार ये आठ, 30 अप्रैल 2025 को बने 24 intermediates के बैच का हिस्सा थे।</p><p>ब्लॉक की तारीखें Mozilla के Dennis Jackson की ट्रैकिंग साइट के अनुसार:</p><ul><li>17 अक्टूबर: Firefox और Chrome ने आठों certificates ब्लॉक किए</li><li>19 अक्टूबर: Apple के उपकरणों पर ब्लॉक</li><li>20 अक्टूबर: Microsoft प्लेटफ़ॉर्म पर ब्लॉक (BleepingComputer के अनुसार उसी दिन Firefox 158.0.1 भी जारी हुआ)</li></ul><h2>256 संख्याएं कितनी कम हैं</h2><p>ATM के 4 अंकों के PIN में 10,000 संभावनाएं होती हैं। 256 संभावनाओं वाली चाबी उससे लगभग 39 गुना आसान निकली। सामान्य P-384 चाबी की संभावनाएं 116 अंकों की संख्या जितनी बड़ी होती हैं। यह हमारा आकलन है, पर हिसाब सीधा है: 10,000 ÷ 256 ≈ 39।</p><p>Help Net Security ने लिखा कि ऐसी चाबी सार्वजनिक certificate से एक सेकंड से कम में निकल सकती है। BleepingComputer के अनुसार एक चाबी का मान सिर्फ़ 4 था। कई लोगों के खुद चाबी निकाल लेने के बाद Mozilla ने eMudhra की emSign ECC Root CA - G3 से भरोसा पूरी तरह हटाने का फ़ैसला किया, और iTnews के अनुसार Chrome भी वही राह ले रहा है।</p><h2>eMudhra के दो कारोबार: कौन-सा हिस्सा प्रभावित है</h2><p>Business Today की रिपोर्ट के अनुसार MeitY ने कहा कि eMudhra दो अलग क्षेत्रों में काम करती है। पहला है DSC और eSign, जिन्हें Controller of Certifying Authorities (CCA) विनियमित करता है। दूसरा वह certificate कारोबार है जिसे ब्राउज़र और ऑपरेटिंग सिस्टम भरोसेमंद मानते हैं।</p><p>मंत्रालय के अनुसार घटना सिर्फ़ दूसरे हिस्से की है। यह कारोबार वैश्विक भरोसा-ढांचे पर चलता है और BDO International के WebTrust ऑडिट के दायरे में आता है। MeitY ने यह भी कहा कि वह इस ऑडिट में शामिल नहीं है। eMudhra के अनुसार भारतीय DSC कारोबार अलग ढांचे पर चलता है (Business Standard)।</p><table><thead><tr><th>पहलू</th><th>DSC और eSign</th><th>ब्राउज़र-भरोसे वाले TLS certificates</th></tr></thead><tbody><tr><td>किसलिए</td><td>दस्तावेज़ों पर ऑनलाइन दस्तख़त, पहचान</td><td>HTTPS वेबसाइट, सॉफ़्टवेयर और संचार की सुरक्षा</td></tr><tr><td>निगरानी</td><td>CCA, MeitY के अधीन</td><td>ब्राउज़र रूट प्रोग्राम, WebTrust ऑडिट</td></tr><tr><td>इस घटना में</td><td>MeitY और CERT-In के अनुसार अप्रभावित</td><td>8 intermediate certificates की चाबियां कमज़ोर</td></tr></tbody></table><h2>भारत में आम यूज़र के लिए इसका मतलब</h2><p>Jackson की ट्रैकिंग साइट के अनुसार Chrome, Firefox, Apple और Microsoft के प्लेटफ़ॉर्म पर ब्लॉक लग चुके हैं। साथ ही अप्रैल 2025 के बाद इन intermediates की कोई प्रविष्टि Certificate Transparency लॉग में नहीं मिली, इसलिए CT लागू करने वाले ब्राउज़र पर हमला संभव नहीं था।</p><p>MeitY के अनुसार भारतीय वेबसाइटों और ऐप्स पर असर बहुत सीमित और बहुत कम अवधि का रहा। मंत्रालय ने सोशल मीडिया पर फैलाए जा रहे डर के ख़िलाफ़ भी चेताया (Business Today)।</p><p>CERT-In की सलाह के अनुसार ब्राउज़र, ऐप और ऑपरेटिंग सिस्टम अपडेट रखें (Business Standard)। Business Today के अनुसार ब्राउज़र की certificate चेतावनी को बायपास न करें। राय के तौर पर, यहां असली जोखिम नकल का है: असली दिखने वाली साइट या आवाज़ भरोसा चुराती है, जैसा <a href="/articles/ai-voice-cloning-scam-intesa-fideuram-bank.html">AI आवाज़ से बैंक ठगी के मामले</a> में दिखा था।</p><h2>वेबसाइट और सर्वर चलाने वालों का काम</h2><p>Cloudflare ने चेताया कि ग्राहकों को अपने सर्वर पर भी कदम उठाने पड़ सकते हैं। iTnews के अनुसार macOS का curl, Apple का ब्लॉक होने के बावजूद, ख़राब chain को मान रहा था। Business Today के अनुसार प्रभावित chain वाली वैध साइटों पर चेतावनी या कनेक्शन की दिक्कत आ सकती है, जब तक वे नए certificates पर न जाएं।</p><p>Jackson की ट्रैकिंग साइट पर दर्ज कुछ पैच:</p><ul><li>Go 1.27.3 और 1.26.10 (CVE-2026-111943)</li><li>Python certifi 2026.10.19</li><li>Node.js 22.23.4, 24.22.1 और 26.12.1</li><li>curl CA bundle, 20 अक्टूबर 2026 का संस्करण</li></ul><p>ब्राउज़र ठीक है तो सब ठीक, यह मान लेना गलत होगा, क्योंकि कई क्लाइंट revocation जानकारी नहीं जांचते और सिर्फ़ सॉफ़्टवेयर अपडेट से ही सुधरते हैं (Jackson की साइट)। गंभीर खामियों में पैच की प्राथमिकता पर <a href="/articles/f5-big-ip-apm-critical-vulnerability-cve-2026-94127.html">F5 BIG-IP की 9.8 स्कोर वाली खामी</a> की रिपोर्ट भी देख सकते हैं।</p><h2>जो अभी साफ़ नहीं</h2><p>eMudhra के 21 अक्टूबर के अपडेट के अनुसार कंपनी को ऐसा कोई सबूत नहीं मिला कि खुलासे से पहले किसी ने कमज़ोर चाबियां निकालीं या उनका दुरुपयोग किया। Business Today के अनुसार 21 अक्टूबर तक व्यापक हमलों की पुष्टि नहीं हुई थी, पर सबूत न मिलने का मतलब यह नहीं कि दुरुपयोग असंभव है।</p><ul><li>CT न लागू करने वाले क्लाइंट पर हमला हुआ या नहीं, यह Jackson की साइट के अनुसार अज्ञात है</li><li>कारण की व्याख्या eMudhra की शुरुआती व्याख्या है, पूरी जांच बाकी है</li><li>कितनी भारतीय वेबसाइटें सचमुच प्रभावित हुईं, इसका आंकड़ा सार्वजनिक नहीं हुआ</li></ul><h2>आगे क्या देखें</h2><ul><li>MeitY की विशेष टीम की जांच: मंत्रालय के अनुसार ब्योरा जांच पूरी होने पर साझा होगा (Business Today)</li><li>G3 root हटने का असर: Business Today के अनुसार वैध साइटों को नए certificates लेने पड़ेंगे</li><li>बाकी पैच: Jackson की साइट पर Bun, Bottlerocket और Erlang certifi के पैच अभी 'pending' दिखते हैं</li></ul><p>ब्राउज़र का ताला तभी काम का है जब उसके पीछे की चाबी सचमुच गुप्त हो। eMudhra का मामला अभी जांच में है। भारतीय DSC और eSign पर असर न होने की बात MeitY, CERT-In और कंपनी, तीनों ने कही है।</p><p><strong>स्रोत:</strong> Mozilla (Dennis Jackson) की incident साइट, BleepingComputer, Help Net Security, Business Today, iTnews, Business Standard</p>
+      </div>
+      <section class="related"><h2>और पढ़ें</h2><ul><li><a href="/articles/apple-india-revenue-1-lakh-crore-fy26-profit.html">Apple India का ₹1 लाख करोड़ राजस्व: मुनाफ़ा आख़िर कितना बचा?</a></li><li><a href="/articles/jio-platforms-ipo-30213-crore-hyundai-comparison.html">Jio Platforms के ₹30,213 करोड़ के IPO में असल में बिक क्या रहा है?</a></li><li><a href="/articles/meta-muse-spark-open-weights-mac-studio-india.html">Meta ने Muse Spark Open खोला: 816 अरब पैरामीटर, चलाने को 1TB मेमोरी</a></li><li><a href="/articles/nvidia-rtx-spark-laptop-launch-4-myths-india.html">128GB तक मेमोरी वाला RTX Spark लैपटॉप आया, क़ीमत $2,599 से शुरू</a></li><li><a href="/articles/reuters-heat-storms-102-per-year-vera-367-days.html">हीट स्टॉर्म: 1960 के दशक में 5 सालाना, अब करीब 102: Reuters जांच</a></li><li><a href="/articles/ai-arecanut-sorting-machine-agrograde-mangaluru.html">Agrograde की सुपारी-छंटाई AI मशीन: सटीकता 75% से 89%, कंपनी के अनुसार</a></li></ul></section>
+      <a href="/" class="back-home">&larr; होम पर वापस जाएं</a>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container footer-grid">
+      <div class="footer-col">
+        <h3>TECH RWT Discovery</h3>
+        <p>जटिल Science और Technology को आसान Hindi में समझने का एक गंभीर मंच।</p>
+      </div>
+      <div class="footer-col">
+        <h3>प्रमुख श्रेणियां</h3>
+        <ul>
+          <li><a href="/pages/science.html">Science</a></li>
+          <li><a href="/pages/space.html">Space &amp; ISRO</a></li>
+          <li><a href="/pages/technology.html">Technology &amp; Future Tech</a></li>
+          <li><a href="/pages/environment.html">Environment</a></li>
+          <li><a href="/pages/innovation.html">Innovation</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h3>त्वरित लिंक्स</h3>
+        <ul>
+          <li><a href="/pages/about.html">हमारे बारे में</a></li>
+          <li><a href="/pages/contact.html">संपर्क करें</a></li>
+          <li><a href="/archive.html">सभी लेख</a></li>
+          <li><a href="/pages/search.html">आर्टिकल खोजें</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h3>कानूनी जानकारी</h3>
+        <ul>
+          <li><a href="/pages/privacy.html">गोपनीयता नीति</a></li>
+          <li><a href="/pages/disclaimer.html">अस्वीकरण</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>&copy; 2026 TECH RWT Discovery. सर्वाधिकार सुरक्षित।</p>
+    </div>
+  </footer>
+
+  <script src="/js/main.js" defer></script>
+</body>
+</html>
