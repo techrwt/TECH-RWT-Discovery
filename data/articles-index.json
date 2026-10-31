@@ -1,5 +1,51 @@
 [
  {
+  "id": "science-20261031-artemis-i-mare-radiation",
+  "slug": "artemis-i-mare-moon-radiation-vs-iss-lif-detectors-india",
+  "title": "Artemis I के MARE में चांद के पास विकिरण ISS से ज़्यादा, पर कम अंतर",
+  "seoTitle": "चांद के पास विकिरण: Artemis I का MARE नतीजा",
+  "category": "Science",
+  "date": "2026-10-31",
+  "image": "assets/images/artemis-i-mare-moon-radiation-vs-iss-lif-detectors-india.webp",
+  "imageCredit": "",
+  "excerpt": "Artemis I के MARE प्रयोग के अनुसार चांद के पास कुल विकिरण ISS से ऊंचा है, पर उतना नहीं जितना अंदाज़ा था। ISS बनाम चांद की आमने-सामने तुलना, 731, 523 और 1,369 μSv के आंकड़े, और भारत का पहलू।",
+  "searchDescription": "Artemis I के MARE में चांद के पास विकिरण ISS से ज़्यादा पर अपेक्षा से कम निकला। LiF डिटेक्टर, 731 बनाम 1,369 μSv की तुलना और भारत का पहलू।",
+  "author": "TECH RWT Discovery",
+  "featured": false,
+  "trending": false,
+  "keyPoints": [
+   "Artemis I (नवंबर-दिसंबर 2022) के MARE प्रयोग में पुतलों में 10,000 से ज़्यादा क्रिस्टल-डिटेक्टर लगे थे।",
+   "IFJ PAN के अनुसार चांद के पास कुल डोज़ ISS से ज़्यादा है, पर अंतर सहज अनुमान जितना बड़ा नहीं।",
+   "वजह: Van Allen पेटी के फंसे प्रोटॉन गायब, गैलेक्टिक कणों की हिस्सेदारी ज़्यादा; डोज़ पुतलों में लगभग एक-सा।",
+   "Chang'e-4 सतह 1,369 μSv/दिन बनाम ISS कुल 731: हमारी गणना में 1.9 गुना; सिर्फ़ गैलेक्टिक कणों से 2.6 गुना।",
+   "विकिरण मापने का भारतीय नाता: Chandrayaan-1 का RADOM; नतीजे प्रारंभिक हैं और डिटेक्टर-विधि पर केंद्रित।"
+  ],
+  "batch": 193
+ },
+ {
+  "id": "space-20261031-hubble-reboost",
+  "slug": "hubble-reboost-servicing-mission-nasa-rfi",
+  "title": "Hubble को 600 km ऊपर कौन उठाएगा? NASA ने कंपनियों से पूछा",
+  "seoTitle": "Hubble Reboost मिशन: NASA ने कंपनियों से माँगे प्लान",
+  "category": "Space & ISRO",
+  "date": "2026-10-31",
+  "image": "assets/images/hubble-reboost-servicing-mission-nasa-rfi.webp",
+  "imageCredit": "",
+  "excerpt": "NASA ने 29 अक्टूबर 2026 को Hubble reboost और servicing पर कंपनियों से जानकारी माँगी। जानिए पकड़ने से ऊँचाई बढ़ाने तक का काम कैसे होगा और भारत के लिए इसका क्या मतलब है।",
+  "searchDescription": "Hubble reboost मिशन क्या है? NASA ने कंपनियों से Hubble को 600 km तक उठाने के प्लान माँगे। पकड़ने से ऊँचाई बढ़ाने तक के चरण और भारत का पहलू।",
+  "author": "TECH RWT Discovery",
+  "featured": false,
+  "trending": true,
+  "keyPoints": [
+   "NASA ने 29 अक्टूबर 2026 को Hubble की servicing पर RFI जारी किया; जवाब 30 नवंबर तक",
+   "Hubble में इंजन नहीं, इसलिए 2033-34 के आसपास re-entry का अनुमान है",
+   "RFI का तीसरा हिस्सा नियंत्रित वापसी है; पहला कम से कम 600 km का reboost",
+   "2009 में लगा Soft Capture Mechanism नए यान को पकड़ने में मदद कर सकता है",
+   "RFI ठेका नहीं है; NASA ने अभी न बजट बताया है, न किसी कंपनी को चुना है"
+  ],
+  "batch": 194
+ },
+ {
   "id": "science-20261030-709-bce-eclipse-qufu",
   "slug": "709-bce-eclipse-qufu-8km-error-earth-rotation-delta-t",
   "title": "8 किमी की गलती सुधरी, और 709 ईसा पूर्व का ग्रहण बोलने लगा",

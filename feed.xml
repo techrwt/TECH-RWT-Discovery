@@ -7,6 +7,22 @@
     <language>hi</language>
     <atom:link href="https://techrawatdiscovery.sbs/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Artemis I के MARE में चांद के पास विकिरण ISS से ज़्यादा, पर कम अंतर</title>
+      <link>https://techrawatdiscovery.sbs/articles/artemis-i-mare-moon-radiation-vs-iss-lif-detectors-india.html</link>
+      <guid isPermaLink="true">https://techrawatdiscovery.sbs/articles/artemis-i-mare-moon-radiation-vs-iss-lif-detectors-india.html</guid>
+      <pubDate>Sat, 31 Oct 2026 00:00:00 GMT</pubDate>
+      <category>Science</category>
+      <description>Artemis I के MARE में चांद के पास विकिरण ISS से ज़्यादा पर अपेक्षा से कम निकला। LiF डिटेक्टर, 731 बनाम 1,369 μSv की तुलना और भारत का पहलू।</description>
+    </item>
+    <item>
+      <title>Hubble को 600 km ऊपर कौन उठाएगा? NASA ने कंपनियों से पूछा</title>
+      <link>https://techrawatdiscovery.sbs/articles/hubble-reboost-servicing-mission-nasa-rfi.html</link>
+      <guid isPermaLink="true">https://techrawatdiscovery.sbs/articles/hubble-reboost-servicing-mission-nasa-rfi.html</guid>
+      <pubDate>Sat, 31 Oct 2026 00:00:00 GMT</pubDate>
+      <category>Space &amp; ISRO</category>
+      <description>Hubble reboost मिशन क्या है? NASA ने कंपनियों से Hubble को 600 km तक उठाने के प्लान माँगे। पकड़ने से ऊँचाई बढ़ाने तक के चरण और भारत का पहलू।</description>
+    </item>
+    <item>
       <title>8 किमी की गलती सुधरी, और 709 ईसा पूर्व का ग्रहण बोलने लगा</title>
       <link>https://techrawatdiscovery.sbs/articles/709-bce-eclipse-qufu-8km-error-earth-rotation-delta-t.html</link>
       <guid isPermaLink="true">https://techrawatdiscovery.sbs/articles/709-bce-eclipse-qufu-8km-error-earth-rotation-delta-t.html</guid>
@@ -229,22 +245,6 @@
       <pubDate>Sat, 24 Oct 2026 00:00:00 GMT</pubDate>
       <category>Technology &amp; Future Tech</category>
       <description>अश्विनी वैष्णव ने 23 अक्टूबर 2028 तक भारतीय डिज़ाइन-ब्रांड फ़ोन का लक्ष्य रखा। आज के असेंबली मॉडल से यह कितना अलग है और चुनौतियां क्या हैं।</description>
-    </item>
-    <item>
-      <title>चक्रवात कैसे बनता है और 'अर्नब' नाम कब मिलता है?</title>
-      <link>https://techrawatdiscovery.sbs/articles/how-cyclone-forms-imd-classification-cyclone-arnab-2026.html</link>
-      <guid isPermaLink="true">https://techrawatdiscovery.sbs/articles/how-cyclone-forms-imd-classification-cyclone-arnab-2026.html</guid>
-      <pubDate>Sat, 24 Oct 2026 00:00:00 GMT</pubDate>
-      <category>Environment</category>
-      <description>चक्रवात कैसे बनता है: बंगाल की खाड़ी के सिस्टम के साथ IMD की श्रेणियां, हवा की रफ्तार, अर्नब नाम की प्रक्रिया और आंध्र-ओडिशा के लिए चेतावनी।</description>
-    </item>
-    <item>
-      <title>SpectraGaze को ₹3.7 करोड़ का सीड फंड, पर ग्राहकों में ISRO पहले से</title>
-      <link>https://techrawatdiscovery.sbs/articles/spectragaze-seed-funding-imaging-sensor-startup-india.html</link>
-      <guid isPermaLink="true">https://techrawatdiscovery.sbs/articles/spectragaze-seed-funding-imaging-sensor-startup-india.html</guid>
-      <pubDate>Sat, 24 Oct 2026 00:00:00 GMT</pubDate>
-      <category>Innovation</category>
-      <description>इमेजिंग सेंसर स्टार्टअप SpectraGaze को GVFL से ₹3.7 करोड़ का सीड मिला। भारत में डिटेक्टर पहले कैसे आते थे, अब क्या बदला और क्या अभी बाकी है, जानिए।</description>
     </item>
   </channel>
 </rss>
