@@ -69,6 +69,29 @@
   "batch": 195
  },
  {
+  "id": "space-20261031-nvs-03-navic-launch-success",
+  "slug": "nvs-03-launch-success-navic-four-satellites",
+  "title": "NVS-03 सफल: NavIC में चौथा सैटेलाइट, पर कक्षा उठाना बाकी",
+  "seoTitle": "NVS-03 लॉन्च सफल: NavIC में चौथा सैटेलाइट, आगे क्या?",
+  "category": "Space & ISRO",
+  "date": "2026-10-31",
+  "image": "assets/images/nvs-03-navic-gslv-f18-launch-success.png",
+  "imageCredit": "",
+  "excerpt": "GSLV-F18 ने NVS-03 को GTO में पहुँचाया और ISRO के अनुसार NavIC चार सैटेलाइट पर लौटा। NVS-02 से तुलना, आम यूज़र पर असर और जो अभी तय नहीं।",
+  "searchDescription": "NVS-03 लॉन्च: GSLV-F18 ने 30 अक्टूबर 2026 की रात सैटेलाइट GTO में पहुँचाया। NavIC की गिनती तीन से चार, NVS-02 से तुलना और आगे की परीक्षा।",
+  "author": "TECH RWT Discovery",
+  "featured": false,
+  "trending": true,
+  "keyPoints": [
+   "GSLV-F18 ने 30 अक्टूबर 2026 की रात 11:51 बजे (IST) श्रीहरिकोटा से NVS-03 को छोड़ा; ISRO के अनुसार उसे तय GTO में पहुँचाया गया।",
+   "ANI के अनुसार ISRO चेयरमैन ने कहा कि NavIC अब चार सैटेलाइट की न्यूनतम चालू व्यवस्था में लौट आया है।",
+   "PIB के अनुसार जुलाई 2026 में तीन सैटेलाइट चालू थे; अकेली पोज़िशनिंग के लिए चार चाहिए।",
+   "ThePrint के अनुसार NVS-02 वाल्व न खुलने से अटका था; NVS-03 की असली परीक्षा GTO से आगे की कक्षा तक पहुँचना है।",
+   "चार पर कोई अतिरिक्त सैटेलाइट नहीं है, और सेवा शुरू होने की तारीख़ अभी सामने नहीं है (हमारा आकलन)।"
+  ],
+  "batch": 196
+ },
+ {
   "id": "science-20261030-709-bce-eclipse-qufu",
   "slug": "709-bce-eclipse-qufu-8km-error-earth-rotation-delta-t",
   "title": "8 किमी की गलती सुधरी, और 709 ईसा पूर्व का ग्रहण बोलने लगा",
