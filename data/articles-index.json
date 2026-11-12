@@ -1,5 +1,74 @@
 [
  {
+  "id": "technology-20261112-gemini-robotics-2-5-96",
+  "slug": "gemini-robotics-2-5-mercedes-96-percent-apollo-2",
+  "title": "Gemini Robotics 2.5: Mercedes में 96%, पर ट्रायल गिनती नहीं बताई",
+  "seoTitle": "Gemini Robotics 2.5: Mercedes में 96% का सच",
+  "category": "Technology & Future Tech",
+  "date": "2026-11-12",
+  "image": "assets/img/gemini-robotics-2-5-apollo-2-mercedes-kitting.png",
+  "imageCredit": "",
+  "excerpt": "DeepMind के Gemini Robotics 2.5 ने Mercedes-Benz की चालू लाइनों पर 96% सफलता का दावा किया, पर ट्रायल गिनती और सफलता की परिभाषा नहीं दी। चार भ्रम, तालिका और भारत का पहलू।",
+  "searchDescription": "Gemini Robotics 2.5 क्या है? Mercedes-Benz में Apollo 2 का 96% दावा, 99.5% सुरक्षा का असली मतलब, पिछले मॉडल से तुलना और भारत के लिए अर्थ।",
+  "author": "TECH RWT Discovery",
+  "featured": false,
+  "trending": true,
+  "keyPoints": [
+   "DeepMind ने 10 नवंबर 2026 को Gemini Robotics 2.5 पेश किया; यह अभी सिर्फ़ रोबोटिक्स साझेदारों को मिल रहा है।",
+   "Mercedes की दो फ़ैक्ट्रियों में Apollo 2 ने पुर्ज़े छांटने में 96% पाया, पर ट्रायल गिनती नहीं बताई गई।",
+   "DeepMind के चार्ट में टूलबॉक्स का ढक्कन 0% से 93% और पेस्ट्री पैक करना 5% से 100% हुआ; राइस कुकर 40% पर है।",
+   "99.5% का आंकड़ा Gemini 4 Argon की जेलब्रेक-प्रतिरोध दर है, रोबोट की भौतिक सुरक्षा की गारंटी नहीं।",
+   "IFR के अनुसार भारत ने 2025 में करीब 10,500 औद्योगिक रोबोट लगाए, 15% ज़्यादा; दुनिया में छठा स्थान।"
+  ],
+  "batch": 220
+ },
+ {
+  "id": "environment-20261112-wmo-climate-update-2026",
+  "slug": "wmo-state-of-climate-2026-update-1-47c-warmest-years",
+  "title": "WMO: जनवरी–सितंबर 2026 का तापमान 1.47°C ऊपर, टॉप-4 सालों में",
+  "seoTitle": "WMO State of Climate 2026: 1.47°C गर्म, टॉप-4 साल में",
+  "category": "Environment",
+  "date": "2026-11-12",
+  "image": "assets/images/wmo-state-of-climate-2026-update-1-47c-warmest-years.webp",
+  "imageCredit": "",
+  "excerpt": "WMO की State of the Climate Update 2026 के अनुसार जनवरी–सितंबर का तापमान 1.47°C ऊपर रहा। 2023–2025 से तालिका में तुलना, नौ महीनों की सीमा और भारत का हिसाब।",
+  "searchDescription": "WMO State of the Climate 2026: जनवरी–सितंबर में तापमान 1.47°C ऊपर। 2023-2025 से तुलना, El Niño का असर, भारत की लू के आंकड़े और जो अभी तय नहीं।",
+  "author": "TECH RWT Discovery",
+  "featured": false,
+  "trending": true,
+  "keyPoints": [
+   "WMO के अनुसार जनवरी–सितंबर 2026 का वैश्विक तापमान 1850–1900 से 1.47°C ऊपर रहा।",
+   "रिकॉर्ड 2024 का 1.55°C है; पूरे 2025 में 1.43°C और 2023 में 1.46°C रहा (WMO)।",
+   "WMO: समुद्र-स्तर रिकॉर्ड पर है और 2026 लगातार दसवां रिकॉर्ड-गर्म समुद्री साल बनने की राह पर है।",
+   "अप्रैल 2026 की लू में अनुमानित 14.65 करोड़ भारतीय अत्यधिक गर्मी की चपेट में आए (WMO)।",
+   "डेटा सितंबर तक का है; पूरे साल की अंतिम रिपोर्ट मार्च 2027 में आएगी।"
+  ],
+  "batch": 221
+ },
+ {
+  "id": "innovation-20261112-seanav-iit-madras",
+  "slug": "seanav-iit-madras-digital-twin-autonomous-ship-navigation",
+  "title": "SEANAV क्या है? AI जहाज़ को टक्कर से बचना कैसे सीखेगा?",
+  "seoTitle": "SEANAV: IIT मद्रास का जहाज़ नेविगेशन डिजिटल ट्विन",
+  "category": "Innovation",
+  "date": "2026-11-12",
+  "image": "assets/images/seanav-iit-madras-digital-twin-autonomous-ship-navigation.webp",
+  "imageCredit": "",
+  "excerpt": "IIT मद्रास के SEANAV में जहाज़, सेंसर और लहरें वर्चुअल दुनिया में चलती हैं। छह कदमों में जानिए यह कैसे काम करता है, अभी क्या सिद्ध हुआ और क्या बाकी है।",
+  "searchDescription": "SEANAV क्या है? IIT मद्रास का डिजिटल ट्विन सिमुलेटर स्वायत्त जहाज़ की नेविगेशन AI को कैसे परखता है: छह कदम, सीमाएं और भारतीय बंदरगाहों का पहलू।",
+  "author": "TECH RWT Discovery",
+  "featured": false,
+  "trending": false,
+  "keyPoints": [
+   "IIT मद्रास ने 12 नवंबर 2026 को SEANAV नाम का रियल-टाइम डिजिटल ट्विन प्लेटफ़ॉर्म बताया।",
+   "Unity3D पर बने सिमुलेटर में 320 मीटर के टैंकर के हिसाब से LiDAR, रडार और कैमरा सेंसर मॉडल हैं।",
+   "IIT मद्रास के अनुसार आभासी लहरों और सेंसर-शोर में रास्ता पकड़ना व AI टक्कर-बचाव दिखाया जा चुका है।",
+   "असली जहाज़ या स्केल मॉडल पर मिलान आगे का काम है; लागत-बचत के आँकड़े विज्ञप्ति में नहीं हैं।",
+   "IMO का MASS Code 1 जुलाई 2026 से स्वैच्छिक रूप में लागू है; बाध्यकारी रूप का लक्ष्य 1 जनवरी 2032।"
+  ],
+  "batch": 222
+ },
+ {
   "id": "science-20261111-mosquito-preference-iscience",
   "slug": "why-mosquitoes-prefer-certain-people-iscience-study",
   "title": "क्या हर मच्छर को एक ही इंसान पसंद आता है? 119 लोगों का टेस्ट",
@@ -21,6 +90,29 @@
    "भारत में 2025 में नवंबर तक 1,13,440 डेंगू मामले दर्ज हुए (राज्यसभा में सरकार, IANS)।"
   ],
   "batch": 218
+ },
+ {
+  "id": "space-20261111-webb-digital-twin-flip",
+  "slug": "james-webb-digital-twin-flip-hidden-exoplanet",
+  "title": "Webb के डेटा में छिपा ग्रह दिखा, पर वह नई खोज नहीं है",
+  "seoTitle": "James Webb का Digital Twin: FLIP से छिपा ग्रह कैसे दिखा?",
+  "category": "Space & ISRO",
+  "date": "2026-11-11",
+  "image": "assets/images/james-webb-digital-twin-flip-hidden-exoplanet.webp",
+  "imageCredit": "",
+  "excerpt": "Northwestern की FLIP विधि ने James Webb के पुराने डेटा में 51 Eridani b को उभारा। डिजिटल ट्विन कैसे काम करता है, 2 से 15 गुना का आधार क्या है और भारत के लिए मतलब क्या है।",
+  "searchDescription": "James Webb digital twin पर बनी FLIP विधि ने पुराने डेटा से 51 Eridani b निकाला। संवेदनशीलता 2 से 15 गुना बढ़ी। विधि, सीमाएँ और भारत के लिए मतलब।",
+  "author": "TECH RWT Discovery",
+  "featured": false,
+  "trending": true,
+  "keyPoints": [
+   "Nature में 4 नवंबर 2026 को छपी FLIP विधि ने JWST डेटा में 51 Eridani b उभारा (Northwestern)।",
+   "ग्रह नया नहीं था; उसे ज़मीनी टेलीस्कोपों से पहले ही खोजा जा चुका था (Northwestern)।",
+   "तीन तारों के परीक्षण में फीके ग्रह पकड़ने की संवेदनशीलता 2 से 15 गुना बढ़ी।",
+   "विधि मशीन-लर्निंग के औज़ार लेती है, पर Wang के अनुसार ग्रह पहचानने में AI नहीं लगा।",
+   "पृथ्वी जैसे ग्रहों के लिए पिकोमीटर-स्तर की स्थिरता चाहिए; FLIP यहाँ कितना काम आएगा, अभी खुला है।"
+  ],
+  "batch": 219
  },
  {
   "id": "science-20261110-doomsday-13-november-2026",
