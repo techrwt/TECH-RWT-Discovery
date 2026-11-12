@@ -47,7 +47,7 @@ jobs:
           for f in "$DIR"/*; do
             [ -e "$f" ] || continue
             n=$(basename "$f" | grep -oE '[0-9]+' | tail -1)
-            [ -n "$n" ] && [ "$n" -gt "$last" ] && last=$n
+            if [ -n "$n" ] && [ "$n" -gt "$last" ]; then last=$n; fi
           done
 
           next=$((last+1))
