@@ -57,11 +57,19 @@ jobs:
             next=$((next+1))
           done
 
-      - name: Commit
+            - name: Commit
         run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
           git add -A
           git commit -m "Auto batch number" || exit 0
+          for i in 1 2 3 4 5; do
+            if git pull --rebase origin main && git push origin HEAD:main; then
+              exit 0
+            fi
+            git rebase --abort 2>/dev/null
+            sleep 5
+          done
+          exit 1
           git pull --rebase origin main
           git push
