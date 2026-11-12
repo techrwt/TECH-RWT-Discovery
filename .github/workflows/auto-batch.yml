@@ -63,4 +63,5 @@ jobs:
           git config user.email "actions@github.com"
           git add -A
           git commit -m "Auto batch number" || exit 0
+          git pull --rebase origin main
           git push
