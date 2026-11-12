@@ -1,0 +1,66 @@
+name: Auto Batch Number
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'data/articles/*.json'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: auto-batch
+  cancel-in-progress: false
+
+jobs:
+  rename:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Give uploaded files the next batch number
+        run: |
+          DIR=data/articles
+          BEFORE="${{ github.event.before }}"
+          if [ "$BEFORE" = "0000000000000000000000000000000000000000" ]; then
+            BEFORE=$(git hash-object -t tree /dev/null)
+          fi
+
+          rm -rf /tmp/new && mkdir -p /tmp/new
+          i=0
+          while IFS=$'\t' read -r status path; do
+            [ -z "$path" ] && continue
+            case "$path" in *.json) ;; *) continue ;; esac
+            i=$((i+1))
+            cp "$path" "/tmp/new/$(printf '%04d' $i).json"
+            if [ "$status" = "M" ]; then
+              # same name pe overwrite hui thi: purani file wapas laao
+              git show "$BEFORE:$path" > "$path"
+            else
+              rm "$path"
+            fi
+          done < <(git -c core.quotepath=off diff --name-status --diff-filter=AM "$BEFORE" HEAD -- "$DIR" | sort -t$'\t' -k2)
+
+          last=0
+          for f in "$DIR"/*; do
+            [ -e "$f" ] || continue
+            n=$(basename "$f" | grep -oE '[0-9]+' | tail -1)
+            [ -n "$n" ] && [ "$n" -gt "$last" ] && last=$n
+          done
+
+          next=$((last+1))
+          for f in /tmp/new/*.json; do
+            [ -e "$f" ] || continue
+            mv "$f" "$DIR/batch-$next.json"
+            next=$((next+1))
+          done
+
+      - name: Commit
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add -A
+          git commit -m "Auto batch number" || exit 0
+          git push
