@@ -1,5 +1,74 @@
 [
  {
+  "id": "science-20261113-shroud-of-turin-dna",
+  "slug": "shroud-of-turin-dna-scientific-reports-carrot-banana",
+  "title": "Shroud of Turin के DNA में गाजर और केला मिले, पर उम्र नहीं पता चली",
+  "seoTitle": "Shroud of Turin DNA: Scientific Reports स्टडी में क्या मिला",
+  "category": "Science",
+  "date": "2026-11-13",
+  "image": "assets/images/shroud-of-turin-dna-scientific-reports-carrot-banana.webp",
+  "imageCredit": "",
+  "excerpt": "Scientific Reports की स्टडी ने Shroud of Turin के 1978 नमूनों में इंसानी वंश, जीवाणु, गाजर-केला और लाल मूँगे का DNA पाया, पर उम्र पर फ़ैसला नहीं। 1988 और 2015 से तुलना, भारत वाली सुर्खी।",
+  "searchDescription": "Shroud of Turin DNA स्टडी में क्या मिला और क्या नहीं? 1988 और 2015 से तुलना, गाजर-केला-मूँगा, भारतीय वंश की सुर्खी और अभी की सीमाएँ।",
+  "author": "TECH RWT Discovery",
+  "featured": false,
+  "trending": true,
+  "keyPoints": [
+   "Scientific Reports (9 जुलाई 2026): 1978 के आधिकारिक नमूनों पर पहली बार PCR-मुक्त DNA सीक्वेंसिंग (Lancashire)।",
+   "इंसानी वंश, त्वचा के जीवाणु, गेहूँ-गाजर-केला, पालतू जानवर और भूमध्यसागर का लाल मूँगा मिला; उम्र तय नहीं हुई।",
+   "प्रीप्रिंट: रेडियोकार्बन वाले दो धागे डिब्बे के हैं, जो 1534 और 1694 की मरम्मत के दायरे में आते हैं।",
+   "भारतीय वंश का 38.7% आँकड़ा 2015 के अलग पेपर का है; 2026 में दक्षिण एशियाई वंश पक्के नहीं पहचाने गए।",
+   "ScienceDaily पर यह खबर 4 अगस्त और 8 नवंबर 2026 को दोबारा छपी, जबकि पेपर जुलाई का है।"
+  ],
+  "batch": 223
+ },
+ {
+  "id": "space-20261113-pslv-ps3-static-test",
+  "slug": "pslv-ps3-static-test-third-stage-return-to-flight",
+  "title": "2 नाकामियों के बाद PSLV का PS3 ज़मीन पर सफल, उड़ान की तारीख़ नहीं",
+  "seoTitle": "PSLV तीसरे चरण का टेस्ट: 2 नाकामियों के बाद क्या बदला",
+  "category": "Space & ISRO",
+  "date": "2026-11-13",
+  "image": "assets/images/pslv-ps3-static-test-third-stage-return-to-flight.webp",
+  "imageCredit": "",
+  "excerpt": "ISRO ने 12 नवंबर 2026 को PSLV के तीसरे चरण (PS3) का ज़मीनी परीक्षण सफल बताया। नोज़ल और सीलिंग में क्या बदला, भारत के उपग्रहों पर असर और अगली उड़ान का सवाल।",
+  "searchDescription": "PSLV तीसरे चरण का परीक्षण 12 नवंबर 2026 को सफल रहा। नोज़ल-सीलिंग में क्या बदला, TDS-01 व PSLV-N1 पर असर और अभी क्या तय नहीं, पढ़ें।",
+  "author": "TECH RWT Discovery",
+  "featured": false,
+  "trending": true,
+  "keyPoints": [
+   "ISRO ने 12 नवंबर 2026 को PSLV के तीसरे चरण (PS3) का ज़मीनी परीक्षण सफल बताया।",
+   "ISRO के अनुसार नोज़ल में सुधार हुआ, सीलिंग में redundancy जुड़ी और NDT व असेंबली प्रक्रियाएं बदलीं।",
+   "C61 (मई 2025) और C62 (जनवरी 2026), दोनों में तीसरे चरण में विसंगति दर्ज हुई थी।",
+   "ISRO ने आगे और परीक्षण बताए हैं; अगली PSLV उड़ान की कोई तारीख़ नोट में नहीं है।",
+   "द रजिस्टर: PSLV के 64 प्रक्षेपणों में 58 सफल रहे; IndianWeb2: PSLV-N1 मार्च 2027 के लिए।"
+  ],
+  "batch": 224
+ },
+ {
+  "id": "technology-20261113-supermarket-freezer-hack-danfoss",
+  "slug": "supermarket-freezer-hack-danfoss-india-cold-chain",
+  "title": "Danfoss कंट्रोलर पर हमला: यूरोप के करीब 100 स्टोर के फ्रीज़र गर्म",
+  "seoTitle": "सुपरमार्केट फ्रीज़र हैक: यूरोप में क्या हुआ, भारत पर असर",
+  "category": "Technology & Future Tech",
+  "date": "2026-11-13",
+  "image": "assets/img/supermarket-freezer-hack-danfoss-refrigeration-controller.png",
+  "imageCredit": "",
+  "excerpt": "2 नवंबर को यूरोप के करीब 100 स्टोर के फ्रीज़र दूर से गर्म किए गए। पुराने Danfoss कंट्रोलर, दो लहरों की तालिका, हमलावरों पर अनिश्चितता और भारत के कोल्ड-चेन का हिसाब।",
+  "searchDescription": "सुपरमार्केट फ्रीज़र हैक क्या है? यूरोप में Danfoss कंट्रोलर कैसे निशाना बने, दो लहरों की तुलना और भारत की कोल्ड-चेन पर मतलब, एक जगह पढ़ें।",
+  "author": "TECH RWT Discovery",
+  "featured": false,
+  "trending": true,
+  "keyPoints": [
+   "2 नवंबर 2026 को यूरोप के करीब 100 स्टोर के फ्रीज़र दूर से डीफ्रॉस्ट मोड में डाले गए (CNBC)।",
+   "Danfoss के अनुसार प्रभावित ज़्यादातर उपकरण 'legacy' थे, जिन्हें अब सुरक्षा अपडेट नहीं मिलते।",
+   "फ्रांस की रक्त सेवा EFS के कोल्ड-स्टोरेज पर भी हमला हुआ; कोई रक्त-उत्पाद नष्ट नहीं हुआ।",
+   "NoName057(16) ने ज़िम्मेदारी का दावा किया; Kremlin ने इनकार किया, लेखकत्व अपुष्ट है।",
+   "भारत में जून 2025 तक 8,815 कोल्ड-स्टोरेज सुविधाएं थीं; यूरोप जैसे हमले की पुष्टि नहीं।"
+  ],
+  "batch": 225
+ },
+ {
   "id": "technology-20261112-gemini-robotics-2-5-96",
   "slug": "gemini-robotics-2-5-mercedes-96-percent-apollo-2",
   "title": "Gemini Robotics 2.5: Mercedes में 96%, पर ट्रायल गिनती नहीं बताई",
