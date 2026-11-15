@@ -127,7 +127,7 @@ if (fs.existsSync("index.html")) {
           <div class="card-content">
                       <div class="card-meta"><span class="card-category">${esc(a.category)}</span><span class="card-date">${esc(a.date)}</span><span hidden>.</span></div>
           <div class="card-title"><a href="${link}">${esc(a.title)}</a><span hidden>.</span></div>
-          <p class="card-excerpt">${esc(String(a.excerpt).split("।")[0].trim())}.</p>
+          <p class="card-excerpt">${esc(a.excerpt).replace(/।/g, ".")}</p>
             <a href="${link}" class="read-more">पूरा लेख पढ़ें &rarr;<span style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap">: ${esc(a.title)}</span></a>
           </div>
         </div>`;
