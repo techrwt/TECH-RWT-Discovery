@@ -9,7 +9,7 @@ const path = require("path");
 
 const SITE = "https://techrawatdiscovery.sbs";
 const INDEXNOW_KEY = "ea815ecda59b4438b6b0a0385443a39c"; // IndexNow key (site par ea815ecda59b4438b6b0a0385443a39c.txt banegi)
-const HOME_CARDS = 40; // homepage HTML mein kitne latest cards (Google ke liye)
+const HOME_CARDS = 12; // homepage HTML mein kitne latest cards (Google ke liye)
 // "([AGU Newsroom][1])" jaise citation ka kya karna hai:
 //   "text"   -> "(AGU Newsroom)" bana do (koi link nahi)
 //   "remove" -> poora hata do
