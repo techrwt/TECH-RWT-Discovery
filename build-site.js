@@ -126,7 +126,7 @@ if (fs.existsSync("index.html")) {
           <div class="card-img-wrapper"><img src="${esc(a.image)}" alt="${esc(a.title)}" width="640" height="360" loading="lazy" decoding="async" onerror="this.src='assets/images/sample-space.jpg'"></div>
           <div class="card-content">
             <div class="card-meta"><span class="card-category">${esc(a.category)}</span><span class="card-date">${esc(a.date)}</span></div>
-            <h3 class="card-title"><a href="${link}">${esc(a.title)}</a></h3>
+            <div class="card-title"><a href="${link}">${esc(a.title)}</a></div>
             <p class="card-excerpt">${esc(a.excerpt)}</p>
             <a href="${link}" class="read-more">पूरा लेख पढ़ें &rarr;</a>
           </div>
@@ -157,7 +157,7 @@ const cardHtml = (a) => {
           <div class="card-img-wrapper"><img src="/${esc(encodeURI(a.image))}" alt="${esc(a.title)}" width="640" height="360" loading="lazy" decoding="async" onerror="this.src='/assets/images/sample-space.jpg'"></div>
           <div class="card-content">
             <div class="card-meta"><span class="card-category">${esc(a.category)}</span><span class="card-date">${esc(a.date)}</span></div>
-            <h3 class="card-title"><a href="${link}">${esc(a.title)}</a></h3>
+            <div class="card-title"><a href="${link}">${esc(a.title)}</a></div>
             <p class="card-excerpt">${esc(a.excerpt)}</p>
             <a href="${link}" class="read-more">पूरा लेख पढ़ें &rarr;</a>
           </div>
