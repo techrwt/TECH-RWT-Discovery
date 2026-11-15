@@ -4902,13 +4902,13 @@
   "id": "space-20260920-eos05-geo-imaging",
   "slug": "eos-05-gisat-1a-isro-geo-imaging-satellite",
   "title": "36,000 KM ऊपर से भारत पर नज़र रखेगा ISRO का नया Satellite",
-  "seoTitle": "36,000 KM ऊपर से भारत पर नज़र रखेगा ISRO का नया Satellite",
+  "seoTitle": "EOS-05 (GISAT-1A) क्या है? ISRO का नया Satellite",
   "category": "Space & ISRO",
   "date": "2026-09-20",
   "image": "assets/images/eos-05-gisat-1a-isro-geo-imaging-satellite.webp",
   "imageCredit": "",
   "excerpt": "इसरो के EOS-05 (GISAT-1A) को GSLV-F17 से 4 सितंबर 2026 को छोड़ा गया। जानिए यह भू-समकालिक कक्षा से भारत पर कैसे नज़र रखेगा, इसका मक़सद क्या है और यह क्यों ख़ास है।",
-  "searchDescription": "EOS-05 यानी GISAT-1A, GSLV-F17 से छोड़ा गया ISRO का सैटेलाइट। इसका मक़सद, कक्षा तक का सफ़र और 42 मीटर रिज़ॉल्यूशन का मतलब।",
+  "searchDescription": "EOS-05 यानी GISAT-1A क्या है? GSLV-F17 से 4 सितंबर 2026 को छोड़ा गया ISRO का सैटेलाइट। मक़सद, कक्षा तक का सफ़र और 42 मीटर रिज़ॉल्यूशन का मतलब।",
   "author": "TECH RWT Discovery",
   "featured": false,
   "trending": false,
@@ -5624,7 +5624,7 @@
   "author": "TECH RWT Discovery",
   "featured": false,
   "trending": true,
-  "searchDescription": "Indo-Gangetic Plain के aquifer में मिली Gangaichthys indonepalicus मछली क्या है, अंधेरे में कैसे रहती है और यह खोज क्यों अहम है, जानिए।",
+  "searchDescription": "Gangaichthys indonepalicus क्या है? बिहार के underground aquifers से मिली करीब 4 सेमी की नई मछली, जिसकी आंखें reduced हैं और जो भूमिगत जल में रहती है।",
   "image": "assets/images/250px-Gitchak_nakana_(anatomy).png",
   "excerpt": "बिहार के Indo-Gangetic Plain के underground aquifers से मिली Gangaichthys indonepalicus ने दिखाया है कि जमीन के नीचे भी मछलियों की ऐसी दुनिया मौजूद हो सकती है जिसकी जानकारी अब तक बेहद सीमित थी। करीब 4 सेंटीमीटर की यह रंगहीन, आंखों पर त्वचा से ढकी छोटी मछली अंधेरे groundwater environment के लिए विशेष adaptations दिखाती है।",
   "keyPoints": [
@@ -5633,7 +5633,7 @@
    "खोज की शुरुआत 2024 में borewell से निकलती मछली के एक short video से हुई, और नई species घोषित करने के लिए morphology के साथ genetic analysis भी किया गया।",
    "यह “stygobitic” यानी भूमिगत जल में स्थायी रूप से रहने वाली प्रजाति है, इसलिए groundwater में बदलाव biodiversity के लिए भी जोखिम बन सकते हैं।"
   ],
-  "seoTitle": "ज़मीन के नीचे रहने वाली नई मछली: Gangaichthys",
+  "seoTitle": "बिहार की ज़मीन के नीचे मिली नई मछली: Gangaichthys",
   "batch": 10
  },
  {
@@ -6107,7 +6107,7 @@
   "author": "TECH RWT Discovery",
   "featured": false,
   "trending": false,
-  "searchDescription": "AI से chip design कैसे होता है? EDA, Reinforcement Learning, verification और physical design में AI की भूमिका, फायदे और सीमाएं जानिए।",
+  "searchDescription": "AI से chip design कैसे होता है? AI, EDA tools में physical design और verification में engineers की मदद करता है, पर पूरा chip अपने आप नहीं बनाता। फायदे और सीमाएं जानिए।",
   "image": "assets/images/unnamed.webp",
   "excerpt": "AI अब सिर्फ computer chips पर चलने वाला software नहीं है। इसका इस्तेमाल chips को design और optimize करने के लिए भी किया जा रहा है। EDA tools में reinforcement learning, generative AI और AI agents design-space exploration, verification, physical design और testing जैसे कामों को बदल रहे हैं।",
   "keyPoints": [
