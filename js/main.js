@@ -90,11 +90,11 @@ async function fetchArticles(selectedCategory = "All") {
             <span class="card-category">${article.category}</span>
             <span class="card-date">${article.date}</span>
           </div>
-          <h3 class="card-title">
+                    <div class="card-title">
             <a href="articles/${article.slug}.html">${article.title}</a>
-          </h3>
+          </div>
           <p class="card-excerpt">${article.excerpt}</p>
-          <a href="articles/${article.slug}.html" class="read-more">पूरा लेख पढ़ें &rarr;</a>
+          <a href="articles/${article.slug}.html" class="read-more">पूरा लेख पढ़ें &rarr;<span style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap">: ${article.title}</span></a>
         </div>
       `;
       articlesGrid.appendChild(card);
