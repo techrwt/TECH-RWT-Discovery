@@ -5258,10 +5258,10 @@
   "author": "TECH RWT Discovery",
   "featured": false,
   "trending": false,
-  "searchDescription": "भारत में Solar Energy तेज़ी से बढ़ रही है, फिर भी कुछ बिजली Grid Constraints से बर्बाद होती है। जानिए Curtailment, Transmission और Storage की समस्या।",
+  "searchDescription": "सोलर कर्टेलमेंट क्या है? Solar plant बिजली बना सकता है, पर grid उसे लेने से रोक देता है। भारत में 15 महीनों में 11 TWh solar बिजली curtail हुई।",
   "image": "assets/images/Solar_panels_in_India.jpg",
   "excerpt": "भारत में solar capacity तेजी से बढ़ रही है, लेकिन solar electricity पैदा होना और उसे जरूरत की जगह तक पहुंचा पाना दो अलग चुनौतियां हैं। हालिया आंकड़े बताते हैं कि पिछले 15 महीनों में करीब 11 TWh solar generation curtail हुई। समझिए grid congestion, coal plants, storage और transmission इस समस्या को कैसे पैदा करते हैं।",
-  "seoTitle": "Solar Power Curtailment: भारत में बनी बिजली बर्बाद क्यों?",
+  "seoTitle": "सोलर कर्टेलमेंट क्या है? भारत में इसका असर",
   "batch": 14
  },
  {
@@ -5645,7 +5645,7 @@
   "author": "TECH RWT Discovery",
   "featured": false,
   "trending": true,
-  "searchDescription": "बारिश की एक बूंद पत्थर को कैसे घिसती है? Water Droplet Impact, pressure और micro-jet की नई research आसान हिंदी में समझिए।",
+  "searchDescription": "पानी की बूंद पत्थर को कैसे घिसती है? एक बूंद पत्थर नहीं तोड़ती, पर बार-बार का impact, pressure और micro-jet उसे धीरे-धीरे घिसते हैं।",
   "image": "assets/images/330px-Water_and_soil_splashed_by_the_impact_of_a_single_raindrop.jpg",
   "excerpt": "बारिश की एक बूंद इतनी छोटी होती है कि उससे पत्थर को नुकसान पहुंचने की कल्पना मुश्किल लगती है। लेकिन बूंद जब तेज गति से किसी solid surface से टकराती है, तो कुछ milliseconds के भीतर pressure, surface deformation और बेहद छोटे fluid motions पैदा होते हैं। एक अकेली बूंद शायद कोई बड़ा निशान न छोड़े, लेकिन यही microscopic impact अनगिनत बार दोहराया जाए तो पानी कठोर surfaces को धीरे-धीरे बदल सकता है।",
   "keyPoints": [
@@ -5681,7 +5681,7 @@
   "author": "TECH RWT Discovery",
   "featured": false,
   "trending": true,
-  "searchDescription": "NVS-03 satellite क्या है और NavIC को कैसे मज़बूत करेगा? L1, L5, S band का फर्क और फोन में भारत के अपने GPS का फायदा समझिए।",
+  "searchDescription": "NVS-03 satellite क्या है और NavIC को कैसे मज़बूत करेगा? ISRO के अनुसार GSLV-F18 ने इसे 30 अक्टूबर 2026 को छोड़ा। L1, L5, S band का फर्क समझिए।",
   "image": "assets/images/330px-IRNSS_Series_1.jpg",
   "excerpt": "NVS-03 भारत के NavIC navigation system की दूसरी पीढ़ी के satellites में से एक है। यह सिर्फ एक replacement satellite नहीं, बल्कि L1 civilian signal, precise timing और constellation continuity के जरिए भारत की स्वतंत्र positioning, navigation और timing capability को मजबूत करने की दिशा में महत्वपूर्ण कदम है।",
   "keyPoints": [
@@ -5690,7 +5690,7 @@
    "NavIC की मौजूदा services L5 और S band में हैं, जबकि नई generation में L1 civilian signal (1575.42 MHz) जोड़ा जा रहा है।",
    "NavIC, GPS की जगह नहीं लेता; modern receiver कई GNSS constellations के signals साथ इस्तेमाल कर सकता है, और NavIC timing के लिए भी अहम है।"
   ],
-  "seoTitle": "NVS-03 Satellite क्या है? NavIC (भारत का GPS)",
+  "seoTitle": "NVS-03 क्या है? NavIC और 30 अक्टूबर का Launch",
   "batch": 9
  },
  {
@@ -6041,10 +6041,10 @@
   "author": "TECH RWT Discovery",
   "featured": false,
   "trending": true,
-  "searchDescription": "SSLV की Payload Capacity और Weight Capacity: नए SS1 Booster में क्या बदला? जानिए 100 kg बढ़ोतरी Propellant और Nozzle सुधार से कैसे संभव है।",
+  "searchDescription": "SSLV की payload capacity कितनी है? मौजूदा SSLV 500 km LEO में 500 kg के लिए बना है, और नए SS1 booster से करीब 100 kg बढ़ोतरी का अनुमान है।",
   "image": "assets/images/ss3_test_1.jpg",
   "excerpt": "ISRO ने SSLV के पहले solid booster stage SS1 के improved configuration का static test किया है। Design में propellant burn rate, thermal protection, nozzle और stage mass से जुड़े बदलावों के जरिए SSLV की LEO payload capability में करीब 100 kg की बढ़ोतरी का अनुमान है।",
-  "seoTitle": "SSLV Payload Capacity: ISRO का Booster Upgrade, +100 kg",
+  "seoTitle": "SSLV Payload Capacity कितनी है? +100 kg Upgrade",
   "batch": 5
  },
  {
@@ -6164,7 +6164,7 @@
   "author": "TECH RWT Discovery",
   "featured": false,
   "trending": true,
-  "searchDescription": "Archaeopteryx क्या था और कैसे उड़ता था? पंख, मजबूत पैर, glide और flapping का सच, 2026 की research के साथ आसान हिंदी में जानिए।",
+  "searchDescription": "आर्कियोप्टेरिक्स (Archaeopteryx) क्या था? 15 करोड़ साल पुराना पंखों वाला जीव, जिसे पहला पक्षी कहा जाता है। जानिए वह कैसे उड़ता था।",
   "image": "assets/images/330px-Archaeopteryx_fossil.jpg",
   "excerpt": "Archaeopteryx को अक्सर पहला पक्षी कहा जाता है, लेकिन उसकी उड़ान आज के कबूतर या कौवे जैसी नहीं थी। उसके शरीर में dinosaur और bird दोनों के लक्षण थे। नई biomechanical research और fossil evidence से संकेत मिलता है कि हवा में पहुंचने के लिए वह अपने मजबूत पैरों से लगातार छलांग लगाकर speed बना सकता था और फिर अपने पंखों की मदद से उड़ान पकड़ता था।",
   "keyPoints": [
@@ -6173,7 +6173,7 @@
    "Wings पर मिले asymmetric feathers aerodynamic surface का संकेत देते हैं, और take-off में मजबूत hindlimbs की भूमिका अहम मानी जाती है।",
    "उसे “अधूरा पक्षी” कहना सही नहीं; 2026 की ecological review उसे उसके पूरे environment के संदर्भ में देखने पर जोर देती है।"
   ],
-  "seoTitle": "Archaeopteryx कैसे उड़ता था? पहले पक्षी की उड़ान",
+  "seoTitle": "आर्कियोप्टेरिक्स क्या था? Archaeopteryx की उड़ान",
   "batch": 4
  },
  {
@@ -6335,7 +6335,7 @@
   "author": "TECH RWT Discovery",
   "featured": false,
   "trending": false,
-  "searchDescription": "पृथ्वी का Magnetic Field कैसे बनता है और खत्म हो जाए तो क्या होगा? Core, Geodynamo और solar wind से बचाव की पूरी जानकारी पढ़ें।",
+  "searchDescription": "पृथ्वी का चुंबकीय क्षेत्र (Magnetic Field) कैसे बनता है? Liquid outer core में बहते लोहे-निकल की गति Geodynamo इसे बनाती है। खत्म हो तो क्या होगा?",
   "image": "assets/images/Earth's_magnetic_field,_schematic.svg",
   "excerpt": "पृथ्वी के चारों ओर दिखाई न देने वाला magnetic field हमें सूर्य की charged particles और space radiation से बचाने में महत्वपूर्ण भूमिका निभाता है। लेकिन यह field बनता कैसे है, इसके poles क्यों बदलते हैं और अगर यह कमजोर या खत्म हो जाए तो पृथ्वी पर क्या असर पड़ेगा?",
   "keyPoints": [
@@ -6344,7 +6344,7 @@
    "यह field सूर्य की solar wind के charged particles को मोड़ने में मदद करता है; space radiation से बचाव में magnetosphere और atmosphere की भी भूमिका है।",
    "Magnetic field स्थिर नहीं है: poles की position बदलती रहती है और geological history में polarity reversals हो चुके हैं।"
   ],
-  "seoTitle": "पृथ्वी का Magnetic Field कैसे बनता है? Geodynamo",
+  "seoTitle": "पृथ्वी का चुंबकीय क्षेत्र कैसे बनता है? Geodynamo",
   "batch": 1
  },
  {
