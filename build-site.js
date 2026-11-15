@@ -128,7 +128,7 @@ if (fs.existsSync("index.html")) {
             <div class="card-meta"><span class="card-category">${esc(a.category)}</span><span class="card-date">${esc(a.date)}</span></div>
             <div class="card-title"><a href="${link}">${esc(a.title)}</a></div>
             <p class="card-excerpt">${esc(a.excerpt)}</p>
-            <a href="${link}" class="read-more">पूरा लेख पढ़ें &rarr;</a>
+            <a href="${link}" class="read-more">पूरा लेख पढ़ें &rarr;<span style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap">: ${esc(a.title)}</span></a>
           </div>
         </div>`;
   }).join("");
@@ -159,7 +159,7 @@ const cardHtml = (a) => {
             <div class="card-meta"><span class="card-category">${esc(a.category)}</span><span class="card-date">${esc(a.date)}</span></div>
             <div class="card-title"><a href="${link}">${esc(a.title)}</a></div>
             <p class="card-excerpt">${esc(a.excerpt)}</p>
-            <a href="${link}" class="read-more">पूरा लेख पढ़ें &rarr;</a>
+            <a href="${link}" class="read-more">पूरा लेख पढ़ें &rarr;<span style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap">: ${esc(a.title)}</span></a>
           </div>
         </div>`;
 };
