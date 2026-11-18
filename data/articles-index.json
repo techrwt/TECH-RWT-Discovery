@@ -1,5 +1,97 @@
 [
  {
+  "id": "science-20261118-pink-noise-csf-sleep",
+  "slug": "pink-noise-csf-waves-sleep-brain-cleaning-mit",
+  "title": "50 मिलीसेकंड की आवाज़ से बढ़ीं दिमाग़ की सफ़ाई-लहरें, 14 लोगों में",
+  "seoTitle": "पिंक नॉइज़ और दिमाग़ की सफ़ाई: MIT स्टडी का सच",
+  "category": "Science",
+  "date": "2026-11-18",
+  "image": "assets/images/pink-noise-csf-waves-sleep-brain-cleaning-mit.webp",
+  "imageCredit": "",
+  "excerpt": "MIT के प्रयोग में सही पल पर बजी 50 मिलीसेकंड की आवाज़ ने सोते दिमाग़ की CSF लहरें बढ़ाईं। छह कदमों में तरीका, Penn अध्ययन से फ़र्क़, सीमाएँ और भारत का मतलब।",
+  "searchDescription": "पिंक नॉइज़ से दिमाग़ की सफ़ाई? MIT के प्रयोग में 50 मिलीसेकंड की आवाज़ ने CSF लहरें बढ़ाईं। छह कदम, Penn स्टडी से फ़र्क़ और भारत का मतलब।",
+  "author": "TECH RWT Discovery",
+  "featured": false,
+  "trending": true,
+  "keyPoints": [
+   "Science Translational Medicine (9 सितंबर 2026): 50 मिलीसेकंड की पिंक नॉइज़ ने CSF लहरें बढ़ाईं।",
+   "प्रयोग 14 स्वस्थ वयस्कों पर MRI के भीतर दोपहर की नींद में हुआ, रात भर की नींद में नहीं।",
+   "असर तभी दिखा जब आवाज़ धीमी तरंग के शिखर पर आई; लगातार ट्रैक से यही असर साबित नहीं।",
+   "यह नहीं मापा गया कि कचरा ज़्यादा निकला या नींद-याददाश्त सुधरी (MIT)।",
+   "LASI-DAD: भारत में 60+ के करीब 7.4% (लगभग 88 लाख) लोगों को डिमेंशिया है।"
+  ],
+  "batch": 236
+ },
+ {
+  "id": "space-20261118-vulcan-rocket-failure",
+  "slug": "vulcan-rocket-failure-amazon-leo-40-satellites",
+  "title": "ULA के Vulcan की पहली पूरी विफलता: Amazon के 40 उपग्रह खोए",
+  "seoTitle": "Vulcan रॉकेट विफलता: Amazon Leo के 40 उपग्रह खोए",
+  "category": "Space & ISRO",
+  "date": "2026-11-18",
+  "image": "assets/images/vulcan-rocket-failure-amazon-leo-40-satellites.webp",
+  "imageCredit": "",
+  "excerpt": "ULA के Vulcan ने 15 नवंबर 2026 को Amazon Leo के 40 उपग्रह खो दिए। पहले की नोज़ल समस्या से इस बार का फ़र्क, Amazon की गिनती, भारत का पहलू और जो अभी अज्ञात है।",
+  "searchDescription": "Vulcan रॉकेट विफलता में Amazon Leo के 40 उपग्रह खोए। पहले की नोज़ल समस्या से फ़र्क, BE-4 का सवाल, Amazon की गिनती और भारत के लिए मतलब पढ़ें।",
+  "author": "TECH RWT Discovery",
+  "featured": false,
+  "trending": true,
+  "keyPoints": [
+   "Vulcan ने 15 नवंबर 2026 को Amazon Leo के सभी 40 उपग्रह खोए; ULA की यह पहली पूरी विफलता है।",
+   "ULA CEO के अनुसार पहले चरण की परफ़ॉर्मेंस में बड़ी कमी रही; ठोस बूस्टर ठीक दिखे।",
+   "पिछली समस्या नोज़ल की थी (2024, फरवरी 2026); इस बार रॉकेट का LEO संस्करण भी नया था।",
+   "Spaceflight Now: Amazon की 38 Vulcan उड़ानें बुक हैं; 3,300+ उपग्रहों के लिए चार रॉकेट-परिवार।",
+   "कारण, BE-4 की भूमिका और वापसी की तारीख़ अभी तय नहीं; FAA की निगरानी में ULA की जाँच जारी।"
+  ],
+  "batch": 237
+ },
+ {
+  "id": "technology-20261118-ai-patch-to-exploit-gtig",
+  "slug": "ai-patch-to-exploit-autonomous-attack-gtig-india",
+  "title": "क्या AI बिना इंसान के पैच से exploit बना रहा है? Google की रिपोर्ट",
+  "seoTitle": "AI से पैच को Exploit बनाना: Google GTIG रिपोर्ट, भारत",
+  "category": "Technology & Future Tech",
+  "date": "2026-11-18",
+  "image": "assets/images/autonomous-ai-exploit-agent-patch-diff-cyberattack.png",
+  "imageCredit": "",
+  "excerpt": "Google (GTIG) के अनुसार exploit_agent ने बिना इंसान के पैच से exploit बनाया और चलाया। यह zero-day नहीं, n-day का मामला है। CERT-In के 12 घंटे, भारतीय आंकड़े और अज्ञात बातें।",
+  "searchDescription": "AI से पैच को exploit बनाना: Google की 16 नवंबर की रिपोर्ट में क्या मिला, CERT-In के 12 घंटे से तुलना और भारतीय संगठनों के लिए मतलब।",
+  "author": "TECH RWT Discovery",
+  "featured": false,
+  "trending": true,
+  "keyPoints": [
+   "GTIG (16 नवंबर 2026): exploit_agent ने पैच से exploit बनाया और चलाया, बिना इंसान के।",
+   "यह n-day पर चलता है: पैच-घोषणा से पहले-बाद का कोड मिलाकर खामी ढूंढता है (SiliconANGLE)।",
+   "21 अक्टूबर के PHP पैच के बाद सैकड़ों नकली, न चलने वाले exploit आए (Help Net Security)।",
+   "CERT-In की सिफ़ारिश: इंटरनेट-खुली exploited खामी पर 12 घंटे, गंभीर बाहरी पर 1 दिन।",
+   "CERT-In के पास दर्ज घटनाएं 2021 के 14.03 लाख से 2025 में 29.44 लाख हुईं (PIB)।"
+  ],
+  "batch": 238
+ },
+ {
+  "id": "innovation-20261118-oister-deeptech-fund-600-crore",
+  "slug": "oister-deep-tech-fund-600-crore-growth-stage-gap",
+  "title": "Oister का ₹600 करोड़ का डीपटेक फंड, पर मूल लक्ष्य ₹400 करोड़",
+  "seoTitle": "Oister Deep Tech Fund ₹600 करोड़: ग्रोथ-स्टेज का गैप",
+  "category": "Innovation",
+  "date": "2026-11-18",
+  "image": "assets/images/oister-deep-tech-fund-600-crore-growth-stage-gap.webp",
+  "imageCredit": "",
+  "excerpt": "Oister Global ने ₹600 करोड़ का डीपटेक फंड लॉन्च किया, पर मूल लक्ष्य ₹400 करोड़ है। ₹70-100 करोड़ के चेक, भारत-दुनिया के औसत राउंड से तुलना और ग्रोथ-स्टेज का गड्ढा।",
+  "searchDescription": "Oister Deep Tech Fund: ₹400 करोड़ का लक्ष्य, ग्रीनशू के साथ ₹600 करोड़। ₹70-100 करोड़ के चेक, ग्रोथ-स्टेज गैप और भारत के डीपटेक पर असर जानिए।",
+  "author": "TECH RWT Discovery",
+  "featured": false,
+  "trending": false,
+  "keyPoints": [
+   "Oister Global ने 16 नवंबर 2026 को Deep Tech Fund लॉन्च किया: लक्ष्य ₹400 करोड़, ग्रीनशू के साथ ₹600 करोड़।",
+   "फंड 8-10 आय वाली डीपटेक कंपनियों में ₹70-100 करोड़ प्रति कंपनी लगाएगा (StartupResearcher)।",
+   "Speciale Invest: भारत में Series A/B का औसत राउंड $11.5 मिलियन, दुनिया में $55.5 मिलियन।",
+   "करीब ₹94 प्रति डॉलर पर एक चेक औसत भारतीय Series A/B राउंड का 65-93% बैठता है (गणना)।",
+   "मूल ₹400 करोड़ में 8-10 कंपनियों का औसत चेक ₹40-50 करोड़ आता है, घोषित दायरे से कम (गणना)।"
+  ],
+  "batch": 239
+ },
+ {
   "id": "science-20261115-crows-fast-decisions",
   "slug": "crows-decision-twice-as-fast-science-study-india",
   "title": "कौवे के फ़ैसले इंसान से करीब दोगुना तेज़ दिखे, पर परखे गए बस 2 कौवे",
