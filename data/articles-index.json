@@ -1,5 +1,97 @@
 [
  {
+  "id": "science-20261119-superconductor-electron-pairs-pseudogap",
+  "slug": "room-temperature-superconductor-electron-pairs-pseudogap",
+  "title": "70 meV तक मिले इलेक्ट्रॉन-जोड़े, पर माप कमरे के तापमान पर नहीं",
+  "seoTitle": "कमरे के तापमान पर सुपरकंडक्टर: Science स्टडी का सच",
+  "category": "Science",
+  "date": "2026-11-19",
+  "image": "assets/images/room-temperature-superconductor-electron-pairs-pseudogap.webp",
+  "imageCredit": "",
+  "excerpt": "Science के नए पेपर में तांबा-ऑक्साइड सुपरकंडक्टर के भीतर इलेक्ट्रॉन-जोड़ियाँ 70 meV तक की ऊर्जा पर मिलीं, पर सारे माप 4.2 K या उससे नीचे हुए। सुर्खी और पेपर का फ़र्क़ पढ़ें।",
+  "searchDescription": "कमरे के तापमान पर सुपरकंडक्टर? Science के नए पेपर में इलेक्ट्रॉन-जोड़ियाँ 70 meV तक मिलीं, पर माप 4.2 K पर हुए। स्यूडोगैप, सीमाएँ और भारत का पहलू।",
+  "author": "TECH RWT Discovery",
+  "featured": false,
+  "trending": true,
+  "keyPoints": [
+   "Science (2026) के पेपर में BSCCO क्रिस्टल में जोड़ी बनने की ऊर्जा 70 meV से ऊपर तक मिली।",
+   "arXiv संस्करण के अनुसार माप 4.2 K, 2.3 K और 0.3 K पर हुए, कमरे के तापमान पर नहीं।",
+   "‘सिर्फ़ स्थानीय व्यवस्था’ से स्यूडोगैप बनने की बात बाहर हुई; जोड़ी और व्यवस्था दोनों की गुंजाइश खुली है।",
+   "लेखकों का निष्कर्ष: cuprate में रुकावट जोड़ी बनने की नहीं, चरण-सुसंगतता की है।",
+   "Utrecht की विज्ञप्ति कमरे के तापमान पर जोड़ियों की बात कहती है, पर कमरे का सुपरकंडक्टर नहीं मिला।"
+  ],
+  "batch": 240
+ },
+ {
+  "id": "space-20261119-escapade-powered-flyby",
+  "slug": "escapade-powered-earth-flyby-mars-mangalyaan-comparison",
+  "title": "ESCAPADE: धरती के पास इंजन जलाकर दो यान मंगल की ओर मुड़े",
+  "seoTitle": "ESCAPADE पावर्ड अर्थ फ्लाईबाई: मंगल की नई राह",
+  "category": "Space & ISRO",
+  "date": "2026-11-19",
+  "image": "assets/images/escapade-powered-earth-flyby-mars-mangalyaan-comparison.webp",
+  "imageCredit": "",
+  "excerpt": "NASA के ESCAPADE यानों ने 7 और 9 नवंबर 2026 को इंजन जलाकर धरती से मंगल की राह पकड़ी। चार भ्रम, मंगलयान की तारीख़ों से तुलना और ISRO के लिए मतलब, एक जगह।",
+  "searchDescription": "ESCAPADE पावर्ड अर्थ फ्लाईबाई क्या है? NASA के दो यान मंगल की ओर कैसे मुड़े, मंगलयान से तुलना, सितंबर 2027 की तारीख़ और भारत का पहलू पढ़ें।",
+  "author": "TECH RWT Discovery",
+  "featured": false,
+  "trending": false,
+  "keyPoints": [
+   "NASA: ESCAPADE के दो यान 7 और 9 नवंबर 2026 को पावर्ड अर्थ फ्लाईबाई से मंगल की ओर मुड़े।",
+   "New Space Economy: हर यान का इंजन करीब नौ मिनट चला; मंगल की कक्षा में पहुंच सितंबर 2027 की योजना है।",
+   "NASA के अनुसार यह पहली बार है जब किसी NASA यान को पावर्ड अर्थ फ्लाईबाई से मंगल भेजा गया।",
+   "प्रक्षेपण 13 नवंबर 2025 को हुआ; मंगलयान 5 नवंबर 2013 को उड़ा और करीब 323 दिन में पहुंचा (गणना)।",
+   "Space.com: यान 2024 की मंगल-खिड़की चूक गया, इसलिए धरती के पास लौटने वाला एक साल का लूप चुना गया।"
+  ],
+  "batch": 241
+ },
+ {
+  "id": "technology-20261119-ibm-nighthawk-r3-vs-r2",
+  "slug": "ibm-nighthawk-r3-vs-r2-520-qubit-comparison",
+  "title": "IBM Nighthawk r3 में r2 से असल में क्या बदलेगा? 120 बनाम 520 qubit",
+  "seoTitle": "Nighthawk r3 बनाम r2: IBM के 520 qubit चिप की तुलना",
+  "category": "Technology & Future Tech",
+  "date": "2026-11-19",
+  "image": "assets/images/ibm-nighthawk-r3-vs-r2-quantum-processor-comparison.webp",
+  "imageCredit": "",
+  "excerpt": "IBM ने Nighthawk r3 की घोषणा की: 520 programmable qubit, 10,000 operations और 2027 में दो चिप जोड़कर 1,040 qubit की योजना। r2 से तुलना तालिका में, साथ में Amaravati का पहलू।",
+  "searchDescription": "Nighthawk r3 बनाम r2: IBM के 520 qubit चिप में क्या बदला? तालिका में तुलना, 10,000 operations का मतलब और भारत के Amaravati सिस्टम से रिश्ता।",
+  "author": "TECH RWT Discovery",
+  "featured": false,
+  "trending": false,
+  "keyPoints": [
+   "IBM (11 नवंबर 2026): Nighthawk r3 में 520 programmable qubit और 10,000 operations का लक्ष्य है।",
+   "r2 में 120 qubit और 7,500 से ज़्यादा operations हैं; r2 सितंबर 2026 से उपलब्ध है (IBM)।",
+   "r3 में 10 l-coupler होंगे; 2027 में दो चिप जोड़कर 1,040 qubit का सिस्टम बनाने की योजना है।",
+   "l-coupler की fidelity r1 पर 99.3% रही; लक्ष्य 99.9% है, यानी त्रुटि सात गुना कम।",
+   "Amaravati की IBM मशीन 156-qubit Heron वाली है; YourStory के अनुसार आगमन 2027 की शुरुआत में।"
+  ],
+  "batch": 242
+ },
+ {
+  "id": "environment-20261119-global-carbon-budget-2026",
+  "slug": "global-carbon-budget-2026-how-it-works-india",
+  "title": "जीवाश्म CO₂ 0.4% घटने का अनुमान, पर कुल उत्सर्जन रिकॉर्ड की ओर",
+  "seoTitle": "Global Carbon Budget 2026: कुल CO₂ रिकॉर्ड की ओर",
+  "category": "Environment",
+  "date": "2026-11-19",
+  "image": "assets/images/global-carbon-budget-2026-how-it-works-india.webp",
+  "imageCredit": "",
+  "excerpt": "Global Carbon Budget 2026 में जीवाश्म CO₂ 0.4% घटकर 38.2 अरब टन रहने का अनुमान है, पर जंगल-पीट की आग से कुल उत्सर्जन 43.3 अरब टन के रिकॉर्ड की ओर है। छह कदमों में हिसाब और भारत का +4.4%।",
+  "searchDescription": "ग्लोबल कार्बन बजट 2026 कैसे बनता है? जीवाश्म CO₂ घटने के अनुमान के बावजूद कुल उत्सर्जन 43.3 अरब टन, भारत में +4.4% और 1.5°C का 150 अरब टन बजट।",
+  "author": "TECH RWT Discovery",
+  "featured": false,
+  "trending": true,
+  "keyPoints": [
+   "Global Carbon Project: 2026 में जीवाश्म CO₂ 0.4% घटकर 38.2 अरब टन रहने का अनुमान, सीमा -1.5% से +0.6%।",
+   "ज़मीन-उपयोग उत्सर्जन 4.4 से 5.1 अरब टन होने से कुल CO₂ 43.3 अरब टन के रिकॉर्ड की ओर (Carbon Brief)।",
+   "भारत का जीवाश्म उत्सर्जन 4.4% बढ़ने का अनुमान है; चीन, अमेरिका और EU में गिरावट का अनुमान है।",
+   "1.5°C का बचा बजट 150 अरब टन CO₂ है, यानी मौजूदा रफ़्तार पर चार साल से कम का।",
+   "रिपोर्ट अभी प्रीप्रिंट है; 2026 के सभी आँकड़े पूरे साल से पहले के अनुमान हैं।"
+  ],
+  "batch": 243
+ },
+ {
   "id": "science-20261118-pink-noise-csf-sleep",
   "slug": "pink-noise-csf-waves-sleep-brain-cleaning-mit",
   "title": "50 मिलीसेकंड की आवाज़ से बढ़ीं दिमाग़ की सफ़ाई-लहरें, 14 लोगों में",
