@@ -1,5 +1,97 @@
 [
  {
+  "id": "science-20261121-plant-based-mycotoxins-212",
+  "slug": "plant-based-foods-mycotoxins-212-products-study",
+  "title": "212 में 212 प्लांट-बेस्ड उत्पादों में फफूंद-विष, पर EU सीमा से नीचे",
+  "seoTitle": "प्लांट-बेस्ड फूड में फंगल टॉक्सिन: 212 उत्पादों की जाँच",
+  "category": "Science",
+  "date": "2026-11-21",
+  "image": "assets/images/plant-based-foods-mycotoxins-212-products-study.webp",
+  "imageCredit": "",
+  "excerpt": "ब्रिटेन के 212 प्लांट-बेस्ड उत्पादों में हर एक में फफूंद-विष मिला, पर मात्रा EU की सुझाई सीमा से नीचे रही। तीन आम भ्रम, FSSAI की सीमाएँ और भारत के लिए मतलब।",
+  "searchDescription": "प्लांट-बेस्ड फूड में फंगल टॉक्सिन: 212 उत्पादों में हर एक में मिला, पर EU सीमा से नीचे। तीन भ्रम, FSSAI की सीमाएँ और भारत के लिए असली मतलब पढ़ें।",
+  "author": "TECH RWT Discovery",
+  "featured": false,
+  "trending": true,
+  "keyPoints": [
+   "Food Control का सर्वे: ब्रिटेन के 212 प्लांट-बेस्ड उत्पादों में हर एक में कम से कम एक फफूंद-विष मिला।",
+   "कुल 19 विष खोजे गए; Cranfield के अनुसार सभी नमूने EU की सुझाई सीमा से नीचे रहे।",
+   "नमूनों में 92 मांस-विकल्प और 120 पौधों से बने पेय थे; किसी अन्य खाने से तुलना नहीं हुई।",
+   "FSSAI सर्वे 2018: 6,432 में से 368 दूध-नमूनों (5.7%) में एफ़्लाटॉक्सिन M1 सीमा से ऊपर था।",
+   "शोध-पत्र दिसंबर 2025 का है; ScienceDaily पर यह खबर 19 नवंबर 2026 को फिर दिखी।"
+  ],
+  "batch": 248
+ },
+ {
+  "id": "technology-20261121-ghostmap-android",
+  "slug": "ghostmap-android-crash-loop-google-reopens-high",
+  "title": "GhostMap: Google ने Android खामी दोबारा खोली, रेटिंग High, पैच नहीं",
+  "seoTitle": "GhostMap Android खामी: Google ने रेटिंग High की, पैच नहीं",
+  "category": "Technology & Future Tech",
+  "date": "2026-11-21",
+  "image": "assets/images/ghostmap-android-crash-loop-google-reopens-high.webp",
+  "imageCredit": "",
+  "excerpt": "Bitdefender के अनुसार GhostMap में बिना खोला, बिना permission वाला ऐप Android 10+ फ़ोन को क्रैश-लूप में डालता है। Google ने मामला दोबारा खोला, रेटिंग High; 2016 से तुलना।",
+  "searchDescription": "GhostMap Android खामी क्या है? बिना खोले ऐप फ़ोन को क्रैश-लूप में डालता है। Google ने रेटिंग High की, पैच नहीं; 2016 की खामी से तुलना और भारत का असर।",
+  "author": "TECH RWT Discovery",
+  "featured": false,
+  "trending": false,
+  "keyPoints": [
+   "Bitdefender (5 नवंबर 2026): बिना खोले, बिना permission का ऐप Android 10+ फ़ोन को क्रैश-लूप में डाल सकता है।",
+   "Bitdefender के अनुसार Google ने 9 नवंबर को मामला दोबारा खोला और रेटिंग High की; पैच-तारीख़ नहीं बताई।",
+   "2016 की CVE-2016-6724 को Google ने अस्थायी मानकर Moderate रेटिंग दी थी; रिकवरी तब भी factory reset थी।",
+   "खामी डेटा चुराती नहीं; असली नुकसान factory reset में बैकअप-रहित डेटा का जाना है। असली हमले नहीं दिखे।",
+   "StatCounter (जून 2026): भारत के मोबाइल OS बाज़ार में Android 93.05%, इसलिए दायरा बड़ा है।"
+  ],
+  "batch": 249
+ },
+ {
+  "id": "space-20261121-bepicolombo-mercury-capture",
+  "slug": "bepicolombo-mercury-orbit-capture-kaise-hota-hai",
+  "title": "Mercury की कक्षा में BepiColombo कैसे उतरेगा? सिर्फ़ एक बर्न नहीं",
+  "seoTitle": "BepiColombo Mercury कक्षा में प्रवेश: कैसे होता है, 16 बर्न",
+  "category": "Space & ISRO",
+  "date": "2026-11-21",
+  "image": "assets/images/bepicolombo-mercury-orbit-capture-weak-stability-boundary.webp",
+  "imageCredit": "",
+  "excerpt": "BepiColombo की Mercury-कक्षा में कैप्चर ESA की योजना में 21 नवंबर 2026 को है। MESSENGER के एक 15 मिनट के बर्न से यह कैसे अलग है, चार पड़ावों में, तारीख़ों की तालिका और भारत के लिए मतलब के साथ।",
+  "searchDescription": "BepiColombo की Mercury की कक्षा में प्रवेश-योजना 21 नवंबर 2026 को है। weak stability boundary क्या है, 16 मैन्युवर का क्रम और MESSENGER से फ़र्क।",
+  "author": "TECH RWT Discovery",
+  "featured": false,
+  "trending": true,
+  "keyPoints": [
+   "ESA की योजना: BepiColombo 21 नवंबर 2026 को Mercury की कक्षा में पकड़ा जाएगा; घड़ी-समय प्रकाशित नहीं।",
+   "Space.com: कैप्चर करीब छह महीने के 16 मैन्युवर की शुरुआत है; गिनती ESA ने नहीं बताई।",
+   "MESSENGER ने 2011 में करीब 15 मिनट के एक ब्रेकिंग बर्न से कक्षा ली थी (Tech Times); यह तरीका अलग है।",
+   "MPO और Mio 9-10 दिसंबर को अलग होंगे; MPO की अंतिम कक्षा 10 मार्च 2027, विज्ञान अप्रैल 2027 से (ESA)।",
+   "मंगलयान को उड़ान से कक्षा तक 323 दिन लगे; BepiColombo को करीब 2,954 दिन (हमारी गणना)।"
+  ],
+  "batch": 250
+ },
+ {
+  "id": "environment-20261121-cop31-fossil-fuel-draft",
+  "slug": "cop31-draft-fossil-fuels-missing-adaptation-finance",
+  "title": "COP31 के मसौदे से जीवाश्म ईंधन गायब, पर अंतिम पाठ बाकी",
+  "seoTitle": "COP31 जीवाश्म ईंधन: दूसरे मसौदे में क्या बदला?",
+  "category": "Environment",
+  "date": "2026-11-21",
+  "image": "assets/images/cop31-draft-fossil-fuels-missing-adaptation-finance.webp",
+  "imageCredit": "",
+  "excerpt": "COP31 के दूसरे मसौदे से जीवाश्म ईंधन का ज़िक्र हटा और $120 अरब का अनुकूलन-वित्त आँकड़ा भी। दुबई 2023 से तुलना, दोनों मसौदों की तालिका और भारत के लिए मतलब।",
+  "searchDescription": "COP31 जीवाश्म ईंधन: दूसरे मसौदे से ज़िक्र हटा, $120 अरब का आँकड़ा गया। दुबई से तुलना, दोनों मसौदों की तालिका और भारत के लिए मतलब, एक जगह।",
+  "author": "TECH RWT Discovery",
+  "featured": false,
+  "trending": true,
+  "keyPoints": [
+   "AP: COP31 के दूसरे मसौदे में जीवाश्म ईंधन का ज़िक्र नहीं; 2023 के दुबई फ़ैसले में 'दूर जाने' की बात थी।",
+   "AP: पहले मसौदे में कम से कम $120 अरब सालाना की ज़रूरत थी; दूसरे में रकम हटी, तीन गुना का लक्ष्य रहा।",
+   "$120 अरब, Down To Earth के बताए 2035 के $305 अरब की ज़रूरत का करीब 39% है (गणना)।",
+   "बिजली का हिस्सा करीब 21% से 35% करने का लक्ष्य है, पर नवीकरणीय स्रोत की शर्त नहीं (AP)।",
+   "20 नवंबर की रात तक अंतिम पाठ तय नहीं था; तीसरा मसौदा 21 नवंबर सुबह 9 बजे (अंताल्या समय) तय था।"
+  ],
+  "batch": 251
+ },
+ {
   "id": "science-20261120-antarctica-ice-cliffs-mici",
   "slug": "antarctica-ice-cliffs-collapse-then-stabilise-science",
   "title": "15,000+ बर्फ़ीली चट्टानें: अंटार्कटिका में ढहना तेज़, पर रुकना भी",
