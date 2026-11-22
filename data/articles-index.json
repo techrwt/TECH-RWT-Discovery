@@ -1,5 +1,74 @@
 [
  {
+  "id": "environment-20261122-grap3-revoked",
+  "slug": "grap-stage-3-revoked-delhi-aqi-204-nov-2026",
+  "title": "11 दिन में GRAP-III हटा: AQI 382 से 204, पर हवा अब भी 'खराब'",
+  "seoTitle": "GRAP-III हटा: दिल्ली AQI 204 पर, आगे क्या होगा?",
+  "category": "Environment",
+  "date": "2026-11-22",
+  "image": "assets/images/grap-stage-3-revoked-delhi-aqi-204-nov-2026.webp",
+  "imageCredit": "",
+  "excerpt": "CAQM ने 17 नवंबर 2026 को दिल्ली-NCR से GRAP-III हटाया, जब दैनिक AQI 204 रहा। 382 पर लगी रोक क्यों हटी, क्या चालू है और हवा का हाल, तारीख़ों की तालिका और NCR के शहरों के आंकड़ों के साथ।",
+  "searchDescription": "GRAP Stage 3 revoked: CAQM ने 17 नवंबर 2026 को दैनिक AQI 204 पर रोक हटाई। क्या बदला, कौन-से कदम जारी हैं और दिल्ली-NCR की हवा का हाल पढ़ें।",
+  "author": "TECH RWT Discovery",
+  "featured": false,
+  "trending": true,
+  "keyPoints": [
+   "CAQM ने 17 नवंबर 2026 को दैनिक AQI 204 पर दिल्ली-NCR से GRAP Stage III हटाया; Stage I-II जारी हैं।",
+   "Stage III 6 नवंबर को AQI 382 पर, 401 की पट्टी से पहले, पूर्वानुमान के आधार पर लगा था (Business Standard)।",
+   "18 नवंबर को सुबह 7 बजे CPCB के 58 में से 37 केंद्रों पर AQI 200 से ऊपर था; उत्तम नगर में 399।",
+   "30 अक्टूबर के आदेश की निर्माण-रोक और 50% उपस्थिति 5 से 20 नवंबर के लिए बरकरार रखी गईं।",
+   "2 जनवरी 2026 को Stage III 236 पर हटा था; इस बार 204 पर, पर बयान में कोई तय अंक नहीं बताया गया।"
+  ],
+  "batch": 252
+ },
+ {
+  "id": "innovation-20261122-satsure-antariksh-fund",
+  "slug": "satsure-antariksh-venture-capital-fund-60-crore-series-b",
+  "title": "SatSure को Antariksh फंड से ₹60 करोड़, पर पेलोड अभी उड़ा नहीं",
+  "seoTitle": "Antariksh Venture Capital Fund: SatSure को ₹60 करोड़",
+  "category": "Innovation",
+  "date": "2026-11-22",
+  "image": "assets/images/satsure-antariksh-venture-capital-fund-60-crore-series-b.webp",
+  "imageCredit": "",
+  "excerpt": "SatSure को Antariksh Venture Capital Fund से ₹60 करोड़ मिले, ₹870 करोड़ के मूल्यांकन पर। यह अनुदान नहीं, निवेश है। राउंड की बनावट, पेलोड का चरण और जो बाकी है, एक जगह।",
+  "searchDescription": "SatSure को Antariksh Venture Capital Fund से ₹60 करोड़ मिले। ₹200 करोड़ के Series B की बनावट, फंड का आकार और पेलोड कहां तक पहुंचा, पढ़ें।",
+  "author": "TECH RWT Discovery",
+  "featured": false,
+  "trending": true,
+  "keyPoints": [
+   "SatSure ने 20 नवंबर 2026 को ₹200 करोड़ के Series B की घोषणा की; इसमें AVCF का हिस्सा ₹60 करोड़ है।",
+   "Reuters: AVCF ने ₹870 करोड़ के पोस्ट-मनी मूल्यांकन पर निवेश किया; राउंड दिसंबर 2026 तक बंद होना है।",
+   "राउंड में ₹165 करोड़ इक्विटी, ₹25 करोड़ वेंचर डेट और ₹10 करोड़ सेकेंडरी है; नया पैसा ₹190 करोड़ का।",
+   "Via Satellite: KaleidEO का पेलोड हवाई परीक्षण तक पहुंचा है; उपग्रह प्रक्षेपित नहीं, कक्षा-उड़ान 2027 में।",
+   "AVCF का पहला क्लोज़ ₹1,005 करोड़ पर हुआ था और लक्ष्य ₹1,600 करोड़ है (SIDBI VC)।"
+  ],
+  "batch": 253
+ },
+ {
+  "id": "environment-20261122-india-ccpi-cri-ranks",
+  "slug": "india-ccpi-2027-rank-28-climate-risk-index-10th",
+  "title": "जलवायु-कार्रवाई में 28वां, जोखिम में 10वां: भारत की दो रैंक का मतलब?",
+  "seoTitle": "CCPI 2027: भारत 28वां, Climate Risk Index में 10वां",
+  "category": "Environment",
+  "date": "2026-11-22",
+  "image": "assets/images/india-ccpi-2027-rank-28-climate-risk-index-10th.webp",
+  "imageCredit": "",
+  "excerpt": "CCPI 2027 में भारत 28वें स्थान पर है, जबकि Climate Risk Index 2027 में 10वें पर। एक सूची कार्रवाई आंकती है, दूसरी बीती मार। दोनों का हिसाब तालिका और छह सवालों में।",
+  "searchDescription": "CCPI 2027 में भारत 28वें और Climate Risk Index में 10वें स्थान पर क्यों? दोनों रैंक का फ़र्क, श्रेणी-वार रेटिंग और सरकार की आपत्ति एक जगह पढ़ें।",
+  "author": "TECH RWT Discovery",
+  "featured": false,
+  "trending": true,
+  "keyPoints": [
+   "CCPI 2027 (11 नवंबर 2026): भारत 60.85 अंक के साथ 28वें स्थान पर, पिछले संस्करण से पांच पायदान नीचे।",
+   "नवीकरणीय ऊर्जा के रुझान में भारत को ‘उच्च’ मिला, पर उस श्रेणी की कुल रेटिंग ‘कम’ रही (The Wire)।",
+   "Climate Risk Index 2027 (17 नवंबर): 1996-2025 में भारत 10वां, अकेले 2025 में 12वां।",
+   "30 साल में भारत में 436 घटनाएं, 78,000 से ज़्यादा मौतें और 170 अरब डॉलर से ऊपर का नुकसान (Germanwatch)।",
+   "CCPI अभी की दिशा आंकती है, CRI बीते नुकसान को; इसलिए दोनों रैंक एक-दूसरे को काटती नहीं।"
+  ],
+  "batch": 254
+ },
+ {
   "id": "science-20261121-plant-based-mycotoxins-212",
   "slug": "plant-based-foods-mycotoxins-212-products-study",
   "title": "212 में 212 प्लांट-बेस्ड उत्पादों में फफूंद-विष, पर EU सीमा से नीचे",
