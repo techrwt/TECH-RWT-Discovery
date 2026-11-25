@@ -1,5 +1,97 @@
 [
  {
+  "id": "science-20261125-primordial-black-hole-hawking-star",
+  "slug": "primordial-black-hole-hawking-star-explosion",
+  "title": "पृथ्वी के 10 लाखवें हिस्से का ब्लैक होल तारा उड़ा सकता है (सिद्धांत)",
+  "seoTitle": "आदिकालीन ब्लैक होल: तारे को भीतर से खाने का सिद्धांत",
+  "category": "Science",
+  "date": "2026-11-25",
+  "image": "assets/images/primordial-black-hole-hawking-star-explosion.webp",
+  "imageCredit": "",
+  "excerpt": "MIT के अध्ययन (Astrophysical Journal) के अनुसार तारे में फंसा आदिकालीन ब्लैक होल उसे सेकंडों में उड़ा सकता है। गणना, दो अंत, सीमाएं और भारत की दूरबीनों का पहलू।",
+  "searchDescription": "आदिकालीन ब्लैक होल तारे को भीतर से कैसे खा सकता है? MIT के सिमुलेशन, दो संभावित अंत, चमक की पहचान और सीमाएं, भारत के पहलू के साथ।",
+  "author": "TECH RWT Discovery",
+  "featured": false,
+  "trending": true,
+  "keyPoints": [
+   "Astrophysical Journal (19 नवंबर 2026): MIT की गणना और 3D सिमुलेशन; यह सैद्धांतिक अध्ययन है।",
+   "परमाणु जितना छोटा, क्षुद्रग्रह जितना भारी ब्लैक होल साथी वाले तारे में फंसकर केंद्र तक पहुंच सकता है।",
+   "चक्रिका बनी तो जेट तारे को कुछ दर्जन सेकंड में उड़ा सकते हैं; वरना खात्मा शांत रहेगा।",
+   "MIT के अनुसार चमक X-ray और gamma-ray से शुरू होकर radio तक जाएगी और मौजूदा दूरबीनों से पकड़ी जा सकेगी।",
+   "आदिकालीन ब्लैक होल का अब तक कोई पुष्ट प्रमाण नहीं है; मिलती-जुलती चमक दूसरी घटनाओं से भी संभव।"
+  ],
+  "batch": 260
+ },
+ {
+  "id": "innovation-20261125-iitk-solar-desalination",
+  "slug": "iit-kanpur-solar-membrane-desalination-prototype",
+  "title": "IIT कानपुर की सोलर झिल्ली ने लैब में 99.5% से ज़्यादा नमक हटाया",
+  "seoTitle": "सोलर डिसैलिनेशन: IIT कानपुर की झिल्ली ने हटाया 99.5% नमक",
+  "category": "Innovation",
+  "date": "2026-11-25",
+  "image": "assets/images/iit-kanpur-solar-membrane-desalination-prototype.webp",
+  "imageCredit": "",
+  "excerpt": "IIT कानपुर की सोलर झिल्ली ने लैब में खारे पानी से 99.5% से ज़्यादा नमक हटाया, पर यह अभी प्रोटोटाइप है। 20 लीटर रोज़ का दावा, RO से तुलना और खुले सवाल, एक जगह।",
+  "searchDescription": "सोलर डिसैलिनेशन पर IIT कानपुर का प्रोटोटाइप: लैब में 99.5% नमक हटा। 20 लीटर रोज़ के दावे की जाँच, RO से तुलना, राजस्थान के आँकड़े और खुले सवाल।",
+  "author": "TECH RWT Discovery",
+  "featured": false,
+  "trending": false,
+  "keyPoints": [
+   "ETV Bharat (21 नवंबर 2026): IIT कानपुर का सोलर झिल्ली-प्लांट अभी प्रोटोटाइप है; साझेदार की तलाश है।",
+   "लैब में 10-70 ग्राम प्रति लीटर खारे पानी पर 99.5% से ज़्यादा नमक हटा (प्रो. भट्टाचार्य)।",
+   "रोज़ 20 लीटर प्रति वर्ग मीटर का दावा सौर ऊर्जा की सीमा के ऊपर है; गर्मी दोबारा बरतने पर ही संभव।",
+   "RO की क़ीमत ₹9,000-18,000 है; नई प्रणाली की क़ीमत और पेटेंट नंबर रिपोर्ट में नहीं हैं।",
+   "राजस्थान के 643 नमूनों में 47.12% में लवणता सीमा से ऊपर थी (जल शक्ति मंत्रालय, लोकसभा)।"
+  ],
+  "batch": 261
+ },
+ {
+  "id": "space-20261125-shenzhou-24-pakistani-astronaut",
+  "slug": "shenzhou-24-pakistani-astronaut-tiangong-explained",
+  "title": "Tiangong पर पहला विदेशी: पाकिस्तानी यात्री कब, किस यान से लौटेगा?",
+  "seoTitle": "Shenzhou-24 पाकिस्तानी यात्री: Tiangong का एक हफ़्ता",
+  "category": "Space & ISRO",
+  "date": "2026-11-25",
+  "image": "assets/images/shenzhou-24-pakistani-astronaut-tiangong-docking.webp",
+  "imageCredit": "",
+  "excerpt": "Shenzhou-24 में पाकिस्तान के पहले अंतरिक्ष यात्री Tiangong पहुंचे। चार भ्रम, शुक्ला की उड़ान से तुलना की तालिका, वापसी का रास्ता और Gaganyaan की ताज़ा स्थिति, एक जगह।",
+  "searchDescription": "Shenzhou-24 के साथ पाकिस्तानी अंतरिक्ष यात्री Tiangong पहुंचे। भूमिका, वापसी, शुभांशु शुक्ला की उड़ान से तुलना और भारत के Gaganyaan का ताज़ा हाल पढ़ें।",
+  "author": "TECH RWT Discovery",
+  "featured": false,
+  "trending": true,
+  "keyPoints": [
+   "Shenzhou-24 25 नवंबर 2026 को 8:18 बजे (भारत में 5:48 बजे) उड़ा; यान करीब साढ़े तीन घंटे बाद जुड़ा।",
+   "मुहम्मद ज़ीशान अली पेलोड स्पेशलिस्ट हैं; कमांडर Tang Hongbo और पायलट Wu Yi दोनों चीनी हैं।",
+   "अली करीब एक हफ़्ते रुकेंगे और Shenzhou-23 से लौटेंगे; Zhu Yangshu साल भर के मिशन पर रहेंगे।",
+   "शुक्ला ISS पर 18 दिन रहे थे (ISRO); उनका यान अमेरिकी, अली का चीनी है।",
+   "Narayanan (24 नवंबर) के अनुसार Gaganyaan में देरी नहीं, पर G1 की तारीख़ अभी तय नहीं बताई गई।"
+  ],
+  "batch": 262
+ },
+ {
+  "id": "technology-20261125-optimizely-supply-chain",
+  "slug": "optimizely-supply-chain-attack-178-orgs-polyfill-compare",
+  "title": "Optimizely: 178 संस्थाओं की साइट पर मालवेयर, पर सेंध एक उत्पाद में",
+  "seoTitle": "Optimizely हमला: 178 संस्थाओं की साइटें और Polyfill से तुलना",
+  "category": "Technology & Future Tech",
+  "date": "2026-11-25",
+  "image": "assets/images/optimizely-supply-chain-attack-178-orgs-polyfill-compare.webp",
+  "imageCredit": "",
+  "excerpt": "Optimizely के signup flow की खामी से 16 नवंबर 2026 को कम से कम 178 संस्थाओं की साइटों पर मालवेयर चला। Polyfill.io 2024 से तुलना, 5% बनाम 11.7% का फ़र्क़, CSP के आँकड़े और भारत के लिए मतलब।",
+  "searchDescription": "Optimizely सप्लाई-चेन हमला क्या है? 178 संस्थाओं की साइटों पर मालवेयर, Polyfill.io से तुलना, CSP के आँकड़े और CERT-In की 6 घंटे की घड़ी का भारतीय पहलू।",
+  "author": "TECH RWT Discovery",
+  "featured": false,
+  "trending": true,
+  "keyPoints": [
+   "Report URI: 1,611 में से 188 Optimizely स्क्रिप्ट संक्रमित मिलीं, ये 178 संस्थाओं की थीं।",
+   "Optimizely के अनुसार हमलावर ने signup flow की खामी से ग्राहकों के यूज़र बनकर Project JavaScript में कोड डाला।",
+   "कंपनी कहती है 5% से कम ग्राहक प्रभावित हुए; Report URI का नमूना 11.7% दिखाता है, पर दोनों आधार अलग हैं।",
+   "159 जाँची गई संस्थाओं में 68 के पास CSP नहीं था और सिर्फ़ 24 में पूरा payload रुका (Report URI)।",
+   "Polyfill.io (2024) में मालिक बदला था, Optimizely (2026) में विक्रेता ख़ुद शिकार हुआ।"
+  ],
+  "batch": 263
+ },
+ {
   "id": "science-20261124-aml-50-years-nature",
   "slug": "aml-leukaemia-mutation-50-years-before-diagnosis-nature",
   "title": "AML की शुरुआत 50 साल पहले? 47 महिलाओं के खून से मिले सुराग",
