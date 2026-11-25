@@ -1,0 +1,71 @@
+# TECH RWT Discovery
+
+> TECH RWT Discovery (techrawatdiscovery.sbs) is a Hindi science and technology news site. It publishes daily explainers and news analysis on space and ISRO, AI and technology, science research, climate and environment, and India's innovation and deep-tech startups, with an India-focused angle. Articles are written in Hindi/Hinglish and updated daily.
+
+## Main sections
+- [Home](https://techrawatdiscovery.sbs/): Latest articles
+- [Science](https://techrawatdiscovery.sbs/pages/science.html): Science research and discoveries
+- [Space](https://techrawatdiscovery.sbs/pages/space.html): ISRO, NASA, SpaceX and space missions
+- [Technology](https://techrawatdiscovery.sbs/pages/technology.html): AI, chips, quantum, telecom and cybersecurity
+- [Environment](https://techrawatdiscovery.sbs/pages/environment.html): Climate, pollution, monsoon and biodiversity
+- [Innovation](https://techrawatdiscovery.sbs/pages/innovation.html): Indian startups, funding and deep-tech
+- [Archive](https://techrawatdiscovery.sbs/archive.html): Full list of all articles
+
+## Space and ISRO
+- [BepiColombo Mercury orbit capture explained](https://techrawatdiscovery.sbs/articles/bepicolombo-mercury-orbit-capture-kaise-hota-hai.html)
+- [Starship Flight 15 booster and ship dual catch](https://techrawatdiscovery.sbs/articles/starship-flight-15-dual-catch-booster-ship.html)
+- [Gaganyaan G1 crew module ready, launch date](https://techrawatdiscovery.sbs/articles/gaganyaan-g1-crew-module-ready-launch-date.html)
+- [NVS-03 launch success, NavIC four satellites](https://techrawatdiscovery.sbs/articles/nvs-03-launch-success-navic-four-satellites.html)
+- [Hera mission Didymos close-up and planetary defence](https://techrawatdiscovery.sbs/articles/hera-mission-didymos-first-close-up-india-planetary-defence.html)
+- [PSLV PS3 static test, return to flight](https://techrawatdiscovery.sbs/articles/pslv-ps3-static-test-third-stage-return-to-flight.html)
+- [Artemis III low Earth orbit, not a Moon landing](https://techrawatdiscovery.sbs/articles/artemis-iii-mission-low-earth-orbit-not-moon-landing.html)
+- [Bharatiya Antariksh Station (ISRO space station)](https://techrawatdiscovery.sbs/articles/bharatiya-antariksh-station-isro-space-station.html)
+- [SR-1 Freedom nuclear electric propulsion, how it works](https://techrawatdiscovery.sbs/articles/sr-1-freedom-nuclear-electric-propulsion-how-it-works.html)
+
+## Technology and AI
+- [AI patch-to-exploit autonomous attacks (GTIG) and India](https://techrawatdiscovery.sbs/articles/ai-patch-to-exploit-autonomous-attack-gtig-india.html)
+- [OpenAI GPT-6 cyber and ExploitGym explained](https://techrawatdiscovery.sbs/articles/openai-gpt-6-cyber-kya-hai-exploitgym.html)
+- [ChatGPT wallet, AI agent payments and UPI](https://techrawatdiscovery.sbs/articles/chatgpt-wallet-dots-ai-agent-payments-upi-india.html)
+- [NPCI unified agent protocol for UPI AI agents](https://techrawatdiscovery.sbs/articles/npci-unified-agent-protocol-upi-ai-agents.html)
+- [India's indigenous GPU in 24 months](https://techrawatdiscovery.sbs/articles/india-indigenous-gpu-24-months-kaise-banega.html)
+- [IBM Nighthawk R3 vs R2, 520-qubit comparison](https://techrawatdiscovery.sbs/articles/ibm-nighthawk-r3-vs-r2-520-qubit-comparison.html)
+- [SIM binding for WhatsApp and Telegram, how it works](https://techrawatdiscovery.sbs/articles/sim-binding-whatsapp-telegram-kaise-kaam-karta-hai.html)
+- [JNCASR terahertz silicon chip for 6G](https://techrawatdiscovery.sbs/articles/jncasr-terahertz-silicon-chip-6g-100-gbps.html)
+- [India Semiconductor Mission 1.0 vs 2.0](https://techrawatdiscovery.sbs/articles/india-semiconductor-mission-1-0-vs-2-0-comparison.html)
+
+## Science and health
+- [Pink noise, CSF waves and brain cleaning during sleep (MIT)](https://techrawatdiscovery.sbs/articles/pink-noise-csf-waves-sleep-brain-cleaning-mit.html)
+- [Room-temperature superconductor, electron pairs and pseudogap](https://techrawatdiscovery.sbs/articles/room-temperature-superconductor-electron-pairs-pseudogap.html)
+- [Dinosaur blood heme found in Aratasaurus, 115 million years old](https://techrawatdiscovery.sbs/articles/dinosaur-blood-heme-aratasaurus-115-million-years.html)
+- [Why mosquitoes prefer certain people](https://techrawatdiscovery.sbs/articles/why-mosquitoes-prefer-certain-people-iscience-study.html)
+- [How neutrinos are detected, IceCube and Nobel 2026](https://techrawatdiscovery.sbs/articles/neutrino-kaise-pakde-jaate-hain-icecube-nobel-2026.html)
+- [3000 steps and Alzheimer's tau, myths and facts](https://techrawatdiscovery.sbs/articles/3000-steps-alzheimers-tau-nature-medicine-myths-india.html)
+- [How Earth's magnetic field forms](https://techrawatdiscovery.sbs/articles/earth-magnetic-field-kaise-banta-hai.html)
+
+## Climate and environment
+- [COP31 Antalya pact decision and India impact](https://techrawatdiscovery.sbs/articles/cop31-no-cover-decision-antalya-pact-india-impact.html)
+- [GRAP 2026 Delhi-NCR, how it works and what changed](https://techrawatdiscovery.sbs/articles/grap-2026-delhi-ncr-how-it-works-what-changed.html)
+- [How AQI is calculated in India (CPCB)](https://techrawatdiscovery.sbs/articles/how-aqi-is-calculated-india-delhi-227-cpcb.html)
+- [US AQI vs India AQI, PM2.5 breakpoints](https://techrawatdiscovery.sbs/articles/us-aqi-vs-india-aqi-pm25-breakpoints-cpcb-epa.html)
+- [Global Carbon Budget 2026 and India](https://techrawatdiscovery.sbs/articles/global-carbon-budget-2026-how-it-works-india.html)
+- [WMO State of Climate 2026 update](https://techrawatdiscovery.sbs/articles/wmo-state-of-climate-2026-update-1-47c-warmest-years.html)
+- [How cyclones form, IMD classification](https://techrawatdiscovery.sbs/articles/how-cyclone-forms-imd-classification-cyclone-arnab-2026.html)
+- [How El Nino affects India's monsoon](https://techrawatdiscovery.sbs/articles/el-nino-bharat-ke-monsoon-ko-kaise-prabhavit-karta-hai.html)
+- [India monsoon 2026, 13 percent deficit](https://techrawatdiscovery.sbs/articles/india-monsoon-2026-13-percent-deficit-weakest-since-2015.html)
+
+## Innovation and startups
+- [SatSure Antariksh venture capital fund](https://techrawatdiscovery.sbs/articles/satsure-antariksh-venture-capital-fund-60-crore-series-b.html)
+- [Oister deep-tech fund and the growth-stage gap](https://techrawatdiscovery.sbs/articles/oister-deep-tech-fund-600-crore-growth-stage-gap.html)
+- [India deep-tech funding Q3 2026](https://techrawatdiscovery.sbs/articles/india-deeptech-funding-q3-2026-pixxel-deals-flat.html)
+- [DPIIT-recognised startups, jobs and funding gap](https://techrawatdiscovery.sbs/articles/dpiit-recognised-startups-2-62-lakh-jobs-funding-gap.html)
+- [Solid-state battery, how it works and the EV future](https://techrawatdiscovery.sbs/articles/solid-state-battery-kaise-kaam-karti-hai-ev-future.html)
+- [IIT Madras ECOOP textile wastewater treatment](https://techrawatdiscovery.sbs/articles/iit-madras-ecoop-textile-wastewater-treatment-innovation.html)
+
+## About
+- [About](https://techrawatdiscovery.sbs/pages/about.html): About the site
+- [Contact](https://techrawatdiscovery.sbs/pages/contact.html): Contact details
+- [Privacy Policy](https://techrawatdiscovery.sbs/pages/privacy.html)
+- [Disclaimer](https://techrawatdiscovery.sbs/pages/disclaimer.html)
+
+## Optional
+- [Sitemap](https://techrawatdiscovery.sbs/sitemap.xml): Complete list of all pages and articles
